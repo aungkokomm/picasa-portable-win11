@@ -7,6 +7,7 @@ the host system.
 Built with Sandboxie-Plus as the virtualization layer, packaged as a
 one-click InnoSetup installer.
 <img width="1536" height="1024" alt="May 27, 2026, 05_57_38 PM" src="https://github.com/user-attachments/assets/0a799eb1-0d34-4283-bca6-c1f604386c40" />
+![GitHub all releases](https://img.shields.io/github/downloads/aungkokomm/picasa-portable-win11/total)
 
 ## 🚀 Why this exists
 
