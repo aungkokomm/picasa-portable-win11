@@ -8,7 +8,7 @@ Built with Sandboxie-Plus as the virtualization layer, packaged as a
 one-click InnoSetup installer.
 <img width="1536" height="1024" alt="May 27, 2026, 05_57_38 PM" src="https://github.com/user-attachments/assets/0a799eb1-0d34-4283-bca6-c1f604386c40" />
 
-## Why this exists
+## 🚀 Why this exists
 
 Back in the Windows 7 days, I used **JauntePE** to make Picasa portable.
 It worked beautifully — you could have a dozen separate "Picasa Portable"
@@ -33,7 +33,7 @@ the same workflow back, with a different approach**: instead of API
 hooking, it uses **Sandboxie-Plus** to virtualize Picasa's file and
 registry writes into a portable folder.
 
-## What it does
+## 🛠 What it does
 
 - One self-extracting installer drops everything you need into a folder
   of your choice (USB drive, external SSD, or local disk).
@@ -47,7 +47,7 @@ registry writes into a portable folder.
 - Move the folder to another PC — drive letters auto-detect; everything
   keeps working.
 
-## Multi-library workflow (the original JauntePE idea)
+## 📂 Multi-library workflow (the original JauntePE idea)
 
 After installing the first copy, just **copy the entire installed
 folder** to make a new isolated library:
@@ -72,14 +72,14 @@ untouched.
 <img width="960" height="510" alt="image" src="https://github.com/user-attachments/assets/a571e8d8-d28e-496e-8b2d-4bdba695c056" />
 
 
-## Installation
+## 📥 Installation
 
 1. Download the latest `PicasaPortable-Setup-vX.Y.exe` from
    [Releases](../../releases).
 2. Run it. Pick a folder (default is `<drive>\PicasaPortable`).
 3. The installer extracts ~250 MB and offers to launch Picasa.
 
-### First run on a new PC
+### 🖱 First run on a new PC
 
 1. **UAC prompt** → Yes. (Registers the Sandboxie kernel service —
    needed once per PC, not per copy.)
