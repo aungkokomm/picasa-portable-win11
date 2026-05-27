@@ -1,0 +1,19 @@
+<window name="window" title="Google Photos Backup" width="35em">
+  <group layout="column" width="fill">
+    <group layout="row" width="fill" height="fit">
+      <group layout="column" align="start">
+        <image width="48" height="96" name="about_image" align="center"/>
+      </group>
+      <spacer amount="2em"/>
+      <group layout="column" width="fill">
+        <label title="Google Photos Backup version %1$s" text-align="start" width="fill" name="version" fontweight="bold"/>
+        <label title="Copyright 2015, Google Inc. All rights reserved." text-align="start" width="fill" name="trademarks"/>
+        <label title="This software is based in part on the work of the Independent JPEG Group. This program is protected by U.S. and international copyright law." text-align="start" width="fill" name="notices"/>
+      </group>
+    </group>
+    <spacer amount="2em"/>
+    <buttongroup align="end">
+      <button name="okbutton" type="accept" title="OK"/>
+    </buttongroup>
+  </group>
+</window>

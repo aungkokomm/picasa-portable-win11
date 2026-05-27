@@ -1,0 +1,42 @@
+<window name="onboard_window" title="Google Photos Backup" width="30em">
+  <group layout="column" width="fill">
+    <group name="onboard_desc" layout="column" width="fill">
+      <label name="select_text_1" text-align="left" title="Choose backup sources" fontweight="bold" width="25em"/>
+      <label name="select_text_2" text-align="left" width="fill" title="Google Photos automatically backs up photos and videos from selected sources to your Photos library."/>
+      <spacer amount="1em"/>
+    </group>
+    <list name="watched_folders" width="fill" height="5li" checkboxes="true" scroll="v" header="hide">
+      <column name="watch_column" type="check"/>
+    </list>
+    <buttongroup align="end">
+      <button name="add_folder_btn" title="Add..." mac_minsize="120,20"/>
+    </buttongroup>
+    <label name="upload_size_label" title="Photo size" fontweight="bold" width="fill"/>
+    <radiogroup name="upload_size_group">
+      <radio name="free_size" title="High quality (free unlimited storage)" width="fill"/>
+      <spacer amount="0"/>
+      <group layout="row" width="fill">
+        <spacer amount="1.25em"/>
+        <label name="free_size_desc" title="Great visual quality at reduced file size" win_fontsize="13" mac_fontsize="10" width="fill"/>
+      </group>
+      <spacer mac_amount="1li" win_amount="0.5li"/>
+      <radio name="full_size" title="Original (limited to account storage)" width="fill"/>
+      <spacer amount="0"/>
+      <group layout="row" width="fill">
+        <spacer amount="1.25em"/>
+        <label name="full_size_desc" title="Full resolution that counts against your quota" win_fontsize="13" mac_fontsize="10" width="fill"/>
+      </group>
+    </radiogroup>
+    <spacer amount="2li"/>
+    <check name="send_to_google" title="Help improve Photos by sending anonymous usage statistics."/>
+    <group name="final_group" layout="column">
+      <spacer amount="2em"/>
+      <group name="final_row" layout="row" width="fill">
+        <button name="more_storage" title="Get more storage..."/>
+        <buttongroup>
+          <button name="start_btn" type="accept" title="Start backup"/>
+        </buttongroup>
+      </group>
+    </group>
+  </group>
+</window>

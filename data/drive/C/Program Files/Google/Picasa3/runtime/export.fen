@@ -1,0 +1,65 @@
+<window title="Export to Folder" width="fit" focus="name">
+  <labelgroup title="Export location:">
+    <group>
+      <pathbox name="location"/>
+      <button title="Browse..." name="changeloc"/>
+    </group>
+  </labelgroup>
+  <labelgroup title="Name of exported folder:">
+    <edit width="fill" name="name" filter="filename"/>
+    <check name="addnumbers" title="Add numbers to file names to preserve order"/>
+  </labelgroup>
+  <labelgroup title="Image size:">
+    <radiogroup name="sizeradio">
+      <radio title="Use original size"/>
+      <radio title="Resize to:"/>
+    </radiogroup>
+    <group width="fill">
+      <bind attr="enabled" source="sizeradio"/>
+      <spacer amount="indent"/>
+      <edit width="4em" name="sizetext" filter="digits">
+        <bind source="size" attr="title" list="320|480|640|800|1024|1200|1600"/>
+      </edit>
+      <label width="fit" title="pixels"/>
+      <slider min="0" max="6" ticks="7" width="fill" name="size"/>
+    </group>
+  </labelgroup>
+  <labelgroup title="Image quality:">
+    <group width="fill">
+      <popup name="quality" width="10em">
+        <item title="Automatic"/>
+        <item title="Normal"/>
+        <item title="Maximum"/>
+        <item title="Minimum"/>
+        <item title="Custom"/>
+      </popup>
+      <multi>
+        <bind source="quality" attr="value"/>
+        <label title="Preserves original image quality"/>
+        <label title="Good balance of quality and size"/>
+        <label title="Very large file size, preserves fine detail"/>
+        <label title="Smallest file size, some quality loss"/>
+        <slider min="0" max="20" ticks="21" name="qualslider" width="fill"/>
+      </multi>
+    </group>
+  </labelgroup>
+  <labelgroup title="Export movies using:">
+    <radiogroup name="movies">
+      <radio title="First frame"/>
+      <radio title="Full movie (no resizing)"/>
+    </radiogroup>
+  </labelgroup>
+  <labelgroup title="Watermark:">
+    <check title="Add watermark" name="usewatermark"/>
+    <group layout="column" width="fill">
+      <edit width="fill" name="watermark">
+        <bind attr="enabled" source="usewatermark"/>
+      </edit>
+      <label width="fill" size="small" title="Stamp photos with your name, a web domain, or a copyright notice."/>
+    </group>
+  </labelgroup>
+  <buttongroup>
+    <button title="Export" type="accept" name="export"/>
+    <button title="Cancel" type="cancel"/>
+  </buttongroup>
+</window>

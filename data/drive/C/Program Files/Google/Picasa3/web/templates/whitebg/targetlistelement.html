@@ -1,0 +1,25 @@
+<span class="textbg"><%albumName%> -- <%itemCaption%> </span><br> <span class="textsm"></span>
+<p><span class="textreg">
+<%if !isFirstTarget%><a href="<%firstTarget%>"><%endif%>First<%if !isFirstTarget%></a><%endif%> |
+<%if isPrevTarget%><a href="<%prevTarget%>"><%endif%>Previous Picture<%if isPrevTarget%></a><%endif%> |
+<%if isNextTarget%><a href="<%nextTarget%>"><%endif%>Next Picture<%if isNextTarget%></a><%endif%> |
+<%if !isLastTarget%><a href="<%lastTarget%>"><%endif%>Last<%if !isLastTarget%></a><%endif%> | <a href="<%referrer%>">Thumbnails</a><br>
+</span><hr size="1">
+<%if isSimpleEmbed%>
+<embed src="<%itemLargeImage%>" autoplay="true" showcontrols="true" controller="true">
+<%endif%>
+<%if isExtendedEmbed%>
+<OBJECT ID="MediaPlayer" 
+CLASSID="CLSID:22D6F312-B0F6-11D0-94AB-0080C74C7E95" 
+TYPE="application/x-oleobject"
+STANDBY="Loading Windows Media Player components...">
+<PARAM NAME="FileName" VALUE="<%itemLargeImage%>">
+<PARAM NAME="autostart" VALUE="1">
+<PARAM NAME="showcontrols" VALUE="1">
+<EMBED TYPE="application/x-mplayer2">
+</EMBED>
+</OBJECT>
+<%endif%>
+<%if isImage%>
+<a href="<%referrer%>"><img src="<%itemLargeImage%>" width="<%itemWidth%>" height="<%itemHeight%>" title="<%itemName%> (large)" border="0"></a><p>
+<%endif%>

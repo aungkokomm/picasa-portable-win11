@@ -1,0 +1,16 @@
+<window name="adv_setup_window" title="Advanced Settings" width="35em">
+  <group name="more_options" layout="column">
+    <check name="local_folder_chk" title="Also copy photos/videos from cameras and storage cards to"/>
+    <group>
+      <spacer amount="indent"/>
+      <browse name="local_folder" title="Browse..." prompt=""/>
+    </group>
+    <spacer amount="2em"/>
+    <check name="send_to_google" title="Send anonymous usage statistics to Google."/>
+    <spacer amount="2em"/>
+    <buttongroup>
+      <button name="okbutton" type="accept" title="OK" align="end"/>
+      <button name="cancelbutton" type="cancel" title="Cancel" align="end"/>
+    </buttongroup>
+  </group>
+</window>

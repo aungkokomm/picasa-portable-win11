@@ -1,0 +1,13 @@
+DirectoryFilters
+
+windows
+winnt
+temp
+Program Files
+Originals
+
+DirectoryIncludes
+
+FileFilters
+
+FileIncludes

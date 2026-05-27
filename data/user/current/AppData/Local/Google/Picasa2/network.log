@@ -1,0 +1,149 @@
+[Log time: 27 May 2026 15:42:38 +0630]
+wininet.dll version: 11.0.26100.8521
+Log level 2, log faces 0
+Picasa3 version 0.00
+[0] InternetQueryOption failed (1783)
+[0] Proxy information for connection: LAN Connection
+Using direct connection
+[0] InternetQueryOption failed (1783)
+[0] Proxy information for default connection:
+Using direct connection
+[453] id 1: Stream summary:
+POST request: http://clients2.google.com/service/update2 (200)
+Post data size: 274
+[1016] id 2: Stream summary:
+GET request: http://picasa-readme.blogspot.com/feeds/posts/default (200)
+[1078] Found nothing to sync for 
+[39250] id 4: Stream summary:
+POST request: http://clients2.google.com/service/update2 (200)
+Post data size: 274
+[Log time: 27 May 2026 15:45:22 +0630]
+wininet.dll version: 11.0.26100.8521
+Log level 2, log faces 0
+Picasa3 version 0.00
+[0] InternetQueryOption failed (1783)
+[0] Proxy information for connection: LAN Connection
+Using direct connection
+[0] InternetQueryOption failed (1783)
+[0] Proxy information for default connection:
+Using direct connection
+[437] id 1: Stream summary:
+POST request: http://clients2.google.com/service/update2 (200)
+Post data size: 274
+[984] Found nothing to sync for 
+[1781] id 2: Stream summary:
+GET request: http://picasa-readme.blogspot.com/feeds/posts/default (200)
+[3469] id 3: Stream summary:
+POST request: http://clients2.google.com/service/update2 (200)
+Post data size: 274
+[Log time: 27 May 2026 15:46:18 +0630]
+wininet.dll version: 11.0.26100.8521
+Log level 2, log faces 0
+Picasa3 version 0.00
+[0] InternetQueryOption failed (1783)
+[0] Proxy information for connection: LAN Connection
+Using direct connection
+[0] InternetQueryOption failed (1783)
+[0] Proxy information for default connection:
+Using direct connection
+[391] id 1: Stream summary:
+POST request: http://clients2.google.com/service/update2 (200)
+Post data size: 274
+[984] Found nothing to sync for 
+[297141] id 3: Stream summary:
+POST request: http://clients2.google.com/service/update2 (200)
+Post data size: 274
+[297406] id 4: Stream summary:
+POST request: http://clients2.google.com/service/update2 (200)
+Post data size: 274
+[Log time: 27 May 2026 15:55:04 +0630]
+wininet.dll version: 11.0.26100.8521
+Log level 2, log faces 0
+Picasa3 version 0.00
+[0] InternetQueryOption failed (1783)
+[0] Proxy information for connection: LAN Connection
+Using direct connection
+[0] InternetQueryOption failed (1783)
+[0] Proxy information for default connection:
+Using direct connection
+[438] id 1: Stream summary:
+POST request: http://clients2.google.com/service/update2 (200)
+Post data size: 274
+[1078] Found nothing to sync for 
+[1594] id 2: Stream summary:
+GET request: http://picasa-readme.blogspot.com/feeds/posts/default (200)
+[2563] id 3: Stream summary:
+POST request: http://clients2.google.com/service/update2 (200)
+Post data size: 274
+[Log time: 27 May 2026 15:55:31 +0630]
+wininet.dll version: 11.0.26100.8521
+Log level 2, log faces 0
+Picasa3 version 0.00
+[0] InternetQueryOption failed (1783)
+[0] Proxy information for connection: LAN Connection
+Using direct connection
+[0] InternetQueryOption failed (1783)
+[0] Proxy information for default connection:
+Using direct connection
+[344] id 1: Stream summary:
+POST request: http://clients2.google.com/service/update2 (200)
+Post data size: 274
+[1094] Found nothing to sync for 
+[29672] id 3: Stream summary:
+POST request: http://clients2.google.com/service/update2 (200)
+Post data size: 274
+[Log time: 27 May 2026 15:56:04 +0630]
+wininet.dll version: 11.0.26100.8521
+Log level 2, log faces 0
+Picasa3 version 0.00
+[0] InternetQueryOption failed (1783)
+[0] Proxy information for connection: LAN Connection
+Using direct connection
+[0] InternetQueryOption failed (1783)
+[0] Proxy information for default connection:
+Using direct connection
+[484] id 1: Stream summary:
+POST request: http://clients2.google.com/service/update2 (200)
+Post data size: 274
+[969] Found nothing to sync for 
+[3094] id 2: Stream summary:
+POST request: http://clients2.google.com/service/update2 (200)
+Post data size: 274
+[Log time: 27 May 2026 16:07:38 +0630]
+wininet.dll version: 11.0.26100.8521
+Log level 2, log faces 0
+Picasa3 version 0.00
+[0] InternetQueryOption failed (1783)
+[0] Proxy information for connection: LAN Connection
+Using direct connection
+[0] InternetQueryOption failed (1783)
+[0] Proxy information for default connection:
+Using direct connection
+[359] id 1: Stream summary:
+POST request: http://clients2.google.com/service/update2 (200)
+Post data size: 274
+[719] id 2: Stream summary:
+GET request: http://picasa-readme.blogspot.com/feeds/posts/default (200)
+[1078] Found nothing to sync for 
+[3672] id 3: Stream summary:
+POST request: http://clients2.google.com/service/update2 (200)
+Post data size: 274
+[Log time: 27 May 2026 16:21:15 +0630]
+wininet.dll version: 11.0.26100.8521
+Log level 2, log faces 0
+Picasa3 version 0.00
+[0] InternetQueryOption failed (1783)
+[0] Proxy information for connection: LAN Connection
+Using direct connection
+[0] InternetQueryOption failed (1783)
+[0] Proxy information for default connection:
+Using direct connection
+[593] id 1: Stream summary:
+POST request: http://clients2.google.com/service/update2 (200)
+Post data size: 274
+[750] id 2: Stream summary:
+GET request: http://picasa-readme.blogspot.com/feeds/posts/default (200)
+[1093] Found nothing to sync for 
+[2031] id 3: Stream summary:
+POST request: http://clients2.google.com/service/update2 (200)
+Post data size: 274

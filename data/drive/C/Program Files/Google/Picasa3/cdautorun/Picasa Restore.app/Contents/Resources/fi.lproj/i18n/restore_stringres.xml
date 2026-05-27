@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+ <stringres id="February">
+  <xmbtext>Helmikuu</xmbtext>
+ </stringres>
+ <stringres id="March">
+  <xmbtext>Maaliskuu</xmbtext>
+ </stringres>
+ <stringres id="April">
+  <xmbtext>Huhtikuu</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Touko</xmbtext>
+ </stringres>
+ <stringres id="June">
+  <xmbtext>Kesäkuu</xmbtext>
+ </stringres>
+ <stringres id="July">
+  <xmbtext>Heinäkuu</xmbtext>
+ </stringres>
+ <stringres id="August">
+  <xmbtext>Elokuu</xmbtext>
+ </stringres>
+ <stringres id="September">
+  <xmbtext>Syyskuu</xmbtext>
+ </stringres>
+ <stringres id="October">
+  <xmbtext>Lokakuu</xmbtext>
+ </stringres>
+ <stringres id="November">
+  <xmbtext>Marraskuu</xmbtext>
+ </stringres>
+ <stringres id="December">
+  <xmbtext>Joulukuu</xmbtext>
+ </stringres>
+ <stringres id="Jan">
+  <xmbtext>Tam</xmbtext>
+ </stringres>
+ <stringres id="Feb">
+  <xmbtext>Hel</xmbtext>
+ </stringres>
+ <stringres id="Mar">
+  <xmbtext>Maa</xmbtext>
+ </stringres>
+ <stringres id="Apr">
+  <xmbtext>Huh</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Touko</xmbtext>
+ </stringres>
+ <stringres id="Jun">
+  <xmbtext>Kes</xmbtext>
+ </stringres>
+ <stringres id="Jul">
+  <xmbtext>Hei</xmbtext>
+ </stringres>
+ <stringres id="Aug">
+  <xmbtext>Elo</xmbtext>
+ </stringres>
+ <stringres id="Sep">
+  <xmbtext>Syy</xmbtext>
+ </stringres>
+ <stringres id="Oct">
+  <xmbtext>Loka</xmbtext>
+ </stringres>
+ <stringres id="Nov">
+  <xmbtext>Mar</xmbtext>
+ </stringres>
+ <stringres id="Dec">
+  <xmbtext>Jou</xmbtext>
+ </stringres>
+ <stringres id="January">
+  <xmbtext>Tammikuu</xmbtext>
+ </stringres>
+ <stringres id="February">
+  <xmbtext>Helmikuu</xmbtext>
+ </stringres>
+ <stringres id="March">
+  <xmbtext>Maaliskuu</xmbtext>
+ </stringres>
+ <stringres id="April">
+  <xmbtext>Huhtikuu</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Touko</xmbtext>
+ </stringres>
+ <stringres id="June">
+  <xmbtext>Kesäkuu</xmbtext>
+ </stringres>
+ <stringres id="July">
+  <xmbtext>Heinäkuu</xmbtext>
+ </stringres>
+ <stringres id="August">
+  <xmbtext>Elokuu</xmbtext>
+ </stringres>
+ <stringres id="September">
+  <xmbtext>Syyskuu</xmbtext>
+ </stringres>
+ <stringres id="October">
+  <xmbtext>Lokakuu</xmbtext>
+ </stringres>
+ <stringres id="November">
+  <xmbtext>Marraskuu</xmbtext>
+ </stringres>
+ <stringres id="December">
+  <xmbtext>Joulukuu</xmbtext>
+ </stringres>
+ <stringres id="Jan">
+  <xmbtext>Tam</xmbtext>
+ </stringres>
+ <stringres id="Feb">
+  <xmbtext>Hel</xmbtext>
+ </stringres>
+ <stringres id="Mar">
+  <xmbtext>Maa</xmbtext>
+ </stringres>
+ <stringres id="Apr">
+  <xmbtext>Huh</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Touko</xmbtext>
+ </stringres>
+ <stringres id="Jun">
+  <xmbtext>Kes</xmbtext>
+ </stringres>
+ <stringres id="Jul">
+  <xmbtext>Hei</xmbtext>
+ </stringres>
+ <stringres id="Aug">
+  <xmbtext>Elo</xmbtext>
+ </stringres>
+ <stringres id="Sep">
+  <xmbtext>Syy</xmbtext>
+ </stringres>
+ <stringres id="Oct">
+  <xmbtext>Loka</xmbtext>
+ </stringres>
+ <stringres id="Nov">
+  <xmbtext>Mar</xmbtext>
+ </stringres>
+ <stringres id="Dec">
+  <xmbtext>Jou</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format1">
+  <xmbtext>%1$s %2$d, %3$d</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format2">
+  <xmbtext>%1$s %2$d</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format3">
+  <xmbtext>%1$d:%2$02d:%3$02d %4$cM</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format4">
+  <xmbtext>%1$.2d:%2$.2d:%3$.2d</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigB">
+  <xmbtext>%.0f tavua</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigKB">
+  <xmbtext>%.0f kt</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigMB">
+  <xmbtext>%.1f Mt</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigGB">
+  <xmbtext>%.1f Gt</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigTB">
+  <xmbtext>%.1fTB</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyPictures">
+  <xmbtext>Kuvat</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::Desktop">
+  <xmbtext>Työpöytä</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyMusic">
+  <xmbtext>Musiikki</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyVideos">
+  <xmbtext>Elokuvat</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyDocuments">
+  <xmbtext>Asiakirjat</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::ApplicationData">
+  <xmbtext>Kuvakirjasto/sovellustuki</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::CommonApplicationData">
+  <xmbtext>Kuvakirjasto/sovellustuki</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::Library">
+  <xmbtext>Kuvakirjasto</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyPictures">
+  <xmbtext>Omat kuvatiedostot</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::Desktop">
+  <xmbtext>Työpöytä</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyMusic">
+  <xmbtext>Oma musiikki</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyVideos">
+  <xmbtext>Omat videot</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyDocuments">
+  <xmbtext>Omat tiedostot</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::ApplicationData">
+  <xmbtext>Sovelluksen tiedot</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::CommonApplicationData">
+  <xmbtext>Yleiset sovellustiedot</xmbtext>
+ </stringres>
+ <stringres id="ytFileUtils::CopyProgress">
+  <xmbtext>%1$s/%2$s</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::error">
+  <xmbtext>Virhe</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::copy">
+  <xmbtext>Kopioi</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::replace">
+  <xmbtext>Korvaa</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::newer">
+  <xmbtext>Uudempi</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::current">
+  <xmbtext>Nykyinen</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::protected">
+  <xmbtext>Suojattu</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscalc">
+  <xmbtext>Lasketaan tiedostoja</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::restoremsg">
+  <xmbtext>Palauta paikkaan: %s</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statusreadyrestore">
+  <xmbtext>%1$d tiedostoa (%2$s) valmiina palautettaviksi</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscopying">
+  <xmbtext>Kopioidaan tiedostoja</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscomplete">
+  <xmbtext>Valmis</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::donebutton">
+  <xmbtext>Valmis</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscalcfiles">
+  <xmbtext>Lasketaan %1$d tiedostoja%2$s</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscopied">
+  <xmbtext>%1$d tiedostoa kopioitu %2$s</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::errorformat">
+  <xmbtext>Virhe (%d)</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::complete">
+  <xmbtext>Valmis</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::actionheader">
+  <xmbtext>Toiminto</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::srcheader">
+  <xmbtext>Lähdetiedosto</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::destheader">
+  <xmbtext>Kohdetiedosto</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::sizeheader">
+  <xmbtext>Koko</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::dateheader">
+  <xmbtext>Päiväys</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::deflocation">
+  <xmbtext>Picasa-varmuuskopioista\\</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::changetitle">
+  <xmbtext>Valitse tiedostojen sijainti</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::cantcopy">
+  <xmbtext>Sovelluksesta ei voida ottaa väliaikaista kopiota</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::cantlaunch">
+  <xmbtext>Sovellusta ei voi avata</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::unknown">
+  <xmbtext>Tuntematon</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::nothing">
+  <xmbtext>Ei mitään</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::error">
+  <xmbtext>Virhe</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::copy">
+  <xmbtext>Kopioi</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::replace">
+  <xmbtext>Korvaa</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::newer">
+  <xmbtext>Uudempi</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::current">
+  <xmbtext>Nykyinen</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::protected">
+  <xmbtext>Suojattu</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::copying">
+  <xmbtext>Kopioidaan</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::skipping">
+  <xmbtext>Ohitetaan</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::restored">
+  <xmbtext>Palautettu</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::skipped">
+  <xmbtext>Ohitettu</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::cantFind">
+  <xmbtext>Sisällönkuvaustiedostoa nimeltä &#039;%1$s&#039; tai &#039;%2$s&#039; ei löydy.</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::error">
+  <xmbtext>Virhe</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::quit">
+  <xmbtext>Lopeta</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::open">
+  <xmbtext>Avaa sisällönkuvaustiedosto...</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscalc">
+  <xmbtext>Lasketaan tiedostoja</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::restoremsg">
+  <xmbtext>Palauta paikkaan: %s</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statusreadyrestore">
+  <xmbtext>%1$d tiedostoa (%2$s) valmiina palautettaviksi</xmbtext>
+ </stringres>
+ <stringres id="CCaptureMovieDialog::stop">
+  <xmbtext>Pysäytä</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::finished">
+  <xmbtext>%1$d tiedostoa palautettu, yhteensä %2$s.</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::restoring">
+  <xmbtext>Palautetaan tiedostoa &#039;%1$s&#039; (%2$d / %3$d)</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::copying">
+  <xmbtext>Kopioidaan</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::restored">
+  <xmbtext>Tiedosto &#039;%@&#039; (%1$d / %2$d) palautettiin</xmbtext>
+ </stringres>
+</resources>

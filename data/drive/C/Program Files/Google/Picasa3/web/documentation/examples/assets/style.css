@@ -1,0 +1,18 @@
+BODY {
+	MARGIN-TOP: 100px; FONT-SIZE: 11px; BACKGROUND-ATTACHMENT: scroll; BACKGROUND-IMAGE: url(http://www.stereopsis.com/bg.gif); MARGIN-LEFT: 80px; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff
+}
+TD {
+	FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+P {
+	BACKGROUND: white
+}
+H1 {
+	FONT-SIZE: 30px; COLOR: #979797; FONT-FAMILY: Helvetica, Verdana, Arial
+}
+A:hover {
+	COLOR: #804c4c; BACKGROUND-COLOR: #f0efe3
+}
+H3 {
+	FONT-SIZE: 14px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}

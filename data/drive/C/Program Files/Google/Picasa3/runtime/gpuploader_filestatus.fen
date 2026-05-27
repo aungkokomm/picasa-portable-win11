@@ -1,0 +1,44 @@
+<window name="window" title="Show File Status">
+  <group layout="column" width="fill">
+    <group layout="row" width="fill">
+      <label name="path_prompt" title="Full Path to Image/Video File" />
+      <edit name="path" width="28em"/>
+      <button name="get_status" title="Get Status" type="accept"/>
+    </group>
+    <spacer amount="1em"/>
+    <separator width="fill"/>
+    <spacer amount="1em"/>
+    <group layout="row" width="fill">
+      <group layout="column" width="8em">
+        <label name="file_status_label" title="Status :" text-align="right" width="fill"/>
+        <label name="size_label" title="Size :" text-align="right" width="fill"/>
+        <label name="mime_label" title="Mime Type :" text-align="right" width="fill"/>
+        <label name="create_label" title="Create Date :" text-align="right" width="fill"/>
+        <label name="write_label" title="Last Write :" text-align="right" width="fill"/>
+        <label name="type_label" title="Type :" text-align="right" width="fill"/>
+        <label name="image_label" title="Is Image :" text-align="right" width="fill"/>
+        <label name="movie_label" title="Is Movie :" text-align="right" width="fill"/>
+        <label name="indexable_label" title="Is Indexable :" text-align="right" width="fill"/>
+        <label name="uploader_label" title="Upload Status :" text-align="right" width="fill"/>
+        <label name="tracker_label" title="Tracker Status :" text-align="right" width="fill"/>
+        <label name="dedup_label" title="Online Status :" text-align="right" width="fill"/>
+        <label name="link_label" title="URL :" text-align="right" width="fill"/>
+      </group>
+      <group layout="column" width="fill">
+        <label name="file_status" title="&lt;File Status&gt;" text-align="left" width="fill"/>
+        <label name="size" title="&lt;DirEntry.Size()&gt;" text-align="left" width="fill"/>
+        <label name="mime" title="&lt;DirEntry.MimeType()&gt;" text-align="left" width="fill"/>
+        <label name="create" title="&lt;DirEntry.CreateDate()&gt;" text-align="left" width="fill"/>
+        <label name="write" title="&lt;DirEntry.LastWrite()&gt;" text-align="left" width="fill"/>
+        <label name="type" title="&lt;DirEntry.Type()&gt;" text-align="left" width="fill"/>
+        <label name="image" title="&lt;DirEntry.IsImage()&gt;" text-align="left" width="fill"/>
+        <label name="movie" title="&lt;DirEntry.IsMovie()&gt;" text-align="left" width="fill"/>
+        <label name="indexable" title="&lt;DirEntry.IsIndexable()&gt;" text-align="left" width="fill"/>
+        <label name="uploader" title="&lt;DirEntry.upload_status()&gt;" text-align="left" width="fill"/>
+        <label name="tracker" title="&lt;DataManager.file_tracker()->FileWasUploaded()&gt;" text-align="left" width="fill"/>
+        <label name="dedup" title="&lt;Batch Dedup Result&gt;" text-align="left" width="fill"/>
+        <link name="link" title="&lt;MediaURL&gt;" text-align="left" width="fill"/>
+      </group>
+    </group>
+  </group>
+</window>

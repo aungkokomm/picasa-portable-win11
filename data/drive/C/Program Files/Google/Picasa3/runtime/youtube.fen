@@ -1,0 +1,26 @@
+<window title="Upload to YouTube" width="fit">
+  <labelgroup title="Title:" width="fill">
+    <edit name="title" width="23em"/>
+  </labelgroup>
+  <labelgroup title="Description:" width="fill">
+    <edit name="description" width="fill" height="2li"/>
+  </labelgroup>
+  <labelgroup title="Video category:" width="fill">
+    <popup name="category">
+      <item title="Loading..."/>
+    </popup>
+  </labelgroup>
+  <labelgroup title="Tags:" width="fill">
+    <label width="fill" title="These are keywords used to help people find your video. (space separated)"/>
+    <edit name="tags" width="fill"/>
+    <check name="public" title="Make this video public"/>
+  </labelgroup>
+  <separator/>
+  <label align="center" title="Your video is limited to 10 minutes and 1 GB"/>
+  <label text-align="center" width="fill" name="legal" title="Do not upload any TV shows, music videos, music concerts, or commercials without permission unless they consist entirely of content you created yourself. The Copyright Tips page and the Community Guidelines can help you determine whether your video infringes someone else's copyright."/>
+  <label text-align="center" width="fill" title="By clicking &quot;Upload Video,&quot; you are representing that this video does not violate YouTube's Terms of Use and that you own all copyrights in this video or have authorization to upload it."/>
+  <buttongroup>
+    <button title="Upload Video" type="accept" name="upload"/>
+    <button title="Cancel" type="cancel"/>
+  </buttongroup>
+</window>

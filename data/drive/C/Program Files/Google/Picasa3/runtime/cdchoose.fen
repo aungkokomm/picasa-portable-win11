@@ -1,0 +1,16 @@
+<window title="Choose Recordable Disc Drive" width="fit">
+  <group>
+    <appicon/>
+    <group layout="column">
+      <label title="Picasa has found more than one recordable drive.\nWhich drive would you like to use?" width="fill"/>
+      <group>
+        <label title="Drives:"/>
+        <popup name="drive" width="20em"/>
+      </group>
+    </group>
+  </group>
+  <buttongroup>
+    <button title="OK" type="accept"/>
+    <button title="Cancel" type="cancel"/>
+  </buttongroup>
+</window>

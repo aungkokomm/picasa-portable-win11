@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Win32Res>
+ <RT_DIALOG>
+  <res resid="#904">
+   <dtitle>
+    <xmbtext>Picasa 백업에서 복원</xmbtext>
+   </dtitle>
+   <dlayout>rect(0 0 296 154)</dlayout>
+   <item itemid="1" itemtype="Button" layout="rect(177 133 227 147)">
+    <xmbtext>다음</xmbtext>
+   </item>
+   <item itemid="2" itemtype="Button" layout="rect(239 133 289 147)">
+    <xmbtext>취소</xmbtext>
+   </item>
+   <item itemid="3" itemtype="Button" layout="rect(7 133 57 147)">
+    <xmbtext>꺼내기</xmbtext>
+   </item>
+   <item itemid="1010" itemtype="Button" layout="rect(25 47 236 59)">
+    <xmbtext>기존 위치</xmbtext>
+   </item>
+   <item itemid="1011" itemtype="Button" layout="rect(25 83 241 95)">
+    <xmbtext>해당 폴더</xmbtext>
+   </item>
+   <item itemid="1009" itemtype="Edit" layout="rect(41 100 221 113)"/>
+   <item itemid="4" itemtype="Button" layout="rect(227 100 277 114)">
+    <xmbtext>변경…</xmbtext>
+   </item>
+   <item itemid="-1" itemtype="Button" layout="rect(17 31 287 124)">
+    <xmbtext>파일 복원 위치:</xmbtext>
+   </item>
+   <item itemid="1002" itemtype="Static" layout="rect(35 7 289 22)">
+    <xmbtext>Picasa 백업파일이 포함된 디스크를 넣었습니다.</xmbtext>
+   </item>
+   <item itemid="1001" itemtype="Static" layout="rect(6 3 26 23)">
+    <xmbtext>id=103</xmbtext>
+   </item>
+   <item itemid="-1" itemtype="Static" layout="rect(41 61 278 79)">
+    <xmbtext>파일은 백업된 위치에 나타납니다.</xmbtext>
+   </item>
+  </res>
+  <res resid="#905">
+   <dtitle>
+    <xmbtext>Picasa 백업에서 복원</xmbtext>
+   </dtitle>
+   <dlayout>rect(0 0 391 255)</dlayout>
+   <item itemid="1" itemtype="Button" layout="rect(248 234 308 248)">
+    <xmbtext>복원</xmbtext>
+   </item>
+   <item itemid="2" itemtype="Button" layout="rect(324 234 384 248)">
+    <xmbtext>취소</xmbtext>
+   </item>
+   <item itemid="3" itemtype="Button" layout="rect(172 234 232 248)">
+    <xmbtext>꺼내기</xmbtext>
+   </item>
+   <item itemid="1002" itemtype="Static" layout="rect(34 7 384 29)">
+    <xmbtext>복원할 위치: 기존 위치</xmbtext>
+   </item>
+   <item itemid="1001" itemtype="Static" layout="rect(6 3 26 23)">
+    <xmbtext>id=103</xmbtext>
+   </item>
+   <item itemid="1012" itemtype="Button" layout="rect(7 35 384 222)">
+    <xmbtext>계산 중...</xmbtext>
+   </item>
+   <item itemid="1014" itemtype="SysListView32" layout="rect(14 47 376 215)">
+    <xmbtext>목록 2</xmbtext>
+   </item>
+  </res>
+ </RT_DIALOG>
+</Win32Res>

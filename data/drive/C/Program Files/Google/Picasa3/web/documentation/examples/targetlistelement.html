@@ -1,0 +1,10 @@
+<h1><%itemName%> -- <%itemSize%> bytes</h1>
+<p>
+<%if !isFirstTarget%><a href="<%firstTarget%>"><%endif%>First<%if !isFirstTarget%></a><%endif%> | 
+<%if isPrevTarget%><a href="<%prevTarget%>"><%endif%>Previous<%if isPrevTarget%></a><%endif%> | 
+<%if isNextTarget%><a href="<%nextTarget%>"><%endif%>Next<%if isNextTarget%></a><%endif%> | 
+<%if !isLastTarget%><a href="<%lastTarget%>"><%endif%>Last<%if !isLastTarget%></a><%endif%>
+<p>
+<hr>
+Thumbnail: <img src="<%itemThumbnailImage%>" width="<%itemThumbnailWidth%>" height="<%itemThumbnailHeight%> alt="<%itemName%>"" title="<%itemName%> (thumbnail)" border="0"><p>
+FullSized: <a href="<%referrer%>"><img src="<%itemLargeImage%>" width="<%itemWidth%>" height="<%itemHeight%> alt="<%itemName%>"" title="<%itemName%> (large)" bytes" border="0"></a><p>

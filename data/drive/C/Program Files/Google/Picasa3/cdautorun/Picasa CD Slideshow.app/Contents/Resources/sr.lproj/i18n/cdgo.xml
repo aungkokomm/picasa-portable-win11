@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tooltips>
+ <action type="Label" target="cdgo/copytohd" xmbdesc="Label(cdgo/copytohd)">
+  <xmbtext>Сачувај на диску</xmbtext>
+ </action>
+ <action type="Label" target="cdgo/eject" xmbdesc="Label(cdgo/eject)">
+  <xmbtext>Избаци CD</xmbtext>
+ </action>
+ <action type="Label" target="cdgo/exit" xmbdesc="Label(cdgo/exit)">
+  <xmbtext>Изађи</xmbtext>
+ </action>
+ <action type="Label" target="cdgo/topicasa" xmbdesc="Label(cdgo/topicasa)">
+  <xmbtext>Увези у Picasa-у</xmbtext>
+ </action>
+ <action type="Text" target="cdgo/loading" xmbdesc="Text(cdgo/loading)">
+  <xmbtext>УЧИТАВАЊЕ</xmbtext>
+ </action>
+ <action type="Text" target="cdgo/tpslabel" xmbdesc="Text(cdgo/tpslabel)">
+  <xmbtext>Време приказивања</xmbtext>
+ </action>
+</tooltips>

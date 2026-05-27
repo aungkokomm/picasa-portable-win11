@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+  <name>My Picasa Pictures</name>
+  <open>1</open>  
+  %<FOR_EACH_IMAGE>%
+  <Style id="picasaDisplayNormal_%UID%">  
+    <IconStyle>
+      <Icon>
+        <href>%IMAGE_ROLL%</href>
+      </Icon>
+    </IconStyle>
+    <BalloonStyle>
+      <text>$[description]</text>
+    </BalloonStyle>
+    <LabelStyle>      
+      <scale>0</scale>
+    </LabelStyle>
+  </Style>
+  <Style id="picasaDisplayHighlight_%UID%">    
+    <IconStyle>
+      <scale>2</scale>
+      <Icon>
+        <href>%IMAGE_ROLL%</href>
+      </Icon>
+    </IconStyle>
+    <BalloonStyle>
+      <text>$[description]</text>
+    </BalloonStyle>
+  </Style>
+  <StyleMap id="picasaDisplayStyleMap_%UID%">    
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#picasaDisplayNormal_%UID%</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#picasaDisplayHighlight_%UID%</styleUrl>
+    </Pair>
+  </StyleMap>
+  %</FOR_EACH_IMAGE>%
+  <Folder>
+    <name>Picasa - %DATE%</name>
+    <Snippet>%ALBUMNAME%</Snippet>    
+    <description>
+      <![CDATA[
+        Generated %DATE%%TIME%
+      ]]>
+    </description>
+    <open>1</open>
+    %<FOR_EACH_IMAGE>%
+    <Placemark>
+      <name>%CAPTION_OR_NAME%</name>
+      <Snippet />
+      <description>
+        <![CDATA[
+          <table width="400">          
+            <tr>
+              <td>
+                <img src="%IMAGE_THUMB%" width="%IMAGE_THUMB_WIDTH%" height="%IMAGE_THUMB_HEIGHT%" >
+                <br />
+              </td>
+            </tr>
+            <tr><td>&nbsp;</td></tr>
+            <tr>
+              <td>%CAPTION%</td>
+            </tr>
+            <tr><td>&nbsp;</td></tr>
+            <tr>
+              <td>
+                <em>Date : %FILEDATE%</em>
+              </td>
+            </tr>
+            <tr>
+              <td align="right">
+                <hr />
+                <a href="http://picasa.google.com/index.html"><img width="150" height="25" src="http://picasa.google.com/assets/logo_kmz.gif"></a>
+              </td>
+            </tr>
+          </table>
+        ]]>
+      </description>
+      %LOOK_AT%
+      <styleUrl>#picasaDisplayStyleMap_%UID%</styleUrl>
+      <Point>
+        <coordinates>%LONG%,%LAT%,0</coordinates>
+      </Point>
+    </Placemark>
+    %</FOR_EACH_IMAGE>%
+  </Folder>
+</Document>
+</kml>

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+ <stringres id="February">
+  <xmbtext>2 月</xmbtext>
+ </stringres>
+ <stringres id="March">
+  <xmbtext>3 月</xmbtext>
+ </stringres>
+ <stringres id="April">
+  <xmbtext>4 月</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>5 月</xmbtext>
+ </stringres>
+ <stringres id="June">
+  <xmbtext>6 月</xmbtext>
+ </stringres>
+ <stringres id="July">
+  <xmbtext>7 月</xmbtext>
+ </stringres>
+ <stringres id="August">
+  <xmbtext>8 月</xmbtext>
+ </stringres>
+ <stringres id="September">
+  <xmbtext>9 月</xmbtext>
+ </stringres>
+ <stringres id="October">
+  <xmbtext>10 月</xmbtext>
+ </stringres>
+ <stringres id="November">
+  <xmbtext>11 月</xmbtext>
+ </stringres>
+ <stringres id="December">
+  <xmbtext>12 月</xmbtext>
+ </stringres>
+ <stringres id="Jan">
+  <xmbtext>1 月</xmbtext>
+ </stringres>
+ <stringres id="Feb">
+  <xmbtext>2 月</xmbtext>
+ </stringres>
+ <stringres id="Mar">
+  <xmbtext>3 月</xmbtext>
+ </stringres>
+ <stringres id="Apr">
+  <xmbtext>4 月</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>5 月</xmbtext>
+ </stringres>
+ <stringres id="Jun">
+  <xmbtext>6 月</xmbtext>
+ </stringres>
+ <stringres id="Jul">
+  <xmbtext>7 月</xmbtext>
+ </stringres>
+ <stringres id="Aug">
+  <xmbtext>8 月</xmbtext>
+ </stringres>
+ <stringres id="Sep">
+  <xmbtext>9 月</xmbtext>
+ </stringres>
+ <stringres id="Oct">
+  <xmbtext>10 月</xmbtext>
+ </stringres>
+ <stringres id="Nov">
+  <xmbtext>11 月</xmbtext>
+ </stringres>
+ <stringres id="Dec">
+  <xmbtext>12 月</xmbtext>
+ </stringres>
+ <stringres id="January">
+  <xmbtext>1 月</xmbtext>
+ </stringres>
+ <stringres id="February">
+  <xmbtext>2 月</xmbtext>
+ </stringres>
+ <stringres id="March">
+  <xmbtext>3 月</xmbtext>
+ </stringres>
+ <stringres id="April">
+  <xmbtext>4 月</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>5 月</xmbtext>
+ </stringres>
+ <stringres id="June">
+  <xmbtext>6 月</xmbtext>
+ </stringres>
+ <stringres id="July">
+  <xmbtext>7 月</xmbtext>
+ </stringres>
+ <stringres id="August">
+  <xmbtext>8 月</xmbtext>
+ </stringres>
+ <stringres id="September">
+  <xmbtext>9 月</xmbtext>
+ </stringres>
+ <stringres id="October">
+  <xmbtext>10 月</xmbtext>
+ </stringres>
+ <stringres id="November">
+  <xmbtext>11 月</xmbtext>
+ </stringres>
+ <stringres id="December">
+  <xmbtext>12 月</xmbtext>
+ </stringres>
+ <stringres id="Jan">
+  <xmbtext>1 月</xmbtext>
+ </stringres>
+ <stringres id="Feb">
+  <xmbtext>2 月</xmbtext>
+ </stringres>
+ <stringres id="Mar">
+  <xmbtext>3 月</xmbtext>
+ </stringres>
+ <stringres id="Apr">
+  <xmbtext>4 月</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>5 月</xmbtext>
+ </stringres>
+ <stringres id="Jun">
+  <xmbtext>6 月</xmbtext>
+ </stringres>
+ <stringres id="Jul">
+  <xmbtext>7 月</xmbtext>
+ </stringres>
+ <stringres id="Aug">
+  <xmbtext>8 月</xmbtext>
+ </stringres>
+ <stringres id="Sep">
+  <xmbtext>9 月</xmbtext>
+ </stringres>
+ <stringres id="Oct">
+  <xmbtext>10 月</xmbtext>
+ </stringres>
+ <stringres id="Nov">
+  <xmbtext>11 月</xmbtext>
+ </stringres>
+ <stringres id="Dec">
+  <xmbtext>12 月</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format1">
+  <xmbtext>%1$s %2$d，%3$d</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format2">
+  <xmbtext>%1$s %2$d</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format3">
+  <xmbtext>%1$d:%2$02d:%3$02d %4$cM</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format4">
+  <xmbtext>%1$.2d:%2$.2d:%3$.2d</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigB">
+  <xmbtext>%.0f 字节</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigKB">
+  <xmbtext>%.0fKB</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigMB">
+  <xmbtext>%.1fMB</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigGB">
+  <xmbtext>%.1fGB</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigTB">
+  <xmbtext>%.1fTB</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyPictures">
+  <xmbtext>图片</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::Desktop">
+  <xmbtext>桌面</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyPictures">
+  <xmbtext>图片</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::Desktop">
+  <xmbtext>桌面</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyMusic">
+  <xmbtext>音乐</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyVideos">
+  <xmbtext>视频</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyDocuments">
+  <xmbtext>文档</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::ApplicationData">
+  <xmbtext>图片库/应用程序支持</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::CommonApplicationData">
+  <xmbtext>图片库/应用程序支持</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::Library">
+  <xmbtext>图片库</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyPictures">
+  <xmbtext>我的图片</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::Desktop">
+  <xmbtext>桌面</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyMusic">
+  <xmbtext>我的音乐</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyVideos">
+  <xmbtext>我的视频</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyDocuments">
+  <xmbtext>我的文档</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::ApplicationData">
+  <xmbtext>应用程序数据</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::CommonApplicationData">
+  <xmbtext>公共应用数据</xmbtext>
+ </stringres>
+ <stringres id="ytFileUtils::CopyProgress">
+  <xmbtext>%1$s 个，共 %2$s 个</xmbtext>
+ </stringres>
+ <stringres id="CDGo::Quit">
+  <xmbtext>退出</xmbtext>
+ </stringres>
+ <stringres id="CDGo::cantcopy">
+  <xmbtext>无法复制 Picasa CD</xmbtext>
+ </stringres>
+ <stringres id="CDGo::cantlaunch">
+  <xmbtext>无法打开 Picasa CD</xmbtext>
+ </stringres>
+ <stringres id="CDGo::missinginstaller">
+  <xmbtext>光盘上不包含安装程序</xmbtext>
+ </stringres>
+ <stringres id="CDGo::advanceslide">
+  <xmbtext>%1$s（第 %2$d 个，共 %3$d 个）</xmbtext>
+ </stringres>
+ <stringres id="CDGo::choosedest">
+  <xmbtext>选择要将文件复制到的文件夹</xmbtext>
+ </stringres>
+ <stringres id="CDGO::ReplacePrompt">
+  <xmbtext>“%s”文件夹已经存在。是否要用 CD 上的文件夹将其替换掉？</xmbtext>
+ </stringres>
+ <stringres id="CDGo::ReplaceButton">
+  <xmbtext>替换</xmbtext>
+ </stringres>
+ <stringres id="CDGo::SkipButton">
+  <xmbtext>跳过</xmbtext>
+ </stringres>
+ <stringres id="CDGo::copyfromcd">
+  <xmbtext>正在从 CD 复制</xmbtext>
+ </stringres>
+ <stringres id="CDGo::copyfailed">
+  <xmbtext>复制文件失败</xmbtext>
+ </stringres>
+ <stringres id="CDGo::Picasacd">
+  <xmbtext>Picasa CD</xmbtext>
+ </stringres>
+ <stringres id="CDGo::cantlaunch">
+  <xmbtext>无法打开 Picasa CD</xmbtext>
+ </stringres>
+ <stringres id="CDGo::picasacd">
+  <xmbtext>Picasa CD</xmbtext>
+ </stringres>
+</resources>

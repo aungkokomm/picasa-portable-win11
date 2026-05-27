@@ -1,0 +1,35 @@
+<window name="window" title="Backup Debug Window" width="60em">
+  <tabs name="tabs" width="fill">
+    <tab name="trace_tab" title="Trace">
+      <list name="debug" max-width="fill" height="20li" scroll="v">
+        <column name="debugcolumn" title="Debug"  width="fill"/>
+      </list>
+      <spacer amount="1em"/>
+      <radiogroup name="enable_upload">
+        <radio name="realserver" title="Backup to real server"/>
+        <radio name="mockserver" title="Use mock server"/>
+      </radiogroup>
+      <spacer amount="1em"/>
+      <buttongroup>
+        <button title="Simulate Mock Server Error" name="simulate_error"/>
+      </buttongroup>
+      <separator/>
+    </tab>
+    <tab name="queue_tab" title="Queue">
+      <list name="queue" max-width="fill" height="fill" scroll="hv">
+        <column name="type" title="File Type" width="0"/>
+        <column name="size" title="File Size" width="0"/>
+        <column name="date" title="Date" width="0"/>
+        <column name="name" title="File Path" width="0"/>
+      </list>
+      <buttongroup>
+        <button title="Dump Queue" name="dump_queue"/>
+      </buttongroup>
+    </tab>
+  </tabs>
+  <buttongroup>
+      <button title="Force Crash" name="crash_application"/>
+      <button title="View Mock Server" name="view_server"/>
+      <button title="Exit" type="cancel" name="cancel" hidden="true"/>
+    </buttongroup>
+</window>

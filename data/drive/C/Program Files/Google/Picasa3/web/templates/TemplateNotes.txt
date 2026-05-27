@@ -1,0 +1,36 @@
+
+The following variables will be active for any page:
+
+albumNumber
+albumName
+albumCaption
+albumDate
+albumItemCount
+
+
+Within an image loop, the following variables will be active in addition to the album variables above:
+
+itemNumber
+itemName
+itemOriginalPath
+itemWidth
+itemHeight
+itemSize (in K)
+itemThumbnailImage
+itemLargeImage
+
+Conditional variables
+isNextImage
+isPrevImage
+
+Conditionals are used like so
+<%if isNextImage%>Some HTML goes here<%endif>
+
+Templates are like so:
+
+index.tpl -> index.htm
+	include header.htm
+	include index0.htm
+	loop index1.htm
+	include index2.htm
+	include footer.htm

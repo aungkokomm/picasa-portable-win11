@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+ <stringres id="February">
+  <xmbtext>Február</xmbtext>
+ </stringres>
+ <stringres id="March">
+  <xmbtext>Március</xmbtext>
+ </stringres>
+ <stringres id="April">
+  <xmbtext>Április</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Május</xmbtext>
+ </stringres>
+ <stringres id="June">
+  <xmbtext>Június</xmbtext>
+ </stringres>
+ <stringres id="July">
+  <xmbtext>Július</xmbtext>
+ </stringres>
+ <stringres id="August">
+  <xmbtext>Augusztus</xmbtext>
+ </stringres>
+ <stringres id="September">
+  <xmbtext>Szeptember</xmbtext>
+ </stringres>
+ <stringres id="October">
+  <xmbtext>Október</xmbtext>
+ </stringres>
+ <stringres id="November">
+  <xmbtext>November</xmbtext>
+ </stringres>
+ <stringres id="December">
+  <xmbtext>December</xmbtext>
+ </stringres>
+ <stringres id="Jan">
+  <xmbtext>Jan.</xmbtext>
+ </stringres>
+ <stringres id="Feb">
+  <xmbtext>Febr.</xmbtext>
+ </stringres>
+ <stringres id="Mar">
+  <xmbtext>Márc.</xmbtext>
+ </stringres>
+ <stringres id="Apr">
+  <xmbtext>Ápr.</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Május</xmbtext>
+ </stringres>
+ <stringres id="Jun">
+  <xmbtext>Jún.</xmbtext>
+ </stringres>
+ <stringres id="Jul">
+  <xmbtext>Júl.</xmbtext>
+ </stringres>
+ <stringres id="Aug">
+  <xmbtext>Aug.</xmbtext>
+ </stringres>
+ <stringres id="Sep">
+  <xmbtext>Szept.</xmbtext>
+ </stringres>
+ <stringres id="Oct">
+  <xmbtext>Okt.</xmbtext>
+ </stringres>
+ <stringres id="Nov">
+  <xmbtext>Nov.</xmbtext>
+ </stringres>
+ <stringres id="Dec">
+  <xmbtext>Dec.</xmbtext>
+ </stringres>
+ <stringres id="January">
+  <xmbtext>Január</xmbtext>
+ </stringres>
+ <stringres id="February">
+  <xmbtext>Február</xmbtext>
+ </stringres>
+ <stringres id="March">
+  <xmbtext>Március</xmbtext>
+ </stringres>
+ <stringres id="April">
+  <xmbtext>Április</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Május</xmbtext>
+ </stringres>
+ <stringres id="June">
+  <xmbtext>Június</xmbtext>
+ </stringres>
+ <stringres id="July">
+  <xmbtext>Július</xmbtext>
+ </stringres>
+ <stringres id="August">
+  <xmbtext>Augusztus</xmbtext>
+ </stringres>
+ <stringres id="September">
+  <xmbtext>Szeptember</xmbtext>
+ </stringres>
+ <stringres id="October">
+  <xmbtext>Október</xmbtext>
+ </stringres>
+ <stringres id="November">
+  <xmbtext>November</xmbtext>
+ </stringres>
+ <stringres id="December">
+  <xmbtext>December</xmbtext>
+ </stringres>
+ <stringres id="Jan">
+  <xmbtext>Jan.</xmbtext>
+ </stringres>
+ <stringres id="Feb">
+  <xmbtext>Febr.</xmbtext>
+ </stringres>
+ <stringres id="Mar">
+  <xmbtext>Márc.</xmbtext>
+ </stringres>
+ <stringres id="Apr">
+  <xmbtext>Ápr.</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Május</xmbtext>
+ </stringres>
+ <stringres id="Jun">
+  <xmbtext>Jún.</xmbtext>
+ </stringres>
+ <stringres id="Jul">
+  <xmbtext>Júl.</xmbtext>
+ </stringres>
+ <stringres id="Aug">
+  <xmbtext>Aug.</xmbtext>
+ </stringres>
+ <stringres id="Sep">
+  <xmbtext>Szept.</xmbtext>
+ </stringres>
+ <stringres id="Oct">
+  <xmbtext>Okt.</xmbtext>
+ </stringres>
+ <stringres id="Nov">
+  <xmbtext>Nov.</xmbtext>
+ </stringres>
+ <stringres id="Dec">
+  <xmbtext>Dec.</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format1">
+  <xmbtext>%1$s %2$d, %3$d</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format2">
+  <xmbtext>%1$s %2$d</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format3">
+  <xmbtext>%1$d:%2$02d:%3$02d %4$cM</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format4">
+  <xmbtext>%1$.2d:%2$.2d:%3$.2d</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigB">
+  <xmbtext>%.0f bájt</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigKB">
+  <xmbtext>%.0f KB</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigMB">
+  <xmbtext>%.1f MB</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigGB">
+  <xmbtext>%.1f GB</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigTB">
+  <xmbtext>%.1f TB</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyPictures">
+  <xmbtext>Képek</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::Desktop">
+  <xmbtext>Asztal</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyMusic">
+  <xmbtext>Zene</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyVideos">
+  <xmbtext>Mozgófilmek</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyDocuments">
+  <xmbtext>Dokumentumok</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::ApplicationData">
+  <xmbtext>Library/Application Support</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::CommonApplicationData">
+  <xmbtext>Library/Application Support</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::Library">
+  <xmbtext>Library</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyPictures">
+  <xmbtext>Képek</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::Desktop">
+  <xmbtext>Asztal</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyMusic">
+  <xmbtext>Zene</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyVideos">
+  <xmbtext>Videók</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyDocuments">
+  <xmbtext>Dokumentumok</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::ApplicationData">
+  <xmbtext>Application Data</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::CommonApplicationData">
+  <xmbtext>Szokásos alkalmazásadatok</xmbtext>
+ </stringres>
+ <stringres id="ytFileUtils::CopyProgress">
+  <xmbtext>%2$s / %1$s</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::error">
+  <xmbtext>Hiba</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::copy">
+  <xmbtext>Másolás</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::replace">
+  <xmbtext>Csere</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::newer">
+  <xmbtext>Újabbak</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::current">
+  <xmbtext>Aktuális</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::protected">
+  <xmbtext>Védett</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscalc">
+  <xmbtext>Fájlok számítása</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::restoremsg">
+  <xmbtext>Visszaállítás helye: %s</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statusreadyrestore">
+  <xmbtext>%1$d fájl (%2$s) visszaállításra kész</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscopying">
+  <xmbtext>Fájlok másolása</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscomplete">
+  <xmbtext>Kész</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::donebutton">
+  <xmbtext>Kész</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscalcfiles">
+  <xmbtext>%1$d fájl kiszámítása %2$s</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscopied">
+  <xmbtext>%1$d fájl másolva - %2$s</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::errorformat">
+  <xmbtext>Hiba (%d)</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::complete">
+  <xmbtext>Kész</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::actionheader">
+  <xmbtext>Művelet</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::srcheader">
+  <xmbtext>Forrásfájl</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::destheader">
+  <xmbtext>Célfájl</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::sizeheader">
+  <xmbtext>Méret</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::dateheader">
+  <xmbtext>Dátum</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::deflocation">
+  <xmbtext>a Picasa biztonsági mentésből\\</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::changetitle">
+  <xmbtext>Hely kijelölése a fájloknak</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::cantcopy">
+  <xmbtext>Nem sikerült az alkalmazás átmeneti példányának másolása</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::cantlaunch">
+  <xmbtext>Nem lehet megnyitni az alkalmazást</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::unknown">
+  <xmbtext>Ismeretlen</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::nothing">
+  <xmbtext>Semmi</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::error">
+  <xmbtext>Hiba</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::copy">
+  <xmbtext>Másolás</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::replace">
+  <xmbtext>Csere</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::newer">
+  <xmbtext>Újabbak</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::current">
+  <xmbtext>Aktuális</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::protected">
+  <xmbtext>Védett</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::copying">
+  <xmbtext>Másolás</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::skipping">
+  <xmbtext>Átugrás</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::restored">
+  <xmbtext>Visszaállítva</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::skipped">
+  <xmbtext>Átugorva</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::cantFind">
+  <xmbtext>Nem található &quot;%1$s&quot; vagy &quot;%2$s&quot; nevű jegyzékfájl.</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::error">
+  <xmbtext>Hiba</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::quit">
+  <xmbtext>Kilépés</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::open">
+  <xmbtext>Jegyzékfájl megnyitása...</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscalc">
+  <xmbtext>Fájlok számítása</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::restoremsg">
+  <xmbtext>Visszaállítás helye: %s</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statusreadyrestore">
+  <xmbtext>%1$d fájl (%2$s) visszaállításra kész</xmbtext>
+ </stringres>
+ <stringres id="CCaptureMovieDialog::stop">
+  <xmbtext>Leállítás</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::finished">
+  <xmbtext>%1$d fájl visszaállítása befejeződött; összesen %2$s.</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::restoring">
+  <xmbtext>&quot;%1$s&quot; fájl visszaállítva (%3$d/%2$d)</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::copying">
+  <xmbtext>Másolás</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::restored">
+  <xmbtext>&quot;%@&quot; fájl visszaállítva (%1$d/%2$d)</xmbtext>
+ </stringres>
+</resources>

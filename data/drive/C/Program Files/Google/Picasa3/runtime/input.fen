@@ -1,0 +1,9 @@
+<window>
+  <label title="Prompt:" name="prompt"/>
+  <edit name="value" width="20em" max-width="fill"/>
+  <password name="password" width="20em" max-width="fill"/>
+  <buttongroup default="accept">
+    <button title="OK" type="accept"/>
+    <button title="Cancel" type="cancel"/>
+  </buttongroup>
+</window>

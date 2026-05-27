@@ -1,0 +1,14 @@
+<window title="Add to group" width="fill">
+  <labelgroup title="Name:">
+    <label title="" width="25em" name="name"/>
+  </labelgroup>
+  <labelgroup title="Groups:">
+    <check title="Friends" name="friends"/>
+    <check title="Family" name="family"/>
+    <check title="Coworkers" name="coworkers"/>
+  </labelgroup>
+  <buttongroup>
+    <button title="OK" type="accept"/>
+    <button title="Cancel" type="cancel"/>
+  </buttongroup>
+</window>

@@ -1,0 +1,49 @@
+<window name="manage_devices" title="Manage Devices" width="fit">
+  <group layout="column">
+    <label name="device_list_description" width="fill" height="4li"
+           title="You can choose to always import or ignore photos and videos from listed devices. You'll get prompted each time for devices that don't appear in either list."
+           win_fontsize="22" mac_fontsize="14"/>
+    <spacer amount="2em"/>
+    <group name="attached_devices_group" layout="row" width="fill">
+      <group layout="column" width="fit">
+        <label name="attached_devices_label" title="Attached Devices" fontweight="bold" width="fill"/>
+        <list name="attached_devices" max-width="fill" height="6li" scroll="hv">
+          <column name="devicecolumn" title="Device" width="fit"/>
+          <column name="namecolumn" title="Device Type" width="fit"/>
+          <column name="uniquecolumn" title="Unique Identification" width="fill"/>
+        </list>
+      </group>
+      <group layout="column" width="fit">
+        <label name="attached_actions_label" title="Import" fontweight="bold" align="center" width="fill"/>
+        <button name="whitelist" title="Always" width="fill"/>
+        <button name="blacklist" title="Never" width="fill"/>
+      </group>
+    </group>
+    <spacer amount="1em" name="attached_devices_spacer"/>
+    <group layout="row">
+      <group layout="column">
+        <label name="whitelist_description" title="Always import from these devices" fontweight="bold" width="fill"/>
+        <list name="whitelisted_devices" width="18em" height="6li" header="hide" scroll="v">
+          <column name="namecolumn" title="Name"  width="fill"/>
+        </list>
+      </group>
+      <spacer amount="1em"/>
+      <group layout="column" align="end" width="fit">
+        <button name="move_to_black" title="&gt;&gt;" width="fill"/>
+        <button name="move_to_white" title="&lt;&lt;" width="fill"/>
+        <button name="remove" title="Remove" width="fill"/>
+      </group>
+      <spacer amount="1em"/>
+      <group layout="column">
+        <label name="blacklist_description" title="Never import from these devices" fontweight="bold" width="fill"/>
+        <list name="blacklisted_devices" width="18em" height="6li" header="hide" scroll="v">
+          <column name="namecolumn" title="Name"  width="fill"/>
+        </list>
+      </group>
+    </group>
+    <spacer amount="1em"/>
+    <buttongroup default="accept" width="fill">
+      <button name="ok" title="Done" type="accept"/>
+    </buttongroup>
+  </group>
+</window>

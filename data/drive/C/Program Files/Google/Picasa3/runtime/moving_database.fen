@@ -1,0 +1,9 @@
+<window title="Moving Database" width="fit" focus="progress">
+  <group>
+    <label title="Picasa is moving the database."/>
+  </group>
+  <group>
+    <progress name="progress"/>
+  </group>
+</window>
+

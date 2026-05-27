@@ -1,0 +1,10 @@
+body {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px}
+table { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px}
+th { text-align: left; font-style: italic }
+caption { text-align: bottom; vertical-align: bottom; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 18px}
+.parameterName { font-weight: bold; vertical-align: top}
+.commandcell { vertical-align: top}
+.commandrow {vertical-align: top}
+.notImplemented {color: red}
+.variableName { font-weight: bold }
+.variableDescription { font-weight: normal }

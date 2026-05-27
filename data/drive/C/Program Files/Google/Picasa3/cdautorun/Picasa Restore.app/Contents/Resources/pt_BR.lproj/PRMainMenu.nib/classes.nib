@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IBClasses</key>
+	<array>
+		<dict>
+			<key>ACTIONS</key>
+			<dict>
+				<key>cancelPromptForDestinationFolderChoice</key>
+				<string>id</string>
+				<key>cancelRestoration</key>
+				<string>id</string>
+				<key>finishPromptForDestinationFolderChoice</key>
+				<string>id</string>
+				<key>openManifestFile</key>
+				<string>id</string>
+				<key>openSourceInDefaultApplication</key>
+				<string>id</string>
+				<key>selectFolderForDestination</key>
+				<string>id</string>
+				<key>showDestinationInFinder</key>
+				<string>id</string>
+				<key>showInPreviewApplication</key>
+				<string>id</string>
+				<key>showSourceInFinder</key>
+				<string>id</string>
+				<key>startRestoration</key>
+				<string>id</string>
+			</dict>
+			<key>CLASS</key>
+			<string>PRAppController</string>
+			<key>LANGUAGE</key>
+			<string>ObjC</string>
+			<key>OUTLETS</key>
+			<dict>
+				<key>chooseOriginalsWindow_</key>
+				<string>NSWindow</string>
+				<key>mainRestorationWindow_</key>
+				<string>NSWindow</string>
+				<key>overviewTextField_</key>
+				<string>NSTextField</string>
+				<key>progressBar_</key>
+				<string>NSProgressIndicator</string>
+				<key>restoreButton_</key>
+				<string>NSButton</string>
+				<key>tableView_</key>
+				<string>NSTableView</string>
+			</dict>
+			<key>SUPERCLASS</key>
+			<string>NSObject</string>
+		</dict>
+	</array>
+	<key>IBVersion</key>
+	<string>1</string>
+</dict>
+</plist>

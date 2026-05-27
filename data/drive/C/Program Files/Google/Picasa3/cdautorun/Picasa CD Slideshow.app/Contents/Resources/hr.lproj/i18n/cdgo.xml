@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tooltips>
+ <action type="Label" target="cdgo/copytohd" xmbdesc="Label(cdgo/copytohd)">
+  <xmbtext>Spremi na disk</xmbtext>
+ </action>
+ <action type="Label" target="cdgo/eject" xmbdesc="Label(cdgo/eject)">
+  <xmbtext>Izbaci CD</xmbtext>
+ </action>
+ <action type="Label" target="cdgo/exit" xmbdesc="Label(cdgo/exit)">
+  <xmbtext>Izlaz</xmbtext>
+ </action>
+ <action type="Label" target="cdgo/topicasa" xmbdesc="Label(cdgo/topicasa)">
+  <xmbtext>Uvezi u uslugu Picasa</xmbtext>
+ </action>
+ <action type="Text" target="cdgo/loading" xmbdesc="Text(cdgo/loading)">
+  <xmbtext>UČITAVA SE</xmbtext>
+ </action>
+ <action type="Text" target="cdgo/tpslabel" xmbdesc="Text(cdgo/tpslabel)">
+  <xmbtext>Prikaži vrijeme</xmbtext>
+ </action>
+</tooltips>

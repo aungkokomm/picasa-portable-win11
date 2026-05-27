@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+ <stringres id="February">
+  <xmbtext>Únor</xmbtext>
+ </stringres>
+ <stringres id="March">
+  <xmbtext>Březen</xmbtext>
+ </stringres>
+ <stringres id="April">
+  <xmbtext>Duben</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Květen</xmbtext>
+ </stringres>
+ <stringres id="June">
+  <xmbtext>Červen</xmbtext>
+ </stringres>
+ <stringres id="July">
+  <xmbtext>Červenec</xmbtext>
+ </stringres>
+ <stringres id="August">
+  <xmbtext>Srpen</xmbtext>
+ </stringres>
+ <stringres id="September">
+  <xmbtext>Září</xmbtext>
+ </stringres>
+ <stringres id="October">
+  <xmbtext>Říjen</xmbtext>
+ </stringres>
+ <stringres id="November">
+  <xmbtext>Listopad</xmbtext>
+ </stringres>
+ <stringres id="December">
+  <xmbtext>Prosinec</xmbtext>
+ </stringres>
+ <stringres id="Jan">
+  <xmbtext>Leden</xmbtext>
+ </stringres>
+ <stringres id="Feb">
+  <xmbtext>Únor</xmbtext>
+ </stringres>
+ <stringres id="Mar">
+  <xmbtext>Březen</xmbtext>
+ </stringres>
+ <stringres id="Apr">
+  <xmbtext>Duben</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Květen</xmbtext>
+ </stringres>
+ <stringres id="Jun">
+  <xmbtext>Červen</xmbtext>
+ </stringres>
+ <stringres id="Jul">
+  <xmbtext>Červenec</xmbtext>
+ </stringres>
+ <stringres id="Aug">
+  <xmbtext>Srpen</xmbtext>
+ </stringres>
+ <stringres id="Sep">
+  <xmbtext>Září</xmbtext>
+ </stringres>
+ <stringres id="Oct">
+  <xmbtext>Říjen</xmbtext>
+ </stringres>
+ <stringres id="Nov">
+  <xmbtext>Listopad</xmbtext>
+ </stringres>
+ <stringres id="Dec">
+  <xmbtext>Prosinec</xmbtext>
+ </stringres>
+ <stringres id="January">
+  <xmbtext>Leden</xmbtext>
+ </stringres>
+ <stringres id="February">
+  <xmbtext>Únor</xmbtext>
+ </stringres>
+ <stringres id="March">
+  <xmbtext>Březen</xmbtext>
+ </stringres>
+ <stringres id="April">
+  <xmbtext>Duben</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Květen</xmbtext>
+ </stringres>
+ <stringres id="June">
+  <xmbtext>Červen</xmbtext>
+ </stringres>
+ <stringres id="July">
+  <xmbtext>Červenec</xmbtext>
+ </stringres>
+ <stringres id="August">
+  <xmbtext>Srpen</xmbtext>
+ </stringres>
+ <stringres id="September">
+  <xmbtext>Září</xmbtext>
+ </stringres>
+ <stringres id="October">
+  <xmbtext>Říjen</xmbtext>
+ </stringres>
+ <stringres id="November">
+  <xmbtext>Listopad</xmbtext>
+ </stringres>
+ <stringres id="December">
+  <xmbtext>Prosinec</xmbtext>
+ </stringres>
+ <stringres id="Jan">
+  <xmbtext>Leden</xmbtext>
+ </stringres>
+ <stringres id="Feb">
+  <xmbtext>Únor</xmbtext>
+ </stringres>
+ <stringres id="Mar">
+  <xmbtext>Březen</xmbtext>
+ </stringres>
+ <stringres id="Apr">
+  <xmbtext>Duben</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Květen</xmbtext>
+ </stringres>
+ <stringres id="Jun">
+  <xmbtext>Červen</xmbtext>
+ </stringres>
+ <stringres id="Jul">
+  <xmbtext>Červenec</xmbtext>
+ </stringres>
+ <stringres id="Aug">
+  <xmbtext>Srpen</xmbtext>
+ </stringres>
+ <stringres id="Sep">
+  <xmbtext>Září</xmbtext>
+ </stringres>
+ <stringres id="Oct">
+  <xmbtext>Říjen</xmbtext>
+ </stringres>
+ <stringres id="Nov">
+  <xmbtext>Listopad</xmbtext>
+ </stringres>
+ <stringres id="Dec">
+  <xmbtext>Prosinec</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format1">
+  <xmbtext>%1$s %2$d, %3$d</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format2">
+  <xmbtext>%1$s %2$d</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format3">
+  <xmbtext>%1$d:%2$02d:%3$02d %4$c M</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format4">
+  <xmbtext>%1$.2d:%2$.2d:%3$.2d</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigB">
+  <xmbtext>%.0f bajtů</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigKB">
+  <xmbtext>%.0f kB</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigMB">
+  <xmbtext>%.1f MB</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigGB">
+  <xmbtext>%.1f GB</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigTB">
+  <xmbtext>%.1f TB</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyPictures">
+  <xmbtext>Fotky</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::Desktop">
+  <xmbtext>Plocha</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyMusic">
+  <xmbtext>Hudba</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyVideos">
+  <xmbtext>Filmy</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyDocuments">
+  <xmbtext>Dokumenty</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::ApplicationData">
+  <xmbtext>Podpora knihovny/aplikace</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::CommonApplicationData">
+  <xmbtext>Podpora knihovny/aplikace</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::Library">
+  <xmbtext>Knihovna</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyPictures">
+  <xmbtext>Obrázky</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::Desktop">
+  <xmbtext>Plocha</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyMusic">
+  <xmbtext>Moje hudba</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyVideos">
+  <xmbtext>Moje videa</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyDocuments">
+  <xmbtext>Dokumenty</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::ApplicationData">
+  <xmbtext>Data aplikace</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::CommonApplicationData">
+  <xmbtext>Common Application Data</xmbtext>
+ </stringres>
+ <stringres id="ytFileUtils::CopyProgress">
+  <xmbtext>%1$s z %2$s</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::error">
+  <xmbtext>Chyba</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::copy">
+  <xmbtext>Kopírovat</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::replace">
+  <xmbtext>Nahradit</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::newer">
+  <xmbtext>Novější</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::current">
+  <xmbtext>Aktuální</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::protected">
+  <xmbtext>Chráněno</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscalc">
+  <xmbtext>Vypočítávám soubory</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::restoremsg">
+  <xmbtext>Obnovit do: %s</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statusreadyrestore">
+  <xmbtext>%1$d souborů (%2$s) připraveno na obnovení</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscopying">
+  <xmbtext>Kopírování souborů</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscomplete">
+  <xmbtext>Hotovo</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::donebutton">
+  <xmbtext>Hotovo</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscalcfiles">
+  <xmbtext>Vypočítávání souborů %2$s (celkem %1$d)</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscopied">
+  <xmbtext>Zkopírované soubory: %1$d, %2$s</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::errorformat">
+  <xmbtext>Chyba (%d)</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::complete">
+  <xmbtext>Hotovo</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::actionheader">
+  <xmbtext>Akce</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::srcheader">
+  <xmbtext>Zdrojový soubor</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::destheader">
+  <xmbtext>Cílový soubor</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::sizeheader">
+  <xmbtext>Velikost</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::dateheader">
+  <xmbtext>Datum</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::deflocation">
+  <xmbtext>ze zálohy Picasy\\</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::changetitle">
+  <xmbtext>Vybrat umístění pro soubory</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::cantcopy">
+  <xmbtext>Nelze kopírovat dočasnou kopii aplikace</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::cantlaunch">
+  <xmbtext>Nelze otevřít aplikaci</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::unknown">
+  <xmbtext>Neznámé</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::nothing">
+  <xmbtext>Nic</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::error">
+  <xmbtext>Chyba</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::copy">
+  <xmbtext>Kopírovat</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::replace">
+  <xmbtext>Nahradit</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::newer">
+  <xmbtext>Novější</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::current">
+  <xmbtext>Aktuální</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::protected">
+  <xmbtext>Chráněno</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::copying">
+  <xmbtext>Kopírování</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::skipping">
+  <xmbtext>Přeskočení</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::restored">
+  <xmbtext>Obnoveno</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::skipped">
+  <xmbtext>Přeskočeno</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::cantFind">
+  <xmbtext>Nelze nalézt žádný manifest s názvem %1$s nebo %2$s.</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::error">
+  <xmbtext>Chyba</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::quit">
+  <xmbtext>Ukončit</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::open">
+  <xmbtext>Otevřít manifest...</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscalc">
+  <xmbtext>Vypočítávám soubory</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::restoremsg">
+  <xmbtext>Obnovit do: %s</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statusreadyrestore">
+  <xmbtext>%1$d souborů (%2$s) připraveno na obnovení</xmbtext>
+ </stringres>
+ <stringres id="CCaptureMovieDialog::stop">
+  <xmbtext>Zastavit</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::finished">
+  <xmbtext>Dokončeno obnovení %1$d souborů, celkem %2$s.</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::restoring">
+  <xmbtext>Obnovování souboru %1$s (%2$d z %3$d)</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::copying">
+  <xmbtext>Kopírování</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::restored">
+  <xmbtext>Obnovený soubor %@ (%1$d z %2$d)</xmbtext>
+ </stringres>
+</resources>

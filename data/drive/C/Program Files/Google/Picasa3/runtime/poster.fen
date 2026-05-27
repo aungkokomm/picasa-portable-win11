@@ -1,0 +1,24 @@
+<window title="Poster Settings" width="fit">
+  <label title="Tip: if you don't want to trim, crop your picture to the same size as the paper." width="fill"/>
+  <labelgroup title="Poster size:">
+    <popup name="factor" width="fill">
+      <item title="200%"/>
+      <item title="300%"/>
+      <item title="400%"/>
+      <item title="500%"/>
+      <item title="600%"/>
+      <item title="700%"/>
+      <item title="800%"/>
+      <item title="900%"/>
+      <item title="1000%"/>
+    </popup>
+  </labelgroup>
+  <labelgroup title="Paper size:">
+    <popup name="paper" width="fill"/>
+  </labelgroup>
+  <check title="Overlap tiles" name="overlap" align="center"/>
+  <buttongroup>
+    <button title="OK" type="accept"/>
+    <button title="Cancel" type="cancel"/>
+  </buttongroup>
+</window>

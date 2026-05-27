@@ -1,0 +1,8 @@
+/* Strings for User Notification of a crash */
+"headerFmt" = "Het programma Google %@ is onverwachts afgesloten.";
+"msg" = "Het systeem en andere toepassingen zijn niet gewijzigd.  Er is een rapport gemaakt dat u naar Google kunt sturen om het probleem te identificeren.";
+"msgNoSend" = "Het systeem en andere toepassingen zijn niet gewijzigd.";
+
+"sendReportButton" = "Rapport verzenden";
+"cancelButton" = "Annuleren";
+"noSendButton" = "OK";

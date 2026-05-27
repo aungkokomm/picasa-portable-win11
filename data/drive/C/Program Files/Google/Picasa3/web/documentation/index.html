@@ -1,0 +1,184 @@
+<html>
+<head>
+<title>Picasa Web Templating</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="#FFFFFF" text="#000000">
+<h1>The Picasa Web Templating System</h1>
+<h2>Overview</h2>
+
+When the user does a web page export from the current album in Picasa, the Picasa Web Templating system is used to produce the
+desired HTML output. Web templates may be either template command (.tpl) files, or <a href="#includedFile">files which contain HTML formatting</a> 
+and special templating-system variables (typically with the extension .html)<p>
+
+During an export, thumbnail and large-sized copies of the selected images are written to the "thumbnail" and "image" subdirectories of the selected
+export directory, respectively. Then, the top-level template command file (always "index.tpl") in a template directory is 
+processed and the <a href="#templateCommands">commands</a> executed in order. The special <a href="#loopCommand">loop</a>
+and <a href="#targetloopCommand">targetloop</a> commands are processed for each image in the selection, populating the 
+special <a href="#imageVars">image loop</a> and
+<a href="#targetVars">targetloop</a> variables.<p>
+
+Features which have not yet been implemented are indicated <span class="notImplemented">like this</span>.<p><p>
+
+
+<h2><a name="templateCommands">Template Command (.tpl) Files</a></h2>
+<table>
+<caption>Template File Commands</caption>
+<tr><th width="15%">Command</th><th width="40%">Parameters</th><th>Description</th></tr>
+<tr class="commandrow"><td class="commandcell">define</td>
+<td class="commandcell">
+<table>
+<tr><td class="parameterName" width="180">variableName</td><td>The name you'd like to use elsewhere</td></tr>
+<tr><td class="parameterName">variableValue</td><td>The value to substitute in</td></tr>
+</table>
+</td>
+<td class="commandcell">Define a value which will be used internally by the exporter, as well as replaced automatically wherever <code>&lt;%variableName%&gt;</code> is encountered. <span class="exampleTitle">Example</span>: 
+<code>define imageWidth 600</code> -- sets the default image width of exported images to 600 pixels, and replaces any occurances of <code>&lt;%imageWidth%&gt;</code> with "600".<p>
+At any given time, only one instance of a variable is active, so placing a "<code>define imageWidth 400</code>" on any line below "<code>define imageWidth 600</code>" will override all instances of the imageWidth definition.<p>
+Some variables are used internally to control export behavior. They are listed in their <a href="#commandVariables">own table</a> below.
+</td></tr>
+
+<tr class="commandrow"><td class="commandcell">include</td>
+<td class="commandcell">
+<table>
+<tr><td class="parameterName" width="180">fileName</td><td class="commandcell">An HTML or template file to include at this point.</td></tr>
+</table>
+</td>
+<td class="commandcell">Template files are processed recursively, variables are substituted in HTML files at the point where they are included.
+</td></tr>
+
+<tr class="commandrow"><td><a name="loopCommand">loop</a></td>
+<td>
+<table>
+<tr><td class="parameterName" width="180">per-image include file</td><td class="commandcell">This file will be included once per image.</td></tr>
+<tr><td class="parameterName">columnCount</td><td class="commandcell"><span class="notImplemented">The number of images to place in a single row (usually of a table). If this parameter is specified,
+then you must also specify the rowStartInclude and rowEndInclude parameters</span></td></tr>
+<tr><td class="parameterName">rowStartInclude</td><td class="commandcell"><span class="notImplemented">include this file at the start of each row (for example, "<code>&lt;TR&gt;</code>")</span></td></tr>
+<tr><td class="parameterName">rowEndInclude</td><td class="commandcell"><span class="notImplemented">include this file at the end of each row (for example, "<code>&lt;/TR&gt;</code>")</span></td></tr>
+</table>
+</td>
+<td class="commandcell">The <code>loop</code> and <code>targetloop</code> commands both loop over all the images in the export selection. Certain variables (indicated below) are active only for files
+included via the loop directives.</td></tr>
+
+<tr class="commandrow"><td><a name="targetloopCommand">targetloop</a></td>
+<td>
+<table>
+<tr><td class="parameterName" width="180">target template file</td><td>Template file which specifies the export for the per-image HTML file.</td></tr>
+<tr><td class="parameterName">target include file</td><td>In the current export file, this file is included once per image, with the special variable <code>&lt;%targetPath%&gt;</code> defined, which points to the per-image export file.</td></tr>
+<tr><td class="parameterName">columnCount</td><td class="commandcell"><span class="notImplemented">The number of images to place in a single row (usually of a table). If this parameter is specified,
+then you must also specify the rowStartInclude and rowEndInclude parameters</span></td></tr>
+<tr><td class="parameterName">rowStartInclude</td><td class="commandcell"><span class="notImplemented">include this file at the start of each row (for example, "<code>&lt;TR&gt;</code>")</span></td></tr>
+<tr><td class="parameterName">rowEndInclude</td><td class="commandcell"><span class="notImplemented">include this file at the end of each row (for example, "<code>&lt;/TR&gt;</code>")</span></td></tr>
+</table>
+</td>
+<td><code>targetloop</code> causes each image to be exported to a separate file, which may be referenced by the current file. It is used for frame-based designs.
+</td></tr>
+
+<tr class="commandrow"><td>copy</td>
+<td>
+<table>
+<tr><td class="parameterName" width="180">source</td><td>A directory, relative to the current template, to copy recursively to <code>destination</code></td></tr>
+<tr><td class="parameterName">destination</td><td>(optional) A path relative to the current export directory to which the files in <code>source</code> are copied</td></tr>
+</table>
+</td>
+<td>
+Copies static resources (such as artwork) from the template directory to the export directory. <span class="exampleTitle">Example</span>: 
+<code>copy assets\images\ images\</code> -- copies the contents of the "images" directory in the "assets" directory of the current template to the "images" directory of
+the current export. Note that the trailing backslashes are required for directory specifications, and that leading backslashes should not be used.
+</td></tr>
+</table>
+<p>
+<p>
+<h2>Command Variables</h2>
+Some variables are used internally by the exporter (they are also accessible within the HTML).
+<p>
+<table>
+<caption><a name="commandVariables">Command Variables</a></caption>
+<tr valign="top"><th>Variable Name</th><th>Description</th></tr>
+<tr valign="top"><td class="variableName">exportFileName</td><td class="variableDescription">Name to use for the exported file. For targetloop files, a numerical value will be appended to this name, before the extension.
+In other words, for a regular template file a value of "index.html" will produce an exported file named "index.html" but for a targetloop template, the files "index0.html," "index1.html," etc. will be produced.</td></tr>
+<tr valign="top"><td class="variableName">imageWidth</td><td class="variableDescription">Maximum image width to use when generating the large-sized image files. A value of "0" means "Same width as the original image."</td></tr>
+<tr valign="top"><td class="variableName">imageHeight</td><td class="variableDescription">Maximum image height to use when generating the large-sized image files. A value of "0" means "Same height as the original image."</td></tr>
+<tr valign="top"><td class="variableName">thumbnailWidth</td><td class="variableDescription">Maximum image width to use when generating the thumbnail image files. A value of "0" means "Same width as the original image."</td></tr>
+<tr valign="top"><td class="variableName">thumbnailHeight</td><td class="variableDescription">Maximum image height to use when generating the thumbnail image files. A value of "0" means "Same height as the original image."</td></tr>
+<tr valign="top"><td class="variableName">bgColor</td><td class="variableDescription">Color to use when creating shadows around thumbnails. Default is white ("#FFFFFF")</td></tr>
+<tr valign="top"><td class="variableName">shadowedThumbnails</td><td class="variableDescription">If set to "true" or "1", draw a shadow around each exported thumbnail. Defaults to "1"</td></tr>
+<tr valign="top"><td class="variableName">shadowedImages</td><td class="variableDescription">If set to "true" or "1", draw a shadow around each exported image. Defaults to "0"</td></tr>
+</table>
+<p>
+<h2><a name="includedFile">Included HTML Files</a></h2>
+The following variables will be active for any page:
+
+<table>
+<caption>Album variables</caption>
+<tr valign="top"><th>Variable Name</th><th>Description</th></tr>
+<tr valign="top"><td class="variableName">albumNumber</td><td class="variableDescription">A number which is unique across all albums in this instance of the Picasa database. Sometimes useful for javascript.</td></tr>
+<tr valign="top"><td class="variableName">albumName</td><td class="variableDescription">The short name assigned to this album. Initially the name of the directory that contained the album's images, but editable by the user.</td></tr>
+<tr valign="top"><td class="variableName">albumCaption</td><td class="variableDescription">A description of the photographs that the user has entered.</td></tr>
+<tr valign="top"><td class="variableName">albumDate</td><td class="variableDescription">Initially, the median date of all photos in the album. May be changed by the user. Formatted as month/year only.</td></tr>
+<tr valign="top"><td class="variableName">albumItemCount</td><td class="variableDescription">Total number of images in this album.</td></tr>
+</table>
+<p>
+<p>
+Within an image loop, (including any files exported within a targetloop) the following variables will be active in addition to the album variables above:
+<p>
+<table>
+<caption><a name="imageVars">Image Loop Variables</a></caption>
+<tr valign="top"><th>Variable Name</th><th>Description</th></tr>
+<tr valign="top"><td class="variableName">itemNumber</td><td class="variableDescription">A number which is unique across all albums in this instance of the Picasa database. Sometimes useful for javascript.</td></tr>
+<tr valign="top"><td class="variableName">itemName</td><td class="variableDescription">The name of the image file ("mypicture.jpg")</td></tr>
+<tr valign="top"><td class="variableName">itemOriginalPath</td><td class="variableDescription">The full path to the original file on disk ("C:\My Documents\My Pictures\mypicture.jpg").</td></tr>
+<tr valign="top"><td class="variableName">itemWidth</td><td class="variableDescription">Actual width of the exported picture, in pixels. Usually smaller than the "imageWidth" command variable.</td></tr>
+<tr valign="top"><td class="variableName">itemHeight</td><td class="variableDescription">Actual height of the exported picture, in pixels. Usually smaller than the "imageHeight" command variable.</td></tr>
+<tr valign="top"><td class="variableName">itemSize</td><td class="variableDescription">Size of the <em>original</em> image, in kilobytes.</td></tr>
+<tr valign="top"><td class="variableName">itemThumbnailImage</td><td class="variableDescription">Path to the exported thumbnail image file, relative to the export directory.</td></tr>
+<tr valign="top"><td class="variableName">itemLargeImage</td><td class="variableDescription">Path to the exported large image file, relative to the export directory.</td></tr>
+<tr valign="top"><td class="variableName">isNextImage</td><td class="variableDescription">true if there is an image following the current image</td></tr>
+<tr valign="top"><td class="variableName">isPrevImage</td><td class="variableDescription">true if there is an image preceding the current image</td></tr>
+<tr valign="top"><td class="variableName">nextImage</td><td class="variableDescription">Path to the next exported image, in sequence, relative to the export directory.</td></tr>
+<tr valign="top"><td class="variableName">prevImage</td><td class="variableDescription">Path to the previous exported image, in sequence, relative to the export directory.</td></tr>
+<tr valign="top"><td class="variableName">nextThumbnail</td><td class="variableDescription">Path to the next exported thumbnail image, in sequence, relative to the export directory.</td></tr>
+<tr valign="top"><td class="variableName">prevThumbnail</td><td class="variableDescription">Path to the previous exported thumbnail image, in sequence, relative to the export directory.</td></tr>
+
+</table>
+<p>
+<p>
+
+Within a target page, the following variables will be active in addition to the album and image loop variables above:
+<p>
+<table>
+<caption><a name="targetVars">Target Page Variables</a></caption>
+<tr valign="top"><th>Variable Name</th><th>Description</th></tr>
+<tr valign="top"><td class="variableName">referrer</td><td class="variableDescription">Path to the page which points to this page (so you can implement a "back" link)</td></tr>
+<tr valign="top"><td class="variableName">isNextTarget</td><td class="variableDescription">true if there is a target following the current target</td></tr>
+<tr valign="top"><td class="variableName">isPrevTarget</td><td class="variableDescription">true if there is a target preceding the current target</td></tr>
+<tr valign="top"><td class="variableName">isFirstTarget</td><td class="variableDescription">true if the current target is the first one</td></tr>
+<tr valign="top"><td class="variableName">isLastTarget</td><td class="variableDescription">true if the current target is the first one</td></tr>
+<tr valign="top"><td class="variableName">nextTarget</td><td class="variableDescription">path to the next target file in sequence</td></tr>
+<tr valign="top"><td class="variableName">prevTarget</td><td class="variableDescription">path to the previous target file in sequence</td></tr>
+<tr valign="top"><td class="variableName">firstTarget</td><td class="variableDescription">path to the first target file in sequence</td></tr>
+<tr valign="top"><td class="variableName">lastTarget</td><td class="variableDescription">path to the last target file in sequence</td></tr>
+<tr valign="top"><td class="variableName">outputIndex</td><td class="variableDescription">Number within the total number of images represented by this page (i.e. "5"). Used for creating the export filename, but useful inside HTML.</td></tr>
+</table>
+<p>
+<p>
+
+
+Within a targetloop (in a containing page) the following variables will be active in addition to the album and image loop variables above:
+<p>
+<table>
+<caption>Target Loop Variables</caption>
+<tr valign="top"><th>Variable Name</th><th>Description</th></tr>
+<tr valign="top"><td class="variableName">targetPath</td><td>path to the exported target page</td></tr>
+</table>
+<p>
+<p>
+Conditional variables can be used for optional inclusion of text -- for example, if you want to deactivate a "previous" button on the first image of a set.
+Any conditional variable can be preceded by "!" which reverses its meaning.<p>
+Conditionals are used like so
+<pre>
+&lt;%if isNextImage%&gt;Some HTML goes here&lt;%endif%&gt;&lt;%if !isNextImage%&gt;(no more images)&lt;%endif%&gt;
+</pre>
+</body>
+</html>

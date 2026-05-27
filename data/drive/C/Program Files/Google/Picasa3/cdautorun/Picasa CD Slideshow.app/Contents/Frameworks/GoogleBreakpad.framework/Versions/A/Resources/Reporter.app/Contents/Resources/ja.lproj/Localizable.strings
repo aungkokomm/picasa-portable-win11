@@ -1,0 +1,8 @@
+/* Strings for User Notification of a crash */
+"headerFmt" = "Google プログラム %@ は予期せず終了しました。";
+"msg" = "システムや他のアプリケーションには影響ありませんでした。  問題の特定のために Google に送信いただけるレポートが作成されました。";
+"msgNoSend" = "システムや他のアプリケーションには影響ありませんでした。";
+
+"sendReportButton" = "レポートを送信";
+"cancelButton" = "キャンセル";
+"noSendButton" = "OK";

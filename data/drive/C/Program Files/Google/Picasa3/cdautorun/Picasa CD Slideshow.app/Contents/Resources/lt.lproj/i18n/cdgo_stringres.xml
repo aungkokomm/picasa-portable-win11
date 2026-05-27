@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+ <stringres id="February">
+  <xmbtext>Vasaris</xmbtext>
+ </stringres>
+ <stringres id="March">
+  <xmbtext>Kovas</xmbtext>
+ </stringres>
+ <stringres id="April">
+  <xmbtext>Balandis</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Gegužė</xmbtext>
+ </stringres>
+ <stringres id="June">
+  <xmbtext>Birželis</xmbtext>
+ </stringres>
+ <stringres id="July">
+  <xmbtext>Liepa</xmbtext>
+ </stringres>
+ <stringres id="August">
+  <xmbtext>Rugpjūtis</xmbtext>
+ </stringres>
+ <stringres id="September">
+  <xmbtext>Rugsėjis</xmbtext>
+ </stringres>
+ <stringres id="October">
+  <xmbtext>Spalis</xmbtext>
+ </stringres>
+ <stringres id="November">
+  <xmbtext>Lapkritis</xmbtext>
+ </stringres>
+ <stringres id="December">
+  <xmbtext>Gruodis</xmbtext>
+ </stringres>
+ <stringres id="Jan">
+  <xmbtext>Saus.</xmbtext>
+ </stringres>
+ <stringres id="Feb">
+  <xmbtext>Vas.</xmbtext>
+ </stringres>
+ <stringres id="Mar">
+  <xmbtext>Kov.</xmbtext>
+ </stringres>
+ <stringres id="Apr">
+  <xmbtext>Bal.</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Gegužė</xmbtext>
+ </stringres>
+ <stringres id="Jun">
+  <xmbtext>Birž.</xmbtext>
+ </stringres>
+ <stringres id="Jul">
+  <xmbtext>Liep.</xmbtext>
+ </stringres>
+ <stringres id="Aug">
+  <xmbtext>Rugp.</xmbtext>
+ </stringres>
+ <stringres id="Sep">
+  <xmbtext>Rugs.</xmbtext>
+ </stringres>
+ <stringres id="Oct">
+  <xmbtext>Spal.</xmbtext>
+ </stringres>
+ <stringres id="Nov">
+  <xmbtext>Lapkr.</xmbtext>
+ </stringres>
+ <stringres id="Dec">
+  <xmbtext>Gruod.</xmbtext>
+ </stringres>
+ <stringres id="January">
+  <xmbtext>Sausis</xmbtext>
+ </stringres>
+ <stringres id="February">
+  <xmbtext>Vasaris</xmbtext>
+ </stringres>
+ <stringres id="March">
+  <xmbtext>Kovas</xmbtext>
+ </stringres>
+ <stringres id="April">
+  <xmbtext>Balandis</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Gegužė</xmbtext>
+ </stringres>
+ <stringres id="June">
+  <xmbtext>Birželis</xmbtext>
+ </stringres>
+ <stringres id="July">
+  <xmbtext>Liepa</xmbtext>
+ </stringres>
+ <stringres id="August">
+  <xmbtext>Rugpjūtis</xmbtext>
+ </stringres>
+ <stringres id="September">
+  <xmbtext>Rugsėjis</xmbtext>
+ </stringres>
+ <stringres id="October">
+  <xmbtext>Spalis</xmbtext>
+ </stringres>
+ <stringres id="November">
+  <xmbtext>Lapkritis</xmbtext>
+ </stringres>
+ <stringres id="December">
+  <xmbtext>Gruodis</xmbtext>
+ </stringres>
+ <stringres id="Jan">
+  <xmbtext>Saus.</xmbtext>
+ </stringres>
+ <stringres id="Feb">
+  <xmbtext>Vas.</xmbtext>
+ </stringres>
+ <stringres id="Mar">
+  <xmbtext>Kov.</xmbtext>
+ </stringres>
+ <stringres id="Apr">
+  <xmbtext>Bal.</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Gegužė</xmbtext>
+ </stringres>
+ <stringres id="Jun">
+  <xmbtext>Birž.</xmbtext>
+ </stringres>
+ <stringres id="Jul">
+  <xmbtext>Liep.</xmbtext>
+ </stringres>
+ <stringres id="Aug">
+  <xmbtext>Rugp.</xmbtext>
+ </stringres>
+ <stringres id="Sep">
+  <xmbtext>Rugs.</xmbtext>
+ </stringres>
+ <stringres id="Oct">
+  <xmbtext>Spal.</xmbtext>
+ </stringres>
+ <stringres id="Nov">
+  <xmbtext>Lapkr.</xmbtext>
+ </stringres>
+ <stringres id="Dec">
+  <xmbtext>Gruod.</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format1">
+  <xmbtext>%1$s %2$d, %3$d</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format2">
+  <xmbtext>%1$s %2$d</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format3">
+  <xmbtext>%1$d:%2$02d:%3$02d %4$c M</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format4">
+  <xmbtext>%1$.2d:%2$.2d:%3$.2d</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigB">
+  <xmbtext>%.0f bait.</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigKB">
+  <xmbtext>%.0f KB</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigMB">
+  <xmbtext>%.1f MB</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigGB">
+  <xmbtext>%.1f GB</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigTB">
+  <xmbtext>%.1f TB</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyPictures">
+  <xmbtext>Nuotraukos</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::Desktop">
+  <xmbtext>Darbalaukis</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyPictures">
+  <xmbtext>Nuotraukos</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::Desktop">
+  <xmbtext>Darbalaukis</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyMusic">
+  <xmbtext>Muzika</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyVideos">
+  <xmbtext>Filmai</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyDocuments">
+  <xmbtext>Dokumentai</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::ApplicationData">
+  <xmbtext>Galerijos lango / programos palaikymas</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::CommonApplicationData">
+  <xmbtext>Galerijos lango / programos palaikymas</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::Library">
+  <xmbtext>Biblioteka</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyPictures">
+  <xmbtext>Mano nuotraukos</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::Desktop">
+  <xmbtext>Darbalaukis</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyMusic">
+  <xmbtext>Mano muzika</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyVideos">
+  <xmbtext>Mano vaizdo įrašai</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyDocuments">
+  <xmbtext>Mano dokumentai</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::ApplicationData">
+  <xmbtext>Programos duomenys</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::CommonApplicationData">
+  <xmbtext>Bendrieji programų duomenys</xmbtext>
+ </stringres>
+ <stringres id="ytFileUtils::CopyProgress">
+  <xmbtext>%1$s iš %2$s</xmbtext>
+ </stringres>
+ <stringres id="CDGo::Quit">
+  <xmbtext>Išeiti</xmbtext>
+ </stringres>
+ <stringres id="CDGo::cantcopy">
+  <xmbtext>Nepavyksta nukopijuoti „Picasa“ CD</xmbtext>
+ </stringres>
+ <stringres id="CDGo::cantlaunch">
+  <xmbtext>Nepavyksta atidaryti „Picasa“ CD</xmbtext>
+ </stringres>
+ <stringres id="CDGo::missinginstaller">
+  <xmbtext>Diegimo programos diske nėra</xmbtext>
+ </stringres>
+ <stringres id="CDGo::advanceslide">
+  <xmbtext>%1$s (%2$d iš %3$d)</xmbtext>
+ </stringres>
+ <stringres id="CDGo::choosedest">
+  <xmbtext>Pasirinkite aplanką failams kopijuoti</xmbtext>
+ </stringres>
+ <stringres id="CDGO::ReplacePrompt">
+  <xmbtext>Aplankas „%s“ jau yra. Ar norite jį pakeisti aplanku iš CD?</xmbtext>
+ </stringres>
+ <stringres id="CDGo::ReplaceButton">
+  <xmbtext>Keisti</xmbtext>
+ </stringres>
+ <stringres id="CDGo::SkipButton">
+  <xmbtext>Praleisti</xmbtext>
+ </stringres>
+ <stringres id="CDGo::copyfromcd">
+  <xmbtext>Kopijuojama iš CD</xmbtext>
+ </stringres>
+ <stringres id="CDGo::copyfailed">
+  <xmbtext>nepavyko nukopijuoti failų</xmbtext>
+ </stringres>
+ <stringres id="CDGo::Picasacd">
+  <xmbtext>„Picasa“ CD</xmbtext>
+ </stringres>
+ <stringres id="CDGo::cantlaunch">
+  <xmbtext>Nepavyksta atidaryti „Picasa“ CD</xmbtext>
+ </stringres>
+ <stringres id="CDGo::picasacd">
+  <xmbtext>„Picasa“ CD</xmbtext>
+ </stringres>
+</resources>

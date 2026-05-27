@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+ <stringres id="February">
+  <xmbtext>лютий</xmbtext>
+ </stringres>
+ <stringres id="March">
+  <xmbtext>Березень</xmbtext>
+ </stringres>
+ <stringres id="April">
+  <xmbtext>Квітень</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Травень</xmbtext>
+ </stringres>
+ <stringres id="June">
+  <xmbtext>Червень</xmbtext>
+ </stringres>
+ <stringres id="July">
+  <xmbtext>Липень</xmbtext>
+ </stringres>
+ <stringres id="August">
+  <xmbtext>Серпень</xmbtext>
+ </stringres>
+ <stringres id="September">
+  <xmbtext>вересень</xmbtext>
+ </stringres>
+ <stringres id="October">
+  <xmbtext>жовтень</xmbtext>
+ </stringres>
+ <stringres id="November">
+  <xmbtext>Листопад</xmbtext>
+ </stringres>
+ <stringres id="December">
+  <xmbtext>Грудень</xmbtext>
+ </stringres>
+ <stringres id="Jan">
+  <xmbtext>Січ.</xmbtext>
+ </stringres>
+ <stringres id="Feb">
+  <xmbtext>Лют.</xmbtext>
+ </stringres>
+ <stringres id="Mar">
+  <xmbtext>Бер.</xmbtext>
+ </stringres>
+ <stringres id="Apr">
+  <xmbtext>Квіт.</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Травень</xmbtext>
+ </stringres>
+ <stringres id="Jun">
+  <xmbtext>чер.</xmbtext>
+ </stringres>
+ <stringres id="Jul">
+  <xmbtext>Лип.</xmbtext>
+ </stringres>
+ <stringres id="Aug">
+  <xmbtext>серп.</xmbtext>
+ </stringres>
+ <stringres id="Sep">
+  <xmbtext>Вер.</xmbtext>
+ </stringres>
+ <stringres id="Oct">
+  <xmbtext>Жов.</xmbtext>
+ </stringres>
+ <stringres id="Nov">
+  <xmbtext>Лист.</xmbtext>
+ </stringres>
+ <stringres id="Dec">
+  <xmbtext>груд.</xmbtext>
+ </stringres>
+ <stringres id="January">
+  <xmbtext>Січень</xmbtext>
+ </stringres>
+ <stringres id="February">
+  <xmbtext>лютий</xmbtext>
+ </stringres>
+ <stringres id="March">
+  <xmbtext>Березень</xmbtext>
+ </stringres>
+ <stringres id="April">
+  <xmbtext>Квітень</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Травень</xmbtext>
+ </stringres>
+ <stringres id="June">
+  <xmbtext>Червень</xmbtext>
+ </stringres>
+ <stringres id="July">
+  <xmbtext>Липень</xmbtext>
+ </stringres>
+ <stringres id="August">
+  <xmbtext>Серпень</xmbtext>
+ </stringres>
+ <stringres id="September">
+  <xmbtext>вересень</xmbtext>
+ </stringres>
+ <stringres id="October">
+  <xmbtext>жовтень</xmbtext>
+ </stringres>
+ <stringres id="November">
+  <xmbtext>Листопад</xmbtext>
+ </stringres>
+ <stringres id="December">
+  <xmbtext>Грудень</xmbtext>
+ </stringres>
+ <stringres id="Jan">
+  <xmbtext>Січ.</xmbtext>
+ </stringres>
+ <stringres id="Feb">
+  <xmbtext>Лют.</xmbtext>
+ </stringres>
+ <stringres id="Mar">
+  <xmbtext>Бер.</xmbtext>
+ </stringres>
+ <stringres id="Apr">
+  <xmbtext>Квіт.</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Травень</xmbtext>
+ </stringres>
+ <stringres id="Jun">
+  <xmbtext>чер.</xmbtext>
+ </stringres>
+ <stringres id="Jul">
+  <xmbtext>Лип.</xmbtext>
+ </stringres>
+ <stringres id="Aug">
+  <xmbtext>серп.</xmbtext>
+ </stringres>
+ <stringres id="Sep">
+  <xmbtext>Вер.</xmbtext>
+ </stringres>
+ <stringres id="Oct">
+  <xmbtext>Жов.</xmbtext>
+ </stringres>
+ <stringres id="Nov">
+  <xmbtext>Лист.</xmbtext>
+ </stringres>
+ <stringres id="Dec">
+  <xmbtext>груд.</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format1">
+  <xmbtext>%1$s %2$d, %3$d</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format2">
+  <xmbtext>%1$s %2$d</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format3">
+  <xmbtext>%1$d:%2$02d:%3$02d %4$cM</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format4">
+  <xmbtext>%1$.2d:%2$.2d:%3$.2d</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigB">
+  <xmbtext>%.0f байт.</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigKB">
+  <xmbtext>%.0f Кб</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigMB">
+  <xmbtext>%.1f Мб</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigGB">
+  <xmbtext>%.1f Гб</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigTB">
+  <xmbtext>%.1f Тб</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyPictures">
+  <xmbtext>Фотографії</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::Desktop">
+  <xmbtext>Робочий стіл</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyPictures">
+  <xmbtext>Фотографії</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::Desktop">
+  <xmbtext>Робочий стіл</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyMusic">
+  <xmbtext>Музика</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyVideos">
+  <xmbtext>Відео</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyDocuments">
+  <xmbtext>Документи</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::ApplicationData">
+  <xmbtext>Бібліотека/Підтримка програми</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::CommonApplicationData">
+  <xmbtext>Бібліотека/Підтримка програми</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::Library">
+  <xmbtext>Бібліотека</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyPictures">
+  <xmbtext>Мої зображення</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::Desktop">
+  <xmbtext>Робочий стіл</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyMusic">
+  <xmbtext>Моя музика</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyVideos">
+  <xmbtext>Мої відео</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyDocuments">
+  <xmbtext>Мої документи</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::ApplicationData">
+  <xmbtext>Допоміжні відомості</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::CommonApplicationData">
+  <xmbtext>Спільні дані програм</xmbtext>
+ </stringres>
+ <stringres id="ytFileUtils::CopyProgress">
+  <xmbtext>%1$s із %2$s</xmbtext>
+ </stringres>
+ <stringres id="CDGo::Quit">
+  <xmbtext>Вихід</xmbtext>
+ </stringres>
+ <stringres id="CDGo::cantcopy">
+  <xmbtext>Не вдається скопіювати компакт-диск Picasa</xmbtext>
+ </stringres>
+ <stringres id="CDGo::cantlaunch">
+  <xmbtext>Не вдається відкрити компакт-диск Picasa</xmbtext>
+ </stringres>
+ <stringres id="CDGo::missinginstaller">
+  <xmbtext>На диску відсутня програма установки</xmbtext>
+ </stringres>
+ <stringres id="CDGo::advanceslide">
+  <xmbtext>%1$s (%2$d із %3$d)</xmbtext>
+ </stringres>
+ <stringres id="CDGo::choosedest">
+  <xmbtext>Виберіть папку для копіювання файлів</xmbtext>
+ </stringres>
+ <stringres id="CDGO::ReplacePrompt">
+  <xmbtext>Папка з назвою \&quot;%s&quot; уже існує. Замінити її на папку з CD-диска?</xmbtext>
+ </stringres>
+ <stringres id="CDGo::ReplaceButton">
+  <xmbtext>Замінити</xmbtext>
+ </stringres>
+ <stringres id="CDGo::SkipButton">
+  <xmbtext>Пропустити</xmbtext>
+ </stringres>
+ <stringres id="CDGo::copyfromcd">
+  <xmbtext>Копіювання з CD</xmbtext>
+ </stringres>
+ <stringres id="CDGo::copyfailed">
+  <xmbtext>помилка копіювання файлів</xmbtext>
+ </stringres>
+ <stringres id="CDGo::Picasacd">
+  <xmbtext>CD-диск Picasa</xmbtext>
+ </stringres>
+ <stringres id="CDGo::cantlaunch">
+  <xmbtext>Не вдається відкрити компакт-диск Picasa</xmbtext>
+ </stringres>
+ <stringres id="CDGo::picasacd">
+  <xmbtext>CD-диск Picasa</xmbtext>
+ </stringres>
+</resources>

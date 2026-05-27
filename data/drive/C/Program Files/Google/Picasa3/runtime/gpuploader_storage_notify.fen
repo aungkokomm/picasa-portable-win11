@@ -1,0 +1,37 @@
+<window name="window" title="Google Photos Backup" width="30em">
+  <group layout="column" width="fill">
+    <group layout="row" width="fill" height="fit">
+      <group layout="column" align="top">
+        <image name="notify_icon" width="72" height="72" align="top"/>
+      </group>
+      <spacer amount="2em"/>
+      <group layout="column" width="fill">
+        <label name="notify_header" title="The new Google Photos Backup" text-align="start" width="fill" height="1.5li" fontweight="bold" win_fontsize="28" mac_fontsize="16"/>
+        <label name="notify_text" title="Storage options for your photos and videos just got a lot better." text-align="start" width="fill" height="fit"/>
+        <link name="notify_learnmore" title="Learn more" url="https://support.google.com/plus/answer/1647509#cost" align="end"/>
+        <spacer amount="1li"/>
+        <radiogroup layout="column" name="upload_size_group">
+          <radio name="free_size" title="High quality (free unlimited storage)" width="fill"/>
+          <spacer amount="0"/>
+          <group layout="row" width="fill">
+            <spacer amount="1.25em"/>
+            <label name="free_size_desc" title="Great visual quality at reduced file size" win_fontsize="13" mac_fontsize="10" width="fill"/>
+          </group>
+          <spacer mac_amount="1li" win_amount="0.5li"/>
+          <radio name="full_size" title="Original (Checking remaining capacity...)" width="fill"/>
+          <spacer amount="0"/>
+          <group layout="row" width="fill">
+            <spacer amount="1.25em"/>
+            <label name="full_size_desc" title="Full resolution that counts against your quota" win_fontsize="13" mac_fontsize="10" width="fill"/>
+          </group>
+        </radiogroup>
+        <spacer amount="1li"/>
+        <label name="notify_extra" title="Browse what's already uploaded and check out all the new Google Photos features at photos.google.com" width = "fill" height="fit"/>
+      </group>
+    </group>
+    <spacer amount="2em"/>
+    <buttongroup align="end">
+      <button name="okbutton" type="accept" title="OK"/>
+   </buttongroup>
+  </group>
+</window>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>Picasa Restore</string>
+	<key>CFBundleGetInfoString</key>
+	<string>Picasa 2.0.5.322 Labs, © 2007-2009 Google Inc.</string>
+	<key>CFBundleIconFile</key>
+	<string>PicasaRestore</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.google.PicasaRestore</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Picasa Restore</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.0.5</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>2.0.5.322</string>
+	<key>GoogleBreakpadProduct</key>
+	<string>Picasa_Mac_Restore</string>
+	<key>GoogleBreakpadProductDisplay</key>
+	<string>Picasa Restore</string>
+	<key>GoogleBreakpadRequestComments</key>
+	<string>1</string>
+	<key>GoogleBreakpadSendAndExit</key>
+	<string>1</string>
+	<key>GoogleBreakpadVersion</key>
+	<string>2.0.5.322</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>© 2007-2009 Google Inc.</string>
+	<key>NSMainNibFile</key>
+	<string>PRMainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+</dict>
+</plist>

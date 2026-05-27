@@ -1,0 +1,11 @@
+<window name="window" title="Please review the license terms before using Picasa" width="32em">
+  <label name="label2" title="By using Picasa you agree to the Google Terms of Service and Privacy Policy." width="fill" align="center" text-align="center"/>
+  <link name="toslink" title="Terms of Service" text-align="center" align="center" url="https://www.google.com/intl/en/policies/terms/"/>
+  <link name="privacylink" title="Privacy Policy" text-align="center" align="center" url="https://www.google.com/intl/en/policies/privacy/"/>
+  <spacer amount="2em"/>
+  <check title="Send anonymous usage statistics to Google (You can always change this setting later)" name="sendstats"/>
+  <buttongroup>
+    <button title="I Agree" type="accept" name="ok"/>
+    <button title="Cancel" type="cancel"/>
+  </buttongroup>
+</window>

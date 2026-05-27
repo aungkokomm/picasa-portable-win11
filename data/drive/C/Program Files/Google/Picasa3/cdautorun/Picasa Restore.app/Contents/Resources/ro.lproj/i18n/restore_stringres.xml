@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+ <stringres id="February">
+  <xmbtext>Februarie</xmbtext>
+ </stringres>
+ <stringres id="March">
+  <xmbtext>Martie</xmbtext>
+ </stringres>
+ <stringres id="April">
+  <xmbtext>Aprilie</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Mai</xmbtext>
+ </stringres>
+ <stringres id="June">
+  <xmbtext>Iunie</xmbtext>
+ </stringres>
+ <stringres id="July">
+  <xmbtext>Iulie</xmbtext>
+ </stringres>
+ <stringres id="August">
+  <xmbtext>August</xmbtext>
+ </stringres>
+ <stringres id="September">
+  <xmbtext>Septembrie</xmbtext>
+ </stringres>
+ <stringres id="October">
+  <xmbtext>Octombrie</xmbtext>
+ </stringres>
+ <stringres id="November">
+  <xmbtext>Noiembrie</xmbtext>
+ </stringres>
+ <stringres id="December">
+  <xmbtext>Decembrie</xmbtext>
+ </stringres>
+ <stringres id="Jan">
+  <xmbtext>Ianuarie</xmbtext>
+ </stringres>
+ <stringres id="Feb">
+  <xmbtext>Februarie</xmbtext>
+ </stringres>
+ <stringres id="Mar">
+  <xmbtext>Martie</xmbtext>
+ </stringres>
+ <stringres id="Apr">
+  <xmbtext>Aprilie</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Mai</xmbtext>
+ </stringres>
+ <stringres id="Jun">
+  <xmbtext>Iunie</xmbtext>
+ </stringres>
+ <stringres id="Jul">
+  <xmbtext>Iulie</xmbtext>
+ </stringres>
+ <stringres id="Aug">
+  <xmbtext>August</xmbtext>
+ </stringres>
+ <stringres id="Sep">
+  <xmbtext>Septembrie</xmbtext>
+ </stringres>
+ <stringres id="Oct">
+  <xmbtext>Octombrie</xmbtext>
+ </stringres>
+ <stringres id="Nov">
+  <xmbtext>Noiembrie</xmbtext>
+ </stringres>
+ <stringres id="Dec">
+  <xmbtext>Decembrie</xmbtext>
+ </stringres>
+ <stringres id="January">
+  <xmbtext>Ianuarie</xmbtext>
+ </stringres>
+ <stringres id="February">
+  <xmbtext>Februarie</xmbtext>
+ </stringres>
+ <stringres id="March">
+  <xmbtext>Martie</xmbtext>
+ </stringres>
+ <stringres id="April">
+  <xmbtext>Aprilie</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Mai</xmbtext>
+ </stringres>
+ <stringres id="June">
+  <xmbtext>Iunie</xmbtext>
+ </stringres>
+ <stringres id="July">
+  <xmbtext>Iulie</xmbtext>
+ </stringres>
+ <stringres id="August">
+  <xmbtext>August</xmbtext>
+ </stringres>
+ <stringres id="September">
+  <xmbtext>Septembrie</xmbtext>
+ </stringres>
+ <stringres id="October">
+  <xmbtext>Octombrie</xmbtext>
+ </stringres>
+ <stringres id="November">
+  <xmbtext>Noiembrie</xmbtext>
+ </stringres>
+ <stringres id="December">
+  <xmbtext>Decembrie</xmbtext>
+ </stringres>
+ <stringres id="Jan">
+  <xmbtext>Ianuarie</xmbtext>
+ </stringres>
+ <stringres id="Feb">
+  <xmbtext>Februarie</xmbtext>
+ </stringres>
+ <stringres id="Mar">
+  <xmbtext>Martie</xmbtext>
+ </stringres>
+ <stringres id="Apr">
+  <xmbtext>Aprilie</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Mai</xmbtext>
+ </stringres>
+ <stringres id="Jun">
+  <xmbtext>Iunie</xmbtext>
+ </stringres>
+ <stringres id="Jul">
+  <xmbtext>Iulie</xmbtext>
+ </stringres>
+ <stringres id="Aug">
+  <xmbtext>August</xmbtext>
+ </stringres>
+ <stringres id="Sep">
+  <xmbtext>Septembrie</xmbtext>
+ </stringres>
+ <stringres id="Oct">
+  <xmbtext>Octombrie</xmbtext>
+ </stringres>
+ <stringres id="Nov">
+  <xmbtext>Noiembrie</xmbtext>
+ </stringres>
+ <stringres id="Dec">
+  <xmbtext>Decembrie</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format1">
+  <xmbtext>%1$s %2$d, %3$d</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format2">
+  <xmbtext>%1$s %2$d</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format3">
+  <xmbtext>%1$d:%2$02d:%3$02d %4$cM</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format4">
+  <xmbtext>%1$.2d:%2$.2d:%3$.2d</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigB">
+  <xmbtext>%.0f (de) octeţi</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigKB">
+  <xmbtext>%.0f KO</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigMB">
+  <xmbtext>%.1f MO</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigGB">
+  <xmbtext>%.1f GO</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigTB">
+  <xmbtext>%.1f (de) TO</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyPictures">
+  <xmbtext>Fotografii</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::Desktop">
+  <xmbtext>Desktop</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyMusic">
+  <xmbtext>Muzică</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyVideos">
+  <xmbtext>Filme</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyDocuments">
+  <xmbtext>Documente</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::ApplicationData">
+  <xmbtext>Library (Fototecă)/Application Support (Compatibilitate aplicaţii)</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::CommonApplicationData">
+  <xmbtext>Library (Fototecă)/Application Support (Compatibilitate aplicaţii)</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::Library">
+  <xmbtext>Fototecă</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyPictures">
+  <xmbtext>Fotografiile mele</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::Desktop">
+  <xmbtext>Desktop</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyMusic">
+  <xmbtext>Muzica mea</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyVideos">
+  <xmbtext>Videoclipurile mele</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyDocuments">
+  <xmbtext>Documentele mele</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::ApplicationData">
+  <xmbtext>Date ale aplicaţiei</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::CommonApplicationData">
+  <xmbtext>Date aplicaţie comună</xmbtext>
+ </stringres>
+ <stringres id="ytFileUtils::CopyProgress">
+  <xmbtext>%1$s din %2$s</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::error">
+  <xmbtext>Eroare</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::copy">
+  <xmbtext>Copiaţi</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::replace">
+  <xmbtext>Înlocuiţi</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::newer">
+  <xmbtext>Mai nou</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::current">
+  <xmbtext>Curent</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::protected">
+  <xmbtext>Protejat</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscalc">
+  <xmbtext>Se calculează fişiere</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::restoremsg">
+  <xmbtext>Restabiliţi la: %s</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statusreadyrestore">
+  <xmbtext>%1$d (de) fişiere (%2$s) gata de restabilit</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscopying">
+  <xmbtext>Se copiază fişiere</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscomplete">
+  <xmbtext>Finalizat</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::donebutton">
+  <xmbtext>Terminat</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscalcfiles">
+  <xmbtext>Se calculează %1$d (de) fişiere %2$s</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscopied">
+  <xmbtext>%1$d (de) fişiere copiate %2$s</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::errorformat">
+  <xmbtext>Eroare (%d)</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::complete">
+  <xmbtext>Finalizat</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::actionheader">
+  <xmbtext>Acţiune</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::srcheader">
+  <xmbtext>Fişier sursă</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::destheader">
+  <xmbtext>Fişier destinaţie</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::sizeheader">
+  <xmbtext>Dimensiune</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::dateheader">
+  <xmbtext>Data</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::deflocation">
+  <xmbtext>dintr-o copie de rezervă Picasa\\</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::changetitle">
+  <xmbtext>Alegeţi locaţia pentru fişiere</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::cantcopy">
+  <xmbtext>Imposibil de copiat o copie temporară a aplicaţiei</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::cantlaunch">
+  <xmbtext>Imposibil de deschis aplicaţia</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::unknown">
+  <xmbtext>Necunoscut</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::nothing">
+  <xmbtext>Nimic</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::error">
+  <xmbtext>Eroare</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::copy">
+  <xmbtext>Copiaţi</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::replace">
+  <xmbtext>Înlocuiţi</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::newer">
+  <xmbtext>Mai nou</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::current">
+  <xmbtext>Curent</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::protected">
+  <xmbtext>Protejat</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::copying">
+  <xmbtext>Se copiază</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::skipping">
+  <xmbtext>Se ignoră</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::restored">
+  <xmbtext>Restabilit</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::skipped">
+  <xmbtext>Ignorat</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::cantFind">
+  <xmbtext>Nu s-a putut găsi niciun manifest denumit „%1$s” sau „%2$s”.</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::error">
+  <xmbtext>Eroare</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::quit">
+  <xmbtext>Ieşiţi</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::open">
+  <xmbtext>Deschideţi manifestul...</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscalc">
+  <xmbtext>Se calculează fişiere</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::restoremsg">
+  <xmbtext>Restabiliţi la: %s</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statusreadyrestore">
+  <xmbtext>%1$d (de) fişiere (%2$s) gata de restabilit</xmbtext>
+ </stringres>
+ <stringres id="CCaptureMovieDialog::stop">
+  <xmbtext>Opriţi</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::finished">
+  <xmbtext>S-a încheiat restaurarea a %1$d (de) fişiere, ajungându-se la un total de %2$s.</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::restoring">
+  <xmbtext>Se restabileşte fişierul „%1$s” (%2$d din %3$d)</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::copying">
+  <xmbtext>Se copiază</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::restored">
+  <xmbtext>S-a restabilit fişierul „%@” (%1$d din%2$d)</xmbtext>
+ </stringres>
+</resources>

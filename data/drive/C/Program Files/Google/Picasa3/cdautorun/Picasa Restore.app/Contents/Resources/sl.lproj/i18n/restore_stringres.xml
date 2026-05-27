@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+ <stringres id="February">
+  <xmbtext>februar</xmbtext>
+ </stringres>
+ <stringres id="March">
+  <xmbtext>marec</xmbtext>
+ </stringres>
+ <stringres id="April">
+  <xmbtext>april</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>maj</xmbtext>
+ </stringres>
+ <stringres id="June">
+  <xmbtext>junij</xmbtext>
+ </stringres>
+ <stringres id="July">
+  <xmbtext>julij</xmbtext>
+ </stringres>
+ <stringres id="August">
+  <xmbtext>avgust</xmbtext>
+ </stringres>
+ <stringres id="September">
+  <xmbtext>september</xmbtext>
+ </stringres>
+ <stringres id="October">
+  <xmbtext>oktober</xmbtext>
+ </stringres>
+ <stringres id="November">
+  <xmbtext>november</xmbtext>
+ </stringres>
+ <stringres id="December">
+  <xmbtext>december</xmbtext>
+ </stringres>
+ <stringres id="Jan">
+  <xmbtext>jan</xmbtext>
+ </stringres>
+ <stringres id="Feb">
+  <xmbtext>feb</xmbtext>
+ </stringres>
+ <stringres id="Mar">
+  <xmbtext>mar</xmbtext>
+ </stringres>
+ <stringres id="Apr">
+  <xmbtext>apr</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>maj</xmbtext>
+ </stringres>
+ <stringres id="Jun">
+  <xmbtext>jun</xmbtext>
+ </stringres>
+ <stringres id="Jul">
+  <xmbtext>jul</xmbtext>
+ </stringres>
+ <stringres id="Aug">
+  <xmbtext>avg</xmbtext>
+ </stringres>
+ <stringres id="Sep">
+  <xmbtext>sep</xmbtext>
+ </stringres>
+ <stringres id="Oct">
+  <xmbtext>okt</xmbtext>
+ </stringres>
+ <stringres id="Nov">
+  <xmbtext>nov</xmbtext>
+ </stringres>
+ <stringres id="Dec">
+  <xmbtext>dec</xmbtext>
+ </stringres>
+ <stringres id="January">
+  <xmbtext>januar</xmbtext>
+ </stringres>
+ <stringres id="February">
+  <xmbtext>februar</xmbtext>
+ </stringres>
+ <stringres id="March">
+  <xmbtext>marec</xmbtext>
+ </stringres>
+ <stringres id="April">
+  <xmbtext>april</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>maj</xmbtext>
+ </stringres>
+ <stringres id="June">
+  <xmbtext>junij</xmbtext>
+ </stringres>
+ <stringres id="July">
+  <xmbtext>julij</xmbtext>
+ </stringres>
+ <stringres id="August">
+  <xmbtext>avgust</xmbtext>
+ </stringres>
+ <stringres id="September">
+  <xmbtext>september</xmbtext>
+ </stringres>
+ <stringres id="October">
+  <xmbtext>oktober</xmbtext>
+ </stringres>
+ <stringres id="November">
+  <xmbtext>november</xmbtext>
+ </stringres>
+ <stringres id="December">
+  <xmbtext>december</xmbtext>
+ </stringres>
+ <stringres id="Jan">
+  <xmbtext>jan</xmbtext>
+ </stringres>
+ <stringres id="Feb">
+  <xmbtext>feb</xmbtext>
+ </stringres>
+ <stringres id="Mar">
+  <xmbtext>mar</xmbtext>
+ </stringres>
+ <stringres id="Apr">
+  <xmbtext>apr</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>maj</xmbtext>
+ </stringres>
+ <stringres id="Jun">
+  <xmbtext>jun</xmbtext>
+ </stringres>
+ <stringres id="Jul">
+  <xmbtext>jul</xmbtext>
+ </stringres>
+ <stringres id="Aug">
+  <xmbtext>avg</xmbtext>
+ </stringres>
+ <stringres id="Sep">
+  <xmbtext>sep</xmbtext>
+ </stringres>
+ <stringres id="Oct">
+  <xmbtext>okt</xmbtext>
+ </stringres>
+ <stringres id="Nov">
+  <xmbtext>nov</xmbtext>
+ </stringres>
+ <stringres id="Dec">
+  <xmbtext>dec</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format1">
+  <xmbtext>%1$s %2$d, %3$d</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format2">
+  <xmbtext>%1$s %2$d</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format3">
+  <xmbtext>%1$d:%2$02d:%3$02d %4$cM</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format4">
+  <xmbtext>%1$.2d:%2$.2d:%3$.2d</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigB">
+  <xmbtext>%.0f bajtov</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigKB">
+  <xmbtext>%.0f KB</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigMB">
+  <xmbtext>%.1f MB</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigGB">
+  <xmbtext>%.1f GB</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigTB">
+  <xmbtext>%.1f TB</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyPictures">
+  <xmbtext>Slike</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::Desktop">
+  <xmbtext>Namizje</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyMusic">
+  <xmbtext>Glasba</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyVideos">
+  <xmbtext>Filmi</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyDocuments">
+  <xmbtext>Dokumenti</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::ApplicationData">
+  <xmbtext>Podpora za knjižnice/aplikacije</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::CommonApplicationData">
+  <xmbtext>Podpora za knjižnice/aplikacije</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::Library">
+  <xmbtext>Knjižnica</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyPictures">
+  <xmbtext>Moje slike</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::Desktop">
+  <xmbtext>Namizje</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyMusic">
+  <xmbtext>Moja glasba</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyVideos">
+  <xmbtext>Moji videoposnetki</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyDocuments">
+  <xmbtext>Moji dokumenti</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::ApplicationData">
+  <xmbtext>Application Data</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::CommonApplicationData">
+  <xmbtext>Splošni podatki o aplikaciji</xmbtext>
+ </stringres>
+ <stringres id="ytFileUtils::CopyProgress">
+  <xmbtext>%1$s od %2$s</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::error">
+  <xmbtext>Napaka</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::copy">
+  <xmbtext>Kopiraj</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::replace">
+  <xmbtext>Zamenjaj</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::newer">
+  <xmbtext>Novejše</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::current">
+  <xmbtext>Trenutno</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::protected">
+  <xmbtext>Zaščiteno</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscalc">
+  <xmbtext>Preračunavam datoteke</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::restoremsg">
+  <xmbtext>Obnovi v: %s</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statusreadyrestore">
+  <xmbtext>Št. datotek: %1$d (%2$s), pripravljenih za obnovitev</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscopying">
+  <xmbtext>Kopiranje datotek</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscomplete">
+  <xmbtext>Dokončano</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::donebutton">
+  <xmbtext>Končano</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscalcfiles">
+  <xmbtext>Preračunavam %1$d datoteke %2$s</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscopied">
+  <xmbtext>Št. kopiranih datotek: %1$d %2$s</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::errorformat">
+  <xmbtext>Napaka (%d)</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::complete">
+  <xmbtext>Dokončano</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::actionheader">
+  <xmbtext>Dejanje</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::srcheader">
+  <xmbtext>Izvorna datoteka</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::destheader">
+  <xmbtext>Ciljna datoteka</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::sizeheader">
+  <xmbtext>Velikost</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::dateheader">
+  <xmbtext>Datum</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::deflocation">
+  <xmbtext>iz Picasine varnostne kopije\\</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::changetitle">
+  <xmbtext>Izberite mesto za datoteke</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::cantcopy">
+  <xmbtext>Začasne kopije aplikacije ni mogoče kopirati.</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::cantlaunch">
+  <xmbtext>Programa ni bilo mogoče zagnati</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::unknown">
+  <xmbtext>Neznano</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::nothing">
+  <xmbtext>Nič</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::error">
+  <xmbtext>Napaka</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::copy">
+  <xmbtext>Kopiraj</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::replace">
+  <xmbtext>Zamenjaj</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::newer">
+  <xmbtext>Novejše</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::current">
+  <xmbtext>Trenutno</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::protected">
+  <xmbtext>Zaščiteno</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::copying">
+  <xmbtext>Kopiranje</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::skipping">
+  <xmbtext>Preskakovanje</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::restored">
+  <xmbtext>Obnovljeno</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::skipped">
+  <xmbtext>Preskočeno</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::cantFind">
+  <xmbtext>Najti ni bilo mogoče nobenega manifesta z imenom »%1$s« ali »%2$s«.</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::error">
+  <xmbtext>Napaka</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::quit">
+  <xmbtext>Zapri</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::open">
+  <xmbtext>Odpri manifest ...</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscalc">
+  <xmbtext>Preračunavam datoteke</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::restoremsg">
+  <xmbtext>Obnovi v: %s</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statusreadyrestore">
+  <xmbtext>Št. datotek: %1$d (%2$s), pripravljenih za obnovitev</xmbtext>
+ </stringres>
+ <stringres id="CCaptureMovieDialog::stop">
+  <xmbtext>Ustavi</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::finished">
+  <xmbtext>Št. datotek, ki so bile obnovljene: %1$d. Skupno število obnovljenih datotek: %2$s.</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::restoring">
+  <xmbtext>Obnavljanje datoteke »%1$s« (%2$d od %3$d)</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::copying">
+  <xmbtext>Kopiranje</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::restored">
+  <xmbtext>Datoteka »%@« je obnovljena (%1$d od %2$d)</xmbtext>
+ </stringres>
+</resources>

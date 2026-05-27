@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+ <stringres id="February">
+  <xmbtext>2 月</xmbtext>
+ </stringres>
+ <stringres id="March">
+  <xmbtext>3 月</xmbtext>
+ </stringres>
+ <stringres id="April">
+  <xmbtext>4 月</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>5 月</xmbtext>
+ </stringres>
+ <stringres id="June">
+  <xmbtext>6 月</xmbtext>
+ </stringres>
+ <stringres id="July">
+  <xmbtext>7 月</xmbtext>
+ </stringres>
+ <stringres id="August">
+  <xmbtext>8 月</xmbtext>
+ </stringres>
+ <stringres id="September">
+  <xmbtext>9 月</xmbtext>
+ </stringres>
+ <stringres id="October">
+  <xmbtext>10 月</xmbtext>
+ </stringres>
+ <stringres id="November">
+  <xmbtext>11 月</xmbtext>
+ </stringres>
+ <stringres id="December">
+  <xmbtext>12 月</xmbtext>
+ </stringres>
+ <stringres id="Jan">
+  <xmbtext>1 月</xmbtext>
+ </stringres>
+ <stringres id="Feb">
+  <xmbtext>2 月</xmbtext>
+ </stringres>
+ <stringres id="Mar">
+  <xmbtext>3 月</xmbtext>
+ </stringres>
+ <stringres id="Apr">
+  <xmbtext>4 月</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>5 月</xmbtext>
+ </stringres>
+ <stringres id="Jun">
+  <xmbtext>6 月</xmbtext>
+ </stringres>
+ <stringres id="Jul">
+  <xmbtext>7 月</xmbtext>
+ </stringres>
+ <stringres id="Aug">
+  <xmbtext>8 月</xmbtext>
+ </stringres>
+ <stringres id="Sep">
+  <xmbtext>9 月</xmbtext>
+ </stringres>
+ <stringres id="Oct">
+  <xmbtext>10 月</xmbtext>
+ </stringres>
+ <stringres id="Nov">
+  <xmbtext>11 月</xmbtext>
+ </stringres>
+ <stringres id="Dec">
+  <xmbtext>12 月</xmbtext>
+ </stringres>
+ <stringres id="January">
+  <xmbtext>1 月</xmbtext>
+ </stringres>
+ <stringres id="February">
+  <xmbtext>2 月</xmbtext>
+ </stringres>
+ <stringres id="March">
+  <xmbtext>3 月</xmbtext>
+ </stringres>
+ <stringres id="April">
+  <xmbtext>4 月</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>5 月</xmbtext>
+ </stringres>
+ <stringres id="June">
+  <xmbtext>6 月</xmbtext>
+ </stringres>
+ <stringres id="July">
+  <xmbtext>7 月</xmbtext>
+ </stringres>
+ <stringres id="August">
+  <xmbtext>8 月</xmbtext>
+ </stringres>
+ <stringres id="September">
+  <xmbtext>9 月</xmbtext>
+ </stringres>
+ <stringres id="October">
+  <xmbtext>10 月</xmbtext>
+ </stringres>
+ <stringres id="November">
+  <xmbtext>11 月</xmbtext>
+ </stringres>
+ <stringres id="December">
+  <xmbtext>12 月</xmbtext>
+ </stringres>
+ <stringres id="Jan">
+  <xmbtext>1 月</xmbtext>
+ </stringres>
+ <stringres id="Feb">
+  <xmbtext>2 月</xmbtext>
+ </stringres>
+ <stringres id="Mar">
+  <xmbtext>3 月</xmbtext>
+ </stringres>
+ <stringres id="Apr">
+  <xmbtext>4 月</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>5 月</xmbtext>
+ </stringres>
+ <stringres id="Jun">
+  <xmbtext>6 月</xmbtext>
+ </stringres>
+ <stringres id="Jul">
+  <xmbtext>7 月</xmbtext>
+ </stringres>
+ <stringres id="Aug">
+  <xmbtext>8 月</xmbtext>
+ </stringres>
+ <stringres id="Sep">
+  <xmbtext>9 月</xmbtext>
+ </stringres>
+ <stringres id="Oct">
+  <xmbtext>10 月</xmbtext>
+ </stringres>
+ <stringres id="Nov">
+  <xmbtext>11 月</xmbtext>
+ </stringres>
+ <stringres id="Dec">
+  <xmbtext>12 月</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format1">
+  <xmbtext>%1$s %2$d、%3$d</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format2">
+  <xmbtext>%1$s %2$d</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format3">
+  <xmbtext>%1$d:%2$02d:%3$02d %4$c M</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format4">
+  <xmbtext>%1$.2d:%2$.2d:%3$.2d</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigB">
+  <xmbtext>%.0f バイト</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigKB">
+  <xmbtext>%.0f KB</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigMB">
+  <xmbtext>%.1f MB</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigGB">
+  <xmbtext>%.1f GB</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigTB">
+  <xmbtext>%.1f TB</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyPictures">
+  <xmbtext>画像</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::Desktop">
+  <xmbtext>デスクトップ</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyPictures">
+  <xmbtext>画像</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::Desktop">
+  <xmbtext>デスクトップ</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyMusic">
+  <xmbtext>音楽</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyVideos">
+  <xmbtext>ムービー</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyDocuments">
+  <xmbtext>ドキュメント</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::ApplicationData">
+  <xmbtext>ライブラリ/アプリケーション サポート</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::CommonApplicationData">
+  <xmbtext>ライブラリ/アプリケーション サポート</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::Library">
+  <xmbtext>ライブラリ</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyPictures">
+  <xmbtext>マイ ピクチャ</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::Desktop">
+  <xmbtext>デスクトップ</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyMusic">
+  <xmbtext>マイ ミュージック</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyVideos">
+  <xmbtext>マイ動画</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyDocuments">
+  <xmbtext>マイ ドキュメント</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::ApplicationData">
+  <xmbtext>アプリケーション データ</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::CommonApplicationData">
+  <xmbtext>共通のアプリケーション データ</xmbtext>
+ </stringres>
+ <stringres id="ytFileUtils::CopyProgress">
+  <xmbtext>%1$s / %2$s</xmbtext>
+ </stringres>
+ <stringres id="CDGo::Quit">
+  <xmbtext>終了</xmbtext>
+ </stringres>
+ <stringres id="CDGo::cantcopy">
+  <xmbtext>Picasa CD をコピーできません</xmbtext>
+ </stringres>
+ <stringres id="CDGo::cantlaunch">
+  <xmbtext>Picasa CD を開けません</xmbtext>
+ </stringres>
+ <stringres id="CDGo::missinginstaller">
+  <xmbtext>インストーラがディスクに含まれていません</xmbtext>
+ </stringres>
+ <stringres id="CDGo::advanceslide">
+  <xmbtext>%1$s（%2$d / %3$d）</xmbtext>
+ </stringres>
+ <stringres id="CDGo::choosedest">
+  <xmbtext>ファイルをコピーするフォルダを選択</xmbtext>
+ </stringres>
+ <stringres id="CDGO::ReplacePrompt">
+  <xmbtext>フォルダ「%s」は既に存在しています。CD のフォルダに置き換えますか？</xmbtext>
+ </stringres>
+ <stringres id="CDGo::ReplaceButton">
+  <xmbtext>置換</xmbtext>
+ </stringres>
+ <stringres id="CDGo::SkipButton">
+  <xmbtext>スキップ</xmbtext>
+ </stringres>
+ <stringres id="CDGo::copyfromcd">
+  <xmbtext>CD からコピーしています</xmbtext>
+ </stringres>
+ <stringres id="CDGo::copyfailed">
+  <xmbtext>ファイルのコピーに失敗しました</xmbtext>
+ </stringres>
+ <stringres id="CDGo::Picasacd">
+  <xmbtext>Picasa CD</xmbtext>
+ </stringres>
+ <stringres id="CDGo::cantlaunch">
+  <xmbtext>Picasa CD を開けません</xmbtext>
+ </stringres>
+ <stringres id="CDGo::picasacd">
+  <xmbtext>Picasa CD</xmbtext>
+ </stringres>
+</resources>

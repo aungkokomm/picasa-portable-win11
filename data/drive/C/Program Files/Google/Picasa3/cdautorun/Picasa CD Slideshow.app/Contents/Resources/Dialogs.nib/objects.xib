@@ -1,0 +1,165 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="14" name="allObjects">
+    <object class="IBCarbonStaticText" id="357">
+      <int name="controlID">5</int>
+      <int name="fontStyle">-2</int>
+      <string name="title">All other product, service names, brands,&#10;or trademarks are the property of their respective owners.</string>
+      <int name="justification">1</int>
+      <string name="viewFrame">20 164 267 40 </string>
+      <string name="bounds">164 20 204 287 </string>
+    </object>
+    <object class="IBCarbonWindow" id="351">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="asyncDrag">TRUE</boolean>
+      <int name="themeBrush">5</int>
+      <int name="windowPosition">7</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">About Picasa</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="352">
+        <string name="viewFrame">0 0 307 273 </string>
+        <array count="6" name="subviews">
+          <object class="IBCarbonIcon" id="353">
+            <int name="controlID">1</int>
+            <int name="contentType">132</int>
+            <int name="contentResID">1095782476</int>
+            <int name="creator">0</int>
+            <string name="viewFrame">121 20 64 64 </string>
+            <string name="bounds">20 121 84 185 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="354">
+            <int name="controlID">2</int>
+            <int name="fontStyle">4</int>
+            <string name="title">Picasa</string>
+            <int name="justification">1</int>
+            <string name="viewFrame">20 92 267 16 </string>
+            <string name="bounds">92 20 108 287 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="355">
+            <int name="controlID">3</int>
+            <int name="fontStyle">-2</int>
+            <int name="justification">1</int>
+            <string name="viewFrame">20 116 267 16 </string>
+            <string name="bounds">116 20 132 287 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="356">
+            <int name="controlID">4</int>
+            <int name="fontStyle">-2</int>
+            <string name="title">Copyright © 2003-2009 Google, Inc.</string>
+            <int name="justification">1</int>
+            <string name="viewFrame">20 140 267 16 </string>
+            <string name="bounds">140 20 156 287 </string>
+          </object>
+          <reference idRef="357"/>
+          <object class="IBCarbonStaticText" id="358">
+            <int name="controlID">6</int>
+            <int name="fontStyle">-2</int>
+            <string name="title">This software is based in part on the work of the Independent JPEG Group. This program is protected by U.S. and international copyright law.</string>
+            <int name="justification">1</int>
+            <string name="viewFrame">20 212 267 41 </string>
+            <string name="bounds">212 20 253 287 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 273 307 </string>
+      </object>
+      <string name="windowRect">240 196 513 503 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+      <int name="WindowMaxWidth">0</int>
+      <int name="WindowMaxHeight">0</int>
+    </object>
+    <object class="IBCarbonRootControl" id="310">
+      <string name="viewFrame">0 0 368 149 </string>
+      <array count="4" name="subviews">
+        <object class="IBCarbonStaticText" id="311">
+          <ostype name="controlSignature">Copy</ostype>
+          <string name="title">Copying...</string>
+          <string name="viewFrame">20 20 328 16 </string>
+          <string name="bounds">20 20 36 348 </string>
+        </object>
+        <object class="IBCarbonProgressBar" id="312">
+          <ostype name="controlSignature">Prog</ostype>
+          <int name="maximumValue">0</int>
+          <string name="viewFrame">19 47 330 19 </string>
+          <string name="bounds">47 19 66 349 </string>
+        </object>
+        <object class="IBCarbonButton" id="313">
+          <ostype name="command">not!</ostype>
+          <int name="buttonType">2</int>
+          <string name="title">Stop</string>
+          <string name="viewFrame">278 109 70 20 </string>
+          <string name="bounds">109 278 129 348 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="314">
+          <ostype name="controlSignature">Text</ostype>
+          <int name="fontStyle">-2</int>
+          <string name="title">Calculating sizes...</string>
+          <string name="viewFrame">20 76 328 13 </string>
+          <string name="bounds">76 20 89 348 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 149 368 </string>
+    </object>
+    <reference idRef="352"/>
+    <reference idRef="312"/>
+    <object class="IBCarbonWindow" id="309">
+      <boolean name="hasCloseBox">TRUE</boolean>
+      <boolean name="hasHorizontalZoom">TRUE</boolean>
+      <boolean name="hasVerticalZoom">TRUE</boolean>
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="asyncDrag">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="windowPosition">7</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Copy</string>
+      <reference name="rootControl" idRef="310"/>
+      <string name="windowRect">351 680 500 1048 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="353"/>
+    <reference idRef="358"/>
+    <reference idRef="356"/>
+    <reference idRef="314"/>
+    <reference idRef="355"/>
+    <reference idRef="313"/>
+    <reference idRef="354"/>
+    <reference idRef="311"/>
+  </array>
+  <array count="14" name="allParents">
+    <reference idRef="352"/>
+    <reference idRef="1"/>
+    <reference idRef="309"/>
+    <reference idRef="351"/>
+    <reference idRef="310"/>
+    <reference idRef="1"/>
+    <reference idRef="352"/>
+    <reference idRef="352"/>
+    <reference idRef="352"/>
+    <reference idRef="310"/>
+    <reference idRef="352"/>
+    <reference idRef="310"/>
+    <reference idRef="352"/>
+    <reference idRef="310"/>
+  </array>
+  <dictionary count="3" name="nameTable">
+    <string>About</string>
+    <reference idRef="351"/>
+    <string>Copy</string>
+    <reference idRef="309"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">381</unsigned_int>
+</object>

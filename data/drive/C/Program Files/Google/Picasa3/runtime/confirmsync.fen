@@ -1,0 +1,24 @@
+<window title="Sync Album to Web" width="fit">
+  <label title="Upload this album to Web Albums and keep it in sync?" name="msg"/>
+  <label title="Current settings:"/>
+  <group layout="row" width="fill">
+    <spacer amount="3em"/>
+    <group layout="column" width="fill">
+      <labelgroup title="Size:" width="fill">
+        <label title="default size goes here" name="size" width="fill"/>
+      </labelgroup>
+      <labelgroup title="Visibility:" width="fill">
+        <label title="Unlisted" name="visibility" width="fill"/>
+      </labelgroup>
+      <label title="Sync starred photos only" name="starred" width="fill"/>
+    </group>
+  </group>
+  <check title="Don't ask me again (always use current settings)" name="dontask"/>
+  <group layout="row" width="fill">
+    <button title="Change Settings..." name="change"/>
+    <buttongroup>
+      <button title="Sync" type="accept"/>
+      <button title="Cancel" type="cancel"/>
+    </buttongroup>
+  </group>
+</window>

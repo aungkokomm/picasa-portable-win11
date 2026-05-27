@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+ <stringres id="February">
+  <xmbtext>Pebrero</xmbtext>
+ </stringres>
+ <stringres id="March">
+  <xmbtext>Marso</xmbtext>
+ </stringres>
+ <stringres id="April">
+  <xmbtext>Abril</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Mayo</xmbtext>
+ </stringres>
+ <stringres id="June">
+  <xmbtext>Hunyo</xmbtext>
+ </stringres>
+ <stringres id="July">
+  <xmbtext>Hulyo</xmbtext>
+ </stringres>
+ <stringres id="August">
+  <xmbtext>Agosto</xmbtext>
+ </stringres>
+ <stringres id="September">
+  <xmbtext>Setyembre</xmbtext>
+ </stringres>
+ <stringres id="October">
+  <xmbtext>Oktubre</xmbtext>
+ </stringres>
+ <stringres id="November">
+  <xmbtext>Nobyembre</xmbtext>
+ </stringres>
+ <stringres id="December">
+  <xmbtext>Disyembre</xmbtext>
+ </stringres>
+ <stringres id="Jan">
+  <xmbtext>Ene</xmbtext>
+ </stringres>
+ <stringres id="Feb">
+  <xmbtext>Peb</xmbtext>
+ </stringres>
+ <stringres id="Mar">
+  <xmbtext>Mar</xmbtext>
+ </stringres>
+ <stringres id="Apr">
+  <xmbtext>Abr</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Mayo</xmbtext>
+ </stringres>
+ <stringres id="Jun">
+  <xmbtext>Hun</xmbtext>
+ </stringres>
+ <stringres id="Jul">
+  <xmbtext>Hul</xmbtext>
+ </stringres>
+ <stringres id="Aug">
+  <xmbtext>Ago</xmbtext>
+ </stringres>
+ <stringres id="Sep">
+  <xmbtext>Set</xmbtext>
+ </stringres>
+ <stringres id="Oct">
+  <xmbtext>Okt</xmbtext>
+ </stringres>
+ <stringres id="Nov">
+  <xmbtext>Nob</xmbtext>
+ </stringres>
+ <stringres id="Dec">
+  <xmbtext>Dis</xmbtext>
+ </stringres>
+ <stringres id="January">
+  <xmbtext>Enero</xmbtext>
+ </stringres>
+ <stringres id="February">
+  <xmbtext>Pebrero</xmbtext>
+ </stringres>
+ <stringres id="March">
+  <xmbtext>Marso</xmbtext>
+ </stringres>
+ <stringres id="April">
+  <xmbtext>Abril</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Mayo</xmbtext>
+ </stringres>
+ <stringres id="June">
+  <xmbtext>Hunyo</xmbtext>
+ </stringres>
+ <stringres id="July">
+  <xmbtext>Hulyo</xmbtext>
+ </stringres>
+ <stringres id="August">
+  <xmbtext>Agosto</xmbtext>
+ </stringres>
+ <stringres id="September">
+  <xmbtext>Setyembre</xmbtext>
+ </stringres>
+ <stringres id="October">
+  <xmbtext>Oktubre</xmbtext>
+ </stringres>
+ <stringres id="November">
+  <xmbtext>Nobyembre</xmbtext>
+ </stringres>
+ <stringres id="December">
+  <xmbtext>Disyembre</xmbtext>
+ </stringres>
+ <stringres id="Jan">
+  <xmbtext>Ene</xmbtext>
+ </stringres>
+ <stringres id="Feb">
+  <xmbtext>Peb</xmbtext>
+ </stringres>
+ <stringres id="Mar">
+  <xmbtext>Mar</xmbtext>
+ </stringres>
+ <stringres id="Apr">
+  <xmbtext>Abr</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Mayo</xmbtext>
+ </stringres>
+ <stringres id="Jun">
+  <xmbtext>Hun</xmbtext>
+ </stringres>
+ <stringres id="Jul">
+  <xmbtext>Hul</xmbtext>
+ </stringres>
+ <stringres id="Aug">
+  <xmbtext>Ago</xmbtext>
+ </stringres>
+ <stringres id="Sep">
+  <xmbtext>Set</xmbtext>
+ </stringres>
+ <stringres id="Oct">
+  <xmbtext>Okt</xmbtext>
+ </stringres>
+ <stringres id="Nov">
+  <xmbtext>Nob</xmbtext>
+ </stringres>
+ <stringres id="Dec">
+  <xmbtext>Dis</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format1">
+  <xmbtext>%1$s %2$d, %3$d</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format2">
+  <xmbtext>%1$s %2$d</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format3">
+  <xmbtext>%1$d:%2$02d:%3$02d %4$cM</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format4">
+  <xmbtext>%1$.2d:%2$.2d:%3$.2d</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigB">
+  <xmbtext>%.0f (na) mga byte</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigKB">
+  <xmbtext>%.0fKB</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigMB">
+  <xmbtext>%.1fMB</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigGB">
+  <xmbtext>%.1fGB</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigTB">
+  <xmbtext>%.1fTB</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyPictures">
+  <xmbtext>Mga Larawan</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::Desktop">
+  <xmbtext>Desktop</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyPictures">
+  <xmbtext>Mga Larawan</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::Desktop">
+  <xmbtext>Desktop</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyMusic">
+  <xmbtext>Musika</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyVideos">
+  <xmbtext>Palabas</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyDocuments">
+  <xmbtext>Mga Dokumento</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::ApplicationData">
+  <xmbtext>Suporta sa Library/Application</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::CommonApplicationData">
+  <xmbtext>Suporta sa Library/Application</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::Library">
+  <xmbtext>Library</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyPictures">
+  <xmbtext>Aking mga Larawan</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::Desktop">
+  <xmbtext>Desktop</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyMusic">
+  <xmbtext>Musika Ko</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyVideos">
+  <xmbtext>Aking Mga Video</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyDocuments">
+  <xmbtext>Mga Dokumento Ko</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::ApplicationData">
+  <xmbtext>Data ng Application</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::CommonApplicationData">
+  <xmbtext>Karaniwang Data ng Application </xmbtext>
+ </stringres>
+ <stringres id="ytFileUtils::CopyProgress">
+  <xmbtext>%1$s ng %2$s</xmbtext>
+ </stringres>
+ <stringres id="CDGo::Quit">
+  <xmbtext>Mag-quit</xmbtext>
+ </stringres>
+ <stringres id="CDGo::cantcopy">
+  <xmbtext>Hindi makokopya ang Picasa CD</xmbtext>
+ </stringres>
+ <stringres id="CDGo::cantlaunch">
+  <xmbtext>Hindi mabuksan ang Picasa CD</xmbtext>
+ </stringres>
+ <stringres id="CDGo::missinginstaller">
+  <xmbtext>Hindi kasama ang installer sa disk</xmbtext>
+ </stringres>
+ <stringres id="CDGo::advanceslide">
+  <xmbtext>%1$s (%2$d ng %3$d)</xmbtext>
+ </stringres>
+ <stringres id="CDGo::choosedest">
+  <xmbtext>Pumili ng Folder kung saan Ikokopya ang mga File</xmbtext>
+ </stringres>
+ <stringres id="CDGO::ReplacePrompt">
+  <xmbtext>Mayroon na ang folder na \&quot;%s\&quot; Gusto mo bang palitan ito ng folder mula sa CD?</xmbtext>
+ </stringres>
+ <stringres id="CDGo::ReplaceButton">
+  <xmbtext>Palitan</xmbtext>
+ </stringres>
+ <stringres id="CDGo::SkipButton">
+  <xmbtext>Laktawan</xmbtext>
+ </stringres>
+ <stringres id="CDGo::copyfromcd">
+  <xmbtext>Kinokopya mula sa CD</xmbtext>
+ </stringres>
+ <stringres id="CDGo::copyfailed">
+  <xmbtext>nabigong maikopya ang mga file</xmbtext>
+ </stringres>
+ <stringres id="CDGo::Picasacd">
+  <xmbtext>Picasa CD</xmbtext>
+ </stringres>
+ <stringres id="CDGo::cantlaunch">
+  <xmbtext>Hindi mabuksan ang Picasa CD</xmbtext>
+ </stringres>
+ <stringres id="CDGo::picasacd">
+  <xmbtext>Picasa CD</xmbtext>
+ </stringres>
+</resources>

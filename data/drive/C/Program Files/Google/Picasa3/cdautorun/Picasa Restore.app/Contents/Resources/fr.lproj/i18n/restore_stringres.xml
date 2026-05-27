@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+ <stringres id="February">
+  <xmbtext>février</xmbtext>
+ </stringres>
+ <stringres id="March">
+  <xmbtext>mars</xmbtext>
+ </stringres>
+ <stringres id="April">
+  <xmbtext>avril</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>mai</xmbtext>
+ </stringres>
+ <stringres id="June">
+  <xmbtext>juin</xmbtext>
+ </stringres>
+ <stringres id="July">
+  <xmbtext>juillet</xmbtext>
+ </stringres>
+ <stringres id="August">
+  <xmbtext>août</xmbtext>
+ </stringres>
+ <stringres id="September">
+  <xmbtext>septembre</xmbtext>
+ </stringres>
+ <stringres id="October">
+  <xmbtext>octobre</xmbtext>
+ </stringres>
+ <stringres id="November">
+  <xmbtext>novembre</xmbtext>
+ </stringres>
+ <stringres id="December">
+  <xmbtext>décembre</xmbtext>
+ </stringres>
+ <stringres id="Jan">
+  <xmbtext>janv.</xmbtext>
+ </stringres>
+ <stringres id="Feb">
+  <xmbtext>févr.</xmbtext>
+ </stringres>
+ <stringres id="Mar">
+  <xmbtext>mars</xmbtext>
+ </stringres>
+ <stringres id="Apr">
+  <xmbtext>avr.</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>mai</xmbtext>
+ </stringres>
+ <stringres id="Jun">
+  <xmbtext>juin</xmbtext>
+ </stringres>
+ <stringres id="Jul">
+  <xmbtext>juil.</xmbtext>
+ </stringres>
+ <stringres id="Aug">
+  <xmbtext>août</xmbtext>
+ </stringres>
+ <stringres id="Sep">
+  <xmbtext>sept.</xmbtext>
+ </stringres>
+ <stringres id="Oct">
+  <xmbtext>oct.</xmbtext>
+ </stringres>
+ <stringres id="Nov">
+  <xmbtext>nov.</xmbtext>
+ </stringres>
+ <stringres id="Dec">
+  <xmbtext>déc.</xmbtext>
+ </stringres>
+ <stringres id="January">
+  <xmbtext>janvier</xmbtext>
+ </stringres>
+ <stringres id="February">
+  <xmbtext>février</xmbtext>
+ </stringres>
+ <stringres id="March">
+  <xmbtext>mars</xmbtext>
+ </stringres>
+ <stringres id="April">
+  <xmbtext>avril</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>mai</xmbtext>
+ </stringres>
+ <stringres id="June">
+  <xmbtext>juin</xmbtext>
+ </stringres>
+ <stringres id="July">
+  <xmbtext>juillet</xmbtext>
+ </stringres>
+ <stringres id="August">
+  <xmbtext>août</xmbtext>
+ </stringres>
+ <stringres id="September">
+  <xmbtext>septembre</xmbtext>
+ </stringres>
+ <stringres id="October">
+  <xmbtext>octobre</xmbtext>
+ </stringres>
+ <stringres id="November">
+  <xmbtext>novembre</xmbtext>
+ </stringres>
+ <stringres id="December">
+  <xmbtext>décembre</xmbtext>
+ </stringres>
+ <stringres id="Jan">
+  <xmbtext>janv.</xmbtext>
+ </stringres>
+ <stringres id="Feb">
+  <xmbtext>févr.</xmbtext>
+ </stringres>
+ <stringres id="Mar">
+  <xmbtext>mars</xmbtext>
+ </stringres>
+ <stringres id="Apr">
+  <xmbtext>avr.</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>mai</xmbtext>
+ </stringres>
+ <stringres id="Jun">
+  <xmbtext>juin</xmbtext>
+ </stringres>
+ <stringres id="Jul">
+  <xmbtext>juil.</xmbtext>
+ </stringres>
+ <stringres id="Aug">
+  <xmbtext>août</xmbtext>
+ </stringres>
+ <stringres id="Sep">
+  <xmbtext>sept.</xmbtext>
+ </stringres>
+ <stringres id="Oct">
+  <xmbtext>oct.</xmbtext>
+ </stringres>
+ <stringres id="Nov">
+  <xmbtext>nov.</xmbtext>
+ </stringres>
+ <stringres id="Dec">
+  <xmbtext>déc.</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format1">
+  <xmbtext>%1$s %2$d, %3$d</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format2">
+  <xmbtext>%1$s %2$d</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format3">
+  <xmbtext>%1$d:%2$02d:%3$02d %4$cM</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format4">
+  <xmbtext>%1$.2d:%2$.2d:%3$.2d</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigB">
+  <xmbtext>%.0f octets</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigKB">
+  <xmbtext>%.0f Ko</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigMB">
+  <xmbtext>%.1f Mo</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigGB">
+  <xmbtext>%.1f Go</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigTB">
+  <xmbtext>%.1f To</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyPictures">
+  <xmbtext>Photos</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::Desktop">
+  <xmbtext>Bureau</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyMusic">
+  <xmbtext>Musique</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyVideos">
+  <xmbtext>Films</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyDocuments">
+  <xmbtext>Documents</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::ApplicationData">
+  <xmbtext>Prise en charge Photothèque/Application</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::CommonApplicationData">
+  <xmbtext>Prise en charge Photothèque/Application</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::Library">
+  <xmbtext>Photothèque</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyPictures">
+  <xmbtext>Mes photos</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::Desktop">
+  <xmbtext>Bureau</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyMusic">
+  <xmbtext>Ma musique</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyVideos">
+  <xmbtext>Mes vidéos</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyDocuments">
+  <xmbtext>Mes documents</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::ApplicationData">
+  <xmbtext>Données d&#039;application</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::CommonApplicationData">
+  <xmbtext>Données d&#039;application communes</xmbtext>
+ </stringres>
+ <stringres id="ytFileUtils::CopyProgress">
+  <xmbtext>%1$s sur %2$s</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::error">
+  <xmbtext>Erreur</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::copy">
+  <xmbtext>Copier</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::replace">
+  <xmbtext>Remplacer</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::newer">
+  <xmbtext>Plus récent</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::current">
+  <xmbtext>Actuel</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::protected">
+  <xmbtext>Protégé</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscalc">
+  <xmbtext>Calcul des fichiers</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::restoremsg">
+  <xmbtext>Restaurer dans : %s</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statusreadyrestore">
+  <xmbtext>%1$d fichiers (%2$s) prêts à être restaurés</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscopying">
+  <xmbtext>Copie des fichiers</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscomplete">
+  <xmbtext>Terminé</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::donebutton">
+  <xmbtext>OK</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscalcfiles">
+  <xmbtext>Calcul de %1$d fichiers %2$s</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscopied">
+  <xmbtext>%1$d fichiers copiés %2$s</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::errorformat">
+  <xmbtext>Erreur (%d)</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::complete">
+  <xmbtext>Terminé</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::actionheader">
+  <xmbtext>Action</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::srcheader">
+  <xmbtext>Fichier source</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::destheader">
+  <xmbtext>Fichier de destination</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::sizeheader">
+  <xmbtext>Taille</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::dateheader">
+  <xmbtext>Date</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::deflocation">
+  <xmbtext>à partir de la sauvegarde Picasa\\</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::changetitle">
+  <xmbtext>Choisir l&#039;emplacement des fichiers</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::cantcopy">
+  <xmbtext>Impossible de copier une copie temporaire de l&#039;application</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::cantlaunch">
+  <xmbtext>Impossible d&#039;ouvrir l&#039;application</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::unknown">
+  <xmbtext>Inconnu</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::nothing">
+  <xmbtext>Rien</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::error">
+  <xmbtext>Erreur</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::copy">
+  <xmbtext>Copier</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::replace">
+  <xmbtext>Remplacer</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::newer">
+  <xmbtext>Plus récent</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::current">
+  <xmbtext>Actuel</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::protected">
+  <xmbtext>Protégé</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::copying">
+  <xmbtext>Copie</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::skipping">
+  <xmbtext>Omission</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::restored">
+  <xmbtext>Restauré</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::skipped">
+  <xmbtext>Ignoré</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::cantFind">
+  <xmbtext>Impossible de localiser un manifeste intitulé &quot;%1$s&quot; ou &quot;%2$s&quot;.</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::error">
+  <xmbtext>Erreur</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::quit">
+  <xmbtext>Quitter</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::open">
+  <xmbtext>Ouvrir le manifeste...</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscalc">
+  <xmbtext>Calcul des fichiers</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::restoremsg">
+  <xmbtext>Restaurer dans : %s</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statusreadyrestore">
+  <xmbtext>%1$d fichiers (%2$s) prêts à être restaurés</xmbtext>
+ </stringres>
+ <stringres id="CCaptureMovieDialog::stop">
+  <xmbtext>Arrêter</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::finished">
+  <xmbtext>Restauration de %1$d fichiers sur %2$s terminée</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::restoring">
+  <xmbtext>Restauration du fichier &quot;%1$s&quot; (%2$d sur %3$d)</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::copying">
+  <xmbtext>Copie</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::restored">
+  <xmbtext>Le fichier &#039;%@&#039; a été restauré (%1$d sur %2$d).</xmbtext>
+ </stringres>
+</resources>

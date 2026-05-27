@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+ <stringres id="February">
+  <xmbtext>Φεβρουάριος</xmbtext>
+ </stringres>
+ <stringres id="March">
+  <xmbtext>Μάρτιος</xmbtext>
+ </stringres>
+ <stringres id="April">
+  <xmbtext>Απρίλιος</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Μάιος</xmbtext>
+ </stringres>
+ <stringres id="June">
+  <xmbtext>Ιούνιος</xmbtext>
+ </stringres>
+ <stringres id="July">
+  <xmbtext>Ιούλιος</xmbtext>
+ </stringres>
+ <stringres id="August">
+  <xmbtext>Αύγουστος</xmbtext>
+ </stringres>
+ <stringres id="September">
+  <xmbtext>Σεπτέμβριος</xmbtext>
+ </stringres>
+ <stringres id="October">
+  <xmbtext>Οκτώβριος</xmbtext>
+ </stringres>
+ <stringres id="November">
+  <xmbtext>Νοέμβριος</xmbtext>
+ </stringres>
+ <stringres id="December">
+  <xmbtext>Δεκέμβριος</xmbtext>
+ </stringres>
+ <stringres id="Jan">
+  <xmbtext>Ιαν.</xmbtext>
+ </stringres>
+ <stringres id="Feb">
+  <xmbtext>Φεβ.</xmbtext>
+ </stringres>
+ <stringres id="Mar">
+  <xmbtext>Μάρ.</xmbtext>
+ </stringres>
+ <stringres id="Apr">
+  <xmbtext>Απρ.</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Μάιος</xmbtext>
+ </stringres>
+ <stringres id="Jun">
+  <xmbtext>Ιούν.</xmbtext>
+ </stringres>
+ <stringres id="Jul">
+  <xmbtext>Ιούλ.</xmbtext>
+ </stringres>
+ <stringres id="Aug">
+  <xmbtext>Αύγ.</xmbtext>
+ </stringres>
+ <stringres id="Sep">
+  <xmbtext>Σεπτ.</xmbtext>
+ </stringres>
+ <stringres id="Oct">
+  <xmbtext>Οκτ.</xmbtext>
+ </stringres>
+ <stringres id="Nov">
+  <xmbtext>Νοέμ.</xmbtext>
+ </stringres>
+ <stringres id="Dec">
+  <xmbtext>Δεκ</xmbtext>
+ </stringres>
+ <stringres id="January">
+  <xmbtext>Ιανουάριος</xmbtext>
+ </stringres>
+ <stringres id="February">
+  <xmbtext>Φεβρουάριος</xmbtext>
+ </stringres>
+ <stringres id="March">
+  <xmbtext>Μάρτιος</xmbtext>
+ </stringres>
+ <stringres id="April">
+  <xmbtext>Απρίλιος</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Μάιος</xmbtext>
+ </stringres>
+ <stringres id="June">
+  <xmbtext>Ιούνιος</xmbtext>
+ </stringres>
+ <stringres id="July">
+  <xmbtext>Ιούλιος</xmbtext>
+ </stringres>
+ <stringres id="August">
+  <xmbtext>Αύγουστος</xmbtext>
+ </stringres>
+ <stringres id="September">
+  <xmbtext>Σεπτέμβριος</xmbtext>
+ </stringres>
+ <stringres id="October">
+  <xmbtext>Οκτώβριος</xmbtext>
+ </stringres>
+ <stringres id="November">
+  <xmbtext>Νοέμβριος</xmbtext>
+ </stringres>
+ <stringres id="December">
+  <xmbtext>Δεκέμβριος</xmbtext>
+ </stringres>
+ <stringres id="Jan">
+  <xmbtext>Ιαν.</xmbtext>
+ </stringres>
+ <stringres id="Feb">
+  <xmbtext>Φεβ.</xmbtext>
+ </stringres>
+ <stringres id="Mar">
+  <xmbtext>Μάρ.</xmbtext>
+ </stringres>
+ <stringres id="Apr">
+  <xmbtext>Απρ.</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Μάιος</xmbtext>
+ </stringres>
+ <stringres id="Jun">
+  <xmbtext>Ιούν.</xmbtext>
+ </stringres>
+ <stringres id="Jul">
+  <xmbtext>Ιούλ.</xmbtext>
+ </stringres>
+ <stringres id="Aug">
+  <xmbtext>Αύγ.</xmbtext>
+ </stringres>
+ <stringres id="Sep">
+  <xmbtext>Σεπτ.</xmbtext>
+ </stringres>
+ <stringres id="Oct">
+  <xmbtext>Οκτ.</xmbtext>
+ </stringres>
+ <stringres id="Nov">
+  <xmbtext>Νοέμ.</xmbtext>
+ </stringres>
+ <stringres id="Dec">
+  <xmbtext>Δεκ</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format1">
+  <xmbtext>%1$s %2$d, %3$d</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format2">
+  <xmbtext>%1$s %2$d</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format3">
+  <xmbtext>%1$d:%2$02d:%3$02d %4$cΜ</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format4">
+  <xmbtext>%1$.2d:%2$.2d:%3$.2d</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigB">
+  <xmbtext>%.0f byte</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigKB">
+  <xmbtext>%.0fKB</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigMB">
+  <xmbtext>%.1fMB</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigGB">
+  <xmbtext>%.1fGΒ</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigTB">
+  <xmbtext>%.1fTB</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyPictures">
+  <xmbtext>Φωτογραφίες</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::Desktop">
+  <xmbtext>Επιφάνεια εργασίας</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyMusic">
+  <xmbtext>Μουσική</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyVideos">
+  <xmbtext>Ταινίες</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyDocuments">
+  <xmbtext>Έγγραφα</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::ApplicationData">
+  <xmbtext>Βιβλιοθήκη/Υποστήριξη εφαρμογής</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::CommonApplicationData">
+  <xmbtext>Βιβλιοθήκη/Υποστήριξη εφαρμογής</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::Library">
+  <xmbtext>Βιβλιοθήκη</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyPictures">
+  <xmbtext>Οι φωτογραφίες μου</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::Desktop">
+  <xmbtext>Επιφάνεια εργασίας</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyMusic">
+  <xmbtext>Η μουσική μου</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyVideos">
+  <xmbtext>Τα βίντεό μου</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyDocuments">
+  <xmbtext>Τα έγγραφά μου</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::ApplicationData">
+  <xmbtext>Δεδομένα εφαρμογής</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::CommonApplicationData">
+  <xmbtext>Κοινά δεδομένα εφαρμογής</xmbtext>
+ </stringres>
+ <stringres id="ytFileUtils::CopyProgress">
+  <xmbtext>%1$s από %2$s</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::error">
+  <xmbtext>Σφάλμα</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::copy">
+  <xmbtext>Αντιγραφή</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::replace">
+  <xmbtext>Αντικατάσταση</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::newer">
+  <xmbtext>Νεότερες</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::current">
+  <xmbtext>Τρέχουσα</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::protected">
+  <xmbtext>Προστατεύεται</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscalc">
+  <xmbtext>Υπολογισμός αρχείων</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::restoremsg">
+  <xmbtext>Επαναφορά σε: %s</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statusreadyrestore">
+  <xmbtext>%1$d αρχεία (%2$s) Έτοιμα για επαναφορά</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscopying">
+  <xmbtext>Αντιγραφή αρχείων</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscomplete">
+  <xmbtext>Ολοκληρώθηκε</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::donebutton">
+  <xmbtext>Ολοκληρώθηκε</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscalcfiles">
+  <xmbtext>Υπολογισμός %1$d αρχείων %2$s</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscopied">
+  <xmbtext>Αντιγράφηκαν %1$d αρχεία %2$s</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::errorformat">
+  <xmbtext>Σφάλμα (%d)</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::complete">
+  <xmbtext>Ολοκληρώθηκε</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::actionheader">
+  <xmbtext>Ενέργεια</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::srcheader">
+  <xmbtext>Αρχείο προέλευσης</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::destheader">
+  <xmbtext>Αρχείο προορισμού</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::sizeheader">
+  <xmbtext>Μέγεθος</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::dateheader">
+  <xmbtext>Ημερομηνία</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::deflocation">
+  <xmbtext>από το αντίγραφο ασφαλείας του Picasa\\</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::changetitle">
+  <xmbtext>Επιλέξτε τοποθεσία για τα αρχεία</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::cantcopy">
+  <xmbtext>Δεν είναι δυνατή η αντιγραφή ενός προσωρινού αντιγράφου της εφαρμογής</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::cantlaunch">
+  <xmbtext>Δεν είναι δυνατό το άνοιγμα της εφαρμογής</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::unknown">
+  <xmbtext>Άγνωστο</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::nothing">
+  <xmbtext>Τίποτα</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::error">
+  <xmbtext>Σφάλμα</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::copy">
+  <xmbtext>Αντιγραφή</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::replace">
+  <xmbtext>Αντικατάσταση</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::newer">
+  <xmbtext>Νεότερες</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::current">
+  <xmbtext>Τρέχουσα</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::protected">
+  <xmbtext>Προστατεύεται</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::copying">
+  <xmbtext>Αντιγραφή</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::skipping">
+  <xmbtext>Παράλεψη</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::restored">
+  <xmbtext>Ανακτήθηκε</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::skipped">
+  <xmbtext>Παραβλέφθηκε</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::cantFind">
+  <xmbtext>Δεν ήταν δυνατός ο εντοπισμός δήλωσης με το όνομα &#039;%1$s&#039; ή &#039;%2$s&#039;.</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::error">
+  <xmbtext>Σφάλμα</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::quit">
+  <xmbtext>Έξοδος</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::open">
+  <xmbtext>Άνοιγμα δήλωσης...</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscalc">
+  <xmbtext>Υπολογισμός αρχείων</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::restoremsg">
+  <xmbtext>Επαναφορά σε: %s</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statusreadyrestore">
+  <xmbtext>%1$d αρχεία (%2$s) Έτοιμα για επαναφορά</xmbtext>
+ </stringres>
+ <stringres id="CCaptureMovieDialog::stop">
+  <xmbtext>Διακοπή</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::finished">
+  <xmbtext>Ολοκληρώθηκε η ανάκτηση %1$d αρχείων, από τα %2$s συνολικά.</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::restoring">
+  <xmbtext>Ανάκτηση αρχείων &#039;%1$s&#039; (%2$d από %3$d)</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::copying">
+  <xmbtext>Αντιγραφή</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::restored">
+  <xmbtext>Έγινε ανάκτηση του αρχείου &#039;%@&#039; (%1$d από %2$d)</xmbtext>
+ </stringres>
+</resources>

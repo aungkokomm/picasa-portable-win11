@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Win32Res>
+ <RT_DIALOG>
+  <res resid="#904">
+   <dtitle>
+    <xmbtext>Vrati iz sigurnosne kopije usluge Picasa</xmbtext>
+   </dtitle>
+   <dlayout>rect(0 0 296 154)</dlayout>
+   <item itemid="1" itemtype="Button" layout="rect(177 133 227 147)">
+    <xmbtext>Sljedeće</xmbtext>
+   </item>
+   <item itemid="2" itemtype="Button" layout="rect(239 133 289 147)">
+    <xmbtext>Odustani</xmbtext>
+   </item>
+   <item itemid="3" itemtype="Button" layout="rect(7 133 57 147)">
+    <xmbtext>Izbaci</xmbtext>
+   </item>
+   <item itemid="1010" itemtype="Button" layout="rect(25 47 236 59)">
+    <xmbtext>Izvorne lokacije</xmbtext>
+   </item>
+   <item itemid="1011" itemtype="Button" layout="rect(25 83 241 95)">
+    <xmbtext>Ova mapa</xmbtext>
+   </item>
+   <item itemid="1009" itemtype="Edit" layout="rect(41 100 221 113)"/>
+   <item itemid="4" itemtype="Button" layout="rect(227 100 277 114)">
+    <xmbtext>Promijeni...</xmbtext>
+   </item>
+   <item itemid="-1" itemtype="Button" layout="rect(17 31 287 124)">
+    <xmbtext>Vrati datoteke u:</xmbtext>
+   </item>
+   <item itemid="1002" itemtype="Static" layout="rect(35 7 289 22)">
+    <xmbtext>Umetnuli ste disk koji sadrži datoteke iz sigurnosne kopije usluge Picasa.</xmbtext>
+   </item>
+   <item itemid="1001" itemtype="Static" layout="rect(6 3 26 23)">
+    <xmbtext>id=103</xmbtext>
+   </item>
+   <item itemid="-1" itemtype="Static" layout="rect(41 61 278 79)">
+    <xmbtext>Datoteke će se pojaviti na istom mjestu s kojeg su sigurnosno kopirane.</xmbtext>
+   </item>
+  </res>
+  <res resid="#905">
+   <dtitle>
+    <xmbtext>Vrati iz sigurnosne kopije usluge Picasa</xmbtext>
+   </dtitle>
+   <dlayout>rect(0 0 391 255)</dlayout>
+   <item itemid="1" itemtype="Button" layout="rect(248 234 308 248)">
+    <xmbtext>Vrati</xmbtext>
+   </item>
+   <item itemid="2" itemtype="Button" layout="rect(324 234 384 248)">
+    <xmbtext>Odustani</xmbtext>
+   </item>
+   <item itemid="3" itemtype="Button" layout="rect(172 234 232 248)">
+    <xmbtext>Izbaci</xmbtext>
+   </item>
+   <item itemid="1002" itemtype="Static" layout="rect(34 7 384 29)">
+    <xmbtext>Vraća se u: izvorne lokacije</xmbtext>
+   </item>
+   <item itemid="1001" itemtype="Static" layout="rect(6 3 26 23)">
+    <xmbtext>id=103</xmbtext>
+   </item>
+   <item itemid="1012" itemtype="Button" layout="rect(7 35 384 222)">
+    <xmbtext>Izračunava se...</xmbtext>
+   </item>
+   <item itemid="1014" itemtype="SysListView32" layout="rect(14 47 376 215)">
+    <xmbtext>Popis2</xmbtext>
+   </item>
+  </res>
+ </RT_DIALOG>
+</Win32Res>

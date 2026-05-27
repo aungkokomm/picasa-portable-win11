@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+ <stringres id="February">
+  <xmbtext>Helmikuu</xmbtext>
+ </stringres>
+ <stringres id="March">
+  <xmbtext>Maaliskuu</xmbtext>
+ </stringres>
+ <stringres id="April">
+  <xmbtext>Huhtikuu</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Touko</xmbtext>
+ </stringres>
+ <stringres id="June">
+  <xmbtext>Kesäkuu</xmbtext>
+ </stringres>
+ <stringres id="July">
+  <xmbtext>Heinäkuu</xmbtext>
+ </stringres>
+ <stringres id="August">
+  <xmbtext>Elokuu</xmbtext>
+ </stringres>
+ <stringres id="September">
+  <xmbtext>Syyskuu</xmbtext>
+ </stringres>
+ <stringres id="October">
+  <xmbtext>Lokakuu</xmbtext>
+ </stringres>
+ <stringres id="November">
+  <xmbtext>Marraskuu</xmbtext>
+ </stringres>
+ <stringres id="December">
+  <xmbtext>Joulukuu</xmbtext>
+ </stringres>
+ <stringres id="Jan">
+  <xmbtext>Tam</xmbtext>
+ </stringres>
+ <stringres id="Feb">
+  <xmbtext>Hel</xmbtext>
+ </stringres>
+ <stringres id="Mar">
+  <xmbtext>Maa</xmbtext>
+ </stringres>
+ <stringres id="Apr">
+  <xmbtext>Huh</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Touko</xmbtext>
+ </stringres>
+ <stringres id="Jun">
+  <xmbtext>Kes</xmbtext>
+ </stringres>
+ <stringres id="Jul">
+  <xmbtext>Hei</xmbtext>
+ </stringres>
+ <stringres id="Aug">
+  <xmbtext>Elo</xmbtext>
+ </stringres>
+ <stringres id="Sep">
+  <xmbtext>Syy</xmbtext>
+ </stringres>
+ <stringres id="Oct">
+  <xmbtext>Loka</xmbtext>
+ </stringres>
+ <stringres id="Nov">
+  <xmbtext>Mar</xmbtext>
+ </stringres>
+ <stringres id="Dec">
+  <xmbtext>Jou</xmbtext>
+ </stringres>
+ <stringres id="January">
+  <xmbtext>Tammikuu</xmbtext>
+ </stringres>
+ <stringres id="February">
+  <xmbtext>Helmikuu</xmbtext>
+ </stringres>
+ <stringres id="March">
+  <xmbtext>Maaliskuu</xmbtext>
+ </stringres>
+ <stringres id="April">
+  <xmbtext>Huhtikuu</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Touko</xmbtext>
+ </stringres>
+ <stringres id="June">
+  <xmbtext>Kesäkuu</xmbtext>
+ </stringres>
+ <stringres id="July">
+  <xmbtext>Heinäkuu</xmbtext>
+ </stringres>
+ <stringres id="August">
+  <xmbtext>Elokuu</xmbtext>
+ </stringres>
+ <stringres id="September">
+  <xmbtext>Syyskuu</xmbtext>
+ </stringres>
+ <stringres id="October">
+  <xmbtext>Lokakuu</xmbtext>
+ </stringres>
+ <stringres id="November">
+  <xmbtext>Marraskuu</xmbtext>
+ </stringres>
+ <stringres id="December">
+  <xmbtext>Joulukuu</xmbtext>
+ </stringres>
+ <stringres id="Jan">
+  <xmbtext>Tam</xmbtext>
+ </stringres>
+ <stringres id="Feb">
+  <xmbtext>Hel</xmbtext>
+ </stringres>
+ <stringres id="Mar">
+  <xmbtext>Maa</xmbtext>
+ </stringres>
+ <stringres id="Apr">
+  <xmbtext>Huh</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Touko</xmbtext>
+ </stringres>
+ <stringres id="Jun">
+  <xmbtext>Kes</xmbtext>
+ </stringres>
+ <stringres id="Jul">
+  <xmbtext>Hei</xmbtext>
+ </stringres>
+ <stringres id="Aug">
+  <xmbtext>Elo</xmbtext>
+ </stringres>
+ <stringres id="Sep">
+  <xmbtext>Syy</xmbtext>
+ </stringres>
+ <stringres id="Oct">
+  <xmbtext>Loka</xmbtext>
+ </stringres>
+ <stringres id="Nov">
+  <xmbtext>Mar</xmbtext>
+ </stringres>
+ <stringres id="Dec">
+  <xmbtext>Jou</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format1">
+  <xmbtext>%1$s %2$d, %3$d</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format2">
+  <xmbtext>%1$s %2$d</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format3">
+  <xmbtext>%1$d:%2$02d:%3$02d %4$cM</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format4">
+  <xmbtext>%1$.2d:%2$.2d:%3$.2d</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigB">
+  <xmbtext>%.0f tavua</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigKB">
+  <xmbtext>%.0f kt</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigMB">
+  <xmbtext>%.1f Mt</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigGB">
+  <xmbtext>%.1f Gt</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigTB">
+  <xmbtext>%.1fTB</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyPictures">
+  <xmbtext>Kuvat</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::Desktop">
+  <xmbtext>Työpöytä</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyPictures">
+  <xmbtext>Kuvat</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::Desktop">
+  <xmbtext>Työpöytä</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyMusic">
+  <xmbtext>Musiikki</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyVideos">
+  <xmbtext>Elokuvat</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyDocuments">
+  <xmbtext>Asiakirjat</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::ApplicationData">
+  <xmbtext>Kuvakirjasto/sovellustuki</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::CommonApplicationData">
+  <xmbtext>Kuvakirjasto/sovellustuki</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::Library">
+  <xmbtext>Kuvakirjasto</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyPictures">
+  <xmbtext>Omat kuvatiedostot</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::Desktop">
+  <xmbtext>Työpöytä</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyMusic">
+  <xmbtext>Oma musiikki</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyVideos">
+  <xmbtext>Omat videot</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyDocuments">
+  <xmbtext>Omat tiedostot</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::ApplicationData">
+  <xmbtext>Sovelluksen tiedot</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::CommonApplicationData">
+  <xmbtext>Yleiset sovellustiedot</xmbtext>
+ </stringres>
+ <stringres id="ytFileUtils::CopyProgress">
+  <xmbtext>%1$s/%2$s</xmbtext>
+ </stringres>
+ <stringres id="CDGo::Quit">
+  <xmbtext>Lopeta</xmbtext>
+ </stringres>
+ <stringres id="CDGo::cantcopy">
+  <xmbtext>Picasa-CD:tä ei voida kopioida</xmbtext>
+ </stringres>
+ <stringres id="CDGo::cantlaunch">
+  <xmbtext>Picasa-CD:tä ei voida avata</xmbtext>
+ </stringres>
+ <stringres id="CDGo::missinginstaller">
+  <xmbtext>Asennusohjelmaa ei ole sisällytetty levylle</xmbtext>
+ </stringres>
+ <stringres id="CDGo::advanceslide">
+  <xmbtext>%1$s (%2$d/%3$d)</xmbtext>
+ </stringres>
+ <stringres id="CDGo::choosedest">
+  <xmbtext>Valitse kansio, johon tiedostot kopioidaan</xmbtext>
+ </stringres>
+ <stringres id="CDGO::ReplacePrompt">
+  <xmbtext>Kansio %s on jo olemassa. Haluatko korvata sen CD:n kansiolla?</xmbtext>
+ </stringres>
+ <stringres id="CDGo::ReplaceButton">
+  <xmbtext>Korvaa</xmbtext>
+ </stringres>
+ <stringres id="CDGo::SkipButton">
+  <xmbtext>Ohita</xmbtext>
+ </stringres>
+ <stringres id="CDGo::copyfromcd">
+  <xmbtext>Kopioidaan CD-levyltä</xmbtext>
+ </stringres>
+ <stringres id="CDGo::copyfailed">
+  <xmbtext>tiedostojen kopiointi ei onnistunut</xmbtext>
+ </stringres>
+ <stringres id="CDGo::Picasacd">
+  <xmbtext>Picasa-CD</xmbtext>
+ </stringres>
+ <stringres id="CDGo::cantlaunch">
+  <xmbtext>Picasa-CD:tä ei voida avata</xmbtext>
+ </stringres>
+ <stringres id="CDGo::picasacd">
+  <xmbtext>Picasa-CD</xmbtext>
+ </stringres>
+</resources>

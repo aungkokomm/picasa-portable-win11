@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tooltips>
+ <action type="Label" target="cdgo/copytohd" xmbdesc="Label(cdgo/copytohd)">
+  <xmbtext>儲存到磁碟</xmbtext>
+ </action>
+ <action type="Label" target="cdgo/eject" xmbdesc="Label(cdgo/eject)">
+  <xmbtext>CD 退片</xmbtext>
+ </action>
+ <action type="Label" target="cdgo/exit" xmbdesc="Label(cdgo/exit)">
+  <xmbtext>退出</xmbtext>
+ </action>
+ <action type="Label" target="cdgo/topicasa" xmbdesc="Label(cdgo/topicasa)">
+  <xmbtext>匯入至 Picasa</xmbtext>
+ </action>
+ <action type="Text" target="cdgo/loading" xmbdesc="Text(cdgo/loading)">
+  <xmbtext>載入中</xmbtext>
+ </action>
+ <action type="Text" target="cdgo/tpslabel" xmbdesc="Text(cdgo/tpslabel)">
+  <xmbtext>顯示時間</xmbtext>
+ </action>
+</tooltips>

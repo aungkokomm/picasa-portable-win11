@@ -1,0 +1,19 @@
+<window name="instruction_window" title="Google Photos Backup">
+  <group layout="row" width="fit" height="fit">
+    <spacer amount="1em"/>
+    <group name="instruction_group" layout="column" width="20em">
+      <label name="instruction_header"
+             title="Google Photos Backup is a go!"
+             fontweight="bold" win_fontsize="24" mac_fontsize="16"
+             width="fill" height="1.5li" align="center" text-align="center"/>
+      <label name="instruction_label"
+             title="Click the Photos icon to pause, change preferences, or check on progress."
+             width="fill" height="3li" align="center" text-align="center"/>
+      <image mac_width="336" mac_height="219" win_width="335" win_height="201" name="instruction_image" align="center"/>
+      <buttongroup align="end">
+        <button name="okbutton" type="accept" title="OK"/>
+      </buttongroup>
+    </group>
+    <spacer amount="1em"/>
+  </group>
+</window>

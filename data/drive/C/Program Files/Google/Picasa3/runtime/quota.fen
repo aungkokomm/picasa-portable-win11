@@ -1,0 +1,14 @@
+<window width="fit" focus="buttons" title="Low Storage">
+  <group>
+    <appicon/>
+    <group layout="column">
+      <label name="message" width="24em" title="You are low on storage. You can either upload at reduced sizes for free or click 'Upgrade' to buy more."/>
+      <link name="learnmore" title="Learn more."/>
+      <check title="Don't warn me about this in the future." name="remember"/>
+    </group>
+  </group>
+  <buttongroup name="buttons">
+    <button title="Upgrade" type="accept" name="upgrade"/>
+    <button title="OK" type="cancel" name="ok"/>
+  </buttongroup>
+</window>

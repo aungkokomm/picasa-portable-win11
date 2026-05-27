@@ -1,0 +1,30 @@
+<window width="fit">
+  <labelgroup title="Name:" name="namelabel">
+    <edit name="name" filter="filename"/>
+  </labelgroup>
+  <labelgroup title="Date:">
+    <group layout="row">
+      <date name="date"/>
+      <button title="Automatic date" name="autodate"/>
+    </group>
+  </labelgroup>
+  <labelgroup title="Music:">
+    <check title="Use music for Slideshow and Movie presentation:" name="usemusic"/>
+    <group layout="row" width="fill">
+      <spacer amount="indent"/>
+      <browse title="Browse..." name="music" win_filter="Music files|*.mp3;*.wma" mac_filter="Music files|*.mp3;*.m4a">
+        <bind attr="enabled" source="usemusic"/>
+      </browse>
+    </group>
+  </labelgroup>
+  <labelgroup title="Place taken (optional):">
+    <edit name="location"/>
+  </labelgroup>
+  <labelgroup title="Description (optional):">
+    <edit height="3li" name="caption"/>
+  </labelgroup>
+  <buttongroup>
+    <button title="OK" type="accept" name="ok"/>
+    <button title="Cancel" type="cancel"/>
+  </buttongroup>
+</window>

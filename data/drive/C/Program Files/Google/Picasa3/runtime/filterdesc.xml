@@ -1,0 +1,1408 @@
+<filters>
+  <!-- SAVE HISTORY -->
+  <filter id="save" mode="history" zerostate="none">
+    <label>Save</label>
+  </filter>
+
+  <!-- CROP HISTORY -->
+  <filter id="crop64" mode="history" zerostate="none">
+    <label>Crop</label>
+  </filter>
+
+  <!-- OLD CROP HISTORY -->
+  <filter id="crop" mode="history" zerostate="none">
+    <label>Crop</label>
+  </filter>
+
+  <!-- REDEYE	HISTORY -->
+  <filter id="redeye" mode="history" zerostate="none" persist="1">
+    <label>Red Eye</label>
+  </filter>
+
+  <!-- RETOUCH HISTORY -->
+  <filter id="retouch" mode="history" zerostate="none" persist="1">
+    <label>Retouches</label>
+  </filter>
+
+  <!-- PICNIK HISTORY -->
+  <filter id="picnik" mode="history" zerostate="none" persist="1">
+    <label>Creative Kit</label>
+  </filter>
+
+  <!-- ROTATE HISTORY -->
+  <filter id="rot" mode="history" zerostate="none">
+    <label>Rotate</label>
+  </filter>
+
+  <!-- DEBUG FILTER -->
+  <filter id="debug" mode="effect" zerostate="none">
+    <label>Debug</label>
+    <tooltip>For debugging</tooltip>
+    <cursor type="puck" persist="1"/>
+    <sliders>
+      <slider id="0">
+        <label>Size</label>
+        <range>100.0</range>
+      </slider>
+    </sliders>
+    <presets>
+      <real id="0">15.0</real>
+      <real id="3">0.5</real>
+      <real id="4">0.5</real>
+    </presets>
+  </filter>
+
+  <!-- LIGHTING (original)-->
+  <filter id="triple" mode="soft" zerostate="zero">
+    <label>Lighting Fixes</label>
+    <sliders>
+      <slider id="0">
+        <label>Brightness</label>
+        <range>2.0</range>
+        <offset>1.0</offset>
+      </slider>
+      <slider id="1">
+        <label>Contrast</label>
+        <range>1.0</range>
+        <offset>0.5</offset>
+      </slider>
+      <slider id="2">
+        <label>Fill Light</label>
+        <range>1.0</range>
+      </slider>
+    </sliders>
+  </filter>
+
+  <!-- LIGHTING2 -->
+  <filter id="triple2" mode="soft" zerostate="defaults">
+    <label>Lighting Fixes</label>
+    <sliders>
+      <slider id="0">
+        <label>Fill Light</label>
+        <range>1.0</range>
+      </slider>
+      <slider id="1">
+        <label>Black Point</label>
+        <range>1.0</range>
+      </slider>
+      <slider id="2">
+        <label>White Point</label>
+        <range>1.0</range>
+        <default>1.0</default>
+      </slider>
+    </sliders>
+  </filter>
+
+  <!-- LIGHTING3 (alternate version)-->
+  <filter id="triple3" mode="soft" zerostate="zero">
+    <label>Lighting Fixes</label>
+    <sliders>
+      <slider id="0">
+        <label>Fill Light</label>
+        <range>1.0</range>
+      </slider>
+      <slider id="1">
+        <label>Highlights</label>
+        <range>0.48</range>
+      </slider>
+      <slider id="2">
+        <label>Shadows</label>
+        <range>0.48</range>
+      </slider>
+    </sliders>
+  </filter>
+
+  <!-- TUNING TAB -->
+  <filter id="finetune" mode="soft" zerostate="zero">
+    <label>Tuning</label>
+    <cursor type="dropper" persist="0"/>
+    <colorcircle id="0"/>
+    <sliders>
+      <slider id="0">
+        <label>Fill Light</label>
+        <range>1.0</range>
+      </slider>
+      <slider id="1">
+        <label>Highlights</label>
+        <range>0.48</range>
+      </slider>
+      <slider id="2">
+        <label>Shadows</label>
+        <range>0.48</range>
+      </slider>
+      <slider id="3">
+        <label>Color Temperature</label>
+        <range>1.0</range>
+        <offset>0.5</offset>
+      </slider>
+    </sliders>
+  </filter>
+
+  <!-- TUNING2 new version with Kelvin color temp -->
+  <filter id="finetune2" mode="soft" zerostate="zero">
+    <label>Tuning</label>
+    <cursor type="dropper" persist="0"/>
+    <colorcircle id="0"/>
+    <sliders>
+      <slider id="0">
+        <label>Fill Light</label>
+        <range>1.0</range>
+      </slider>
+      <slider id="1">
+        <label>Highlights</label>
+        <range>0.48</range>
+      </slider>
+      <slider id="2">
+        <label>Shadows</label>
+        <range>0.48</range>
+      </slider>
+      <slider id="3">
+        <label>Color Temperature</label>
+        <range>2.0</range>
+        <offset>1.0</offset>
+      </slider>
+    </sliders>
+  </filter>
+
+  <!-- COLORFIX -->
+  <filter id="colorfix" mode="soft" zerostate="zero">
+    <label>Color Fixes</label>
+    <cursor type="dropper" persist="0"/>
+    <colorcircle id="0"/>
+    <sliders>
+      <!-- enable = 0 and persist =0 is hack for label only -->
+      <!-- TODO (gjames): remove this. -->
+      <slider id="0" enable="0" persist="0">
+        <label>Choose White Point</label>
+      </slider>
+      <slider id="1">
+        <label>Color Temperature</label>
+        <range>1.0</range>
+        <offset>0.5</offset>
+      </slider>
+    </sliders>
+  </filter>
+
+  <!-- ONE CLICK BACKLIGHT -->
+  <filter id="autobacklight" mode="oneclick" zerostate="none">
+    <label>Fill Light</label>
+  </filter>
+
+  <!-- AUTO LIGHTING -->
+  <filter id="autolight" mode="oneclick" zerostate="none">
+    <label>Auto Contrast</label>
+  </filter>
+
+  <!-- AUTO COLOR -->
+  <filter id="autocolor" mode="oneclick" zerostate="none">
+    <label>Auto Color</label>
+  </filter>
+
+  <!-- SIMPLE BLACK AND WHITE -->
+  <filter id="bw" mode="oneclick" zerostate="none">
+    <label>B&amp;W</label>
+    <tooltip>Makes your photo black and white</tooltip>
+  </filter>
+
+  <!-- ENHANCE -->
+  <filter id="enhance" mode="oneclick" zerostate="none">
+    <label>I'm Feeling Lucky</label>
+  </filter>
+
+  <!-- WARMIFY -->
+  <filter id="warm" mode="oneclick" zerostate="none">
+    <label>Warmify</label>
+    <tooltip>Improves skintones by boosting warm tones</tooltip>
+  </filter>
+
+  <!-- FILM GRAIN -->
+  <filter id="grain" mode="oneclick" zerostate="none">
+    <label>Film Grain (Old)</label>
+    <tooltip>Adds film grain</tooltip>
+  </filter>
+
+  <!-- FILM GRAIN2 new version with forced full resolution load -->
+  <filter id="grain2" mode="oneclick" zerostate="none" fullres="1" slow="1">
+    <label>Film Grain</label>
+    <tooltip>Adds film grain</tooltip>
+  </filter>
+
+  <!-- SEPIA -->
+  <filter id="sepia" mode="oneclick" zerostate="none">
+    <label>Sepia</label>
+    <tooltip>Converts photo to sepia tone</tooltip>
+  </filter>
+
+  <!-- UNSHARP -->
+  <filter id="unsharp" mode="effect" zerostate="none">
+    <label>Sharpen (Old)</label>
+    <tooltip>Sharpens edges in your photo</tooltip>
+    <sliders>
+      <slider id="0">
+        <label>Amount</label>
+        <range>1.0</range>
+        <default>0.6</default>
+      </slider>
+    </sliders>
+  </filter>
+
+  <!-- UNSHARP2 new version with forced full resolution load-->
+  <filter id="unsharp2" mode="effect" zerostate="none" fullres="1" slow="1">
+    <label>Sharpen</label>
+    <tooltip>Sharpens edges in your photo</tooltip>
+    <sliders>
+      <slider id="0">
+        <label>Amount</label>
+        <range>3.0</range>
+        <default>0.6</default>
+      </slider>
+    </sliders>
+  </filter>
+
+  <!-- AUTOCONTRAST -->
+  <filter id="autocontrast" mode="oneclick" zerostate="none">
+    <label>Auto Contrast</label>
+  </filter>
+
+  <!-- HORIZON FIX -->
+  <filter id="tilt" mode="tool" zerostate="zero">
+    <label>Straighten</label>
+    <!--cursor type="puck" persist="1"/-->
+    <sliders>
+      <slider id="0" enable="0" persist="1">
+        <range>2.0</range>
+        <offset>1.0</offset>
+        <default>0.0</default>
+      </slider>
+      <!-- for backwards compat, keep two persisted values -->
+      <slider id="1" enable="0" persist="1"/>
+    </sliders>
+    <zoom forcefit="1"/>
+  </filter>
+
+  <!-- RAINBOW -->
+  <filter id="rainbow" mode="tool" zerostate="none">
+    <label>Rainbow</label>
+    <sliders>
+      <slider id="0">
+        <range>256.0</range>
+        <default>0.0</default>
+      </slider>
+    </sliders>
+  </filter>
+
+  <!-- SOFT FOCUS -->
+  <filter id="radblur" mode="effect" zerostate="none">
+    <label>Soft Focus</label>
+    <tooltip>Softens focus around a center point</tooltip>
+    <cursor type="puck" persist="1" slider="0"/>
+    <zoom forcefit="1"/>
+    <sliders>
+      <slider id="0">
+        <label>Size</label>
+        <range>2.0</range>
+        <offset>1.0</offset>
+      </slider>
+      <slider id="1">
+        <label>Amount</label>
+        <range>2.0</range>
+        <offset>1.0</offset>
+      </slider>
+    </sliders>
+    <presets>
+      <real id="0">0.10</real>
+      <real id="3">0.5</real>
+      <real id="4">0.5</real>
+    </presets>
+  </filter>
+
+  <!-- FOCAL BLACK AND WHITE -->
+  <filter id="radsat" mode="effect" zerostate="none">
+    <label>Focal B&amp;W</label>
+    <tooltip>Desaturates around a center point</tooltip>
+    <cursor type="puck" persist="1" slider="0"/>
+    <zoom forcefit="1"/>
+    <sliders>
+      <slider id="0">
+        <label>Size</label>
+        <range>2.0</range>
+        <offset>1.0</offset>
+      </slider>
+      <slider id="1">
+        <label>Sharpness</label>
+        <range>1.0</range>
+        <offset>0.0</offset>
+      </slider>
+    </sliders>
+    <presets>
+      <real id="0">0.10</real>
+      <real id="3">0.5</real>
+      <real id="4">0.5</real>
+    </presets>
+  </filter>
+
+  <!-- LINEAR BLUR -->
+  <filter id="linblur" mode="effect" zerostate="none">
+    <label>Linear Blur</label>
+    <cursor type="puck" persist="1"/>
+    <zoom forcefit="1"/>
+    <sliders>
+      <slider id="0">
+        <label>Amount</label>
+        <range>10.0</range>
+        <default>2.0</default>
+      </slider>
+    </sliders>
+    <presets>
+      <real id="0">0.10</real>
+    </presets>
+  </filter>
+
+  <!-- ANSEL ADAMS (DESATURATE) -->
+  <filter id="ansel" mode="effect" zerostate="none">
+    <label>Filtered B&amp;W</label>
+    <tooltip>Makes a photo that looks like it was taken with B&amp;W film and a color filter</tooltip>
+    <colorwheel version="1"/>
+    <presets>
+      <pixel b="85" g="85" r="85" a="255"/>
+    </presets>
+  </filter>
+
+  <!-- TINT -->
+  <filter id="tint" mode="effect" zerostate="none">
+    <label>Tint (Old)</label>
+    <tooltip>Makes a tinted look</tooltip>
+    <colorwheel version="0"/>
+    <sliders>
+      <slider id="0" hascircle="1">
+        <label>Color Preservation</label>
+        <range>256.0</range>
+        <offset>1.0</offset>
+      </slider>
+    </sliders>
+    <presets>
+      <real id="0">100.0</real>
+      <pixel b="216" g="180" r="123" a="255"/>
+    </presets>
+  </filter>
+
+  <!-- GRADUATED TINT -->
+  <filter id="dir_tint" mode="effect" zerostate="none" rotate="1">
+    <label>Graduated Tint</label>
+    <tooltip>A graduated filter, useful for skies</tooltip>
+    <cursor type="puck" persist="1"/>
+    <colorwheel version="0"/>
+    <zoom forcefit="1"/>
+    <sliders>
+      <slider id="0">
+        <label>Feather</label>
+        <range>1.0</range>
+        <default>0.25</default>
+      </slider>
+      <slider id="1">
+        <label>Shade</label>
+        <range>1.0</range>
+        <default>0.25</default>
+      </slider>
+    </sliders>
+    <presets>
+      <real id="0">0.6</real>
+      <real id="1">0.5</real>
+      <pixel b="216" g="180" r="123" a="255"/>
+      <real id="3">0.5</real>
+      <real id="4">0.5</real>
+    </presets>
+  </filter>
+
+  <!-- RADIAL TINT -->
+  <filter id="radtint" mode="effect" zerostate="none">
+    <label>Radial Tint</label>
+    <tooltip>Tints around a central point</tooltip>
+    <cursor type="puck" persist="1"/>
+    <colorwheel version="0"/>
+    <zoom forcefit="1"/>
+    <sliders>
+      <slider id="0">
+        <label>Feather</label>
+        <range>1.0</range>
+        <default>0.25</default>
+      </slider>
+    </sliders>
+    <presets>
+      <real id="3">0.5</real>
+      <real id="4">0.5</real>
+    </presets>
+  </filter>
+
+  <!-- GLOW -->
+  <filter id="glow" mode="effect" zerostate="zero">
+    <label>Glow (Old)</label>
+    <tooltip>Gives your photo a gauzy glow</tooltip>
+    <sliders>
+      <slider id="0">
+        <label>Intensity</label>
+        <range>1.0</range>
+        <default>0.65</default>
+      </slider>
+      <slider id="1">
+        <label>Radius</label>
+        <range>1.0</range>
+        <log>250.0</log>
+        <default>3.0</default>
+      </slider>
+    </sliders>
+    <presets>
+      <real id="0">1.0</real>
+      <real id="1">1.0</real>
+    </presets>
+  </filter>
+
+  <!-- GLOW new version with forced full resolution load -->
+  <filter id="glow2" mode="effect" zerostate="zero" fullres="1" slow="1">
+    <label>Glow</label>
+    <tooltip>Gives your photo a gauzy glow</tooltip>
+    <sliders>
+      <slider id="0">
+        <label>Intensity</label>
+        <range>1.0</range>
+        <default>0.65</default>
+      </slider>
+      <slider id="1">
+        <label>Radius</label>
+        <range>1.0</range>
+        <log>250.0</log>
+        <default>3.0</default>
+      </slider>
+    </sliders>
+    <presets>
+      <real id="0">1.0</real>
+      <real id="1">1.0</real>
+    </presets>
+  </filter>
+
+  <!-- SATURATION -->
+  <filter id="sat" mode="effect" zerostate="zero">
+    <label>Saturation</label>
+    <tooltip>Increases or decreases saturation</tooltip>
+    <sliders>
+      <slider id="0">
+        <label>Amount</label>
+        <range>2.0</range>
+        <offset>1.0</offset>
+        <default>0.1618</default>
+      </slider>
+      <presets>
+        <real id="0">1.2</real>
+      </presets>
+    </sliders>
+  </filter>
+
+
+  <!-- COLOR TEMPERATURE -->
+  <filter id="colortemp" mode="effect" zerostate="zero">
+    <label>Color Temperature</label>
+    <sliders>
+      <slider id="0">
+        <label>Cool to Warm</label>
+        <range>1.0</range>
+        <offset>0.5</offset>
+        <default>0.125</default>
+      </slider>
+      <slider id="1">
+        <label>White Shift</label>
+        <range>1.0</range>
+      </slider>
+    </sliders>
+  </filter>
+
+  <!-- SHADOW AND HIGHLIGHT -->
+  <filter id="shadow" mode="effect" zerostate="zero">
+    <label>Shadow &amp; Highlight</label>
+    <sliders>
+      <slider id="0">
+        <label>Radius</label>
+        <range>1.0</range>
+        <log>250.0</log>
+      </slider>
+      <slider id="1">
+        <label>Shadow %</label>
+        <range>1.0</range>
+      </slider>
+      <slider id="2">
+        <label>Highlight %</label>
+        <range>1.0</range>
+      </slider>
+    </sliders>
+  </filter>
+
+  <!-- BLUR -->
+  <filter id="blur" mode="effect" zerostate="zero">
+    <label>Blur</label>
+    <tooltip>Softens your photo</tooltip>
+    <sliders>
+      <slider id="0">
+        <label>Threshold</label>
+        <range>1.0</range>
+        <offset>0.5</offset>
+        <default>0.1</default>
+      </slider>
+    </sliders>
+  </filter>
+
+  <!-- CONTRAST -->
+  <filter id="contrast" mode="effect" zerostate="zero">
+    <label>Contrast</label>
+    <sliders>
+      <slider id="0">
+        <label>Contrast</label>
+        <range>1.0</range>
+        <offset>0.5</offset>
+        <default>0.1</default>
+      </slider>
+    </sliders>
+  </filter>
+
+  <!-- GAMMA -->
+  <filter id="gamma" mode="effect" zerostate="zero">
+    <label>Gamma Correct</label>
+    <sliders>
+      <slider id="0">
+        <label>Level</label>
+        <range>2.0</range>
+        <offset>1.0</offset>
+        <default>0.1618</default>
+      </slider>
+    </sliders>
+    <presets>
+      <real id="0">0.6</real>
+    </presets>
+  </filter>
+
+  <!-- BACKLIGHT -->
+  <filter id="backlight" mode="effect" zerostate="zero">
+    <label>Backlight Fix</label>
+    <sliders>
+      <slider id="0">
+        <label>Amount</label>
+        <range>1.0</range>
+        <default>0.25</default>
+      </slider>
+    </sliders>
+  </filter>
+
+  <!-- FILLLIGHT -->
+  <filter id="fill" mode="soft" zerostate="zero">
+    <label>Fill Light</label>
+    <sliders>
+      <slider id="0" enable="0" persist="1">
+        <range>1.0</range>
+        <default>0.0</default>
+      </slider>
+    </sliders>
+  </filter>
+
+  <!-- WHITEPOINT -->
+  <filter id="whitept" mode="effect" zerostate="zero">
+    <label>Whitepoint</label>
+    <cursor type="dropper" persist="0" coords="pixel"/>
+    <colorcircle id="0"/>
+    <sliders>
+      <slider id="0" enable="0" persist="0">
+        <label>Choose Whitepoint Color</label>
+      </slider>
+    </sliders>
+  </filter>
+
+  <!-- DIRECTIONAL SATURATION -->
+  <filter id="dir_sat" mode="effect" zerostate="none">
+    <label>Directional Saturation</label>
+    <cursor type="puck" persist="0"/>
+    <zoom forcefit="1"/>
+    <sliders>
+      <slider id="0">
+        <label>Left to Right</label>
+        <range>2.0</range>
+        <offset>1.0</offset>
+      </slider>
+      <slider id="1">
+        <label>Top to Bottom</label>
+        <range>2.0</range>
+        <offset>1.0</offset>
+      </slider>
+    </sliders>
+  </filter>
+
+  <!-- DIRECTIONAL BRIGHTNESS -->
+  <filter id="dir_brite" mode="effect" zerostate="none">
+    <label>Directional Brightness</label>
+    <cursor type="puck" persist="0"/>
+    <zoom forcefit="1"/>
+    <sliders>
+      <slider id="0">
+        <label>Left to Right</label>
+        <range>2.0</range>
+        <offset>1.0</offset>
+      </slider>
+      <slider id="1">
+        <label>Top to Bottom</label>
+        <range>2.0</range>
+        <offset>1.0</offset>
+      </slider>
+    </sliders>
+  </filter>
+
+  <!-- DIRECTIONAL SHARPEN -->
+  <filter id="dir_sharp" mode="effect" zerostate="none">
+    <label>Directional Sharpen</label>
+    <cursor type="puck" persist="0"/>
+    <zoom forcefit="1"/>
+    <sliders>
+      <slider id="0">
+        <label>Left to Right</label>
+        <range>2.0</range>
+        <offset>1.0</offset>
+      </slider>
+      <slider id="1">
+        <label>Top to Bottom</label>
+        <range>2.0</range>
+        <offset>1.0</offset>
+      </slider>
+    </sliders>
+  </filter>
+
+  <!-- FOCAL PIXELATE -->
+  <filter id="focalpixelate" mode="effect" zerostate="none">
+    <label>Focal Pixelate</label>
+    <cursor type="puck" persist="1"/>
+    <sliders>
+      <slider id="0">
+        <label>Pixel Size</label>
+        <range>100.0</range>
+        <default>15.0</default>
+      </slider>
+      <slider id="1">
+        <label>Focal Size</label>
+        <range>2.0</range>
+        <default>1.0</default>
+      </slider>
+      <slider id="2">
+        <label>Edge Hardness</label>
+        <range>0.95</range>
+        <default>0.25</default>
+      </slider>
+      <slider id="3">
+        <label>Fade</label>
+        <range>1.0</range>
+        <default>0.0</default>
+      </slider>
+    </sliders>
+    <presets>
+      <real id="0">15.0</real>
+      <real id="1">0.5</real>
+      <real id="2">0.25</real>
+      <real id="3">0.0</real>
+    </presets>
+  </filter>
+
+  <!-- GLIMMER FILTERS -->
+
+  <filter id="Boost" mode="effect" zerostate="none">
+    <label>Boost</label>
+    <tooltip>Bring out colors and increase contrast</tooltip>
+    <effect>
+      <cnt:PaintEffectCanvas>
+        <HSliderPlus minimum="0" maximum="100" value="50" id="_sldrImpact"/>
+        <imageOperations:SimpleColorMatrixImageOperation id="_op" Brightness="{_sldrImpact.value * -20 / 50}" Saturation="{_sldrImpact.value * 20 / 50}" Contrast="{_sldrImpact.value * 40 / 50}" BlendAlpha="100" Mask="{_mctr.mask}"/>
+      </cnt:PaintEffectCanvas>
+    </effect>
+  </filter>
+
+  <filter id="Border" mode="effect" zerostate="none" resize="1">
+    <label>Border</label>
+    <tooltip>Add a frame to your photo</tooltip>
+    <effect>
+      <cnt:EffectCanvas>
+        <ctrl:HSBColorPicker id="_cpkrOuter" selectedColor="0x000000"/>
+        <ctrl:HSliderFastDrag minimum="0" maximum="100" value="20" id="_sldrOuterThickness"/>
+        <ctrl:HSBColorPicker id="_cpkrInner" selectedColor="0xffffff"/>
+        <ctrl:HSliderFastDrag minimum="0" maximum="100" value="5" id="_sldrInnerThickness"/>
+        <ctrl:HSliderFastDrag minimum="0" maximum="{Math.min(imagewidth, imageheight)/2}" value="0" id="_sldrCornerRadius"/>
+        <ctrl:HSliderFastDrag minimum="0" maximum="{imageheight/6}" value="0" id="_sldrCaptionHeight"/>
+        <imageOperations:BorderImageOperation id="_op" outercolor="{0xff000000 + _cpkrOuter.liveColor}" innercolor="{0xff000000 + _cpkrInner.liveColor}" outerthickness="{_sldrOuterThickness.value}" innerthickness="{_sldrInnerThickness.value}" cornerradius="{_sldrCornerRadius.value}" captionheight="{_sldrCaptionHeight.value}"/>
+      </cnt:EffectCanvas>
+    </effect>
+    <presets>
+      <real id="0">50.000000</real>
+      <real id="1">30.000000</real>
+      <real id="2">0.000000</real>
+      <real id="3">0.000000</real>
+      <real id="4">0.000000</real>
+    </presets>
+  </filter>
+
+  <filter id="Cinemascope" mode="effect" zerostate="none" fullres="1" resize="1">
+    <label>Cinemascope</label>
+    <tooltip>Add a little classic movie magic</tooltip>
+    <effect>
+      <cnt:EffectCanvas>
+        <Variable id="cropWidth.val" val="{zeroR + origImageWidth}"/>
+        <Variable id="cropHeight.val" val="{zeroR + (cbLetterbox.selected ? Math.min(Math.round(origImageWidth/1.7),origImageHeight) : origImageHeight) }"/>
+        <Variable id="topBorder.val" val="{zeroR + (cbLetterbox.selected ? Math.round(cropHeight.val * 0.15) : 0) }"/>
+        <Variable id="bottomBorder.val" val="{zeroR + (cbLetterbox.selected ? Math.round(cropHeight.val * 0.15) : 0) }"/>
+        <mx:CheckBox id="cbLetterbox" selected="true"/>
+        <imageOperations:NestedImageOperation id="_op">
+          <imageOperations:children>
+            <imageOperations:CropImageOperation width="{zeroR + cropWidth.val}" height="{zeroR + cropHeight.val}" x="{zeroR + Math.floor((origImageWidth-cropWidth.val)/2)}" y="{zeroR + Math.floor((origImageHeight-cropHeight.val)/2)}"/>
+            <imageOperations:ResizeImageOperation height="{Math.round(cropHeight.val * (cbLetterbox.selected ? .95:1))}" width="{cropWidth.val}"/>
+            <imageOperations:NestedImageOperation BlendAlpha="1">
+              <imageOperations:children>
+                <imageOperations:AutoFixImageOperation/>
+                <imageOperations:SimpleColorMatrixImageOperation Saturation="-25"/>
+                <imageOperations:AdjustCurvesImageOperation MasterCurve="{[{x:0, y:0}, {x:29, y:19}, {x:110, y:150}, {x:233, y:245}, {x:255, y:255}]}" RedCurve="{[{x:0, y:0}, {x:111, y:141}, {x:255, y:255}]}" BlueCurve="{[{x:0, y:0}, {x:136, y:121}, {x:255, y:255}]}"/>
+                <imageOperations:NoiseImageOperation randomSeed="0" low="225" high="245" channelOptions="7" grayScale="true" BlendMode="multiply" maskWithSourceAlpha="true"/>
+              </imageOperations:children>
+            </imageOperations:NestedImageOperation>
+            <imageOperations:SimpleBorderImageOperation top="{zeroR + topBorder.val}" bottom="{zeroR + bottomBorder.val}" left="0" right="0" color="0x000000"/>
+          </imageOperations:children>
+        </imageOperations:NestedImageOperation>
+      </cnt:EffectCanvas>
+    </effect>
+  </filter>
+
+  <filter id="Comicize" mode="effect" zerostate="none" fullres="1" slow="1">
+    <label>Comic Book</label>
+    <tooltip>Comic book style half-toning</tooltip>
+    <effect>
+      <cnt:EffectCanvas>
+        <Variable id="_nDotSize" val="{Math.round(imagewidth/70)+1}"/>
+        <HSliderPlus minimum="0" maximum="100" value="20" id="_sldrBlurXY"/>
+        <HSliderFastDrag minimum="0" maximum="100" value="{zeroR + 50}" id="_sldrDotContrast"/>
+        <HSliderFastDrag minimum="0" maximum="100" value="{zeroR + 50}" id="_sldrDotFade"/>
+        <imageOperations:TiledImageMask tileWidth="{zeroR + _nDotSize}" tileHeight="{zeroR + _nDotSize}" alphaMin="0.0" width="{zeroR + imagewidth}" height="{zeroR + imageheight}" id="_mskColorSpots1"/>
+        <imageOperations:TiledImageMask tileWidth="{zeroR + _nDotSize}" tileHeight="{zeroR + _nDotSize}" alphaMin="0.0" width="{zeroR + imagewidth}" height="{zeroR + imageheight}" offsetX="{zeroR + _nDotSize/2}" offsetY="{zeroR + _nDotSize/2}" id="_mskColorSpots2"/>
+        <imageOperations:NestedImageOperation id="_op" dynamicAlphaCachePriority="3">
+          <imageOperations:children>
+            <imageOperations:BlurImageOperation id="_opBlur" xblur="{1 + 20 * _sldrBlurXY.value/100}" yblur="{1 + 20 * _sldrBlurXY.value/100}" BlendMode="darken" BlendAlpha="1" quality="3"/>
+            <imageOperations:NestedImageOperation id="_opColorSpots" BlendMode="multiply" dynamicAlphaCachePriority="3" BlendAlpha="{0.5-_sldrDotFade.value/200}">
+              <imageOperations:children>
+                <imageOperations:GlowImageOperation color="0" glowalpha="1" xblur="{35*.02*Math.max(imagewidth, imageheight)/2}" yblur="{35*.02*Math.max(imagewidth, imageheight)/2}" strength="1.1" quality="3" innerglow="true" knockout="false"/>
+                <imageOperations:NestedImageOperation>
+                  <imageOperations:children>
+                    <imageOperations:AdjustCurvesImageOperation MasterCurve="{[{x:0,y:0}, {x:24,y:24}, {x:48,y:48}, {x:90+_sldrDotContrast.value*1.5,y:254},  {x:255,y:255}]}"/>
+                    <imageOperations:SetVar Name="ColorSpots_orig"/>
+                    <imageOperations:PixelateImageOperation pixelWidth="{zeroR + _nDotSize}" pixelHeight="{zeroR + _nDotSize}"/>
+                    <imageOperations:SetVar Name="ColorSpots_pixelated1"/>
+                    <imageOperations:BWImageOperation/>
+                    <imageOperations:SetVar Name="ColorSpots_pixelated1BW"/>
+                    <imageOperations:ColorMatrixImageOperation UseAlpha="true" Matrix="{[0,0,0,0,255, 0,0,0,0,255, 0,0,0,0,255, 0,0,0,0,255]}"/>
+                    <imageOperations:GetVarImageOperation Name="ColorSpots_pixelated1BW" Mask="{_mskColorSpots1}"/>
+                  </imageOperations:children>
+                </imageOperations:NestedImageOperation>
+                <imageOperations:AdjustCurvesImageOperation MasterCurve="{[{x:0,y:0}, {x:150,y:0}, {x:160,y:255}, {x:255,y:255}]}"/>
+                <imageOperations:GetVarImageOperation Name="ColorSpots_pixelated1" BlendMode="add"/>
+                <imageOperations:SetVar Name="ColorSpots_dots1"/>
+                <imageOperations:NestedImageOperation>
+                  <imageOperations:children>
+                    <imageOperations:GetVarImageOperation Name="ColorSpots_orig"/>
+                    <imageOperations:PixelateImageOperation pixelWidth="{zeroR + _nDotSize}" pixelHeight="{zeroR + _nDotSize}" offsetX="{zeroR + _nDotSize/2}" offsetY="{zeroR + _nDotSize/2}"/>
+                    <imageOperations:SetVar Name="ColorSpots_pixelated2"/>
+                    <imageOperations:BWImageOperation/>
+                    <imageOperations:SetVar Name="ColorSpots_pixelated2BW"/>
+                    <imageOperations:ColorMatrixImageOperation UseAlpha="true" Matrix="{[0,0,0,0,255, 0,0,0,0,255, 0,0,0,0,255, 0,0,0,0,255]}"/>
+                    <imageOperations:GetVarImageOperation Name="ColorSpots_pixelated2BW" Mask="{_mskColorSpots2}"/>
+                  </imageOperations:children>
+                </imageOperations:NestedImageOperation>
+                <imageOperations:AdjustCurvesImageOperation MasterCurve="{[{x:0,y:0}, {x:150,y:0}, {x:160,y:255}, {x:255,y:255}]}"/>
+                <imageOperations:GetVarImageOperation Name="ColorSpots_pixelated2" BlendMode="add"/>
+                <imageOperations:GetVarImageOperation Name="ColorSpots_dots1" BlendMode="darken"/>
+              </imageOperations:children>
+            </imageOperations:NestedImageOperation>
+          </imageOperations:children>
+        </imageOperations:NestedImageOperation>
+      </cnt:EffectCanvas>
+    </effect>
+  </filter>
+
+  <filter id="CrossProcess" mode="effect" zerostate="none" fullres="1">
+    <label>Cross Process</label>
+    <tooltip>Mimics film cross-processing</tooltip>
+    <effect>
+      <cnt:EffectCanvas>
+        <HSliderPlus minimum="0" maximum="100" value="0" id="_sldrFade"/>
+        <imageOperations:NestedImageOperation id="_op" BlendAlpha="{1-(_sldrFade.value/100)}" dynamicAlphaCachePriority="10">
+          <imageOperations:children>
+            <imageOperations:AdjustCurvesImageOperation RedCurve="{[{x:0, y:0}, {x:60, y:30}, {x:210, y:255}, {x:255, y:255}]}" GreenCurve="{[{x:0, y:0}, {x:47, y:38}, {x:101, y:111}, {x:187, y:206}, {x:255, y:255}]}" BlueCurve="{[{x:0, y:32}, {x:255, y:216}]}"/>
+            <imageOperations:SimpleColorMatrixImageOperation Contrast="10" Brightness="10"/>
+            <imageOperations:TintImageOperation Color="0xfcff00" BlendAlpha=".2" BlendMode="multiply"/>
+          </imageOperations:children>
+        </imageOperations:NestedImageOperation>
+      </cnt:EffectCanvas>
+    </effect>
+  </filter>
+
+  <filter id="DropShadow" mode="effect" zerostate="none" fullres="1" slow="1" resize="1">
+    <label>Drop Shadow</label>
+    <tooltip>Make your photo appear to be floating slightly above the background</tooltip>
+    <effect>
+      <cnt:EffectCanvas>
+        <ctrl:HSBColorPicker id="_cpkrShadow" selectedColor="0x000000"/>
+        <ctrl:HSliderFastDrag minimum="0" maximum="30" value="4" id="_sldrDistance"/>
+        <ctrl:HSliderFastDrag minimum="0" maximum="360" value="90" id="_sldrAngle"/>
+        <ctrl:HSliderFastDrag minimum="0" maximum="100" value="10" id="_sldrBlur"/>
+        <ctrl:HSliderPlus minimum="0" maximum="100" value="30" id="_sldrFade"/>
+        <ctrl:HSBColorPicker id="_cpkrBackground" selectedColor="0xffffff"/>
+        <imageOperations:DropShadowImageOperation id="_op" shadowColor="{0xff000000 + _cpkrShadow.liveColor}" backgroundColor="{0xff000000 + _cpkrBackground.liveColor}" shadowAlpha="{1-(_sldrFade.value/100)}" distance="{_sldrDistance.value}" angle="{_sldrAngle.value}" blurX="{_sldrBlur.value}" blurY="{_sldrBlur.value}" strength="1" quality="{BitmapFilterQuality.HIGH}"/>
+      </cnt:EffectCanvas>
+    </effect>
+  </filter>
+
+  <filter id="PicnikFocalPixelate" mode="effect" zerostate="none" fullres="1">
+    <label>Focal Pixelate</label>
+    <tooltip>Pixelate everything inside or outside a central area</tooltip>
+    <cursor type="puck" persist="1"/>
+    <effect>
+      <cnt:CircularOverlayEffectCanvas>
+        <ctrl:HSliderFastDrag minimum="2" maximum="100" value="{zeroR + 20}" id="_sldrImpact"/>
+        <ctrl:HSliderFastDrag id="_sldrRadius" minimum="10" maximum="{Math.min(imagewidth,imageheight)/2}" value="{zeroR + ((_sldrRadius.maximum - _sldrRadius.minimum) / 2) + _sldrRadius.minimum}"/>
+        <ctrl:HSliderFastDrag minimum="0" maximum="100" value="{zeroR+50}" id="_sldrHardness"/>
+        <ctrl:HSliderPlus minimum="0" maximum="100" value="0" id="_sldrFade"/>
+        <mx:CheckBox id="_chkReverse" selected="false"/>
+        <imageOperations:CircularGradientImageMask width="{zeroR + imagewidth}" height="{zeroR + imageheight}" xCenter="{zeroR + xFocus}" yCenter="{zeroR + yFocus}" innerRadius="{_sldrRadius.value * _sldrHardness.value/101}" outerRadius="{_sldrRadius.value * (2-(_sldrHardness.value/101))}" outerAlpha="{_chkReverse.selected?0:1}" innerAlpha="{_chkReverse.selected?1:0}" id="_msk"/>
+        <imageOperations:NestedImageOperation id="_op" BlendAlpha="{1-(_sldrFade.value/100)}" Mask="{_msk}" dynamicAlphaCachePriority="10">
+          <imageOperations:children>
+            <imageOperations:ResizeImageOperation width="{zeroR + imagewidth/_sldrImpact.value}" height="{zeroR + imageheight/_sldrImpact.value}" ignoreObjects="true"/>
+            <imageOperations:ResizeImageOperation width="{zeroR + imagewidth}" height="{zeroR + imageheight}" smoothing="false" ignoreObjects="true"/>
+          </imageOperations:children>
+        </imageOperations:NestedImageOperation>
+      </cnt:CircularOverlayEffectCanvas>
+    </effect>
+    <presets>
+      <real id="0">8.000000</real>
+      <real id="1">20.000000</real>
+      <real id="2">90.000000</real>
+      <real id="3">0.500000</real>
+      <real id="4">0.500000</real>
+    </presets>
+  </filter>
+
+  <filter id="FocalZoom" mode="effect" zerostate="none" fullres="2">
+    <label>Focal Zoom</label>
+    <tooltip>Zoom everything outside a central area</tooltip>
+    <cursor type="puck" persist="1"/>
+    <effect>
+      <cnt:CircularOverlayEffectCanvas>
+        <ctrl:HSliderFastDrag minimum="1" maximum="100" value="{zeroR + 50}" id="_sldrImpact"/>
+        <ctrl:HSliderFastDrag id="_sldrRadius" minimum="10" maximum="{Math.min(fullResImageWidth,fullResImageHeight)/2}" value="{zeroR + ((_sldrRadius.maximum - _sldrRadius.minimum) / 2) + _sldrRadius.minimum}"/>
+        <ctrl:HSliderFastDrag minimum="0" maximum="100" value="{zeroR+50}" id="_sldrHardness"/>
+        <ctrl:HSliderPlus minimum="0" maximum="100" value="0" id="_sldrFade"/>
+        <imageOperations:CircularGradientImageMask width="{zeroR + imagewidth}" height="{zeroR + imageheight}" xCenter="{zeroR + xFocus}" yCenter="{zeroR + yFocus}" innerRadius="{_sldrRadius.value * imageWidth / fullResImageWidth * _sldrHardness.value/101}" outerRadius="{_sldrRadius.value * imageWidth / fullResImageWidth * (2-(_sldrHardness.value/101))}" outerAlpha="1" innerAlpha="0" id="_msk"/>
+        <imageOperations:NestedImageOperation id="_op" BlendAlpha="{1-(_sldrFade.value/100)}" dynamicAlphaCachePriority="10">
+          <imageOperations:children>
+            <imageOperations:RadialBlurImageOperation Mask="{_msk}" x="{zeroR + xFocus}" y="{zeroR + yFocus}" amount="{_sldrImpact.value}" ignoreObjects="true"/>
+          </imageOperations:children>
+        </imageOperations:NestedImageOperation>
+      </cnt:CircularOverlayEffectCanvas>
+    </effect>
+    <presets>
+      <real id="0">99.000000</real>
+      <real id="1">20.000000</real>
+      <real id="2">99.000000</real>
+      <real id="3">0.500000</real>
+      <real id="4">0.500000</real>
+    </presets>
+  </filter>
+
+  <filter id="PicnikGrain" mode="effect" zerostate="none" fullres="1" slow="1">
+    <label>Film Grain</label>
+    <tooltip>Simulate film grain</tooltip>
+    <effect>
+      <cnt:EffectCanvas>
+        <Variable id="grain.val" val="{_radioLighten.selected?2.55*_sldrGrain.value:255-2.55*_sldrGrain.value}"/>
+        <HSliderPlus minimum="0" maximum="50" value="10" id="_sldrGrain"/>
+        <mx:CheckBox id="_radioLighten" groupName="_rGroup"/>
+        <imageOperations:NestedImageOperation id="_op" BlendAlpha="1" BlendMode="{_radioLighten.selected?7:5}" maskWithSourceAlpha="true">
+          <imageOperations:children>
+            <imageOperations:NoiseImageOperation randomSeed="1" low="{_radioLighten.selected?0:grain.val}" high="{_radioLighten.selected?grain.val:255}" channelOptions="7" grayScale="true"/>
+          </imageOperations:children>
+        </imageOperations:NestedImageOperation>
+      </cnt:EffectCanvas>
+    </effect>
+  </filter>
+
+  <filter id="HDR" mode="effect" zerostate="none" fullres="1" slow="1">
+    <label>HDR-ish</label>
+    <tooltip>Emulate that &quot;high dynamic range&quot; look</tooltip>
+    <effect>
+      <cnt:EffectCanvas>
+        <ctrl:HSliderFastDrag minimum="1.3" maximum="80" value="20" id="_sldrRadius"/>
+        <ctrl:HSliderPlus minimum="1" maximum="7" value="3" id="_sldrContrast"/>
+        <ctrl:HSliderPlus minimum="0" maximum="100" value="0" id="_sldrFade"/>
+        <imageOperations:LocalContrastImageOperation id="_op" dynamicAlphaCachePriority="10" dynamicRadiusCachePriority="4" dynamicStrengthCachePriority="7" BlendAlpha="{1-(_sldrFade.value/100)}" Radius="{_sldrRadius.value}" Strength="{_sldrContrast.value}"/>
+      </cnt:EffectCanvas>
+    </effect>
+  </filter>
+
+  <filter id="HeatMap" mode="effect" zerostate="none" fullres="1">
+    <label>Heat Map</label>
+    <tooltip>Simulate heat vision</tooltip>
+    <effect>
+      <cnt:EffectCanvas>
+        <HSliderPlus minimum="-180" maximum="180" value="0" id="_sldrHue"/>
+        <HSliderPlus minimum="0" maximum="100" value="0" id="_sldrFade"/>
+        <Variable id="aobGradientArray" val="[{color:{h:240,s:100,v:50}, position:0}, {color:{h:240,s:100,v:100}, position:31.875}, {color:{h:120,s:100,v:100}, position:127.5}, {color:{h:0,s:100,v:100}, position:223.125}, {color:{h:0,s:100,v:50}, position:255}]"/>
+        <imageOperations:NestedImageOperation id="_op" BlendAlpha="{1-(_sldrFade.value/100)}" dynamicAlphaCachePriority="10">
+          <imageOperations:children>
+            <imageOperations:SimpleColorMatrixImageOperation Saturation="0"/>
+            <imageOperations:HSVGradientMapImageOperation hueOffset="{_sldrHue.value}" gradientObjectArray="{aobGradientArray}" dynamicParamsCachePriority="5"/>
+          </imageOperations:children>
+        </imageOperations:NestedImageOperation>
+      </cnt:EffectCanvas>
+    </effect>
+  </filter>
+
+  <filter id="Holga" mode="effect" zerostate="none" fullres="1" slow="1">
+    <label>Holga-ish</label>
+    <tooltip>Make your photo look like it was taken with a plastic camera</tooltip>
+    <effect>
+      <cnt:EffectCanvas>
+        <HSliderFastDrag minimum="0" maximum="100" value="70" id="_sldrBlur"/>
+        <HSliderPlus minimum="0" maximum="100" value="30" id="_sldrGrain"/>
+        <HSliderPlus minimum="0" maximum="100" value="0" id="_sldrFade"/>
+        <imageOperations:CircularGradientImageMask width="{imagewidth}" height="{imageheight}" xCenter="{imagewidth/2}" yCenter="{imageheight/2}" innerRadius="{(Math.max(imagewidth,imageheight)/2)*.9}" outerRadius="{(Math.max(imagewidth,imageheight)/2)*(2-((_sldrBlur.value/100)*1))}" id="_msk"/>
+        <imageOperations:NestedImageOperation id="_op" dynamicAlphaCachePriority="2" BlendAlpha="{1-(_sldrFade.value/100)}">
+          <imageOperations:children>
+            <imageOperations:AutoFixImageOperation/>
+            <imageOperations:GlowImageOperation color="0" glowalpha="1" xblur="{.5*Math.max(imagewidth, imageheight)/2}" yblur="{.4*Math.max(imagewidth, imageheight)/2}" strength="1.4" quality="3" innerglow="true" knockout="false"/>
+            <imageOperations:BlurImageOperation xblur="18" yblur="20" quality="3" BlendAlpha="1" Mask="{_msk}"/>
+            <imageOperations:BWImageOperation filtercolor="0xff6666"/>
+            <imageOperations:SimpleColorMatrixImageOperation Contrast="25"/>
+            <imageOperations:NoiseImageOperation randomSeed="5" dynamicAlphaCachePriority="1" low="{255-Math.round((_sldrGrain.value/200)*255)}" high="255" channelOptions="7" grayScale="true" BlendAlpha=".6" BlendMode="multiply"/>
+          </imageOperations:children>
+        </imageOperations:NestedImageOperation>
+      </cnt:EffectCanvas>
+    </effect>
+  </filter>
+
+  <filter id="Invert" mode="effect" zerostate="none">
+    <label>Invert Colors</label>
+    <tooltip>Make your photo look like a negative</tooltip>
+    <effect>
+      <cnt:EffectCanvas>
+        <imageOperations:AdjustCurvesImageOperation id="_op" MasterCurve="{[{x:0, y:255}, {x:255, y:0}]}"/>
+      </cnt:EffectCanvas>
+    </effect>
+  </filter>
+
+  <filter id="IR" mode="effect" zerostate="none">
+    <label>Infrared Film</label>
+    <tooltip>Simulate black-and-white infrared film</tooltip>
+    <effect>
+      <cnt:EffectCanvas>
+        <HSliderPlus minimum="0" maximum="100" value="0" id="_sldrFade"/>
+        <imageOperations:IRImageOperation id="_op" greenglow="5" greenglowalpha="0.25" redweight="-0.5" BlendAlpha="{1-(_sldrFade.value/100)}" dynamicAlphaCachePriority="1"/>
+      </cnt:EffectCanvas>
+    </effect>
+  </filter>
+
+  <filter id="LocalContrast" mode="effect" zerostate="none">
+    <label>Local Contrast</label>
+    <tooltip>Brings out image details</tooltip>
+    <effect>
+      <cnt:EffectCanvas>
+        <ctrl:HSliderFastDrag minimum="1.3" maximum="40" value="15" id="_sldrRadius"/>
+        <ctrl:HSliderPlus minimum="1" maximum="3" value="1.5" id="_sldrContrast"/>
+        <imageOperations:NestedImageOperation id="_op">
+          <imageOperations:children>
+            <imageOperations:SetVar Name="orig"/>
+            <imageOperations:BlurImageOperation xblur="{_sldrRadius.value}" yblur="{_sldrRadius.value}" quality="3"/>
+            <imageOperations:SetVar Name="blur"/>
+            <imageOperations:NestedImageOperation BlendMode="subtract">
+              <imageOperations:children>
+                <imageOperations:GetVarImageOperation Name="orig" BlendMode="subtract"/>
+                <imageOperations:MultiplyColorMatrixImageOperation Multiplier="{_sldrContrast.value}"/>
+              </imageOperations:children>
+            </imageOperations:NestedImageOperation>
+            <imageOperations:NestedImageOperation BlendMode="add">
+              <imageOperations:children>
+                <imageOperations:GetVarImageOperation Name="orig"/>
+                <imageOperations:GetVarImageOperation Name="blur" BlendMode="subtract"/>
+                <imageOperations:MultiplyColorMatrixImageOperation Multiplier="{_sldrContrast.value}"/>
+              </imageOperations:children>
+            </imageOperations:NestedImageOperation>
+          </imageOperations:children>
+        </imageOperations:NestedImageOperation>
+      </cnt:EffectCanvas>
+    </effect>
+  </filter>
+
+  <filter id="Lomo" mode="effect" zerostate="none" fullres="1" slow="1">
+    <label>Lomo-ish</label>
+    <tooltip>Imitate the Lomo toy camera</tooltip>
+    <effect>
+      <cnt:EffectCanvas>
+        <HSliderFastDrag minimum="0" maximum="100" value="50" id="_sldrBlur"/>
+        <HSliderPlus minimum="0" maximum="100" value="0" id="_sldrFade"/>
+        <imageOperations:CircularGradientImageMask width="{imagewidth}" height="{imageheight}" xCenter="{imagewidth/2}" yCenter="{imageheight/2}" innerRadius="{(Math.max(imagewidth,imageheight)/2)*.5}" outerRadius="{(Math.max(imagewidth,imageheight)/2)*(2-((_sldrBlur.value/100)*1))}" id="_msk"/>
+        <imageOperations:NestedImageOperation id="_op" BlendAlpha="{1-(_sldrFade.value/100)}" dynamicAlphaCachePriority="3">
+          <imageOperations:children>
+            <imageOperations:GlowImageOperation color="0" glowalpha="1" xblur="{35*.02*Math.max(imagewidth, imageheight)/2}" yblur="{35*.02*Math.max(imagewidth, imageheight)/2}" strength="1.1" quality="3" innerglow="true" knockout="false"/>
+            <imageOperations:BlurImageOperation xblur="20" yblur="20" quality="3" BlendAlpha="1" Mask="{_msk}"/>
+            <imageOperations:SimpleColorMatrixImageOperation Saturation="20" Contrast="35" Brightness="5"/>
+          </imageOperations:children>
+        </imageOperations:NestedImageOperation>
+      </cnt:EffectCanvas>
+    </effect>
+  </filter>
+
+  <filter id="Matte" mode="effect" zerostate="none">
+    <label>Matte</label>
+    <tooltip>Add a light glow to the edges of your photo</tooltip>
+    <effect>
+      <cnt:EffectCanvas>
+        <HSliderFastDrag minimum="0" maximum="50" value="40" id="_sldrBlur"/>
+        <HSliderFastDrag minimum="1" maximum="2" value="1.2" id="_sldrStr"/>
+        <ImageColorSwatch id="_clrsw" color="0xffffff"/>
+        <HSliderPlus minimum="0" maximum="100" value="0" id="_sldrFade"/>
+        <imageOperations:GlowImageOperation id="_op" color="{_clrsw.color}" glowalpha="1" dynamicAlphaCachePriority="1" xblur="{_sldrBlur.value*.02*Math.max(imagewidth, imageheight)/4}" yblur="{_sldrBlur.value*.02*Math.max(imagewidth, imageheight)/4}" strength="{_sldrStr.value}" quality="3" innerglow="true" knockout="false" BlendAlpha="{1-(_sldrFade.value/100)}"/>
+      </cnt:EffectCanvas>
+    </effect>
+  </filter>
+
+  <filter id="MuseumMatte" mode="effect" zerostate="none" resize="1">
+    <label>Museum Matte</label>
+    <tooltip>Add a shadowed matte frame to your photo</tooltip>
+    <effect>
+      <cnt:EffectCanvas>
+        <ctrl:HSBColorPicker id="_cpkrOuter" selectedColor="0x1a0e03"/>
+        <ctrl:HSliderFastDrag minimum="0" maximum="100" value="25" id="_sldrOuterThickness"/>
+        <ctrl:HSBColorPicker id="_cpkrInner" selectedColor="0xf0eae4"/>
+        <ctrl:HSliderFastDrag minimum="0" maximum="100" value="40" id="_sldrInnerThickness"/>
+        <imageOperations:NestedImageOperation id="_op">
+          <imageOperations:children>
+            <imageOperations:GlowImageOperation color="0x000000" glowalpha="1" xblur="{2*.02*Math.max(imagewidth, imageheight)/4}" yblur="{2*.02*Math.max(imagewidth, imageheight)/4}" strength="1.3" quality="3" innerglow="true" knockout="false" BlendAlpha=".7"/>
+            <imageOperations:BorderImageOperation innercolor="{0xff000000 + _cpkrInner.liveColor}" innerthickness="{_sldrInnerThickness.value}" dynamicParamsCachePriority="1"/>
+            <imageOperations:GlowImageOperation color="0x000000" glowalpha="1" xblur="{2*.02*Math.max(imagewidth, imageheight)/4}" yblur="{2*.02*Math.max(imagewidth, imageheight)/4}" strength="1.3" quality="3" innerglow="true" knockout="false" BlendAlpha=".6"/>
+            <imageOperations:BorderImageOperation dynamicParamsCachePriority="2" outercolor="{0xff000000 + _cpkrOuter.liveColor}" outerthickness="{_sldrOuterThickness.value}"/>
+          </imageOperations:children>
+        </imageOperations:NestedImageOperation>
+      </cnt:EffectCanvas>
+    </effect>
+    <presets>
+      <real id="0">50.000000</real>
+      <real id="1">80.000000</real>
+      <real id="2">0.000000</real>
+      <real id="3">0.000000</real>
+      <real id="4">0.000000</real>
+    </presets>
+  </filter>
+
+  <filter id="Neon" mode="effect" zerostate="none" fullres="1" slow="1">
+    <label>Neon</label>
+    <tooltip>Make your photo look like neon</tooltip>
+    <effect>
+      <cnt:EffectCanvas>
+        <ImageColorSwatch id="_clrsw" color="0xff0000"/>
+        <HSliderPlus minimum="0" maximum="100" value="0" id="_sldrFade"/>
+        <imageOperations:NestedImageOperation id="_op" BlendAlpha="{1-(_sldrFade.value/100)}" dynamicAlphaCachePriority="10">
+          <imageOperations:children>
+            <imageOperations:NestedImageOperation>
+              <imageOperations:children>
+                <imageOperations:EdgeDetectionBImageOperation detail="50"/>
+                <imageOperations:LocalContrastImageOperation Radius="0" Strength="0"/>
+                <imageOperations:SetVar Name="edgedetecteffect_edge"/>
+                <imageOperations:GetVarImageOperation Name="edgedetecteffect_edge" BlendMode="multiply"/>
+                <imageOperations:AdjustCurvesImageOperation MasterCurve="{[{x:0, y:255}, {x:255, y:0}]}"/>
+              </imageOperations:children>
+            </imageOperations:NestedImageOperation>
+            <imageOperations:TintImageOperation Color="{_clrsw.color}" dynamicColorCachePriority="5"/>
+          </imageOperations:children>
+        </imageOperations:NestedImageOperation>
+      </cnt:EffectCanvas>
+    </effect>
+  </filter>
+
+  <filter id="NightVision" mode="effect" zerostate="none">
+    <label>Night Vision</label>
+    <tooltip>Mimics infrared night-vision cameras</tooltip>
+    <effect>
+      <cnt:EffectCanvas>
+        <HSliderPlus minimum="-50" maximum="50" value="0" id="_sldrBrightness"/>
+        <HSliderPlus minimum="-50" maximum="50" value="0" id="_sldrContrast"/>
+        <HSliderPlus minimum="0" maximum="100" value="0" id="_sldrFade"/>
+        <imageOperations:NestedImageOperation id="_op" BlendAlpha="{1-(_sldrFade.value/100)}" dynamicAlphaCachePriority="10">
+          <imageOperations:children>
+            <imageOperations:AutoFixImageOperation/>
+            <imageOperations:GradientMapImageOperation gradientArray="[0x000000,0x57cc29]"/>
+            <imageOperations:GlowImageOperation color="0" glowalpha="1" xblur="{35*.02*Math.max(imagewidth, imageheight)/3}" yblur="{35*.02*Math.max(imagewidth, imageheight)/3}" strength="1.5" quality="3" innerglow="true" knockout="false"/>
+            <imageOperations:NoiseImageOperation randomSeed="30" low="0" high="180" channelOptions="7" grayScale="false" BlendAlpha=".2" BlendMode="lighten"/>
+            <imageOperations:SimpleColorMatrixImageOperation dynamicParamsCachePriority="5" Contrast="{_sldrContrast.value}" Brightness="{_sldrBrightness.value}"/>
+          </imageOperations:children>
+        </imageOperations:NestedImageOperation>
+      </cnt:EffectCanvas>
+    </effect>
+  </filter>
+
+  <filter id="Orton" mode="effect" zerostate="none" fullres="1" slow="1">
+    <label>Orton-ish</label>
+    <tooltip>Mimic Michael Orton&#039;s effect</tooltip>
+    <effect>
+      <cnt:EffectCanvas>
+        <HSliderFastDrag minimum="0" maximum="50" value="25" id="_sldrBloom"/>
+        <HSliderPlus minimum="0" maximum="100" value="50" id="_sldrBrightness"/>
+        <HSliderPlus minimum="0" maximum="100" value="0" id="_sldrFade"/>
+        <imageOperations:NestedImageOperation id="_op" BlendAlpha="{1-(_sldrFade.value/100)}" dynamicAlphaCachePriority="5">
+          <imageOperations:children>
+            <imageOperations:BlurImageOperation xblur="{_sldrBloom.value}" yblur="{_sldrBloom.value}" quality="3" BlendAlpha="1" BlendMode="overlay"/>
+            <imageOperations:AdjustCurvesImageOperation MasterCurve="{[{x:0, y:0}, {x:128, y:(128 + (_sldrBrightness.value - 50)*75/50)}, {x:255, y:255}]}" dynamicParamsCachePriority="3"/>
+          </imageOperations:children>
+        </imageOperations:NestedImageOperation>
+      </cnt:EffectCanvas>
+    </effect>
+  </filter>
+
+  <filter id="PencilSketch" mode="effect" zerostate="none" fullres="1" slow="1">
+    <label>Pencil Sketch</label>
+    <tooltip>Make your photo look like it was drawn with a pencil</tooltip>
+    <effect>
+      <cnt:EffectCanvas>
+        <ctrl:HSliderFastDrag minimum="1.3" maximum="5" value="2" id="_sldrRadius"/>
+        <ctrl:HSliderPlus minimum="0" maximum="200" value="100" id="_sldrContrast"/>
+        <ctrl:HSliderPlus minimum="0" maximum="100" value="0" id="_sldrFade"/>
+        <imageOperations:NestedImageOperation id="_op" BlendAlpha="{1-(_sldrFade.value/100)}" dynamicAlphaCachePriority="5">
+          <imageOperations:children>
+            <imageOperations:BWImageOperation/>
+            <imageOperations:AutoFixImageOperation/>
+            <imageOperations:SetVar Name="A"/>
+            <imageOperations:NestedImageOperation BlendMode="{BlendMode.ADD}">
+              <imageOperations:children>
+                <imageOperations:AdjustCurvesImageOperation MasterCurve="{[{x:0, y:255}, {x:255,y:0}]}"/>
+                <imageOperations:BlurImageOperation xblur="{_sldrRadius.value}" yblur="{_sldrRadius.value}" quality="3" dynamicParamsCachePriority="3"/>
+              </imageOperations:children>
+            </imageOperations:NestedImageOperation>
+            <imageOperations:GetVarImageOperation Name="A" BlendMode="{BlendMode.OVERLAY}"/>
+            <imageOperations:AutoFixImageOperation/>
+            <imageOperations:AdjustCurvesImageOperation MasterCurve="{[{x:0, y:0}, {x:127,y:127-_sldrContrast.value*2+100}, {x:255,y:255}]}" dynamicParamsCachePriority="3"/>
+          </imageOperations:children>
+        </imageOperations:NestedImageOperation>
+      </cnt:EffectCanvas>
+    </effect>
+  </filter>
+
+  <filter id="Pixelate" mode="effect" zerostate="none" fullres="1">
+    <label>Pixelate</label>
+    <tooltip>Make your photo look blocky and low-res</tooltip>
+    <effect>
+      <cnt:PaintEffectCanvas>
+        <ctrl:HSliderFastDrag minimum="2" maximum="150" value="{zeroR + 20}" id="_sldrImpact"/>
+        <ctrl:HSliderPlus minimum="0" maximum="9" value="9" id="_sldrBlendMode"/>
+        <ctrl:HSliderPlus minimum="0" maximum="100" value="0" id="_sldrFade"/>
+        <imageOperations:NestedImageOperation id="_op" BlendAlpha="{1-(_sldrFade.value/100)}" BlendMode="{_sldrBlendMode.value}" Mask="{_mctr.mask}" dynamicAlphaCachePriority="10">
+          <imageOperations:children>
+            <imageOperations:ResizeImageOperation width="{zeroR + imagewidth/_sldrImpact.value}" height="{zeroR + imageheight/_sldrImpact.value}" ignoreObjects="true"/>
+            <imageOperations:ResizeImageOperation width="{zeroR + imagewidth}" height="{zeroR + imageheight}" smoothing="false" ignoreObjects="true"/>
+          </imageOperations:children>
+        </imageOperations:NestedImageOperation>
+      </cnt:PaintEffectCanvas>
+    </effect>
+    <presets>
+      <real id="0">8.000000</real>
+      <real id="1">0.000000</real>
+      <real id="2">0.000000</real>
+      <real id="3">0.000000</real>
+      <real id="4">0.000000</real>
+    </presets>
+  </filter>
+
+  <filter id="Polaroid" mode="effect" zerostate="none" resize="1">
+    <label>Polaroid</label>
+    <tooltip>Give your photo that instant-film look</tooltip>
+    <effect>
+      <cnt:EffectCanvas>
+        <Variable id="cropSize.val" val="{zeroR + Math.min(origImageWidth, origImageHeight)}"/>
+        <Variable id="lrBorder.val" val="{zeroR + Math.round(cropSize.val * 0.0645)}"/>
+        <Variable id="topBorder.val" val="{zeroR + Math.round(cropSize.val * 0.0968)}"/>
+        <Variable id="bottomBorder.val" val="{zeroR + Math.round(cropSize.val * 0.258)}"/>
+        <Variable id="preRotateHeight.val" val="{zeroR + cropSize.val + topBorder.val + bottomBorder.val}"/>
+        <Variable id="preRotateWidth.val" val="{zeroR + cropSize.val + 2 * lrBorder.val}"/>
+        <Variable id="preRotateShrinkFactor.val" val="{zeroR + Util.GetMaxImageWidth()/Math.max(Util.GetMaxImageWidth(), preRotateHeight.val, preRotateWidth.val)}"/>
+        <Variable id="tbOuterBorder.val" val="{zeroR + preRotateHeight.val * ((Math.abs(_sldrRotate.value)/10)*0.2) * preRotateShrinkFactor.val}"/>
+        <Variable id="lrOuterBorder.val" val="{zeroR + preRotateWidth.val * ((Math.abs(_sldrRotate.value)/10)*0.25) * preRotateShrinkFactor.val}"/>
+        <HSBColorPicker id="_cpkrOuter" selectedColor="0xE2E2E2"/>
+        <HSliderPlus minimum="-10" maximum="10" value="5" id="_sldrRotate"/>
+        <imageOperations:NestedImageOperation id="_op">
+          <imageOperations:children>
+            <imageOperations:CropImageOperation width="{zeroR + cropSize.val}" height="{zeroR + cropSize.val}" x="{zeroR + Math.floor((origImageWidth-cropSize.val)/2)}" y="{zeroR + Math.floor((origImageHeight-cropSize.val)/2)}"/>
+            <imageOperations:SimpleBorderImageOperation dynamicParamsCachePriority="1" top="{zeroR + topBorder.val}" bottom="{zeroR + bottomBorder.val}" left="{zeroR + lrBorder.val}" right="{zeroR + lrBorder.val}" color="0xffffff"/>
+            <imageOperations:DropShadowImageOperation shadowColor="0x000000" dynamicParamsCachePriority="2" backgroundColor="{0xff000000 + _cpkrOuter.liveColor}" shadowAlpha=".4" distance="3" angle="{90-_sldrRotate.value}" blurX="8" blurY="8" strength="1" quality="{BitmapFilterQuality.HIGH}"/>
+            <imageOperations:RotateImageOperation dynamicParamsCachePriority="3" degAngle="{_sldrRotate.value}" padBorder="true" borderColor="{0xff000000 | _cpkrOuter.liveColor}"/>
+          </imageOperations:children>
+        </imageOperations:NestedImageOperation>
+      </cnt:EffectCanvas>
+    </effect>
+  </filter>
+
+  <filter id="QuantizePalette" mode="effect" zerostate="none" fullres="1" slow="1">
+    <label>Posterize</label>
+    <tooltip>Reduce the number of colors in your photo</tooltip>
+    <effect>
+      <cnt:EffectCanvas>
+        <HSliderFastDrag minimum="2" maximum="30" value="8" id="_sldrSteps"/>
+        <HSliderFastDrag minimum="0" maximum="100" value="80" id="_sldrSmoothing"/>
+        <HSliderPlus minimum="0" maximum="100" value="0" id="_sldrFade"/>
+        <imageOperations:NestedImageOperation id="_op" BlendAlpha="{1-(_sldrFade.value/100)}" dynamicAlphaCachePriority="10">
+          <imageOperations:children>
+            <imageOperations:BlurImageOperation xblur="{(100-_sldrSmoothing.value)/10 + 0.1}" yblur="{(100-_sldrSmoothing.value)/10 + 0.1}" quality="3"/>
+            <imageOperations:QuantizePaletteImageOperation Depth="4" Steps="{_sldrSteps.value}" dynamicParamsCachePriority="5"/>
+          </imageOperations:children>
+        </imageOperations:NestedImageOperation>
+      </cnt:EffectCanvas>
+    </effect>
+    <presets>
+      <real id="0">32.000000</real>
+      <real id="1">0.000000</real>
+      <real id="2">0.000000</real>
+      <real id="3">0.000000</real>
+      <real id="4">0.000000</real>
+    </presets>
+  </filter>
+
+  <filter id="ReanimatedEyeColor" mode="effect" zerostate="none">
+    <label>Ghoul Eye</label>
+    <tooltip>Make the eyes in your photo look icky</tooltip>
+    <effect>
+      <eff:PaintOnEffectBase _nBrushHardness="0.15">
+        <Variable id="kclrGreen" val="0xc2ff9e"/>
+        <Variable id="kclrYellow" val="0xffff00"/>
+        <Variable id="kclrGrey" val="0xDFFFDB"/>
+        <Variable id="kclrWhite" val="0xffffff"/>
+        <Variable id="eyeColor" val="{kclrGreen + zeroR}"/>
+        <BrushSizeAndEraserButton id="_brshbtn" startValueFactor="0.03" maximumFactor="0.2"/>
+        <HSliderPlus minimum="0" maximum="30" value="{zeroR + 6}" id="_sldrBlur"/>
+        <HSliderPlus minimum="0" maximum="100" value="{zeroR + 20}" id="_sldrFade"/>
+        <Variable id="_cxyBrush" val="{_brshbtn.value}"/>
+        <imageOperations:NestedImageOperation id="_op" BlendAlpha="{1-(_sldrFade.value/100)}" Mask="{_mctr.mask}" dynamicAlphaCachePriority="5">
+          <imageOperations:children>
+            <imageOperations:BlurImageOperation xblur="{_sldrBlur.value}" yblur="{_sldrBlur.value}" quality="3" BlendMode="{BlendMode.LIGHTEN}"/>
+            <imageOperations:NestedImageOperation BlendMode="{BlendMode.SCREEN}">
+              <imageOperations:children>
+                <imageOperations:AdjustCurvesImageOperation MasterCurve="{[{x:0,y:20},{x:255,y:255}]}"/>
+                <imageOperations:TintImageOperation Color="{eyeColor}" dynamicParamsCachePriority="1"/>
+              </imageOperations:children>
+            </imageOperations:NestedImageOperation>
+          </imageOperations:children>
+        </imageOperations:NestedImageOperation>
+      </eff:PaintOnEffectBase>
+    </effect>
+  </filter>
+
+  <filter id="RoundedEdges" mode="effect" zerostate="none">
+    <label>Rounded Edges</label>
+    <tooltip>Give your photo rounded corners</tooltip>
+    <effect>
+      <cnt:EffectCanvas>
+        <ctrl:HSBColorPicker id="_cpkrOuter" selectedColor="0xffffff"/>
+        <ctrl:HSliderFastDrag minimum="0" maximum="{Math.min(imagewidth, imageheight)/2}" value="{Math.min(imagewidth, imageheight)/10}" id="_sldrCornerRadius"/>
+        <imageOperations:BorderImageOperation id="_op" outercolor="{0xff000000 + _cpkrOuter.liveColor}" innercolor="0" outerthickness="0" innerthickness="0" cornerradius="{_sldrCornerRadius.value}" BlendAlpha="1"/>
+      </cnt:EffectCanvas>
+    </effect>
+    <presets>
+      <real id="0">80.000000</real>
+      <real id="1">0.000000</real>
+      <real id="2">0.000000</real>
+      <real id="3">0.000000</real>
+      <real id="4">0.000000</real>
+    </presets>
+  </filter>
+
+  <filter id="Sixties" mode="effect" zerostate="none">
+    <label>1960&#039;s</label>
+    <tooltip>Rounded corners and a warm, aged glow</tooltip>
+    <effect>
+      <cnt:EffectCanvas>
+        <mx:CheckBox selected="true" id="_chkbxRounded"/>
+        <HSBColorPicker id="_cpkrOuter" selectedColor="0xffffff"/>
+        <HSliderPlus minimum="0" maximum="100" value="20" id="_sldrFade"/>
+        <imageOperations:NestedImageOperation id="_op">
+          <imageOperations:children>
+            <imageOperations:NestedImageOperation BlendAlpha="{1-(_sldrFade.value/100)}" dynamicAlphaCachePriority="10">
+              <imageOperations:children>
+                <imageOperations:AutoFixImageOperation/>
+                <imageOperations:AdjustCurvesImageOperation MasterCurve="{[{x:0, y:0}, {x:150, y:104}, {x:243, y:255}]}" RedCurve="{[{x:0, y:59}, {x:96, y:156}, {x:210, y:255}]}" GreenCurve="{[{x:0, y:22}, {x:150, y:166}, {x:255, y:216}]}" BlueCurve="{[{x:0, y:9}, {x:126, y:98}, {x:255, y:231}]}"/>
+                <imageOperations:NoiseImageOperation randomSeed="5" low="235" high="255" channelOptions="7" grayScale="true" BlendAlpha=".6" BlendMode="multiply"/>
+              </imageOperations:children>
+            </imageOperations:NestedImageOperation>
+            <imageOperations:BorderImageOperation outercolor="{0xff000000 + _cpkrOuter.liveColor}" innercolor="0" BlendAlpha="1" dynamicParamsCachePriority="5" outerthickness="0" innerthickness="0" cornerradius="{_chkbxRounded.selected?Math.min(imagewidth, imageheight)/14:0}"/>
+          </imageOperations:children>
+        </imageOperations:NestedImageOperation>
+      </cnt:EffectCanvas>
+    </effect>
+  </filter>
+
+  <filter id="Soften" mode="effect" zerostate="none">
+    <label>Soften</label>
+    <tooltip>Makes your photo soft and glowy</tooltip>
+    <effect>
+      <cnt:PaintEffectCanvas>
+        <ctrl:HSliderFastDrag minimum="0" maximum="100" value="50" id="_sldrImpact"/>
+        <ctrl:HSliderPlus minimum="0" maximum="100" value="50" id="_sldrFade"/>
+        <imageOperations:BlurImageOperation id="_op" xblur="{_sldrImpact.value * 20 / 50}" yblur="{_sldrImpact.value * 20 / 50}" quality="3" BlendAlpha="{(100-_sldrFade.value)*.8/100}" Mask="{_mctr.mask}" dynamicAlphaCachePriority="1"/>
+      </cnt:PaintEffectCanvas>
+    </effect>
+  </filter>
+
+  <filter id="PicnikTint" mode="effect" zerostate="none">
+    <label>Tint</label>
+    <tooltip>Change the color of your photo</tooltip>
+    <effect>
+      <cnt:PaintEffectCanvas>
+        <ImageColorSwatch id="_clrsw" color="0x80cfff"/>
+        <HSliderPlus minimum="0" maximum="100" value="0" id="_sldrFade"/>
+        <imageOperations:TintImageOperation id="_op" Color="{_clrsw.color}" BlendAlpha="{1-(_sldrFade.value/100)}" BlendMode="{_cbBlendMode.liveValue}" Mask="{_mctr.mask}" dynamicColorCachePriority="5" dynamicAlphaCachePriority="10"/>
+      </cnt:PaintEffectCanvas>
+    </effect>
+  </filter>
+
+  <filter id="TwoTone" mode="effect" zerostate="none">
+    <label>Duo-Tone</label>
+    <tooltip>Convert your photo to two colors</tooltip>
+    <effect>
+      <cnt:EffectCanvas>
+        <HSBColorPicker id="_cpkrBlack" selectedColor="0x004488"/>
+        <HSBColorPicker id="_cpkrWhite" selectedColor="0xffff00"/>
+        <HSliderPlus minimum="-95" maximum="95" value="0" id="_sldrBrightness"/>
+        <HSliderPlus minimum="0" maximum="100" value="20" id="_sldrContrast"/>
+        <HSliderPlus minimum="0" maximum="100" value="0" id="_sldrFade"/>
+        <imageOperations:NestedImageOperation id="_op" BlendAlpha="{1-(_sldrFade.value/100)}" dynamicAlphaCachePriority="10">
+          <imageOperations:children>
+            <imageOperations:SimpleColorMatrixImageOperation ContrastAndBrightnessLinked="true" Saturation="0" Brightness="{_sldrBrightness.value}" Contrast="{_sldrContrast.value}"/>
+            <imageOperations:TwoToneImageOperation blackColor="{0xff000000 + _cpkrBlack.liveColor}" whiteColor="{_cpkrWhite.liveColor}" dynamicParamsCachePriority="5"/>
+          </imageOperations:children>
+        </imageOperations:NestedImageOperation>
+      </cnt:EffectCanvas>
+    </effect>
+  </filter>
+
+  <filter id="Vignette" mode="effect" zerostate="none">
+    <label>Vignette</label>
+    <tooltip>Darken the edges of your photo</tooltip>
+    <effect>
+      <cnt:EffectCanvas>
+        <HSliderFastDrag minimum="0" maximum="50" value="35" id="_sldrBlur"/>
+        <HSliderFastDrag minimum="1" maximum="2" value="1.4" id="_sldrStr"/>
+        <ImageColorSwatch id="_clrsw" color="0x000000"/>
+        <HSliderPlus minimum="0" maximum="100" value="0" id="_sldrFade"/>
+        <imageOperations:GlowImageOperation id="_op" color="{_clrsw.color}" glowalpha="1" dynamicAlphaCachePriority="1" xblur="{_sldrBlur.value*.02*Math.max(imagewidth, imageheight)/4}" yblur="{_sldrBlur.value*.02*Math.max(imagewidth, imageheight)/4}" strength="{_sldrStr.value}" quality="3" innerglow="true" knockout="false" BlendAlpha="{1-(_sldrFade.value/100)}"/>
+      </cnt:EffectCanvas>
+    </effect>
+  </filter>
+
+  <!-- End of Glimmer filters -->
+
+  <!-- moviestart HISTORY -->
+  <filter id="moviestart" mode="oneclick" zerostate="none">
+    <label>Start Point</label>
+  </filter>
+  <filter id="movieend" mode="oneclick" zerostate="none">
+    <label>End Point</label>
+  </filter>
+</filters>

@@ -1,0 +1,19 @@
+<window title="Rename Files" width="fit">
+  <label title="1 file(s) selected for rename." width="fill">
+    <bind format="%s file(s) selected for rename." source="files" attr="title"/>
+  </label>
+  <spacer amount="0"/>
+  <label title="Please enter a new name for these files:"/>
+  <edit width="25em" title="" name="newname" filter="filename"/>
+  <group align="center">
+    <labelgroup title="Include in filename:">
+      <check title="Date" name="date"/>
+      <check title="Image resolution" name="size"/>
+    </labelgroup>
+  </group>
+  <label title="Example:" width="fill" height="2li" name="sample"/>
+  <buttongroup>
+    <button title="Rename" type="accept" name="rename"/>
+    <button title="Cancel" type="cancel"/>
+  </buttongroup>
+</window>

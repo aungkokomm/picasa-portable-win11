@@ -1,0 +1,22 @@
+<window title="Add Custom Aspect Ratio" width="fit">
+  <group layout="column">
+    <labelgroup title="Dimensions:" width="fill">
+      <group layout="row">
+        <edit width="3em" name="width"/>
+        <label title="  x  "/>
+        <edit width="3em" name="height"/>
+      </group>
+    </labelgroup>
+    <labelgroup title="Name:" width="fill">
+      <edit width="13em" name="title"/>
+    </labelgroup>
+    <labelgroup title="Example:" width="fill">
+      <label title="   4 x 6   Small print"/>
+    </labelgroup>
+  </group>
+
+  <buttongroup width="fill">
+    <button title="OK" type="accept" name="ok"/>
+    <button title="Cancel" type="cancel" name="cancel"/>
+  </buttongroup>
+</window>

@@ -1,0 +1,8 @@
+/* Strings for User Notification of a crash */
+"headerFmt" = "The Google program %@ has unexpectedly quit.";
+"msg" = "The system and other applications have not been affected.  A report has been created that you can send to Google to help identify the problem.";
+"msgNoSend" = "The system and other applications have not been affected.";
+
+"sendReportButton" = "Send Report";
+"cancelButton" = "Cancel";
+"noSendButton" = "OK";

@@ -1,0 +1,17 @@
+<window name="file_errors" title="Google Photos Backup" width="25em">
+  <group layout="row">
+    <image width="72" height="72" name="main_image"/>
+    <group layout="column" width="25em" height="2li">
+      <label name="error_label" width="25em" title="Couldn't back up these files:"/>
+      <spacer amount="1em"/>
+      <list name="error_list" width="fill" height="4li" scroll="hv" header="hide">
+        <!-- A zero width in a horizontal scrolled list should auto-size to the content -->
+        <column name="namecolumn" title="Name" width="0"/>
+      </list>
+    </group>
+  </group>
+  <buttongroup default="accept">
+    <button name="accept" type="accept" title="Try again"/>
+    <button name="cancel" type="cancel" title="Dismiss"/>
+  </buttongroup>
+</window>

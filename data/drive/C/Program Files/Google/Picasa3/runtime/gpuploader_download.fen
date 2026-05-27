@@ -1,0 +1,27 @@
+<window name="window" title="Google Photos Backup">
+  <group layout="row">
+    <image width="72" height="72" name="main_image" align="start"/>
+    <group layout="column" win_width="24em" mac_width="30em">
+      <label name="device_name" fontweight="bold" win_fontsize="24" mac_fontsize="16" title="Back up photos from %1$s?" width="fill" height="1.5li"/>
+      <label name="action_prompt" title="Save photos and videos from this device to Google Photos" width="fill"/>
+      <spacer amount="3em"/>
+      <group layout="row" width="fill">
+        <group layout="column">
+          <spacer height="fill"/>
+          <button name="never_btn" title="Never"/>
+          <spacer height="fill"/>
+        </group>
+        <buttongroup default="accept">
+          <button name="once_btn" title="Just once" type="accept"/>
+          <button name="always_btn" title="Always"/>
+
+          <!-- To allow the ESC key to cancel (like hitting the system close window control) we
+               need to have a cancel button in the group. However, in this case we really don't
+               have a good candidate for a cancel button so create a hidden/invisible button.
+          -->
+          <button name="cancel_btn" title="" type="cancel" hidden="true" visible="false"/>
+        </buttongroup>
+      </group>
+    </group>
+  </group>
+</window>

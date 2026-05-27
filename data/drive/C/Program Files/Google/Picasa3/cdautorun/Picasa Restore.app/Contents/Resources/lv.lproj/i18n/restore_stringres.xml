@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+ <stringres id="February">
+  <xmbtext>Februāris</xmbtext>
+ </stringres>
+ <stringres id="March">
+  <xmbtext>Marts</xmbtext>
+ </stringres>
+ <stringres id="April">
+  <xmbtext>Aprīlis</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Maijs</xmbtext>
+ </stringres>
+ <stringres id="June">
+  <xmbtext>Jūnijs</xmbtext>
+ </stringres>
+ <stringres id="July">
+  <xmbtext>Jūl.</xmbtext>
+ </stringres>
+ <stringres id="August">
+  <xmbtext>Augusts</xmbtext>
+ </stringres>
+ <stringres id="September">
+  <xmbtext>Septembris</xmbtext>
+ </stringres>
+ <stringres id="October">
+  <xmbtext>Oktobris</xmbtext>
+ </stringres>
+ <stringres id="November">
+  <xmbtext>Novembris</xmbtext>
+ </stringres>
+ <stringres id="December">
+  <xmbtext>Decembris</xmbtext>
+ </stringres>
+ <stringres id="Jan">
+  <xmbtext>Janv.</xmbtext>
+ </stringres>
+ <stringres id="Feb">
+  <xmbtext>Febr.</xmbtext>
+ </stringres>
+ <stringres id="Mar">
+  <xmbtext>Marts</xmbtext>
+ </stringres>
+ <stringres id="Apr">
+  <xmbtext>Apr.</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Maijs</xmbtext>
+ </stringres>
+ <stringres id="Jun">
+  <xmbtext>Jūn.</xmbtext>
+ </stringres>
+ <stringres id="Jul">
+  <xmbtext>Jūl.</xmbtext>
+ </stringres>
+ <stringres id="Aug">
+  <xmbtext>Aug.</xmbtext>
+ </stringres>
+ <stringres id="Sep">
+  <xmbtext>Sept.</xmbtext>
+ </stringres>
+ <stringres id="Oct">
+  <xmbtext>Okt.</xmbtext>
+ </stringres>
+ <stringres id="Nov">
+  <xmbtext>Nov.</xmbtext>
+ </stringres>
+ <stringres id="Dec">
+  <xmbtext>Dec.</xmbtext>
+ </stringres>
+ <stringres id="January">
+  <xmbtext>Janvāris</xmbtext>
+ </stringres>
+ <stringres id="February">
+  <xmbtext>Februāris</xmbtext>
+ </stringres>
+ <stringres id="March">
+  <xmbtext>Marts</xmbtext>
+ </stringres>
+ <stringres id="April">
+  <xmbtext>Aprīlis</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Maijs</xmbtext>
+ </stringres>
+ <stringres id="June">
+  <xmbtext>Jūnijs</xmbtext>
+ </stringres>
+ <stringres id="July">
+  <xmbtext>Jūl.</xmbtext>
+ </stringres>
+ <stringres id="August">
+  <xmbtext>Augusts</xmbtext>
+ </stringres>
+ <stringres id="September">
+  <xmbtext>Septembris</xmbtext>
+ </stringres>
+ <stringres id="October">
+  <xmbtext>Oktobris</xmbtext>
+ </stringres>
+ <stringres id="November">
+  <xmbtext>Novembris</xmbtext>
+ </stringres>
+ <stringres id="December">
+  <xmbtext>Decembris</xmbtext>
+ </stringres>
+ <stringres id="Jan">
+  <xmbtext>Janv.</xmbtext>
+ </stringres>
+ <stringres id="Feb">
+  <xmbtext>Febr.</xmbtext>
+ </stringres>
+ <stringres id="Mar">
+  <xmbtext>Marts</xmbtext>
+ </stringres>
+ <stringres id="Apr">
+  <xmbtext>Apr.</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Maijs</xmbtext>
+ </stringres>
+ <stringres id="Jun">
+  <xmbtext>Jūn.</xmbtext>
+ </stringres>
+ <stringres id="Jul">
+  <xmbtext>Jūl.</xmbtext>
+ </stringres>
+ <stringres id="Aug">
+  <xmbtext>Aug.</xmbtext>
+ </stringres>
+ <stringres id="Sep">
+  <xmbtext>Sept.</xmbtext>
+ </stringres>
+ <stringres id="Oct">
+  <xmbtext>Okt.</xmbtext>
+ </stringres>
+ <stringres id="Nov">
+  <xmbtext>Nov.</xmbtext>
+ </stringres>
+ <stringres id="Dec">
+  <xmbtext>Dec.</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format1">
+  <xmbtext>%1$s %2$d, %3$d</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format2">
+  <xmbtext>%1$s %2$d</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format3">
+  <xmbtext>%1$d:%2$02d:%3$02d %4$cM</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format4">
+  <xmbtext>%1$.2d:%2$.2d:%3$.2d</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigB">
+  <xmbtext>%.0f baiti</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigKB">
+  <xmbtext>%.0f KB</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigMB">
+  <xmbtext>%.1f MB</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigGB">
+  <xmbtext>%.1f GB</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigTB">
+  <xmbtext>%.1f TB</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyPictures">
+  <xmbtext>Attēli</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::Desktop">
+  <xmbtext>Darbvirsma</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyMusic">
+  <xmbtext>Mūzika</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyVideos">
+  <xmbtext>Filmas</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyDocuments">
+  <xmbtext>Dokumenti</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::ApplicationData">
+  <xmbtext>Bibliotēku/lietojumprogrammu atbalsts</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::CommonApplicationData">
+  <xmbtext>Bibliotēku/lietojumprogrammu atbalsts</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::Library">
+  <xmbtext>Bibliotēka</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyPictures">
+  <xmbtext>Mani attēli</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::Desktop">
+  <xmbtext>Darbvirsma</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyMusic">
+  <xmbtext>Mana mūzika</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyVideos">
+  <xmbtext>Mani videoklipi</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyDocuments">
+  <xmbtext>Mani dokumenti</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::ApplicationData">
+  <xmbtext>Lietojumprogrammas dati</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::CommonApplicationData">
+  <xmbtext>Vispārēji lietojumprogrammu dati</xmbtext>
+ </stringres>
+ <stringres id="ytFileUtils::CopyProgress">
+  <xmbtext>%1$s. no %2$s</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::error">
+  <xmbtext>Kļūda</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::copy">
+  <xmbtext>Kopēt</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::replace">
+  <xmbtext>Aizstāt</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::newer">
+  <xmbtext>Jaunāki</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::current">
+  <xmbtext>Pašreizējais</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::protected">
+  <xmbtext>Aizsargāts</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscalc">
+  <xmbtext>Notiek failu aprēķināšana...</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::restoremsg">
+  <xmbtext>Atjaunot šeit: %s</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statusreadyrestore">
+  <xmbtext>%1$d faili (%2$s) ir gatavi atjaunošanai</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscopying">
+  <xmbtext>Notiek failu kopēšana...</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscomplete">
+  <xmbtext>Pabeigts</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::donebutton">
+  <xmbtext>Gatavs</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscalcfiles">
+  <xmbtext>Notiek aprēķināšana... %1$d faili %2$s</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscopied">
+  <xmbtext>Kopēti %1$d faili %2$s</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::errorformat">
+  <xmbtext>Kļūda (%d)</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::complete">
+  <xmbtext>Pabeigts</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::actionheader">
+  <xmbtext>Darbība</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::srcheader">
+  <xmbtext>Avota fails</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::destheader">
+  <xmbtext>Mērķa fails</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::sizeheader">
+  <xmbtext>Lielums</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::dateheader">
+  <xmbtext>Datums</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::deflocation">
+  <xmbtext>no Picasa dublējuma\\</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::changetitle">
+  <xmbtext>Failu atrašanās vietas izvēle</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::cantcopy">
+  <xmbtext>Nevar kopēt lietojumprogrammas pagaidu kopiju</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::cantlaunch">
+  <xmbtext>Nevar atvērt lietojumprogrammu</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::unknown">
+  <xmbtext>Nezināms</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::nothing">
+  <xmbtext>Nekas</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::error">
+  <xmbtext>Kļūda</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::copy">
+  <xmbtext>Kopēt</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::replace">
+  <xmbtext>Aizstāt</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::newer">
+  <xmbtext>Jaunāki</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::current">
+  <xmbtext>Pašreizējais</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::protected">
+  <xmbtext>Aizsargāts</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::copying">
+  <xmbtext>Notiek kopēšana...</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::skipping">
+  <xmbtext>Notiek izlaišana...</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::restored">
+  <xmbtext>Atjaunots</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::skipped">
+  <xmbtext>Izlaists</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::cantFind">
+  <xmbtext>Nevarēja atrast manifestu &#039;%1$s&#039; vai &#039;%2$s&#039;.</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::error">
+  <xmbtext>Kļūda</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::quit">
+  <xmbtext>Iziet</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::open">
+  <xmbtext>Atvērt manifestu...</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscalc">
+  <xmbtext>Notiek failu aprēķināšana...</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::restoremsg">
+  <xmbtext>Atjaunot šeit: %s</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statusreadyrestore">
+  <xmbtext>%1$d faili (%2$s) ir gatavi atjaunošanai</xmbtext>
+ </stringres>
+ <stringres id="CCaptureMovieDialog::stop">
+  <xmbtext>Apturēt</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::finished">
+  <xmbtext>Pabeigta %1$d failu atjaunošana. Kopā atjaunoti %2$s faili.</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::restoring">
+  <xmbtext>Atjauno failu &#039;%1$s&#039; (%2$d.  no %3$d)</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::copying">
+  <xmbtext>Notiek kopēšana...</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::restored">
+  <xmbtext>Atjaunots fails &#039;%@&#039; (%1$d no %2$d)</xmbtext>
+ </stringres>
+</resources>

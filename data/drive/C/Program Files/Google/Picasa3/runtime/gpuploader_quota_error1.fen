@@ -1,0 +1,22 @@
+<window name="quota_error1" title="Google Photos Backup" width="35em">
+  <group layout="row">
+    <spacer amount="1em"/>
+    <image width="64" height="64" name="main_image"/>
+    <spacer amount="2em"/>
+    <group layout="column" width="fill" height="2li">
+      <label name="error_label" mac_height="1.5li" win_height="2li" width="fill" fontweight="bold" win_fontsize="24" mac_fontsize="20" title="1 GB of Google Drive storage left" />
+      <spacer amount="1em"/>
+      <label name="error_text" width="fill" height="fit" title="Get more storage to keep backing up your original photos at full resolution. Or, switch to high quality for free unlimited storage: great visual quality at a reduced file size."/>
+      <spacer amount="0"/>
+      <link name="help_decide_link" title="Get help deciding" url="https://support.google.com/photos/?p=storage"/>
+    </group>
+  </group>
+  <spacer amount="2em"/>
+  <group>
+    <label width="fill"/>
+    <button name="add_more_storage" title="Get more storage"/>
+    <button name="accept" type="accept" title="Switch to high quality"/>
+  </group>
+</window>
+
+

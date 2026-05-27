@@ -1,0 +1,8 @@
+/* Strings for User Notification of a crash */
+"headerFmt" = "Google 程序 %@ 异常退出。";
+"msg" = "系统和其他应用程序未受影响。报告已创建，您可以发送给 Google，以协助确定问题。";
+"msgNoSend" = "系统和其他应用程序未受影响。";
+
+"sendReportButton" = "发送报告";
+"cancelButton" = "取消";
+"noSendButton" = "确定";

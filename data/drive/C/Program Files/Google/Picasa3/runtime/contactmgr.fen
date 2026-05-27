@@ -1,0 +1,80 @@
+<window title="People" width="fit">
+
+  <group layout="row">
+    <group layout="column">
+      <labelgroup title="Search:" width="fill">
+        <edit width="fill" name="search"/>
+      </labelgroup>
+
+      <labelgroup title="" width="fill">
+        <list name="contacts" width="250" height="17li" scroll="v"
+              header="hide">
+          <column width="fill"/>
+        </list>
+      </labelgroup>
+      <group align="end">
+        <button title="Delete Person" name="delete"/>
+        <button title="New Person" name="create"/>
+      </group>
+    </group>
+
+    <group layout="column">
+      <labelgroup title="" width="fill">
+        <label/>
+      </labelgroup>
+      <labelgroup title="" width="fill">
+        <group>
+          <printpreview width="32" height="32" name="thumb"/>
+          <group layout="column">
+            <label width="fill" name="count"/>
+            <label title="Online Contact" width="100" name="online_contact"/>
+          </group>
+          <printpreview width="16" height="16" align="end" name="gplus"/>
+        </group>
+      </labelgroup>
+      <labelgroup title="Name:" width="fill">
+        <edit width="250" name="fullname"/>
+      </labelgroup>
+      <labelgroup title="Email(s):" width="fill">
+        <edit name="emails" height="3li" scroll="v" width="fill"/>
+        <check title="Sync Face Tags with Web Albums" name="sync"
+               width="fill"/>
+      </labelgroup>
+      <labelgroup title="Album ID:" width="fill" name="album_id_group">
+        <label width="fill" name="album_id"/>
+      </labelgroup>
+      <labelgroup title="Contact ID:" width="fill" name="contact_id_group">
+        <label width="fill" name="contact_id"/>
+      </labelgroup>
+      <labelgroup title="Focus ID:"  width="fill" name="focus_id_group">
+        <label width="fill" name="focus_id"/>
+      </labelgroup>
+      <labelgroup title="Subject ID:" width="fill" name="subject_id_group">
+        <label width="fill" name="subject_id"/>
+      </labelgroup>
+      <labelgroup title="Focus Obfuscated GAIA ID:" width="fill"
+                  name="focus_obfuscated_gaia_id_group">
+        <label width="fill" name="focus_obfuscated_gaia_id"/>
+      </labelgroup>
+      <labelgroup title="Mobile Obfuscated GAIA ID:" width="fill"
+                  name="mobile_obfuscated_gaia_id_group">
+        <label width="fill" name="mobile_obfuscated_gaia_id"/>
+      </labelgroup>
+      <group align="end">
+        <label name="status" width="fill" text-align="right"/>
+        <button title="Revert" name="revert"/>
+      </group>
+    </group>
+  </group>
+
+  <separator/>
+
+  <group>
+    <button title="Manage Online Contacts" name="online"/>
+    <button title="Refresh Contacts" name="refresh_contacts"/>
+    <buttongroup width="fill">
+      <button title="OK" type="accept" name="ok"/>
+      <button title="Cancel" type="cancel" name="cancel"/>
+    </buttongroup>
+  </group>
+</window>

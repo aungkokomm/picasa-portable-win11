@@ -1,0 +1,8 @@
+/* Strings for User Notification of a crash */
+"headerFmt" = "Google 程式 %@ 意外關閉。";
+"msg" = "系統和其他應用程式並未受影響。  已建立報告，您可傳送給 Google 以協助識別問題。";
+"msgNoSend" = "系統和其他應用程式並未受影響。";
+
+"sendReportButton" = "傳送報告";
+"cancelButton" = "取消";
+"noSendButton" = "確定";

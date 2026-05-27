@@ -1,0 +1,25 @@
+<window title="Move Database" width="fit" focus="new_location">
+  <group>
+    <label width="fill" title="You will need to restart Picasa for the changes to take effect."/>
+  </group>
+  <group>
+    <label width="fill" title="Please Note: You should backup your database before trying out this experimental feature.  NEVER move the database to a network, removable, or external drive, or you may lose data."/>
+  </group>
+  <labelgroup title="Current Database location:">
+    <group>
+      <pathbox name="current_location"/>
+    </group>
+  </labelgroup>
+  <labelgroup title="New Database location:">
+    <group>
+      <pathbox name="new_location" width="25em"/>
+      <button title="Browse..." name="changeloc"/>
+      <button title="Default" name="defaultloc"/>
+    </group>
+  </labelgroup>
+  <buttongroup>
+    <button title="Move on next restart" type="accept" name="move"/>
+    <button title="Cancel" type="cancel"/>
+  </buttongroup>
+</window>
+

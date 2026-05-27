@@ -1,0 +1,10 @@
+<window title="About Picasa" width="300">
+  <appicon align="center"/>
+  <spacer amount="1em"/>
+  <label title="Picasa" text-align="center" width="fill" name="appname"/>
+  <label title="" text-align="center" width="fill" name="version" size="small"/>
+  <label title="All other product, service names, brands, or trademarks are the property of their respective owners." text-align="center" width="fill" size="small" name="trademarks"/>
+  <label title="This software is based in part on the work of the Independent JPEG Group. This program is protected by U.S. and international copyright law." text-align="center" width="fill" size="small" name="notices"/>
+  <label title="" text-align="center" width="fill" size="small" name="copyright"/>
+  <button title="Third-party licenses..." size="small" align="center" name="licenses"/>
+</window>

@@ -1,0 +1,23 @@
+<window title="Import Albums from Web Albums" width="fit">
+  <label width="fill" title="Pictures in the web albums checked below will download to your computer once you click the OK button. They will automatically be organized into folders based on the album names."/>
+  <label title="You have 100 web albums online." name="albumcount" width="fill"/>
+  <radiogroup name="importall">
+    <radio title="Import all albums"/>
+    <radio title="Import selected albums:"/>
+  </radiogroup>
+  <group layout="row" width="fill">
+    <bind attr="enabled" source="importall"/>
+    <spacer amount="indent"/>
+    <group layout="column">
+      <list name="albums" max-width="fill" height="6li" scroll="v" checkboxes="true">
+        <column title="Name"  width="15em"/>
+        <column title="Date" width="15em"/>
+      </list>
+    </group>
+  </group>
+  <label title="(NOTE: Only pictures that are not already on your computer will be downloaded)" width="fill"/>
+  <buttongroup>
+    <button title="OK" type="accept" name="ok"/>
+    <button title="Cancel" type="cancel"/>
+  </buttongroup>
+</window>

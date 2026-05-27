@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+ <stringres id="February">
+  <xmbtext>лютий</xmbtext>
+ </stringres>
+ <stringres id="March">
+  <xmbtext>Березень</xmbtext>
+ </stringres>
+ <stringres id="April">
+  <xmbtext>Квітень</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Травень</xmbtext>
+ </stringres>
+ <stringres id="June">
+  <xmbtext>Червень</xmbtext>
+ </stringres>
+ <stringres id="July">
+  <xmbtext>Липень</xmbtext>
+ </stringres>
+ <stringres id="August">
+  <xmbtext>Серпень</xmbtext>
+ </stringres>
+ <stringres id="September">
+  <xmbtext>вересень</xmbtext>
+ </stringres>
+ <stringres id="October">
+  <xmbtext>жовтень</xmbtext>
+ </stringres>
+ <stringres id="November">
+  <xmbtext>Листопад</xmbtext>
+ </stringres>
+ <stringres id="December">
+  <xmbtext>Грудень</xmbtext>
+ </stringres>
+ <stringres id="Jan">
+  <xmbtext>Січ.</xmbtext>
+ </stringres>
+ <stringres id="Feb">
+  <xmbtext>Лют.</xmbtext>
+ </stringres>
+ <stringres id="Mar">
+  <xmbtext>Бер.</xmbtext>
+ </stringres>
+ <stringres id="Apr">
+  <xmbtext>Квіт.</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Травень</xmbtext>
+ </stringres>
+ <stringres id="Jun">
+  <xmbtext>чер.</xmbtext>
+ </stringres>
+ <stringres id="Jul">
+  <xmbtext>Лип.</xmbtext>
+ </stringres>
+ <stringres id="Aug">
+  <xmbtext>серп.</xmbtext>
+ </stringres>
+ <stringres id="Sep">
+  <xmbtext>Вер.</xmbtext>
+ </stringres>
+ <stringres id="Oct">
+  <xmbtext>Жов.</xmbtext>
+ </stringres>
+ <stringres id="Nov">
+  <xmbtext>Лист.</xmbtext>
+ </stringres>
+ <stringres id="Dec">
+  <xmbtext>груд.</xmbtext>
+ </stringres>
+ <stringres id="January">
+  <xmbtext>Січень</xmbtext>
+ </stringres>
+ <stringres id="February">
+  <xmbtext>лютий</xmbtext>
+ </stringres>
+ <stringres id="March">
+  <xmbtext>Березень</xmbtext>
+ </stringres>
+ <stringres id="April">
+  <xmbtext>Квітень</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Травень</xmbtext>
+ </stringres>
+ <stringres id="June">
+  <xmbtext>Червень</xmbtext>
+ </stringres>
+ <stringres id="July">
+  <xmbtext>Липень</xmbtext>
+ </stringres>
+ <stringres id="August">
+  <xmbtext>Серпень</xmbtext>
+ </stringres>
+ <stringres id="September">
+  <xmbtext>вересень</xmbtext>
+ </stringres>
+ <stringres id="October">
+  <xmbtext>жовтень</xmbtext>
+ </stringres>
+ <stringres id="November">
+  <xmbtext>Листопад</xmbtext>
+ </stringres>
+ <stringres id="December">
+  <xmbtext>Грудень</xmbtext>
+ </stringres>
+ <stringres id="Jan">
+  <xmbtext>Січ.</xmbtext>
+ </stringres>
+ <stringres id="Feb">
+  <xmbtext>Лют.</xmbtext>
+ </stringres>
+ <stringres id="Mar">
+  <xmbtext>Бер.</xmbtext>
+ </stringres>
+ <stringres id="Apr">
+  <xmbtext>Квіт.</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Травень</xmbtext>
+ </stringres>
+ <stringres id="Jun">
+  <xmbtext>чер.</xmbtext>
+ </stringres>
+ <stringres id="Jul">
+  <xmbtext>Лип.</xmbtext>
+ </stringres>
+ <stringres id="Aug">
+  <xmbtext>серп.</xmbtext>
+ </stringres>
+ <stringres id="Sep">
+  <xmbtext>Вер.</xmbtext>
+ </stringres>
+ <stringres id="Oct">
+  <xmbtext>Жов.</xmbtext>
+ </stringres>
+ <stringres id="Nov">
+  <xmbtext>Лист.</xmbtext>
+ </stringres>
+ <stringres id="Dec">
+  <xmbtext>груд.</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format1">
+  <xmbtext>%1$s %2$d, %3$d</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format2">
+  <xmbtext>%1$s %2$d</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format3">
+  <xmbtext>%1$d:%2$02d:%3$02d %4$cM</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format4">
+  <xmbtext>%1$.2d:%2$.2d:%3$.2d</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigB">
+  <xmbtext>%.0f байт.</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigKB">
+  <xmbtext>%.0f Кб</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigMB">
+  <xmbtext>%.1f Мб</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigGB">
+  <xmbtext>%.1f Гб</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigTB">
+  <xmbtext>%.1f Тб</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyPictures">
+  <xmbtext>Фотографії</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::Desktop">
+  <xmbtext>Робочий стіл</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyMusic">
+  <xmbtext>Музика</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyVideos">
+  <xmbtext>Відео</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyDocuments">
+  <xmbtext>Документи</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::ApplicationData">
+  <xmbtext>Бібліотека/Підтримка програми</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::CommonApplicationData">
+  <xmbtext>Бібліотека/Підтримка програми</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::Library">
+  <xmbtext>Бібліотека</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyPictures">
+  <xmbtext>Мої зображення</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::Desktop">
+  <xmbtext>Робочий стіл</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyMusic">
+  <xmbtext>Моя музика</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyVideos">
+  <xmbtext>Мої відео</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyDocuments">
+  <xmbtext>Мої документи</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::ApplicationData">
+  <xmbtext>Допоміжні відомості</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::CommonApplicationData">
+  <xmbtext>Спільні дані програм</xmbtext>
+ </stringres>
+ <stringres id="ytFileUtils::CopyProgress">
+  <xmbtext>%1$s із %2$s</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::error">
+  <xmbtext>Помилка</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::copy">
+  <xmbtext>Копіювати</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::replace">
+  <xmbtext>Замінити</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::newer">
+  <xmbtext>Ніколи</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::current">
+  <xmbtext>Поточний</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::protected">
+  <xmbtext>Захищено</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscalc">
+  <xmbtext>Підрахунок файлів</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::restoremsg">
+  <xmbtext>Відновити в: %s</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statusreadyrestore">
+  <xmbtext>Готові для відновлення файли: %1$d (%2$s)</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscopying">
+  <xmbtext>Копіювання файлів</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscomplete">
+  <xmbtext>Завершено</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::donebutton">
+  <xmbtext>Готово</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscalcfiles">
+  <xmbtext>Підрахунок файлів (%1$d) %2$s</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscopied">
+  <xmbtext>Скопійовано файлів: %1$d %2$s</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::errorformat">
+  <xmbtext>Помилка (%d)</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::complete">
+  <xmbtext>Завершено</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::actionheader">
+  <xmbtext>Дія</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::srcheader">
+  <xmbtext>Вихідний файл</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::destheader">
+  <xmbtext>Файл призначення</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::sizeheader">
+  <xmbtext>Розмір</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::dateheader">
+  <xmbtext>Дата</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::deflocation">
+  <xmbtext>з резервної копії Picasa\\</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::changetitle">
+  <xmbtext>Виберіть розташування файлів</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::cantcopy">
+  <xmbtext>Не вдається створити тимчасову копію програми</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::cantlaunch">
+  <xmbtext>Не вдається відкрити програму</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::unknown">
+  <xmbtext>Невідомо</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::nothing">
+  <xmbtext>Нічого</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::error">
+  <xmbtext>Помилка</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::copy">
+  <xmbtext>Копіювати</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::replace">
+  <xmbtext>Замінити</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::newer">
+  <xmbtext>Ніколи</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::current">
+  <xmbtext>Поточний</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::protected">
+  <xmbtext>Захищено</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::copying">
+  <xmbtext>Копіювання</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::skipping">
+  <xmbtext>Пропускання</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::restored">
+  <xmbtext>Відновлено</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::skipped">
+  <xmbtext>Пропущено</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::cantFind">
+  <xmbtext>Не вдалося знайти жодної заяви з назвою &quot;%1$s&quot; або &quot;%2$s&quot;.</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::error">
+  <xmbtext>Помилка</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::quit">
+  <xmbtext>Вихід</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::open">
+  <xmbtext>Відкрити заяву...</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscalc">
+  <xmbtext>Підрахунок файлів</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::restoremsg">
+  <xmbtext>Відновити в: %s</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statusreadyrestore">
+  <xmbtext>Готові для відновлення файли: %1$d (%2$s)</xmbtext>
+ </stringres>
+ <stringres id="CCaptureMovieDialog::stop">
+  <xmbtext>Зупинити</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::finished">
+  <xmbtext>Завершено відновлення такої кількості файлів: %1$d, усього: %2$s.</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::restoring">
+  <xmbtext>Відновлення файлу &quot;%1$s&quot; (%2$d із %3$d)</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::copying">
+  <xmbtext>Копіювання</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::restored">
+  <xmbtext>Відновлено файл &quot;%@&quot; (%1$d із %2$d)</xmbtext>
+ </stringres>
+</resources>

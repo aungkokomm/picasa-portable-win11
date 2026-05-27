@@ -1,0 +1,8 @@
+/* Strings for User Notification of a crash */
+"headerFmt" = "El programa de Google %@ se ha cerrado inesperadamente.";
+"msg" = "El sistema y otras aplicaciones no se han visto afectados.  Se ha creado un informe que podrás enviar a Google y que ayudará a identificar el problema.";
+"msgNoSend" = "El sistema y otras aplicaciones no se han visto afectados.";
+
+"sendReportButton" = "Enviar informe";
+"cancelButton" = "Cancelar";
+"noSendButton" = "Aceptar";

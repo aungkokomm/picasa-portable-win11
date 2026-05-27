@@ -1,0 +1,21 @@
+<window title="Review for Printing" layout="row" width="fit">
+  <group layout="column" width="fit" height="fill">
+    <label title="{CPrintDlg::toosmall}Some of your pictures are too small to print well.  You can remove these pictures, print them anyway, or cancel and change the print size." width="fill" name="overall"/>
+    <list height="10li" max-height="fill"  name="list" width="fill" header="hide" scroll="v">
+      <column width="fill"/>
+    </list>
+    <group>
+      <button title="Remove Selected" name="remove"/>
+      <button title="Remove Low Quality Pictures" name="removeall"/>
+    </group>
+  </group>
+  <group layout="column" align="end" width="15em">
+    <label title="Image Preview" name="top" width="fill" text-align="center"/>
+    <printpreview width="fill" name="preview"/>
+    <label title="Info" name="bottom" width="fill" height="2li" text-align="center" size="small"/>
+    <buttongroup>
+      <button title="OK" type="accept"/>
+      <button title="Cancel" type="cancel"/>
+    </buttongroup>
+  </group>
+</window>

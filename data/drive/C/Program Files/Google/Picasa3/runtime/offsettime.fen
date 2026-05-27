@@ -1,0 +1,27 @@
+<window title="Adjust Photo Date" width="fit">
+  <group layout="row">
+    <printpreview name="thumb"/>
+    <group layout="column" width="fill">
+      <labelgroup title="Current photo date: ">
+        <group layout="row">
+          <date name="currentdate" />
+          <time name="currenttime" />
+        </group>
+      </labelgroup>
+      <labelgroup title="New photo date: ">
+        <group layout="row">
+          <date name="newdate"/>
+          <time name="newtime"/>
+        </group>
+      </labelgroup>
+    </group>
+  </group>
+  <radiogroup name="adjust_type" align="center">
+    <radio name="relative" title="Adjust all photo dates by the amount"/>
+    <radio name="absolute" title="Set all photos to the same date and time"/>
+  </radiogroup>
+  <buttongroup>
+    <button title="OK" type="accept" name="ok"/>
+    <button title="Cancel" type="cancel"/>
+  </buttongroup>
+</window>

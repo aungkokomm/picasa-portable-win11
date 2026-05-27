@@ -1,0 +1,11 @@
+<window title="Refreshing Contacts" width="fit" focus="ok">
+  <group>
+    <label title="Picasa is refreshing online contact information."/>
+  </group>
+  <group>
+    <progress name="progress"/>
+  </group>
+  <buttongroup align="center">
+    <button title="Refresh in Background" type="accept" name="ok"/>
+  </buttongroup>
+</window>

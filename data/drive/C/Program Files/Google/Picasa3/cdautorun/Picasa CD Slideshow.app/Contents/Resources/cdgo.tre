@@ -1,0 +1,323 @@
+#-----------------------------------------------------------
+# Macros 
+#-----------------------------------------------------------
+
+#define m_scaleX
+XConstraint 0, 0, 0
+XConstraint 1, 1, 0
+
+#define m_offsetLT
+MaintainOffset left
+MaintainOffset top 
+
+#define m_offsetLB
+MaintainOffset left
+MaintainOffset bottom
+
+#define m_offsetRB
+MaintainOffset right
+MaintainOffset bottom
+
+#define m_offsetRT
+MaintainOffset right
+MaintainOffset top
+
+#define m_hidden
+Property setvisible 0
+
+#define m_centerX
+XConstraint 0.5, 0.5, 0
+
+#define m_offsetT
+MaintainOffset top
+
+#define m_disabled
+Property disable 1
+
+#define m_displayfont12
+Property fonttrack -1
+Property fontsize 12
+
+#----------------------------------------------------------- 
+
+cdgo/grad: root
+Property sethiquality 1
+XConstraint 0, -0.1, 0
+YConstraint 0, -0.1, 0
+XConstraint 1, 1.1, 0
+YConstraint 1, 1.1, 0
+
+cdgo/top: root
+MaintainOffset top
+XConstraint 0, 0, 0
+XConstraint 1, 1, 0
+
+cdgo/picasa: root
+m_offsetLT
+
+cdgo/google: root
+m_offsetRT
+
+#i18n---------------------------
+cdgo/google_en: root
+m_offsetRT
+
+cdgo/google_de: root
+m_offsetRT
+m_hidden
+
+cdgo/google_es: root
+m_offsetRT
+m_hidden
+
+cdgo/google_fr: root
+m_offsetRT
+m_hidden
+
+cdgo/google_it: root
+m_offsetRT
+m_hidden
+
+cdgo/google_jp: root
+m_offsetRT
+m_hidden
+
+cdgo/google_ko: root
+m_offsetRT
+m_hidden
+
+cdgo/google_nl: root
+m_offsetRT
+m_hidden
+
+cdgo/google_pt-BR: root
+m_offsetRT
+m_hidden
+
+cdgo/google_ru: root
+m_offsetRT
+m_hidden
+
+cdgo/google_zh-CN: root
+m_offsetRT
+m_hidden
+
+cdgo/google_zh-TW: root
+m_offsetRT
+m_hidden
+#end i18n-----------------------
+
+cdgo/base: root
+MaintainOffsetbottom
+XConstraint 0, 0, 0
+XConstraint 1, 1, 0
+
+#-----------------------------------------------------------
+# CENTER CONTROLS
+#-----------------------------------------------------------
+
+cdgo/copytohd-label: cdgo/copytohd
+Property fonttrack -1
+Property fontsize 12
+YConstraint 0.5, 0.5, 0
+Property textalign center
+Property textwrap 1
+XConstraint 0, 0,20
+XConstraint 1, 1, -5
+
+cdgo/copytohd_icon: cdgo/copytohd
+XConstraint 0, 0, 11
+YConstraint 0.5, 0.5, 0
+cdgo/copytohd: cdgo/controlset
+Property typecolor FF000000 FF000000 FF000000
+m_offsetLB
+
+cdgo/eject-label: cdgo/eject
+Property fonttrack -1
+Property fontsize 12
+YConstraint 0.5, 0.5, 0
+Property textalign center
+Property textwrap 1
+XConstraint 0, 0, 20
+XConstraint 1, 1, -5
+
+cdgo/eject_icon: cdgo/eject
+XConstraint 0, 0, 12
+YConstraint 0.5, 0.5, -1
+cdgo/eject: cdgo/controlset
+Property typecolor FF000000 FF000000 FF000000
+m_offsetRB
+
+cdgo/exit-label: cdgo/exit
+Property fonttrack -1
+Property fontsize 12
+YConstraint 0.5, 0.5, 0
+Property textalign center
+Property textwrap 1
+XConstraint 0, 0, 20
+XConstraint 1, 1, -5
+
+cdgo/exit_icon: cdgo/exit
+XConstraint 0, 0, 12
+YConstraint 0.5, 0.5, -1
+cdgo/exit: cdgo/controlset
+Property typecolor FF000000 FF000000 FF000000
+m_offsetRB
+
+cdgo/topicasa-label: cdgo/topicasa
+Property fonttrack -1
+Property fontsize 12
+YConstraint 0.5, 0.5, 0
+Property textalign center
+Property textwrap 1
+XConstraint 0, 0, 20
+XConstraint 1, 1, -5
+
+cdgo/topicasa_icon: cdgo/topicasa
+XConstraint 0, 0, 12
+YConstraint 0.5, 0.5, 0
+cdgo/topicasa: cdgo/controlset
+Property typecolor FF000000 FF000000 FF000000
+m_offsetLB
+
+cdgo/slideshow_icon: cdgo/slideshow
+XConstraint 1, 1, -21
+YConstraint 0.5, 0.5, 0
+cdgo/slideshow: cdgo/controlset
+m_offsetLB
+Property showtarget cdgo/stage
+Property showtarget cdgo/back
+Property hidetarget cdgo/base
+Property hidetarget cdgo/controlset
+Property hidetarget cdgo/picarea
+Property hidetarger cdgo/top
+Property showtarget cdgo/stripback
+
+#-----------------------------------------------------------
+# CENTER CONTROLS
+#-----------------------------------------------------------
+
+cdgo/controlset: root
+XConstraint 0.5, 0.5, 0
+MaintainOffset bottom
+
+cdgo/picarea: root
+XConstraint 0, 0, 20
+XConstraint 1, 1, -20
+YConstraint 0, 0, 55
+YConstraint 1, 1, -88
+
+cdgo/loading: root
+XConstraint 0.5, 0.5, 0
+YConstraint 0.5, 0.5, 0
+Property fontsize 18
+Property textalign center
+
+cdgo/pic: cdgo/slidearea
+XConstraint 0.5, 0.5, 0
+YConstraint 0.5, 0.5, 0
+
+cdgo/slidearea: cdgo/stage
+XConstraint 0, 0, 20
+XConstraint 1, 1, -20
+YConstraint 0, 0, 45
+YConstraint 1, 1, -60
+
+cdgo/title: cdgo/stage
+XConstraint 0.5, 0.5, 0
+YConstraint 0, 0, 10
+Property fontsize 18
+
+cdgo/caption: cdgo/stage
+XConstraint 0.0, 0.05, 0
+XConstraint 1.0, 0.95, 0
+YConstraint 0, 1, -55
+Property fontleading 18
+Property fontsize 18
+Property textalign center
+
+cdgo/back: cdgo/stage
+XConstraint 0, 0, 0
+XConstraint 1, 1, 0
+YConstraint 0, 0, 0
+YConstraint 1, 1, 0
+
+cdgo/stage: root
+XConstraint 0, 0, 0
+XConstraint 1, 1, 0
+YConstraint 0, 0, 42
+YConstraint 1, 1, -80
+m_hidden
+
+#-----------------------------------------------------------
+#SLIDESHOW
+#-----------------------------------------------------------
+
+cdgo/pause: cdgo/stripback
+m_offsetLB
+
+cdgo/auto: cdgo/stripback
+m_offsetLB
+#Property alias cdgo/slideshow
+m_hidden
+
+cdgo/prev: cdgo/stripback
+Property mousedown 1
+m_offsetLB
+m_disabled
+
+cdgo/next: cdgo/stripback
+Property mousedown 1
+m_offsetRB
+m_disabled
+
+#-----------------------------------------------------------
+#Display Time
+#-----------------------------------------------------------
+cdgo/plusone: cdgo/dtclip
+m_offsetRB
+Property setautorepeat 1
+
+cdgo/minusone: cdgo/dtclip
+m_offsetRB
+Property setautorepeat 1
+
+cdgo/tps: cdgo/dtclip
+m_displayfont12
+m_offsetT
+XConstraint 0.5, 0.5, 2
+
+cdgo/tpslabel: cdgo/dtclip
+m_displayfont12
+m_offsetLT
+Property textalign center
+#XConstraint 0.5, 0.5, 2
+
+cdgo/dtclip: cdgo/stripback
+m_offsetRB
+
+#-----------------------------------------------------------
+#Overlay Base
+#-----------------------------------------------------------
+cdgo/stripback: root
+YConstraint 1, 1, -20
+m_centerX
+m_hidden
+
+Label cdgo/copytohd
+Save to Disk
+
+Label cdgo/eject
+Eject CD
+
+Label cdgo/exit
+Exit
+
+Label cdgo/topicasa
+Import To Picasa
+
+Text cdgo/loading
+LOADING
+
+Text cdgo/tpslabel
+Display Time

@@ -1,0 +1,12 @@
+<window title="Write Face Tags" width="fit" focus="onlyselection">
+  <group>
+    <label width="fill" title="Write faces or write all may take a long time.  If logging is set to detailed or higher, network.log will contain messages about read-only files which could not be updated.  Signing out is recommended while using this feature."/>
+  </group>
+  <buttongroup>
+    <button title="Write Selected" name="onlyselection"/>
+    <button title="Write Faces" name="allwithfaces"/>
+    <button title="Write All" name="allfiles"/>
+    <button title="Cancel" type="cancel"/>
+  </buttongroup>
+</window>
+

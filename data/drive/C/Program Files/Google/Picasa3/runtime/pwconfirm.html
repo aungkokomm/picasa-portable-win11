@@ -1,0 +1,49 @@
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+<style type="text/css">
+body {background: #F9F9F9; margin: 0; font-family: 'Lucida Grande', Arial, San-serif;font-size: smaller;}
+h1 {font-weight: bold; margin:0; font-size: 1.1em; color: #A0A0A0; background:#FFF; border-bottom: 2px solid #ececec;}
+h1 img {margin:0 .5em;}
+h2 {font-weight: bold;font-size: 1.1em; color:#4D4D4D; margin-top: 0}
+h3 {font-weight: bold;font-size: 1.2em; margin: 0; color:#4D4D4D;}
+h4 {font-weight: bold; margin:0 0 1em 0; font-size: 1.1em; color: #A0A0A0;}
+form {margin:0;padding:0;}
+.box {padding: 1em;}
+.downloadinfo {border: 2px solid #E8EEFA; background: white; text-align: center; padding: .5em;}
+.buttons {width: 14em;}
+.actions {background: #C3D9FF; padding: .5em;}
+.actions input { width: 11em; margin-right: .8em;}
+.actions form {display: inline;}
+.container {padding: .5em; background: #E1ECFE;}
+.imagecontainer {padding: .5em; background: #FFF; border: 1px solid #ccc;}
+.imagecontainer img{vertical-align:middle; margin: 0 5px 5px 0;border:1px solid #ccc;}
+.error {color: #f00 ;}
+</style>
+</head>
+<html><body>
+<h1><img src="file://%RUNTIME_PATH%/picasaweb_logo.gif" align="absmiddle"/>%WEBALBUMDOWNLOAD%</h1>
+<div class="box">
+<h2>%DOWNLOAD?%</h2>
+<div class="actions">
+  <form action='%CONFIRMLINK%'><input type="submit" value="%DOWNLOAD%"></form>
+  <form action='confirm::deny'><input type="submit" value="%CANCEL%"></form>
+</div>
+<div class="error">%VIDEOWARNING%</div>
+<div class="container">
+  <div class="imagecontainer">
+  <h3 style="word-wrap:break-word">%ALBUMTITLE%</h3>
+  <h4>
+    (%IMAGECOUNT% %PHOTOS%%BYTESIZE_TEMP%)<br />
+    %USERNAME%
+  </h4>
+  <FOREACHIMAGE>
+  <img src='%THUMBURL%' >     
+  </FOREACHIMAGE>
+  </div>
+</div>
+<div class="actions">
+  <form action='%CONFIRMLINK%'><input type="submit" value="%DOWNLOAD%"></form>
+  <form action='confirm::deny'><input type="submit" value="%CANCEL%"></form>
+</div>
+</div>
+</body></html>

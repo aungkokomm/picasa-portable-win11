@@ -1,0 +1,106 @@
+<image>
+	<%if isFirstImage%><isFirstImage>
+		true
+	</isFirstImage>
+	<%endif%>
+	<%if !isFirstImage%><isFirstImage>
+		false
+	</isFirstImage>
+	<%endif%>
+	<%if isPrevImage%><isPrevImage>
+		true
+	</isPrevImage>
+	<%endif%>
+	<%if !isPrevImage%><isPrevImage>
+		false
+	</isPrevImage>
+	<prevImage />
+	<%endif%>
+	<%if isLastImage%><isLastImage>
+		true
+	</isLastImage>
+	<%endif%>
+	<%if !isLastImage%><isLastImage>
+		false
+	</isLastImage>
+	<%endif%>
+	<%if isNextImage%><isNextImage>
+		true
+	</isNextImage>
+	<%endif%>
+	<%if !isNextImage%><isNextImage>
+		false
+	</isNextImage>
+	<%endif%>
+
+
+	<firstImage>
+		<%firstImage%>
+	</firstImage>
+	<itemLargeImage>
+		<%itemLargeImage%>
+	</itemLargeImage>	
+	<nextImage>
+		<%nextImage%>
+	</nextImage>
+	<nextThumbnail>
+		<%nextThumbnail%>
+	</nextThumbnail>
+	<prevImage>
+		<%prevImage%>
+	</prevImage>
+	<prevThumbnail>
+		<%prevThumbnail%>
+	</prevThumbnail>
+	<lastImage>
+		<%lastImage%>
+	</lastImage>
+	<lastThumbnail>
+		<%lastThumbnail%>
+	</lastThumbnail>
+
+	<itemWidth>
+		<%itemWidth%>
+	</itemWidth>
+
+	<itemHeight>
+		<%itemHeight%>
+	</itemHeight>
+
+	<itemThumbnailImage>
+		<%itemThumbnailImage%>
+	</itemThumbnailImage>
+
+	<itemThumbnailWidth>
+		<%itemThumbnailWidth%>
+	</itemThumbnailWidth>
+
+	<itemThumbnailHeight>
+		<%itemThumbnailHeight%>
+	</itemThumbnailHeight>
+
+	<itemName>
+		<%itemName%>
+	</itemName>
+
+	<itemNumber>
+		<%itemNumber%>
+	</itemNumber>
+
+	<itemOriginalPath>
+		<%itemOriginalPath%>
+	</itemOriginalPath>
+
+
+	<itemNameOnly>
+		<%itemNameOnly%>
+	</itemNameOnly>
+	
+	<itemCaption>
+		<%itemCaption%>
+	</itemCaption>
+
+	<itemSize>
+		<%itemSize%>
+	</itemSize>
+</image>

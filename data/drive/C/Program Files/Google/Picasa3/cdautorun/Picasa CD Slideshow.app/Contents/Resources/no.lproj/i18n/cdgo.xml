@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tooltips>
+ <action type="Label" target="cdgo/copytohd" xmbdesc="Label(cdgo/copytohd)">
+  <xmbtext>Lagre på disk</xmbtext>
+ </action>
+ <action type="Label" target="cdgo/eject" xmbdesc="Label(cdgo/eject)">
+  <xmbtext>Løs ut CD</xmbtext>
+ </action>
+ <action type="Label" target="cdgo/exit" xmbdesc="Label(cdgo/exit)">
+  <xmbtext>Avslutt</xmbtext>
+ </action>
+ <action type="Label" target="cdgo/topicasa" xmbdesc="Label(cdgo/topicasa)">
+  <xmbtext>Importer til Picasa</xmbtext>
+ </action>
+ <action type="Text" target="cdgo/loading" xmbdesc="Text(cdgo/loading)">
+  <xmbtext>LASTER INN</xmbtext>
+ </action>
+ <action type="Text" target="cdgo/tpslabel" xmbdesc="Text(cdgo/tpslabel)">
+  <xmbtext>Visningstid</xmbtext>
+ </action>
+</tooltips>

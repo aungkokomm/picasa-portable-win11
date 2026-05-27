@@ -1,0 +1,39 @@
+# =====================================================================
+# Picasa Portable for Win 11 — .gitignore
+# =====================================================================
+# This repo includes the meaningful bundled binaries (Sandboxie-Plus
+# binaries, Picasa 3.9 installed files, launcher exe) for transparency.
+#
+# Excluded below: only transient sandbox byproducts that get regenerated
+# on every PC where the installer runs. These have no audit value — they
+# are literal Windows-system snapshots and caches that the sandbox
+# happened to capture during the first Picasa install on the dev machine.
+# =====================================================================
+
+
+# --- Sandbox byproducts: Windows system files the sandbox snapshotted ---
+# (Contains the 105 MB CatRoot2/catdb that exceeds GitHub's 100 MB limit.
+#  These are Windows-version-specific anyway and have no value for users.)
+data/drive/C/Windows/
+data/drive/C/Users/Default/
+
+# --- Sandbox byproducts: user profile caches that regenerate ---
+data/user/current/AppData/Local/Microsoft/
+data/user/current/AppData/Local/Temp/
+
+# --- Sandbox runtime state (regenerated on every launch) ---
+data/RegHive
+
+
+# --- Build output: the installer is uploaded as a GitHub Release asset ---
+release/
+
+
+# --- IDE / editor / OS junk ---
+.vs/
+.vscode/
+*.user
+*.suo
+Thumbs.db
+desktop.ini
+*.tmp

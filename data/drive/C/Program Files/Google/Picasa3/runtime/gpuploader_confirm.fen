@@ -1,0 +1,20 @@
+<window name="window" title="Google Photos Backup" width="30em">
+  <group layout="column" width="fill">
+    <group layout="row" width="fill" height="fit">
+      <group layout="column" align="start">
+        <image name="confirm_icon" width="72" height="72" align="center"/>
+      </group>
+      <spacer amount="2em"/>
+      <group layout="column" width="fill">
+        <label name="confirm_header" title="Bold and large header text" text-align="start" width="fill" height="1.2li" fontweight="bold" win_fontsize="24" mac_fontsize="14"/>
+        <label name="confirm_text" title="Normal confirmation description text" text-align="start" width="fill" height="2li"/>
+        <label name="confirm_optional" title="Optional text to supplement description" text-align="start" width="fill" height="3li"/>
+      </group>
+    </group>
+    <spacer amount="2em"/>
+    <buttongroup align="end">
+      <button name="okbutton" type="accept" title="OK"/>
+      <button name="cancelbutton" type="cancel" title="Cancel"/>
+    </buttongroup>
+  </group>
+</window>

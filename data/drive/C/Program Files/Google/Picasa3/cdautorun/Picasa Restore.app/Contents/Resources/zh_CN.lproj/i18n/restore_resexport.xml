@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Win32Res>
+ <RT_DIALOG>
+  <res resid="#904">
+   <dtitle>
+    <xmbtext>从 Picasa 备份还原</xmbtext>
+   </dtitle>
+   <dlayout>rect(0 0 296 154)</dlayout>
+   <item itemid="1" itemtype="Button" layout="rect(177 133 227 147)">
+    <xmbtext>下一步</xmbtext>
+   </item>
+   <item itemid="2" itemtype="Button" layout="rect(239 133 289 147)">
+    <xmbtext>取消</xmbtext>
+   </item>
+   <item itemid="3" itemtype="Button" layout="rect(7 133 57 147)">
+    <xmbtext>退出</xmbtext>
+   </item>
+   <item itemid="1010" itemtype="Button" layout="rect(25 47 236 59)">
+    <xmbtext>原始位置</xmbtext>
+   </item>
+   <item itemid="1011" itemtype="Button" layout="rect(25 83 241 95)">
+    <xmbtext>此文件夹</xmbtext>
+   </item>
+   <item itemid="1009" itemtype="Edit" layout="rect(41 100 221 113)"/>
+   <item itemid="4" itemtype="Button" layout="rect(227 100 277 114)">
+    <xmbtext>更改...</xmbtext>
+   </item>
+   <item itemid="-1" itemtype="Button" layout="rect(17 31 287 124)">
+    <xmbtext>将文件还原到以下位置：</xmbtext>
+   </item>
+   <item itemid="1002" itemtype="Static" layout="rect(35 7 289 22)">
+    <xmbtext>您已插入一张包含 Picasa 备份文件的磁盘。</xmbtext>
+   </item>
+   <item itemid="1001" itemtype="Static" layout="rect(6 3 26 23)">
+    <xmbtext>id=103</xmbtext>
+   </item>
+   <item itemid="-1" itemtype="Static" layout="rect(41 61 278 79)">
+    <xmbtext>文件会显示在备份时所在的位置。</xmbtext>
+   </item>
+  </res>
+  <res resid="#905">
+   <dtitle>
+    <xmbtext>从 Picasa 备份还原</xmbtext>
+   </dtitle>
+   <dlayout>rect(0 0 391 255)</dlayout>
+   <item itemid="1" itemtype="Button" layout="rect(248 234 308 248)">
+    <xmbtext>还原</xmbtext>
+   </item>
+   <item itemid="2" itemtype="Button" layout="rect(324 234 384 248)">
+    <xmbtext>取消</xmbtext>
+   </item>
+   <item itemid="3" itemtype="Button" layout="rect(172 234 232 248)">
+    <xmbtext>退出</xmbtext>
+   </item>
+   <item itemid="1002" itemtype="Static" layout="rect(34 7 384 29)">
+    <xmbtext>还原到：原始位置</xmbtext>
+   </item>
+   <item itemid="1001" itemtype="Static" layout="rect(6 3 26 23)">
+    <xmbtext>id=103</xmbtext>
+   </item>
+   <item itemid="1012" itemtype="Button" layout="rect(7 35 384 222)">
+    <xmbtext>正在计算...</xmbtext>
+   </item>
+   <item itemid="1014" itemtype="SysListView32" layout="rect(14 47 376 215)">
+    <xmbtext>List2</xmbtext>
+   </item>
+  </res>
+ </RT_DIALOG>
+</Win32Res>

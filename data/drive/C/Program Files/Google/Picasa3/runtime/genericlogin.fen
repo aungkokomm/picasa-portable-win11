@@ -1,0 +1,26 @@
+<window title="Login" width="fit">
+  <label align="start" width="fill" name="status"/>
+
+  <labelgroup title="Email:" name="emaillabel">
+    <edit width="fill" name="username"/>
+    <spacer amount=".2em"/>
+    <link align="end" size="small" title="Create an account..." url="http://www.google.com" name="createlink"/>
+  </labelgroup>
+
+  <labelgroup title="Password:">
+    <password width="fill" name="password"/>
+    <spacer amount=".2em"/>
+    <link align="end" size="small" title="Forgot your password?" url="http://www.google.com" name="forgotlink"/>
+    <group>
+      <check title="Save Password" name="savepassword"/>
+      <spacer amount="4em"/>
+      <label align="end" title="Login secured by SSL" size="small"/>
+    </group>
+  </labelgroup>
+
+  <buttongroup>
+    <button title="Log in" type="accept" name="accept"/>
+    <button title="Cancel" type="cancel"/>
+  </buttongroup>
+
+</window>

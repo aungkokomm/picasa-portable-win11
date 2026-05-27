@@ -1,0 +1,70 @@
+[Picasa2]
+;-----------------------------
+; Album List
+;-----------------------------
+alist_height=22
+alist_fontsize_mac=14
+alist_fontsize_win=14
+alist_indent=17
+alist_bgcolor=0xFFF3F3F3
+; Windows and Linux
+alist_hicolor_win=0xFF83A7BD
+alist_hicolor2_win=0xFFE5E2DA
+alist_selcolor_win=0xFF25648B
+; Mac OS X (Aqua Blue)
+alist_hicolor_mac=0xFF3D75D7
+alist_hicolor2_mac=0xFFD0D0D0
+alist_selcolor_mac=0xFF3D75D7
+; Both platforms
+alist_dragcolor=0xFF82A6BD
+alist_catcolor=0xFFEDEAE4
+alist_scatcolor=0xFF25648B
+alist_dotcolor=0xFFBEBEBE
+alist_stickycolor=0xFFEAE7DC
+;-----------------------------
+; Album Label
+;-----------------------------
+alabel_hicol=#f2f2f2
+;alabel_fldrcol=#E0E0E0
+alabel_fldrcol=#e2e2e2
+alabel_fldrhicol=#f2f2f2
+alabel_albumcol=#e2e2e2
+alabel_albumhicol=#f2f2f2
+;alabel_actionsOffset=-16
+alabel_webpubOffset=-16
+alabel_burncdOffset=-224
+alabel_buttfont_mac=Praxis Semi Bold/Heavy
+alabel_buttfont_win=Praxis Semi Bold/Heavy
+alabel_buttfontSize_mac=12
+alabel_buttfontSize_win=12
+alabel_lighttext=#FFFFFF
+alabel_darktext=#000000
+alabel_iconoffsetx=12
+alabel_iconoffsety=8
+alabel_subhead=20
+;-----------------------------
+; Album Layout
+;-----------------------------
+alayout_gutter=24
+alayout_thumbGutterX=12
+alayout_thumbGutterY=22
+alayout_titleFont=Georgia
+alayout_titleSize=20
+alayout_titleColor=#634B45
+alayout_titleOffsetX=28
+alayout_bodyFont=Georgia
+alayout_bodySize=14
+alayout_bodyOffset=0
+;-----------------------------
+; Selected thumbnail outline
+; color1 = outside; color2 = inside
+;-----------------------------
+thumbsel_color1=#009EFF
+thumbsel_color2=#FFFFFF
+
+;-----------------------------
+; Publish to web
+;-----------------------------
+
+publishtoweb_color=#0000FF
+alabel_actionsOffset=0.000000

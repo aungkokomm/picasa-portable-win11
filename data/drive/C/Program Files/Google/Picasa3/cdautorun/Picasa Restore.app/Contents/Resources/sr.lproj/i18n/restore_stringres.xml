@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+ <stringres id="February">
+  <xmbtext>Фебруар</xmbtext>
+ </stringres>
+ <stringres id="March">
+  <xmbtext>Март</xmbtext>
+ </stringres>
+ <stringres id="April">
+  <xmbtext>Април</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Мај</xmbtext>
+ </stringres>
+ <stringres id="June">
+  <xmbtext>Јун</xmbtext>
+ </stringres>
+ <stringres id="July">
+  <xmbtext>Јул</xmbtext>
+ </stringres>
+ <stringres id="August">
+  <xmbtext>Август</xmbtext>
+ </stringres>
+ <stringres id="September">
+  <xmbtext>Септембар</xmbtext>
+ </stringres>
+ <stringres id="October">
+  <xmbtext>Октобар</xmbtext>
+ </stringres>
+ <stringres id="November">
+  <xmbtext>Новембар</xmbtext>
+ </stringres>
+ <stringres id="December">
+  <xmbtext>Децембар</xmbtext>
+ </stringres>
+ <stringres id="Jan">
+  <xmbtext>Јануар</xmbtext>
+ </stringres>
+ <stringres id="Feb">
+  <xmbtext>Фебруар</xmbtext>
+ </stringres>
+ <stringres id="Mar">
+  <xmbtext>Март</xmbtext>
+ </stringres>
+ <stringres id="Apr">
+  <xmbtext>Април</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Мај</xmbtext>
+ </stringres>
+ <stringres id="Jun">
+  <xmbtext>Јун</xmbtext>
+ </stringres>
+ <stringres id="Jul">
+  <xmbtext>Јул</xmbtext>
+ </stringres>
+ <stringres id="Aug">
+  <xmbtext>Август</xmbtext>
+ </stringres>
+ <stringres id="Sep">
+  <xmbtext>Септембар</xmbtext>
+ </stringres>
+ <stringres id="Oct">
+  <xmbtext>Октобар</xmbtext>
+ </stringres>
+ <stringres id="Nov">
+  <xmbtext>Новембар</xmbtext>
+ </stringres>
+ <stringres id="Dec">
+  <xmbtext>Децембар</xmbtext>
+ </stringres>
+ <stringres id="January">
+  <xmbtext>Јануар</xmbtext>
+ </stringres>
+ <stringres id="February">
+  <xmbtext>Фебруар</xmbtext>
+ </stringres>
+ <stringres id="March">
+  <xmbtext>Март</xmbtext>
+ </stringres>
+ <stringres id="April">
+  <xmbtext>Април</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Мај</xmbtext>
+ </stringres>
+ <stringres id="June">
+  <xmbtext>Јун</xmbtext>
+ </stringres>
+ <stringres id="July">
+  <xmbtext>Јул</xmbtext>
+ </stringres>
+ <stringres id="August">
+  <xmbtext>Август</xmbtext>
+ </stringres>
+ <stringres id="September">
+  <xmbtext>Септембар</xmbtext>
+ </stringres>
+ <stringres id="October">
+  <xmbtext>Октобар</xmbtext>
+ </stringres>
+ <stringres id="November">
+  <xmbtext>Новембар</xmbtext>
+ </stringres>
+ <stringres id="December">
+  <xmbtext>Децембар</xmbtext>
+ </stringres>
+ <stringres id="Jan">
+  <xmbtext>Јануар</xmbtext>
+ </stringres>
+ <stringres id="Feb">
+  <xmbtext>Фебруар</xmbtext>
+ </stringres>
+ <stringres id="Mar">
+  <xmbtext>Март</xmbtext>
+ </stringres>
+ <stringres id="Apr">
+  <xmbtext>Април</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Мај</xmbtext>
+ </stringres>
+ <stringres id="Jun">
+  <xmbtext>Јун</xmbtext>
+ </stringres>
+ <stringres id="Jul">
+  <xmbtext>Јул</xmbtext>
+ </stringres>
+ <stringres id="Aug">
+  <xmbtext>Август</xmbtext>
+ </stringres>
+ <stringres id="Sep">
+  <xmbtext>Септембар</xmbtext>
+ </stringres>
+ <stringres id="Oct">
+  <xmbtext>Октобар</xmbtext>
+ </stringres>
+ <stringres id="Nov">
+  <xmbtext>Новембар</xmbtext>
+ </stringres>
+ <stringres id="Dec">
+  <xmbtext>Децембар</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format1">
+  <xmbtext>%1$s.%2$d, %3$d</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format2">
+  <xmbtext>%1$s %2$d</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format3">
+  <xmbtext>%1$d:%2$02d:%3$02d %4$cM</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format4">
+  <xmbtext>%1$.2d:%2$.2d:%3$.2d</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigB">
+  <xmbtext>%.0f бајт(ов)а</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigKB">
+  <xmbtext>%.0f kB</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigMB">
+  <xmbtext>%.1f MB</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigGB">
+  <xmbtext>%.1f GB</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigTB">
+  <xmbtext>%.1f TB</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyPictures">
+  <xmbtext>Слике</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::Desktop">
+  <xmbtext>Радна површина</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyMusic">
+  <xmbtext>Музика</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyVideos">
+  <xmbtext>Филмови</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyDocuments">
+  <xmbtext>Документи</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::ApplicationData">
+  <xmbtext>Подршка за библиотеку/апликацију</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::CommonApplicationData">
+  <xmbtext>Подршка за библиотеку/апликацију</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::Library">
+  <xmbtext>Библиотека</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyPictures">
+  <xmbtext>Моје слике</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::Desktop">
+  <xmbtext>Радна површина</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyMusic">
+  <xmbtext>Моја музика</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyVideos">
+  <xmbtext>Моји видео снимци</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyDocuments">
+  <xmbtext>Моји документи</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::ApplicationData">
+  <xmbtext>Подаци апликације</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::CommonApplicationData">
+  <xmbtext>Заједнички подаци апликације</xmbtext>
+ </stringres>
+ <stringres id="ytFileUtils::CopyProgress">
+  <xmbtext>%1$s од %2$s</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::error">
+  <xmbtext>Грешка</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::copy">
+  <xmbtext>Копирај</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::replace">
+  <xmbtext>Замени</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::newer">
+  <xmbtext>Новије</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::current">
+  <xmbtext>Тренутно</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::protected">
+  <xmbtext>Заштићено</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscalc">
+  <xmbtext>Прерачунавање датотека</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::restoremsg">
+  <xmbtext>Врати у: %s</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statusreadyrestore">
+  <xmbtext>Датотеке (%1$d) (%2$s) су спремне за враћање</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscopying">
+  <xmbtext>Копирање датотека</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscomplete">
+  <xmbtext>Доврши</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::donebutton">
+  <xmbtext>Готово</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscalcfiles">
+  <xmbtext>Прерачунавање датотека (%1$d) %2$s</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscopied">
+  <xmbtext>Датотеке (%1$d) су копиране %2$s</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::errorformat">
+  <xmbtext>грешке (%d)</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::complete">
+  <xmbtext>Доврши</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::actionheader">
+  <xmbtext>Радња</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::srcheader">
+  <xmbtext>Изворна датотека</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::destheader">
+  <xmbtext>Одредишна датотека</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::sizeheader">
+  <xmbtext>Величина</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::dateheader">
+  <xmbtext>Датум</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::deflocation">
+  <xmbtext>из Picasa резервног копирања\\</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::changetitle">
+  <xmbtext>Одаберите локацију за датотеке</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::cantcopy">
+  <xmbtext>Није могуће направити привремену копију апликације</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::cantlaunch">
+  <xmbtext>Није могуће отворити апликацију</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::unknown">
+  <xmbtext>Непознато</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::nothing">
+  <xmbtext>Ништа</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::error">
+  <xmbtext>Грешка</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::copy">
+  <xmbtext>Копирај</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::replace">
+  <xmbtext>Замени</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::newer">
+  <xmbtext>Новије</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::current">
+  <xmbtext>Тренутно</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::protected">
+  <xmbtext>Заштићено</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::copying">
+  <xmbtext>Копирање</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::skipping">
+  <xmbtext>Прескакање</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::restored">
+  <xmbtext>Враћено</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::skipped">
+  <xmbtext>Прескочено</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::cantFind">
+  <xmbtext>Није могуће пронаћи манифест под именом &amp;#132;%1$s&amp;#147; или &amp;#132;%2$s&amp;#147;</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::error">
+  <xmbtext>Грешка</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::quit">
+  <xmbtext>Одустани</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::open">
+  <xmbtext>Отвори манифест...</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscalc">
+  <xmbtext>Прерачунавање датотека</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::restoremsg">
+  <xmbtext>Врати у: %s</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statusreadyrestore">
+  <xmbtext>Датотеке (%1$d) (%2$s) су спремне за враћање</xmbtext>
+ </stringres>
+ <stringres id="CCaptureMovieDialog::stop">
+  <xmbtext>Заустави</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::finished">
+  <xmbtext>Враћање датотека (%1$d) је завршено. Укупан број је %2$s.</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::restoring">
+  <xmbtext>Враћање датотеке &amp;#132;%1$s&amp;#147; (%2$d од %3$d)</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::copying">
+  <xmbtext>Копирање</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::restored">
+  <xmbtext>Враћена датотеке &amp;#132;%@&amp;#147; (%1$d од %2$d)</xmbtext>
+ </stringres>
+</resources>

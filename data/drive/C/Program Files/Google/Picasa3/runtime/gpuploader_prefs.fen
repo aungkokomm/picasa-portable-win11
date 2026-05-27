@@ -1,0 +1,59 @@
+<window name="prefs_window" mac_title="Preferences - Google Photos Backup" win_title="Settings - Google Photos Backup" width="28em">
+  <group layout="column" width="fill">
+    <group layout="row" height="fill" width="fill">
+      <label name="account_name" title="Obtaining Account name..." width="fill"/>
+      <button name="log_off" title="Sign out"/>
+    </group>
+    <separator width="fill"/>
+    <spacer amount="1em"/>
+    <label name="source_lbl" text_align="left" title="Backup sources" fontweight="bold" width="fill"/>
+    <group layout="row" width="fill">
+      <check name="auto_import" win_title="Cameras &amp;&amp; storage cards" mac_title="Cameras &amp; storage cards" width="fill"/>
+      <button name="devices_btn" title="Devices..." mac_minsize="120,20"/>
+    </group>
+    <group layout="row" width="fill">
+      <spacer amount="1em"/>
+      <check name="local_folder_chk" title="Also copy photos/videos from external media to"/>
+    </group>
+    <group layout="row" width="fill">
+      <spacer amount="2em"/>
+      <browse name="local_folder" title="Browse..." prompt=""/>
+    </group>
+    <label name="watched_folders_lbl" title="Desktop folders"/>
+    <list name="watched_folders" width="fill" height="4li" checkboxes="true" scroll="v" header="hide">
+      <column name="watch_column" type="check"/>
+    </list>
+    <group layout="row" align="end">
+      <button name="add_folder_btn" mac_minsize="120,20" title="Add..."/>
+    </group>
+    <label name="upload_size_label" title="Photo size" fontweight="bold" width="fill"/>
+    <radiogroup name="upload_size_group" width="fill">
+      <radio name="free_size" title="High quality (free unlimited storage)" width="fill"/>
+      <spacer amount="0"/>
+      <group layout="row" width="fill">
+        <spacer amount="1.25em"/>
+        <label name="free_size_desc" title="Great visual quality at reduced file size" win_fontsize="13" mac_fontsize="10" width="fill"/>
+      </group>
+      <spacer mac_amount="1li" win_amount="0.5li"/>
+      <radio name="full_size" title="Original (limited to account storage)" width="fill"/>
+      <spacer amount="0"/>
+      <group layout="row" width="fill">
+        <spacer amount="1.25em"/>
+        <label name="full_size_desc" title="Full resolution that counts against your quota" win_fontsize="13" mac_fontsize="10" width="fill"/>
+      </group>
+    </radiogroup>
+    <spacer mac_amount="2li" win_amount="1li"/>
+    <check name="upload_raw" title="Upload RAW files."/>
+    <check name="send_to_google" title="Help improve Photos by sending anonymous usage statistics."/>
+    <spacer amount="2li"/>
+    <group name="final_row" layout="row">
+      <group name="final_row" layout="row" width="fill">
+        <button name="more_storage" title="Get more storage..."/>
+        <buttongroup>
+          <button name="okbutton" type="accept" title="OK" align="end"/>
+          <button name="cancelbutton" type="cancel" title="Cancel" align="end"/>
+        </buttongroup>
+      </group>
+    </group>
+  </group>
+</window>

@@ -1,0 +1,27 @@
+<window>
+  <labelgroup title="Filename:" width="fill">
+    <label title="photo.jpg" name="name" width="fill"/>
+  </labelgroup>
+  <labelgroup title="Location:" width="fill">
+    <pathbox title="" width="fill" name="path"/>
+  </labelgroup>
+  <labelgroup title="Size:" width="fill">
+    <group width="fill">
+      <label title="120k" width="6em" max-width="fill"  name="size"/>
+      <label title="Date:"/>
+      <label title="WWW 00, 0000 00:00 WW" name="date"/>
+    </group>
+  </labelgroup>
+  <list name="list" width="fill" height="20li" max-height="fill">
+    <column title="Property" width="15em"/>
+    <column title="Value" width="15em"/>
+  </list>
+  <group align="center" name="nav">
+    <button title="Prev" name="prev"/>
+    <label title="x of x files" name="navlabel"/>
+    <button title="Next" name="next"/>
+  </group>
+  <buttongroup align="center" default="cancel">
+    <button title="OK" type="cancel"/>
+  </buttongroup>
+</window>

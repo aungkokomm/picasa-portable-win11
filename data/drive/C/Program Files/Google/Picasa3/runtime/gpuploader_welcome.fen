@@ -1,0 +1,37 @@
+<window name="window" title="Google Photos Backup" win_width="488" mac_width="414">
+  <group layout="column" align="center">
+    <image name="main_image" width="244" height="198" align="center"/>
+    <spacer amount="1li"/>
+    <group layout="row" height="3li" width="fill" align="center">
+      <spacer amount="2em" height="fill"/>
+      <label name="welcometext" height="fill" width="fill" align="center" title="Automatically back up photos and videos from your computer, including hard drives and memory cards"/>
+      <spacer amount="2em" height="fill"/>
+    </group>
+    <group layout="row" width="fill" align="center">
+      <spacer amount="2em" height="fill"/>
+      <label name="tos_text" height="fit" width="fill" align="left" win_fontsize="14" mac_fontsize="10" title="By using Google Photos Backup, you agree to the"/>
+      <spacer amount="2em" height="fill"/>
+    </group>
+    <spacer amount="0"/>
+    <group layout="row" width="fill" align="center">
+      <spacer amount="2em" height="fill"/>
+      <link name="tos_link" width="fill" win_fontsize="14" mac_fontsize="10" title="Google Terms of Services" url="https://www.google.com/policies/terms"/>
+    </group>
+    <spacer amount="2li"/>
+    <!-- This button will be hidden if the user is already logged in -->
+    <button name="sign_in" title="Continue" align="center" mac_minsize="170,20"/>
+    <!-- These two groups will be hidden if the user is *not* logged in -->
+    <group name="logged_in_group" width="fill" layout="column">
+      <label name="logged_in_label" title="" width="fill" text-align="center"/>
+      <spacer amount="1em"/>
+    </group>
+    <group name="logged_in_buttons" layout="row" width="fill">
+      <spacer amount="1em"/>
+      <button name="switch_account" title="Switch accounts" width="fill"/>
+      <spacer amount="1em"/>
+      <button name="get_started" title="Continue" width="fill"/>
+      <spacer amount="1em"/>
+    </group>
+    <spacer amount="1li"/>
+  </group>
+</window>

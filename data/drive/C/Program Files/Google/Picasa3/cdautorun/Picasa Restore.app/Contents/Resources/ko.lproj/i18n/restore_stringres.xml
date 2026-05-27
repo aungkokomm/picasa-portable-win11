@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+ <stringres id="February">
+  <xmbtext>2월</xmbtext>
+ </stringres>
+ <stringres id="March">
+  <xmbtext>3월</xmbtext>
+ </stringres>
+ <stringres id="April">
+  <xmbtext>4월</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>5월</xmbtext>
+ </stringres>
+ <stringres id="June">
+  <xmbtext>6월</xmbtext>
+ </stringres>
+ <stringres id="July">
+  <xmbtext>7월</xmbtext>
+ </stringres>
+ <stringres id="August">
+  <xmbtext>8월</xmbtext>
+ </stringres>
+ <stringres id="September">
+  <xmbtext>9월</xmbtext>
+ </stringres>
+ <stringres id="October">
+  <xmbtext>10월</xmbtext>
+ </stringres>
+ <stringres id="November">
+  <xmbtext>11월</xmbtext>
+ </stringres>
+ <stringres id="December">
+  <xmbtext>12월</xmbtext>
+ </stringres>
+ <stringres id="Jan">
+  <xmbtext>1월</xmbtext>
+ </stringres>
+ <stringres id="Feb">
+  <xmbtext>2월</xmbtext>
+ </stringres>
+ <stringres id="Mar">
+  <xmbtext>3월</xmbtext>
+ </stringres>
+ <stringres id="Apr">
+  <xmbtext>4월</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>5월</xmbtext>
+ </stringres>
+ <stringres id="Jun">
+  <xmbtext>6월</xmbtext>
+ </stringres>
+ <stringres id="Jul">
+  <xmbtext>7월</xmbtext>
+ </stringres>
+ <stringres id="Aug">
+  <xmbtext>8월</xmbtext>
+ </stringres>
+ <stringres id="Sep">
+  <xmbtext>9월</xmbtext>
+ </stringres>
+ <stringres id="Oct">
+  <xmbtext>10월</xmbtext>
+ </stringres>
+ <stringres id="Nov">
+  <xmbtext>11월</xmbtext>
+ </stringres>
+ <stringres id="Dec">
+  <xmbtext>12월</xmbtext>
+ </stringres>
+ <stringres id="January">
+  <xmbtext>1월</xmbtext>
+ </stringres>
+ <stringres id="February">
+  <xmbtext>2월</xmbtext>
+ </stringres>
+ <stringres id="March">
+  <xmbtext>3월</xmbtext>
+ </stringres>
+ <stringres id="April">
+  <xmbtext>4월</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>5월</xmbtext>
+ </stringres>
+ <stringres id="June">
+  <xmbtext>6월</xmbtext>
+ </stringres>
+ <stringres id="July">
+  <xmbtext>7월</xmbtext>
+ </stringres>
+ <stringres id="August">
+  <xmbtext>8월</xmbtext>
+ </stringres>
+ <stringres id="September">
+  <xmbtext>9월</xmbtext>
+ </stringres>
+ <stringres id="October">
+  <xmbtext>10월</xmbtext>
+ </stringres>
+ <stringres id="November">
+  <xmbtext>11월</xmbtext>
+ </stringres>
+ <stringres id="December">
+  <xmbtext>12월</xmbtext>
+ </stringres>
+ <stringres id="Jan">
+  <xmbtext>1월</xmbtext>
+ </stringres>
+ <stringres id="Feb">
+  <xmbtext>2월</xmbtext>
+ </stringres>
+ <stringres id="Mar">
+  <xmbtext>3월</xmbtext>
+ </stringres>
+ <stringres id="Apr">
+  <xmbtext>4월</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>5월</xmbtext>
+ </stringres>
+ <stringres id="Jun">
+  <xmbtext>6월</xmbtext>
+ </stringres>
+ <stringres id="Jul">
+  <xmbtext>7월</xmbtext>
+ </stringres>
+ <stringres id="Aug">
+  <xmbtext>8월</xmbtext>
+ </stringres>
+ <stringres id="Sep">
+  <xmbtext>9월</xmbtext>
+ </stringres>
+ <stringres id="Oct">
+  <xmbtext>10월</xmbtext>
+ </stringres>
+ <stringres id="Nov">
+  <xmbtext>11월</xmbtext>
+ </stringres>
+ <stringres id="Dec">
+  <xmbtext>12월</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format1">
+  <xmbtext>%1$s %2$d, %3$d</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format2">
+  <xmbtext>%1$s %2$d</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format3">
+  <xmbtext>%1$d:%2$02d:%3$02d %4$cM</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format4">
+  <xmbtext>%1$.2d:%2$.2d:%3$.2d</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigB">
+  <xmbtext>%.0f바이트</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigKB">
+  <xmbtext>%.0fKB</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigMB">
+  <xmbtext>%.1fMB</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigGB">
+  <xmbtext>%.1fGB</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigTB">
+  <xmbtext>%.1fTB</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyPictures">
+  <xmbtext>사진</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::Desktop">
+  <xmbtext>바탕화면</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyMusic">
+  <xmbtext>음악</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyVideos">
+  <xmbtext>동영상</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyDocuments">
+  <xmbtext>문서</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::ApplicationData">
+  <xmbtext>라이브러리/응용프로그램 지원</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::CommonApplicationData">
+  <xmbtext>라이브러리/응용프로그램 지원</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::Library">
+  <xmbtext>라이브러리</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyPictures">
+  <xmbtext>내 사진</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::Desktop">
+  <xmbtext>바탕화면</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyMusic">
+  <xmbtext>내 음악</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyVideos">
+  <xmbtext>내 동영상</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyDocuments">
+  <xmbtext>내 문서</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::ApplicationData">
+  <xmbtext>응용프로그램 데이터</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::CommonApplicationData">
+  <xmbtext>일반 응용프로그램 데이터</xmbtext>
+ </stringres>
+ <stringres id="ytFileUtils::CopyProgress">
+  <xmbtext>%1$s/%2$s</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::error">
+  <xmbtext>오류</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::copy">
+  <xmbtext>복사</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::replace">
+  <xmbtext>바꾸기</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::newer">
+  <xmbtext>이후</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::current">
+  <xmbtext>현재</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::protected">
+  <xmbtext>보호됨</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscalc">
+  <xmbtext>파일 계산</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::restoremsg">
+  <xmbtext>복원할 위치: %s</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statusreadyrestore">
+  <xmbtext>%1$d개 파일(%2$s) 복원할 준비가 되었습니다.</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscopying">
+  <xmbtext>파일 복사 중</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscomplete">
+  <xmbtext>완료</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::donebutton">
+  <xmbtext>완료</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscalcfiles">
+  <xmbtext>%1$d개 파일 계산 %2$s</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscopied">
+  <xmbtext>%1$d개의 파일이 복사되었습니다. %2$s</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::errorformat">
+  <xmbtext>오류 (%d)</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::complete">
+  <xmbtext>완료</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::actionheader">
+  <xmbtext>작업</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::srcheader">
+  <xmbtext>소스 파일</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::destheader">
+  <xmbtext>대상 파일</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::sizeheader">
+  <xmbtext>크기</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::dateheader">
+  <xmbtext>날짜</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::deflocation">
+  <xmbtext>Picasa 백업에서\\</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::changetitle">
+  <xmbtext>파일 위치 선택</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::cantcopy">
+  <xmbtext>응용 프로그램의 임시 사본을 복사할 수 없습니다.</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::cantlaunch">
+  <xmbtext>응용 프로그램을 열 수 없습니다.</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::unknown">
+  <xmbtext>알 수 없음</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::nothing">
+  <xmbtext>없음</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::error">
+  <xmbtext>오류</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::copy">
+  <xmbtext>복사</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::replace">
+  <xmbtext>바꾸기</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::newer">
+  <xmbtext>이후</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::current">
+  <xmbtext>현재</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::protected">
+  <xmbtext>보호됨</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::copying">
+  <xmbtext>복사 중</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::skipping">
+  <xmbtext>건너뛰는 중</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::restored">
+  <xmbtext>복원됨</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::skipped">
+  <xmbtext>건너뜀</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::cantFind">
+  <xmbtext>&#039;%1$s&#039; 또는 &#039;%2$s&#039;(이)라는 매니페스트를 찾을 수 없습니다.</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::error">
+  <xmbtext>오류</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::quit">
+  <xmbtext>종료</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::open">
+  <xmbtext>매니페스트 열기...</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscalc">
+  <xmbtext>파일 계산</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::restoremsg">
+  <xmbtext>복원할 위치: %s</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statusreadyrestore">
+  <xmbtext>%1$d개 파일(%2$s) 복원할 준비가 되었습니다.</xmbtext>
+ </stringres>
+ <stringres id="CCaptureMovieDialog::stop">
+  <xmbtext>중지</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::finished">
+  <xmbtext>%1$d개 파일의 복원을 마쳤습니다(전체 %2$s개).</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::restoring">
+  <xmbtext>&#039;%1$s&#039; 파일 복원 중(%2$d/%3$d개)</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::copying">
+  <xmbtext>복사 중</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::restored">
+  <xmbtext>&#039;%@&#039; 파일을 복원했습니다(%1$d/%2$d개).</xmbtext>
+ </stringres>
+</resources>

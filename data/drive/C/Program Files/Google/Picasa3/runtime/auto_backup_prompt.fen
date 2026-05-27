@@ -1,0 +1,19 @@
+<window name="window" title="Google Photos Backup" width="30em">
+  <group layout="row">
+    <group layout="column">
+      <spacer amount="1em"/>
+      <image width="72" height="72" name="main_image" align="start"/>
+    </group>
+    <spacer amount="1em"/>
+    <group layout="column">
+      <spacer amount="1em"/>
+      <label name="welcomelabel1" title="Back up your Picasa photos" win_fontsize="20" mac_fontsize="18" fontweight="bold" height="1.5li" width="fill"/>
+      <label name="welcomelabel2" height="fit" width="fill"
+               title="Automatically save your photos and videos online with Google Photos Backup. Your items are accessible from any of your devices and everything stays private until you choose to share."/>
+    </group>
+  </group>
+  <buttongroup align="end" default="accept">
+    <button name="yesbutton" title="Get Google Photos Backup" type="accept"/>
+    <button name="ignorebutton" title="No Thanks" type="cancel"/>
+  </buttongroup>
+</window>

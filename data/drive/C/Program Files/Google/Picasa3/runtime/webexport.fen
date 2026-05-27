@@ -1,0 +1,43 @@
+<window title="Export as HTML Page" width="fit">
+  <labelgroup title="Export pictures at:">
+    <popup name="sizeradio">
+      <item title="Original Size"/>
+      <item title="1024 pixels (for large monitors)"/>
+      <item title="800 pixels (for large Web pages)"/>
+      <item title="640 pixels (for Web pages)"/>
+      <item title="320 pixels (for email)"/>
+    </popup>
+  </labelgroup>
+  <labelgroup title="Export movies using:">
+    <popup name="moviesradio">
+      <item title="First frame"/>
+      <item title="Full movie"/>
+    </popup>
+  </labelgroup>
+  <labelgroup title="Web page title:">
+    <edit width="fill" name="description"/>
+  </labelgroup>
+  <labelgroup title="Folder:">
+    <group>
+      <pathbox width="fill" name="location"/>
+      <button title="Browse..." name="changeloc"/>
+    </group>
+  </labelgroup>
+  <separator/>
+  <label width="fill" title="Click a Template Name to view an example.  When you have made your selection, click Export."/>
+  <group>
+    <group layout="column">
+      <list height="10li" name="list" width="20em" header="hide" scroll="v">
+        <column width="fill"/>
+      </list>
+      <label width="fill" height="3li" name="templateinfo" title="Template Description"/>
+    </group>
+    <group layout="column" align="end" width="15em">
+      <printpreview width="fill" name="preview"/>
+      <buttongroup>
+        <button title="Export" type="accept"/>
+        <button title="Cancel" type="cancel"/>
+      </buttongroup>
+    </group>
+  </group>
+</window>

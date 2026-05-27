@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Win32Res>
+ <RT_DIALOG>
+  <res resid="#904">
+   <dtitle>
+    <xmbtext>Restaurer à partir d&#039;une sauvegarde de Picasa</xmbtext>
+   </dtitle>
+   <dlayout>rect(0 0 296 154)</dlayout>
+   <item itemid="1" itemtype="Button" layout="rect(177 133 227 147)">
+    <xmbtext>Suivant</xmbtext>
+   </item>
+   <item itemid="2" itemtype="Button" layout="rect(239 133 289 147)">
+    <xmbtext>Annuler</xmbtext>
+   </item>
+   <item itemid="3" itemtype="Button" layout="rect(7 133 57 147)">
+    <xmbtext>Éjecter</xmbtext>
+   </item>
+   <item itemid="1010" itemtype="Button" layout="rect(25 47 236 59)">
+    <xmbtext>Emplacements d&#039;origine</xmbtext>
+   </item>
+   <item itemid="1011" itemtype="Button" layout="rect(25 83 241 95)">
+    <xmbtext>Ce dossier</xmbtext>
+   </item>
+   <item itemid="1009" itemtype="Edit" layout="rect(41 100 221 113)"/>
+   <item itemid="4" itemtype="Button" layout="rect(227 100 277 114)">
+    <xmbtext>Modifier...</xmbtext>
+   </item>
+   <item itemid="-1" itemtype="Button" layout="rect(17 31 287 124)">
+    <xmbtext>Restaurer les fichiers dans :</xmbtext>
+   </item>
+   <item itemid="1002" itemtype="Static" layout="rect(35 7 289 22)">
+    <xmbtext>Vous avez inséré un disque qui contient des fichiers provenant d&#039;une sauvegarde Picasa.</xmbtext>
+   </item>
+   <item itemid="1001" itemtype="Static" layout="rect(6 3 26 23)">
+    <xmbtext>id=103</xmbtext>
+   </item>
+   <item itemid="-1" itemtype="Static" layout="rect(41 61 278 79)">
+    <xmbtext>Les fichiers apparaîtront au même endroit une fois sauvegardés.</xmbtext>
+   </item>
+  </res>
+  <res resid="#905">
+   <dtitle>
+    <xmbtext>Restaurer à partir de la sauvegarde Picasa</xmbtext>
+   </dtitle>
+   <dlayout>rect(0 0 391 255)</dlayout>
+   <item itemid="1" itemtype="Button" layout="rect(248 234 308 248)">
+    <xmbtext>Restaurer</xmbtext>
+   </item>
+   <item itemid="2" itemtype="Button" layout="rect(324 234 384 248)">
+    <xmbtext>Annuler</xmbtext>
+   </item>
+   <item itemid="3" itemtype="Button" layout="rect(172 234 232 248)">
+    <xmbtext>Éjecter</xmbtext>
+   </item>
+   <item itemid="1002" itemtype="Static" layout="rect(34 7 384 29)">
+    <xmbtext>Restauration sur : Emplacements d&#039;origine</xmbtext>
+   </item>
+   <item itemid="1001" itemtype="Static" layout="rect(6 3 26 23)">
+    <xmbtext>id=103</xmbtext>
+   </item>
+   <item itemid="1012" itemtype="Button" layout="rect(7 35 384 222)">
+    <xmbtext>Calcul en cours...</xmbtext>
+   </item>
+   <item itemid="1014" itemtype="SysListView32" layout="rect(14 47 376 215)">
+    <xmbtext>List2</xmbtext>
+   </item>
+  </res>
+ </RT_DIALOG>
+</Win32Res>

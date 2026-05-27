@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+ <stringres id="February">
+  <xmbtext>Φεβρουάριος</xmbtext>
+ </stringres>
+ <stringres id="March">
+  <xmbtext>Μάρτιος</xmbtext>
+ </stringres>
+ <stringres id="April">
+  <xmbtext>Απρίλιος</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Μάιος</xmbtext>
+ </stringres>
+ <stringres id="June">
+  <xmbtext>Ιούνιος</xmbtext>
+ </stringres>
+ <stringres id="July">
+  <xmbtext>Ιούλιος</xmbtext>
+ </stringres>
+ <stringres id="August">
+  <xmbtext>Αύγουστος</xmbtext>
+ </stringres>
+ <stringres id="September">
+  <xmbtext>Σεπτέμβριος</xmbtext>
+ </stringres>
+ <stringres id="October">
+  <xmbtext>Οκτώβριος</xmbtext>
+ </stringres>
+ <stringres id="November">
+  <xmbtext>Νοέμβριος</xmbtext>
+ </stringres>
+ <stringres id="December">
+  <xmbtext>Δεκέμβριος</xmbtext>
+ </stringres>
+ <stringres id="Jan">
+  <xmbtext>Ιαν.</xmbtext>
+ </stringres>
+ <stringres id="Feb">
+  <xmbtext>Φεβ.</xmbtext>
+ </stringres>
+ <stringres id="Mar">
+  <xmbtext>Μάρ.</xmbtext>
+ </stringres>
+ <stringres id="Apr">
+  <xmbtext>Απρ.</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Μάιος</xmbtext>
+ </stringres>
+ <stringres id="Jun">
+  <xmbtext>Ιούν.</xmbtext>
+ </stringres>
+ <stringres id="Jul">
+  <xmbtext>Ιούλ.</xmbtext>
+ </stringres>
+ <stringres id="Aug">
+  <xmbtext>Αύγ.</xmbtext>
+ </stringres>
+ <stringres id="Sep">
+  <xmbtext>Σεπτ.</xmbtext>
+ </stringres>
+ <stringres id="Oct">
+  <xmbtext>Οκτ.</xmbtext>
+ </stringres>
+ <stringres id="Nov">
+  <xmbtext>Νοέμ.</xmbtext>
+ </stringres>
+ <stringres id="Dec">
+  <xmbtext>Δεκ</xmbtext>
+ </stringres>
+ <stringres id="January">
+  <xmbtext>Ιανουάριος</xmbtext>
+ </stringres>
+ <stringres id="February">
+  <xmbtext>Φεβρουάριος</xmbtext>
+ </stringres>
+ <stringres id="March">
+  <xmbtext>Μάρτιος</xmbtext>
+ </stringres>
+ <stringres id="April">
+  <xmbtext>Απρίλιος</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Μάιος</xmbtext>
+ </stringres>
+ <stringres id="June">
+  <xmbtext>Ιούνιος</xmbtext>
+ </stringres>
+ <stringres id="July">
+  <xmbtext>Ιούλιος</xmbtext>
+ </stringres>
+ <stringres id="August">
+  <xmbtext>Αύγουστος</xmbtext>
+ </stringres>
+ <stringres id="September">
+  <xmbtext>Σεπτέμβριος</xmbtext>
+ </stringres>
+ <stringres id="October">
+  <xmbtext>Οκτώβριος</xmbtext>
+ </stringres>
+ <stringres id="November">
+  <xmbtext>Νοέμβριος</xmbtext>
+ </stringres>
+ <stringres id="December">
+  <xmbtext>Δεκέμβριος</xmbtext>
+ </stringres>
+ <stringres id="Jan">
+  <xmbtext>Ιαν.</xmbtext>
+ </stringres>
+ <stringres id="Feb">
+  <xmbtext>Φεβ.</xmbtext>
+ </stringres>
+ <stringres id="Mar">
+  <xmbtext>Μάρ.</xmbtext>
+ </stringres>
+ <stringres id="Apr">
+  <xmbtext>Απρ.</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Μάιος</xmbtext>
+ </stringres>
+ <stringres id="Jun">
+  <xmbtext>Ιούν.</xmbtext>
+ </stringres>
+ <stringres id="Jul">
+  <xmbtext>Ιούλ.</xmbtext>
+ </stringres>
+ <stringres id="Aug">
+  <xmbtext>Αύγ.</xmbtext>
+ </stringres>
+ <stringres id="Sep">
+  <xmbtext>Σεπτ.</xmbtext>
+ </stringres>
+ <stringres id="Oct">
+  <xmbtext>Οκτ.</xmbtext>
+ </stringres>
+ <stringres id="Nov">
+  <xmbtext>Νοέμ.</xmbtext>
+ </stringres>
+ <stringres id="Dec">
+  <xmbtext>Δεκ</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format1">
+  <xmbtext>%1$s %2$d, %3$d</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format2">
+  <xmbtext>%1$s %2$d</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format3">
+  <xmbtext>%1$d:%2$02d:%3$02d %4$cΜ</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format4">
+  <xmbtext>%1$.2d:%2$.2d:%3$.2d</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigB">
+  <xmbtext>%.0f byte</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigKB">
+  <xmbtext>%.0fKB</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigMB">
+  <xmbtext>%.1fMB</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigGB">
+  <xmbtext>%.1fGΒ</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigTB">
+  <xmbtext>%.1fTB</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyPictures">
+  <xmbtext>Φωτογραφίες</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::Desktop">
+  <xmbtext>Επιφάνεια εργασίας</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyPictures">
+  <xmbtext>Φωτογραφίες</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::Desktop">
+  <xmbtext>Επιφάνεια εργασίας</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyMusic">
+  <xmbtext>Μουσική</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyVideos">
+  <xmbtext>Ταινίες</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyDocuments">
+  <xmbtext>Έγγραφα</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::ApplicationData">
+  <xmbtext>Βιβλιοθήκη/Υποστήριξη εφαρμογής</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::CommonApplicationData">
+  <xmbtext>Βιβλιοθήκη/Υποστήριξη εφαρμογής</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::Library">
+  <xmbtext>Βιβλιοθήκη</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyPictures">
+  <xmbtext>Οι φωτογραφίες μου</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::Desktop">
+  <xmbtext>Επιφάνεια εργασίας</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyMusic">
+  <xmbtext>Η μουσική μου</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyVideos">
+  <xmbtext>Τα βίντεό μου</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyDocuments">
+  <xmbtext>Τα έγγραφά μου</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::ApplicationData">
+  <xmbtext>Δεδομένα εφαρμογής</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::CommonApplicationData">
+  <xmbtext>Κοινά δεδομένα εφαρμογής</xmbtext>
+ </stringres>
+ <stringres id="ytFileUtils::CopyProgress">
+  <xmbtext>%1$s από %2$s</xmbtext>
+ </stringres>
+ <stringres id="CDGo::Quit">
+  <xmbtext>Έξοδος</xmbtext>
+ </stringres>
+ <stringres id="CDGo::cantcopy">
+  <xmbtext>Δεν είναι δυνατή η αντιγραφή του CD του Picasa</xmbtext>
+ </stringres>
+ <stringres id="CDGo::cantlaunch">
+  <xmbtext>Δεν είναι δυνατό το άνοιγμα του CD του Picasa</xmbtext>
+ </stringres>
+ <stringres id="CDGo::missinginstaller">
+  <xmbtext>Το πρόγραμμα εγκατάστασης δεν συμπεριλαμβάνεται στο δίσκο</xmbtext>
+ </stringres>
+ <stringres id="CDGo::advanceslide">
+  <xmbtext>%1$s (%2$d από %3$d)</xmbtext>
+ </stringres>
+ <stringres id="CDGo::choosedest">
+  <xmbtext>Επιλέξτε φάκελο για την αντιγραφή των αρχείων</xmbtext>
+ </stringres>
+ <stringres id="CDGO::ReplacePrompt">
+  <xmbtext>Ο φάκελος \&quot;%s\&quot; ήδη υπάρχει. Θέλετε να τον αντικαταστήσετε με το φάκελο από το CD;</xmbtext>
+ </stringres>
+ <stringres id="CDGo::ReplaceButton">
+  <xmbtext>Αντικατάσταση</xmbtext>
+ </stringres>
+ <stringres id="CDGo::SkipButton">
+  <xmbtext>Παράλειψη</xmbtext>
+ </stringres>
+ <stringres id="CDGo::copyfromcd">
+  <xmbtext>Αντιγραφή από CD</xmbtext>
+ </stringres>
+ <stringres id="CDGo::copyfailed">
+  <xmbtext>η αντιγραφή αρχείων απέτυχε</xmbtext>
+ </stringres>
+ <stringres id="CDGo::Picasacd">
+  <xmbtext>CD του Picasa</xmbtext>
+ </stringres>
+ <stringres id="CDGo::cantlaunch">
+  <xmbtext>Δεν είναι δυνατό το άνοιγμα του CD του Picasa</xmbtext>
+ </stringres>
+ <stringres id="CDGo::picasacd">
+  <xmbtext>CD του Picasa</xmbtext>
+ </stringres>
+</resources>

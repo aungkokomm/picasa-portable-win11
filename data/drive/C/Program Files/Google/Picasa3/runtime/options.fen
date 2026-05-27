@@ -1,0 +1,262 @@
+<window mac_title="Preferences" win_title="Options" width="fit">
+  <tabs name="tabs">
+    <tab title="General">
+      <labelgroup title="User interface:">
+        <check title="Use special effects" name="UITransitions"/>
+        <check title="Show tooltips" name="ShowTooltips" os="win"/>
+        <check title="Show help tags" name="ShowTooltips" os="mac"/>
+        <check title="Single-click to exit Edit View" name="SingleClickExit"/>
+      </labelgroup>
+      <spacer amount="1em"/>
+      <labelgroup title="Files:">
+        <check title="Detect duplicates while importing" name="autoexclude"/>
+        <check title="Clear cache files" name="disposepreviews"/>
+        <check title="Delete from disk without confirmation" name="DoNotConfirmDeleteFromDisk"/>
+        <check title="Remove from album without confirmation" name="DoNotConfirmRemoveFromAlbum"/>
+      </labelgroup>
+      <separator/>
+      <labelgroup title="Help improve Picasa:" width="fit">
+        <!-- Stats Reporting -->
+        <check title="Send anonymous usage stats to Google" name="usagestats"/>
+        <link align="end" title="Privacy..." url="http://picasa.google.com/support/bin/answer.py?answer=139492" name="privacy"/>
+      </labelgroup>
+      <separator/>
+      <labelgroup title="Automatic updates:" os="win">
+        <!-- AutoUpgradeCheck + AutoUpgradeAsk -->
+        <popup name="autoupdate">
+          <item title="Update automatically"/>
+          <item title="Ask before downloading updates"/>
+          <item title="Don't check for updates"/>
+        </popup>
+      </labelgroup>
+      <labelgroup title="Language:" os="win">
+        <popup name="language">
+          <item title="System Default (en-US)"/>
+        </popup>
+      </labelgroup>
+      <labelgroup title="When a camera is connected, launch:" os="mac">
+        <popup name="plugInCameraActionChoice">
+          <item title="Picasa"/>
+          <item title="no application"/>
+          <item title="-"/>
+          <item title="Choose application within ImageCapture..."/>
+        </popup>
+      </labelgroup>
+      <labelgroup title="Save imported pictures in:">
+        <browse title="Browse..." prompt="Select destination folder for imported pictures" name="importdest"/>
+      </labelgroup>
+    </tab>
+    <tab title="E-Mail">
+      <group layout="column" align="center" width="fit">
+        <labelgroup title="E-mail program:">
+          <radiogroup name="mailprog">
+            <radio title="Let me choose each time I send pictures"/>
+            <radio title="Use my computer's default e-mail program" name="defaultmail"/>
+            <radio title="Use my Google account"/>
+          </radiogroup>
+        </labelgroup>
+        <labelgroup title="Size for multiple pictures:">
+          <group layout="row" width="fill">
+            <slider min="0" max="7" ticks="8" width="20em" name="picsize"/>
+            <label title="1024 pixels" width="8em">
+              <bind source="picsize" attr="title" format="%s pixels" list="160|320|480|640|800|1024|1200|1600"/>
+            </label>
+          </group>
+        </labelgroup>
+        <labelgroup title="Size for single pictures:">
+          <radiogroup name="EmailSinglePicture" width="fill">
+            <radio title="Same as multiple (1024 pixels)" width="fill">
+              <bind source="picsize" attr="title" format="Same as multiple (%s pixels)" list="160|320|480|640|800|1024|1200|1600"/>
+            </radio>
+            <radio title="Original size"/>
+          </radiogroup>
+        </labelgroup>
+        <labelgroup title="Send movies as:">
+          <radiogroup name="EmailMovie">
+            <radio title="First frame"/>
+            <radio title="Full movie"/>
+          </radiogroup>
+        </labelgroup>
+        <labelgroup title="Output format:" os="win">
+          <check title="Send inline photos and captions (Outlook only)" name="UseHTMLMailer"/>
+        </labelgroup>
+      </group>
+    </tab>
+    <tab title="File Types">
+      <group layout="column" align="center">
+        <label title="Display JPEG files and:"/>
+        <group layout="column" os="win">
+          <check title=".BMP" name="SupportBMP"/>
+          <check title=".GIF" name="SupportGIF"/>
+          <check title=".PNG" name="SupportPNG"/>
+          <check title=".TGA" name="SupportTGA"/>
+          <check title=".TIF, .TIFF" name="SupportTIF"/>
+          <check title=".WEBP" name="SupportWEBP"/>
+          <check title=".PSD (Photoshop)" name="SupportPSD"/>
+          <group layout="row">
+            <check title="RAW formats" name="SupportRAW"/>
+            <spacer amount="0.5em"/>
+            <label title="("/>
+            <spacer amount="0"/>
+            <link title="Supported Formats" url="http://picasa.google.com/support/bin/answer.py?hl=en&amp;answer=15625"/>
+            <spacer amount="0"/>
+            <label title=")"/>
+          </group>
+          <check title="Movies (.AVI, .MPG, .ASF, .WMV)" name="SupportMovies"/>
+          <check title="Quicktime Movies (.MOV)" name="SupportQuicktime"/>
+        </group>
+        <group layout="column" os="mac">
+          <check title=".gif" name="SupportGIF"/>
+          <check title=".png" name="SupportPNG"/>
+          <check title=".tif, .tiff" name="SupportTIF"/>
+          <check title=".webp" name="SupportWEBP"/>
+          <check title=".bmp" name="SupportBMP"/>
+          <check title=".tga" name="SupportTGA"/>
+          <check title=".psd (Photoshop)" name="SupportPSD"/>
+          <group layout="row">
+            <check title="RAW formats" name="SupportRAW"/>
+            <spacer amount="0.5em"/>
+            <label title="("/>
+            <spacer amount="0"/>
+            <link title="Supported Formats" url="http://picasa.google.com/support/bin/answer.py?hl=en&amp;answer=15625"/>
+            <spacer amount="0"/>
+            <label title=")"/>
+          </group>
+          <check title="Movies (.mov, .mpg, .m4v, .3gp, .avi, ...)" name="SupportMovies"/>
+        </group>
+      </group>
+    </tab>
+    <tab title="Slideshow">
+      <check title="Loop slideshow" name="LoopSlideshow"/>
+      <check title="Play music tracks during slideshow" name="PlayMP3Tracks"/>
+      <group layout="row" width="fill">
+        <bind attr="enabled" source="PlayMP3Tracks"/>
+        <spacer amount="indent"/>
+        <group layout="column" width="fill">
+          <label title="Select a folder of music tracks:"/>
+          <browse title="Browse..." prompt="Select a folder to play music from" name="MP3SlideshowPath"/>
+        </group>
+      </group>
+    </tab>
+    <tab title="Printing">
+      <label title="Available print sizes:" align="center"/>
+      <group layout="row" align="center">
+        <group layout="column">
+          <popup name="print1" width="10em"/>
+          <popup name="print2" width="10em"/>
+          <popup name="print3" width="10em"/>
+        </group>
+        <group layout="column">
+          <popup name="print4" width="10em"/>
+          <popup name="print5" width="10em"/>
+        </group>
+      </group>
+      <separator/>
+      <group layout="column" align="center" width="fit">
+        <labelgroup title="Previews:">
+          <check title="Use high quality previews (slower)" name="PrintProxyPreview"/>
+        </labelgroup>
+        <labelgroup title="Printer quality:" os="win">
+          <radiogroup name="PrinterQuality">
+            <radio title="Compatible (half-res)"/>
+            <radio title="High Quality (full-res)"/>
+          </radiogroup>
+        </labelgroup>
+        <labelgroup title="Print resampler quality:">
+          <radiogroup name="PrintResamplerQuality">
+            <radio title="General (Lanczos-3)"/>
+            <radio title="Extra sharp (Lanczos-8)"/>
+          </radiogroup>
+        </labelgroup>
+      </group>
+    </tab>
+    <tab title="Network">
+      <group layout="column" width="fill">
+        <labelgroup title="Proxy username:" os="win">
+          <edit width="fill" name="ProxyUser"/>
+        </labelgroup>
+        <labelgroup title="Proxy password:" os="win">
+          <password width="fill" name="ProxyPass"/>
+          <check title="Automatically detect network settings" name="autoproxy"/>
+        </labelgroup>
+        <labelgroup title="Network log level:">
+          <popup name="loglevel">
+            <item title="Disable Logging"/>
+            <item title="Log errors only"/>
+            <item title="Minimal log information"/>
+            <item title="Detailed log information"/>
+            <item title="Log all network information"/>
+          </popup>
+        </labelgroup>
+        <labelgroup title="Log:" width="fill">
+          <pathbox width="fill" name="log"/>
+        </labelgroup>
+      </group>
+    </tab>
+    <tab title="Web Albums" name="web_albums_tab">
+      <labelgroup title="Default upload size:">
+        <popup name="PWADefaultSize" width="fill"/>
+        <group layout="column">
+          <bind source="PWADefaultSize" attr="enabled" transform="not"/>
+          <check title="When syncing large files, upload previews first" name="PWAStriped"/>
+          <spacer amount="0"/>
+          <group><spacer amount="indent"/><label title="(recommended)"/></group>
+        </group>
+      </labelgroup>
+      <labelgroup title="JPEG Quality:">
+        <group layout="column">
+        <bind source="PWADefaultSize" attr="enabled"/>
+        <check title="Preserve original image quality (uses more storage)" name="PWAUseHiQualityJPEG"/>
+        </group>
+      </labelgroup>
+      <labelgroup title="Syncing:">
+        <check title="Sync starred photos only" name="PWAStarred"/>
+        <check title="Don't confirm every sync (use the above settings)" name="confirmsync::disable"/>
+      </labelgroup>
+      <labelgroup title="Name Tags:">
+        <check title="Include with photo uploads" name="enablefruploads"/>
+      </labelgroup>
+      <labelgroup title="Watermarks:">
+        <check title="Add a watermark for all photo uploads:" name="haswatermark"/>
+        <edit width="fill" name="PWAWatermark">
+          <bind attr="enabled" source="haswatermark"/>
+        </edit>
+        <spacer amount="0.25em"/>
+        <label width="fill" size="small" title="Stamp photos with your name, a web domain, or a copyright notice."/>
+      </labelgroup>
+    </tab>
+    <tab title="Name Tags">
+      <group layout="column" align="center" width="fit">
+        <check title="Enable face detection" name="enablefacedetection"/>
+        <check title="Enable suggestions:" name="enablefacesuggestions"/>
+        <group width="fit">
+          <spacer amount="indent"/>
+          <group layout="column" width="fit">
+            <labelgroup title="Suggestion threshold:">
+              <group layout="row" width="fill">
+                <slider min="0" max="9" ticks="10" width="20em" name="facethresh0"/>
+                <label title="facethresh0"> 
+                  <bind source="facethresh0" attr="title" format="%s" list="50|55|60|65|70|75|80|85|90|95"/>
+                </label>
+              </group>
+            </labelgroup>
+            <labelgroup title="Cluster threshold:">
+              <group layout="row" width="fill">
+                <slider min="0" max="9" ticks="10" width="20em" name="facethresh1"/>
+                <label title="facethresh1">
+                  <bind source="facethresh1" attr="title" format="%s" list="50|55|60|65|70|75|80|85|90|95"/>
+                </label>
+              </group>
+            </labelgroup>
+          </group>
+        </group>
+        <check title="Store name tags in photo" name="persistfacetofile"/>
+        <check title="Upload people album thumbnails to Google Contacts" name="uploadcontactphotos"/>
+      </group>
+    </tab>
+  </tabs>
+  <buttongroup>
+    <button title="OK" type="accept"/>
+    <button title="Cancel" type="cancel"/>
+  </buttongroup>
+</window>

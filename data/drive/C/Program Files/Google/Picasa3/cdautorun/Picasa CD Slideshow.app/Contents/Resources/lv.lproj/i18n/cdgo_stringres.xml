@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+ <stringres id="February">
+  <xmbtext>Februāris</xmbtext>
+ </stringres>
+ <stringres id="March">
+  <xmbtext>Marts</xmbtext>
+ </stringres>
+ <stringres id="April">
+  <xmbtext>Aprīlis</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Maijs</xmbtext>
+ </stringres>
+ <stringres id="June">
+  <xmbtext>Jūnijs</xmbtext>
+ </stringres>
+ <stringres id="July">
+  <xmbtext>Jūl.</xmbtext>
+ </stringres>
+ <stringres id="August">
+  <xmbtext>Augusts</xmbtext>
+ </stringres>
+ <stringres id="September">
+  <xmbtext>Septembris</xmbtext>
+ </stringres>
+ <stringres id="October">
+  <xmbtext>Oktobris</xmbtext>
+ </stringres>
+ <stringres id="November">
+  <xmbtext>Novembris</xmbtext>
+ </stringres>
+ <stringres id="December">
+  <xmbtext>Decembris</xmbtext>
+ </stringres>
+ <stringres id="Jan">
+  <xmbtext>Janv.</xmbtext>
+ </stringres>
+ <stringres id="Feb">
+  <xmbtext>Febr.</xmbtext>
+ </stringres>
+ <stringres id="Mar">
+  <xmbtext>Marts</xmbtext>
+ </stringres>
+ <stringres id="Apr">
+  <xmbtext>Apr.</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Maijs</xmbtext>
+ </stringres>
+ <stringres id="Jun">
+  <xmbtext>Jūn.</xmbtext>
+ </stringres>
+ <stringres id="Jul">
+  <xmbtext>Jūl.</xmbtext>
+ </stringres>
+ <stringres id="Aug">
+  <xmbtext>Aug.</xmbtext>
+ </stringres>
+ <stringres id="Sep">
+  <xmbtext>Sept.</xmbtext>
+ </stringres>
+ <stringres id="Oct">
+  <xmbtext>Okt.</xmbtext>
+ </stringres>
+ <stringres id="Nov">
+  <xmbtext>Nov.</xmbtext>
+ </stringres>
+ <stringres id="Dec">
+  <xmbtext>Dec.</xmbtext>
+ </stringres>
+ <stringres id="January">
+  <xmbtext>Janvāris</xmbtext>
+ </stringres>
+ <stringres id="February">
+  <xmbtext>Februāris</xmbtext>
+ </stringres>
+ <stringres id="March">
+  <xmbtext>Marts</xmbtext>
+ </stringres>
+ <stringres id="April">
+  <xmbtext>Aprīlis</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Maijs</xmbtext>
+ </stringres>
+ <stringres id="June">
+  <xmbtext>Jūnijs</xmbtext>
+ </stringres>
+ <stringres id="July">
+  <xmbtext>Jūl.</xmbtext>
+ </stringres>
+ <stringres id="August">
+  <xmbtext>Augusts</xmbtext>
+ </stringres>
+ <stringres id="September">
+  <xmbtext>Septembris</xmbtext>
+ </stringres>
+ <stringres id="October">
+  <xmbtext>Oktobris</xmbtext>
+ </stringres>
+ <stringres id="November">
+  <xmbtext>Novembris</xmbtext>
+ </stringres>
+ <stringres id="December">
+  <xmbtext>Decembris</xmbtext>
+ </stringres>
+ <stringres id="Jan">
+  <xmbtext>Janv.</xmbtext>
+ </stringres>
+ <stringres id="Feb">
+  <xmbtext>Febr.</xmbtext>
+ </stringres>
+ <stringres id="Mar">
+  <xmbtext>Marts</xmbtext>
+ </stringres>
+ <stringres id="Apr">
+  <xmbtext>Apr.</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Maijs</xmbtext>
+ </stringres>
+ <stringres id="Jun">
+  <xmbtext>Jūn.</xmbtext>
+ </stringres>
+ <stringres id="Jul">
+  <xmbtext>Jūl.</xmbtext>
+ </stringres>
+ <stringres id="Aug">
+  <xmbtext>Aug.</xmbtext>
+ </stringres>
+ <stringres id="Sep">
+  <xmbtext>Sept.</xmbtext>
+ </stringres>
+ <stringres id="Oct">
+  <xmbtext>Okt.</xmbtext>
+ </stringres>
+ <stringres id="Nov">
+  <xmbtext>Nov.</xmbtext>
+ </stringres>
+ <stringres id="Dec">
+  <xmbtext>Dec.</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format1">
+  <xmbtext>%1$s %2$d, %3$d</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format2">
+  <xmbtext>%1$s %2$d</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format3">
+  <xmbtext>%1$d:%2$02d:%3$02d %4$cM</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format4">
+  <xmbtext>%1$.2d:%2$.2d:%3$.2d</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigB">
+  <xmbtext>%.0f baiti</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigKB">
+  <xmbtext>%.0f KB</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigMB">
+  <xmbtext>%.1f MB</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigGB">
+  <xmbtext>%.1f GB</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigTB">
+  <xmbtext>%.1f TB</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyPictures">
+  <xmbtext>Attēli</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::Desktop">
+  <xmbtext>Darbvirsma</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyPictures">
+  <xmbtext>Attēli</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::Desktop">
+  <xmbtext>Darbvirsma</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyMusic">
+  <xmbtext>Mūzika</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyVideos">
+  <xmbtext>Filmas</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyDocuments">
+  <xmbtext>Dokumenti</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::ApplicationData">
+  <xmbtext>Bibliotēku/lietojumprogrammu atbalsts</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::CommonApplicationData">
+  <xmbtext>Bibliotēku/lietojumprogrammu atbalsts</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::Library">
+  <xmbtext>Bibliotēka</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyPictures">
+  <xmbtext>Mani attēli</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::Desktop">
+  <xmbtext>Darbvirsma</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyMusic">
+  <xmbtext>Mana mūzika</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyVideos">
+  <xmbtext>Mani videoklipi</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyDocuments">
+  <xmbtext>Mani dokumenti</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::ApplicationData">
+  <xmbtext>Lietojumprogrammas dati</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::CommonApplicationData">
+  <xmbtext>Vispārēji lietojumprogrammu dati</xmbtext>
+ </stringres>
+ <stringres id="ytFileUtils::CopyProgress">
+  <xmbtext>%1$s. no %2$s</xmbtext>
+ </stringres>
+ <stringres id="CDGo::Quit">
+  <xmbtext>Iziet</xmbtext>
+ </stringres>
+ <stringres id="CDGo::cantcopy">
+  <xmbtext>Nevar kopēt programmas Picasa kompaktdisku</xmbtext>
+ </stringres>
+ <stringres id="CDGo::cantlaunch">
+  <xmbtext>Nevar atvērt programmas Picasa kompaktdisku</xmbtext>
+ </stringres>
+ <stringres id="CDGo::missinginstaller">
+  <xmbtext>Instalēšanas programma nav iekļauta diskā</xmbtext>
+ </stringres>
+ <stringres id="CDGo::advanceslide">
+  <xmbtext>%1$s (%2$d. no %3$d)</xmbtext>
+ </stringres>
+ <stringres id="CDGo::choosedest">
+  <xmbtext>Izvēlieties mapi, kurā kopēt failus</xmbtext>
+ </stringres>
+ <stringres id="CDGO::ReplacePrompt">
+  <xmbtext>Mape \&quot;%s\&quot; jau pastāv. Vai vēlaties to aizstāt ar kompaktdiskā esošo mapi?</xmbtext>
+ </stringres>
+ <stringres id="CDGo::ReplaceButton">
+  <xmbtext>Aizstāt</xmbtext>
+ </stringres>
+ <stringres id="CDGo::SkipButton">
+  <xmbtext>Izlaist</xmbtext>
+ </stringres>
+ <stringres id="CDGo::copyfromcd">
+  <xmbtext>Notiek kopēšana no kompaktdiska...</xmbtext>
+ </stringres>
+ <stringres id="CDGo::copyfailed">
+  <xmbtext>failu kopēšana neizdevās</xmbtext>
+ </stringres>
+ <stringres id="CDGo::Picasacd">
+  <xmbtext>Picasa kompaktdisks</xmbtext>
+ </stringres>
+ <stringres id="CDGo::cantlaunch">
+  <xmbtext>Nevar atvērt programmas Picasa kompaktdisku</xmbtext>
+ </stringres>
+ <stringres id="CDGo::picasacd">
+  <xmbtext>Picasa kompaktdisks</xmbtext>
+ </stringres>
+</resources>

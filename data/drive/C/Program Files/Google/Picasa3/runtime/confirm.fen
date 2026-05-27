@@ -1,0 +1,14 @@
+<window width="fit" focus="buttons">
+  <group>
+    <appicon/>
+    <group layout="column">
+      <label name="message" width="24em" title="Message"/>
+      <check title="Don't ask again" name="remember"/>
+    </group>
+  </group>
+  <buttongroup name="buttons">
+    <button title="Yes" type="accept" name="yes"/>
+    <button title="No" type="other" name="no"/>
+    <button title="Cancel" type="cancel" name="cancel"/>
+  </buttongroup>
+</window>

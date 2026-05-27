@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+ <stringres id="February">
+  <xmbtext>2 月</xmbtext>
+ </stringres>
+ <stringres id="March">
+  <xmbtext>3 月</xmbtext>
+ </stringres>
+ <stringres id="April">
+  <xmbtext>4 月</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>5 月</xmbtext>
+ </stringres>
+ <stringres id="June">
+  <xmbtext>6 月</xmbtext>
+ </stringres>
+ <stringres id="July">
+  <xmbtext>7 月</xmbtext>
+ </stringres>
+ <stringres id="August">
+  <xmbtext>8 月</xmbtext>
+ </stringres>
+ <stringres id="September">
+  <xmbtext>9 月</xmbtext>
+ </stringres>
+ <stringres id="October">
+  <xmbtext>10 月</xmbtext>
+ </stringres>
+ <stringres id="November">
+  <xmbtext>11 月</xmbtext>
+ </stringres>
+ <stringres id="December">
+  <xmbtext>12 月</xmbtext>
+ </stringres>
+ <stringres id="Jan">
+  <xmbtext>1 月</xmbtext>
+ </stringres>
+ <stringres id="Feb">
+  <xmbtext>2 月</xmbtext>
+ </stringres>
+ <stringres id="Mar">
+  <xmbtext>3 月</xmbtext>
+ </stringres>
+ <stringres id="Apr">
+  <xmbtext>4 月</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>5 月</xmbtext>
+ </stringres>
+ <stringres id="Jun">
+  <xmbtext>6 月</xmbtext>
+ </stringres>
+ <stringres id="Jul">
+  <xmbtext>7 月</xmbtext>
+ </stringres>
+ <stringres id="Aug">
+  <xmbtext>8 月</xmbtext>
+ </stringres>
+ <stringres id="Sep">
+  <xmbtext>9 月</xmbtext>
+ </stringres>
+ <stringres id="Oct">
+  <xmbtext>10 月</xmbtext>
+ </stringres>
+ <stringres id="Nov">
+  <xmbtext>11 月</xmbtext>
+ </stringres>
+ <stringres id="Dec">
+  <xmbtext>12 月</xmbtext>
+ </stringres>
+ <stringres id="January">
+  <xmbtext>1 月</xmbtext>
+ </stringres>
+ <stringres id="February">
+  <xmbtext>2 月</xmbtext>
+ </stringres>
+ <stringres id="March">
+  <xmbtext>3 月</xmbtext>
+ </stringres>
+ <stringres id="April">
+  <xmbtext>4 月</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>5 月</xmbtext>
+ </stringres>
+ <stringres id="June">
+  <xmbtext>6 月</xmbtext>
+ </stringres>
+ <stringres id="July">
+  <xmbtext>7 月</xmbtext>
+ </stringres>
+ <stringres id="August">
+  <xmbtext>8 月</xmbtext>
+ </stringres>
+ <stringres id="September">
+  <xmbtext>9 月</xmbtext>
+ </stringres>
+ <stringres id="October">
+  <xmbtext>10 月</xmbtext>
+ </stringres>
+ <stringres id="November">
+  <xmbtext>11 月</xmbtext>
+ </stringres>
+ <stringres id="December">
+  <xmbtext>12 月</xmbtext>
+ </stringres>
+ <stringres id="Jan">
+  <xmbtext>1 月</xmbtext>
+ </stringres>
+ <stringres id="Feb">
+  <xmbtext>2 月</xmbtext>
+ </stringres>
+ <stringres id="Mar">
+  <xmbtext>3 月</xmbtext>
+ </stringres>
+ <stringres id="Apr">
+  <xmbtext>4 月</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>5 月</xmbtext>
+ </stringres>
+ <stringres id="Jun">
+  <xmbtext>6 月</xmbtext>
+ </stringres>
+ <stringres id="Jul">
+  <xmbtext>7 月</xmbtext>
+ </stringres>
+ <stringres id="Aug">
+  <xmbtext>8 月</xmbtext>
+ </stringres>
+ <stringres id="Sep">
+  <xmbtext>9 月</xmbtext>
+ </stringres>
+ <stringres id="Oct">
+  <xmbtext>10 月</xmbtext>
+ </stringres>
+ <stringres id="Nov">
+  <xmbtext>11 月</xmbtext>
+ </stringres>
+ <stringres id="Dec">
+  <xmbtext>12 月</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format1">
+  <xmbtext>%1$s %2$d、%3$d</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format2">
+  <xmbtext>%1$s %2$d</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format3">
+  <xmbtext>%1$d:%2$02d:%3$02d %4$c M</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format4">
+  <xmbtext>%1$.2d:%2$.2d:%3$.2d</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigB">
+  <xmbtext>%.0f バイト</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigKB">
+  <xmbtext>%.0f KB</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigMB">
+  <xmbtext>%.1f MB</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigGB">
+  <xmbtext>%.1f GB</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigTB">
+  <xmbtext>%.1f TB</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyPictures">
+  <xmbtext>画像</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::Desktop">
+  <xmbtext>デスクトップ</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyMusic">
+  <xmbtext>音楽</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyVideos">
+  <xmbtext>ムービー</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyDocuments">
+  <xmbtext>ドキュメント</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::ApplicationData">
+  <xmbtext>ライブラリ/アプリケーション サポート</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::CommonApplicationData">
+  <xmbtext>ライブラリ/アプリケーション サポート</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::Library">
+  <xmbtext>ライブラリ</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyPictures">
+  <xmbtext>マイ ピクチャ</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::Desktop">
+  <xmbtext>デスクトップ</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyMusic">
+  <xmbtext>マイ ミュージック</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyVideos">
+  <xmbtext>マイ動画</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyDocuments">
+  <xmbtext>マイ ドキュメント</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::ApplicationData">
+  <xmbtext>アプリケーション データ</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::CommonApplicationData">
+  <xmbtext>共通のアプリケーション データ</xmbtext>
+ </stringres>
+ <stringres id="ytFileUtils::CopyProgress">
+  <xmbtext>%1$s / %2$s</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::error">
+  <xmbtext>エラー</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::copy">
+  <xmbtext>コピー</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::replace">
+  <xmbtext>置換</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::newer">
+  <xmbtext>前</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::current">
+  <xmbtext>現状</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::protected">
+  <xmbtext>保護されています</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscalc">
+  <xmbtext>ファイルを計算しています</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::restoremsg">
+  <xmbtext>復元先: %s</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statusreadyrestore">
+  <xmbtext>%1$d 個のファイル（%2$s）を復元する準備ができました</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscopying">
+  <xmbtext>ファイルをコピーしています</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscomplete">
+  <xmbtext>完了</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::donebutton">
+  <xmbtext>終了</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscalcfiles">
+  <xmbtext>%1$d ファイルを計算しています %2$s</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscopied">
+  <xmbtext>%1$d 個のファイルをコピーしました %2$s</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::errorformat">
+  <xmbtext>エラー（%d）</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::complete">
+  <xmbtext>完了</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::actionheader">
+  <xmbtext>処理</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::srcheader">
+  <xmbtext>ソース ファイル</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::destheader">
+  <xmbtext>対象ファイル</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::sizeheader">
+  <xmbtext>サイズ</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::dateheader">
+  <xmbtext>日付</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::deflocation">
+  <xmbtext>Picasa バックアップから\\</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::changetitle">
+  <xmbtext>ファイルの場所を選択</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::cantcopy">
+  <xmbtext>アプリケーションの一時コピーをコピーできません。</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::cantlaunch">
+  <xmbtext>アプリケーションを開けません</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::unknown">
+  <xmbtext>不明</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::nothing">
+  <xmbtext>なし</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::error">
+  <xmbtext>エラー</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::copy">
+  <xmbtext>コピー</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::replace">
+  <xmbtext>置換</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::newer">
+  <xmbtext>前</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::current">
+  <xmbtext>現状</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::protected">
+  <xmbtext>保護されています</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::copying">
+  <xmbtext>コピーしています</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::skipping">
+  <xmbtext>スキップしています</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::restored">
+  <xmbtext>復元しました</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::skipped">
+  <xmbtext>スキップしました</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::cantFind">
+  <xmbtext>「%1$s」や「%2$s」という名前のマニフェストは見つかりませんでした。</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::error">
+  <xmbtext>エラー</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::quit">
+  <xmbtext>終了</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::open">
+  <xmbtext>マニフェストを開く...</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscalc">
+  <xmbtext>ファイルを計算しています</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::restoremsg">
+  <xmbtext>復元先: %s</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statusreadyrestore">
+  <xmbtext>%1$d 個のファイル（%2$s）を復元する準備ができました</xmbtext>
+ </stringres>
+ <stringres id="CCaptureMovieDialog::stop">
+  <xmbtext>停止</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::finished">
+  <xmbtext>%1$d ファイル、%2$s の復元が完了しました。</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::restoring">
+  <xmbtext>ファイル「%1$s」（%2$d / %3$d）を復元しています</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::copying">
+  <xmbtext>コピーしています</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::restored">
+  <xmbtext>ファイル「%@」（%1$d / %2$d）を復元しました</xmbtext>
+ </stringres>
+</resources>

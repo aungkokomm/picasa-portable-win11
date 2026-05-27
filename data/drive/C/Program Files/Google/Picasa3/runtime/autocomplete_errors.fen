@@ -1,0 +1,13 @@
+<window title="Autocomplete Errors">
+  <group layout="column">
+    <label title="The following contacts found in the clipboard text could not be pasted correctly" text-align="left"/>
+    <list name="errorlist" scroll="v" height="5li" header="show" width="fill">
+      <column title="Contact" width="12em"/>
+      <column title="Error" width="24em"/>
+      <column title="Status" width="8em"/>
+    </list>
+    <buttongroup width="fill">
+      <button title="OK" type="accept" name="ok"/>
+    </buttongroup>
+  </group>
+</window>

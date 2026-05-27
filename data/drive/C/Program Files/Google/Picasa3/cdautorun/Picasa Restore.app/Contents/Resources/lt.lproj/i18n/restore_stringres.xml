@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+ <stringres id="February">
+  <xmbtext>Vasaris</xmbtext>
+ </stringres>
+ <stringres id="March">
+  <xmbtext>Kovas</xmbtext>
+ </stringres>
+ <stringres id="April">
+  <xmbtext>Balandis</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Gegužė</xmbtext>
+ </stringres>
+ <stringres id="June">
+  <xmbtext>Birželis</xmbtext>
+ </stringres>
+ <stringres id="July">
+  <xmbtext>Liepa</xmbtext>
+ </stringres>
+ <stringres id="August">
+  <xmbtext>Rugpjūtis</xmbtext>
+ </stringres>
+ <stringres id="September">
+  <xmbtext>Rugsėjis</xmbtext>
+ </stringres>
+ <stringres id="October">
+  <xmbtext>Spalis</xmbtext>
+ </stringres>
+ <stringres id="November">
+  <xmbtext>Lapkritis</xmbtext>
+ </stringres>
+ <stringres id="December">
+  <xmbtext>Gruodis</xmbtext>
+ </stringres>
+ <stringres id="Jan">
+  <xmbtext>Saus.</xmbtext>
+ </stringres>
+ <stringres id="Feb">
+  <xmbtext>Vas.</xmbtext>
+ </stringres>
+ <stringres id="Mar">
+  <xmbtext>Kov.</xmbtext>
+ </stringres>
+ <stringres id="Apr">
+  <xmbtext>Bal.</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Gegužė</xmbtext>
+ </stringres>
+ <stringres id="Jun">
+  <xmbtext>Birž.</xmbtext>
+ </stringres>
+ <stringres id="Jul">
+  <xmbtext>Liep.</xmbtext>
+ </stringres>
+ <stringres id="Aug">
+  <xmbtext>Rugp.</xmbtext>
+ </stringres>
+ <stringres id="Sep">
+  <xmbtext>Rugs.</xmbtext>
+ </stringres>
+ <stringres id="Oct">
+  <xmbtext>Spal.</xmbtext>
+ </stringres>
+ <stringres id="Nov">
+  <xmbtext>Lapkr.</xmbtext>
+ </stringres>
+ <stringres id="Dec">
+  <xmbtext>Gruod.</xmbtext>
+ </stringres>
+ <stringres id="January">
+  <xmbtext>Sausis</xmbtext>
+ </stringres>
+ <stringres id="February">
+  <xmbtext>Vasaris</xmbtext>
+ </stringres>
+ <stringres id="March">
+  <xmbtext>Kovas</xmbtext>
+ </stringres>
+ <stringres id="April">
+  <xmbtext>Balandis</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Gegužė</xmbtext>
+ </stringres>
+ <stringres id="June">
+  <xmbtext>Birželis</xmbtext>
+ </stringres>
+ <stringres id="July">
+  <xmbtext>Liepa</xmbtext>
+ </stringres>
+ <stringres id="August">
+  <xmbtext>Rugpjūtis</xmbtext>
+ </stringres>
+ <stringres id="September">
+  <xmbtext>Rugsėjis</xmbtext>
+ </stringres>
+ <stringres id="October">
+  <xmbtext>Spalis</xmbtext>
+ </stringres>
+ <stringres id="November">
+  <xmbtext>Lapkritis</xmbtext>
+ </stringres>
+ <stringres id="December">
+  <xmbtext>Gruodis</xmbtext>
+ </stringres>
+ <stringres id="Jan">
+  <xmbtext>Saus.</xmbtext>
+ </stringres>
+ <stringres id="Feb">
+  <xmbtext>Vas.</xmbtext>
+ </stringres>
+ <stringres id="Mar">
+  <xmbtext>Kov.</xmbtext>
+ </stringres>
+ <stringres id="Apr">
+  <xmbtext>Bal.</xmbtext>
+ </stringres>
+ <stringres id="May">
+  <xmbtext>Gegužė</xmbtext>
+ </stringres>
+ <stringres id="Jun">
+  <xmbtext>Birž.</xmbtext>
+ </stringres>
+ <stringres id="Jul">
+  <xmbtext>Liep.</xmbtext>
+ </stringres>
+ <stringres id="Aug">
+  <xmbtext>Rugp.</xmbtext>
+ </stringres>
+ <stringres id="Sep">
+  <xmbtext>Rugs.</xmbtext>
+ </stringres>
+ <stringres id="Oct">
+  <xmbtext>Spal.</xmbtext>
+ </stringres>
+ <stringres id="Nov">
+  <xmbtext>Lapkr.</xmbtext>
+ </stringres>
+ <stringres id="Dec">
+  <xmbtext>Gruod.</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format1">
+  <xmbtext>%1$s %2$d, %3$d</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format2">
+  <xmbtext>%1$s %2$d</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format3">
+  <xmbtext>%1$d:%2$02d:%3$02d %4$c M</xmbtext>
+ </stringres>
+ <stringres id="ytDateTime::Format4">
+  <xmbtext>%1$.2d:%2$.2d:%3$.2d</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigB">
+  <xmbtext>%.0f bait.</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigKB">
+  <xmbtext>%.0f KB</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigMB">
+  <xmbtext>%.1f MB</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigGB">
+  <xmbtext>%.1f GB</xmbtext>
+ </stringres>
+ <stringres id="il_FormatBigTB">
+  <xmbtext>%.1f TB</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyPictures">
+  <xmbtext>Nuotraukos</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::Desktop">
+  <xmbtext>Darbalaukis</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyMusic">
+  <xmbtext>Muzika</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyVideos">
+  <xmbtext>Filmai</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::MyDocuments">
+  <xmbtext>Dokumentai</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::ApplicationData">
+  <xmbtext>Galerijos lango / programos palaikymas</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::CommonApplicationData">
+  <xmbtext>Galerijos lango / programos palaikymas</xmbtext>
+ </stringres>
+ <stringres id="MacSystemPaths::Library">
+  <xmbtext>Biblioteka</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyPictures">
+  <xmbtext>Mano nuotraukos</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::Desktop">
+  <xmbtext>Darbalaukis</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyMusic">
+  <xmbtext>Mano muzika</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyVideos">
+  <xmbtext>Mano vaizdo įrašai</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::MyDocuments">
+  <xmbtext>Mano dokumentai</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::ApplicationData">
+  <xmbtext>Programos duomenys</xmbtext>
+ </stringres>
+ <stringres id="WinSystemPaths::CommonApplicationData">
+  <xmbtext>Bendrieji programų duomenys</xmbtext>
+ </stringres>
+ <stringres id="ytFileUtils::CopyProgress">
+  <xmbtext>%1$s iš %2$s</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::error">
+  <xmbtext>Klaida</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::copy">
+  <xmbtext>Kopijuoti</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::replace">
+  <xmbtext>Keisti</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::newer">
+  <xmbtext>Naujesni</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::current">
+  <xmbtext>Dabartinis</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::protected">
+  <xmbtext>Apsaugota</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscalc">
+  <xmbtext>Skaičiuojami failai</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::restoremsg">
+  <xmbtext>Atkurti į: %s</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statusreadyrestore">
+  <xmbtext>%1$d failai (-ų) (%2$s) parengti (-a) atkurti</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscopying">
+  <xmbtext>Kopijuojami failai</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscomplete">
+  <xmbtext>Baigta</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::donebutton">
+  <xmbtext>Baigta</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscalcfiles">
+  <xmbtext>Skaičiuojami %1$d failai %2$s</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscopied">
+  <xmbtext>%1$d failai (-ų) nukopijuoti (-a) %2$s</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::errorformat">
+  <xmbtext>Klaida (%d)</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::complete">
+  <xmbtext>Baigta</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::actionheader">
+  <xmbtext>Veiksmas</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::srcheader">
+  <xmbtext>Pradinis failas</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::destheader">
+  <xmbtext>Paskirties failas</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::sizeheader">
+  <xmbtext>Dydis</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::dateheader">
+  <xmbtext>Data</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::deflocation">
+  <xmbtext>iš „Picasa“ archyvo\\</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::changetitle">
+  <xmbtext>Pasirinkite failų vietą</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::cantcopy">
+  <xmbtext>Neįmanoma sukurti laikinosios programos kopijos</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::cantlaunch">
+  <xmbtext>Nepavyko atidaryti programos</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::unknown">
+  <xmbtext>Nežinoma</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::nothing">
+  <xmbtext>Nieko</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::error">
+  <xmbtext>Klaida</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::copy">
+  <xmbtext>Kopijuoti</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::replace">
+  <xmbtext>Keisti</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::newer">
+  <xmbtext>Naujesni</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::current">
+  <xmbtext>Dabartinis</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::protected">
+  <xmbtext>Apsaugota</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::copying">
+  <xmbtext>Kopijuojama</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::skipping">
+  <xmbtext>Praleidžiama</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::restored">
+  <xmbtext>Atkurta</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::skipped">
+  <xmbtext>Praleista</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::cantFind">
+  <xmbtext>Nepavyko rasti jokios deklaracijos, pavadintos „%1$s“ arba „%2$s“.</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::error">
+  <xmbtext>Klaida</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::quit">
+  <xmbtext>Išeiti</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::open">
+  <xmbtext>Atidaryti deklaraciją...</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statuscalc">
+  <xmbtext>Skaičiuojami failai</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::restoremsg">
+  <xmbtext>Atkurti į: %s</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::statusreadyrestore">
+  <xmbtext>%1$d failai (-ų) (%2$s) parengti (-a) atkurti</xmbtext>
+ </stringres>
+ <stringres id="CCaptureMovieDialog::stop">
+  <xmbtext>Stabdyti</xmbtext>
+ </stringres>
+ <stringres id="RestoreDialog::finished">
+  <xmbtext>Baigta atkurti %1$d failus (-ų), iš viso %2$s.</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::restoring">
+  <xmbtext>Atkuriamas failas „%1$s“ (%2$d iš %3$d)</xmbtext>
+ </stringres>
+ <stringres id="RestoreProc::copying">
+  <xmbtext>Kopijuojama</xmbtext>
+ </stringres>
+ <stringres id="RestoreApp::restored">
+  <xmbtext>Atkurtas failas „%@&amp;“ (%1$d iš %2$d)</xmbtext>
+ </stringres>
+</resources>

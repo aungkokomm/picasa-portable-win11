@@ -1,0 +1,15 @@
+<window title="Compacting" width="fit">
+  <group>
+    <appicon/>
+    <group layout="column">
+      <label title="Picasa is compacting its database to save disk space. This may take several minutes." width="20em"/>
+      <group>
+        <spacer amount="indent"/>
+        <label width="fill" name="status" title="Compacting..."/>
+      </group>
+    </group>
+  </group>
+  <buttongroup>
+    <button title="Cancel" type="cancel"/>
+  </buttongroup>
+</window>

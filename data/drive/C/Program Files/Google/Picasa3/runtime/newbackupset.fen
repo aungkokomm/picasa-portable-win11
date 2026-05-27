@@ -1,0 +1,27 @@
+<window title="New Backup Set" width="fit">
+  <labelgroup title="Name:" width="fill">
+    <edit name="name" width="fill"/>
+  </labelgroup>
+  <labelgroup title="Backup type:" name="typegroup">
+    <radiogroup name="type">
+      <radio title="CD or DVD backup"/>
+      <radio title="Disk-to-disk backup (for external and network drives)"/>
+    </radiogroup>
+    <group>
+      <bind attr="enabled" source="type"/>
+      <spacer amount="indent"/>
+      <browse title="Choose..." name="disk"/>
+    </group>
+  </labelgroup>
+  <labelgroup title="Files to backup:">
+    <radiogroup name="files">
+      <radio title="All file types"/>
+      <radio title="All pictures (exclude movies)"/>
+      <radio title="Only JPEGs with camera information"/>
+    </radiogroup>
+  </labelgroup>
+  <buttongroup>
+    <button title="Create" type="accept" name="ok"/>
+    <button title="Cancel" type="cancel"/>
+  </buttongroup>
+</window>

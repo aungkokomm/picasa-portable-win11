@@ -1,0 +1,37 @@
+<window title="Login" width="fit">
+  <label align="start" width="fill" name="status"/>
+  <label width="fill" name="infotext" title="Enter the username and password you normally use to login to this photo printing service.  If you don't already have an account with this provider, click on &quot;Create an account&quot; to sign up."/>
+
+  <labelgroup title="Email:" name="emaillabel">
+    <edit width="fill" name="username"/>
+    <spacer amount=".2em"/>
+    <link align="end" size="small" title="Create an account..." url="http://www.google.com" name="createlink"/>
+  </labelgroup>
+
+  <labelgroup title="Password:">
+    <password width="fill" name="password"/>
+    <spacer amount=".2em"/>
+    <link align="end" size="small" title="Forgot your password?" url="http://www.google.com" name="forgotlink"/>
+    <group>
+      <check title="Save Password" name="savepassword"/>
+      <spacer amount="4em"/>
+      <label align="end" title="Login secured by SSL" size="small"/>
+    </group>
+  </labelgroup>
+
+  <separator/>
+  <labelgroup title="Picture Size:">
+    <label width="fill" title="To ensure the highest quality prints, your images will be sent using the highest resolution available."/>
+  </labelgroup>
+
+  <separator/>
+  <labelgroup title="Album Name:">
+    <edit width="fill" name="albumname"/>
+  </labelgroup>
+
+  <buttongroup>
+    <button title="Log In" type="accept" name="accept"/>
+    <button title="Cancel" type="cancel"/>
+  </buttongroup>
+
+</window>
