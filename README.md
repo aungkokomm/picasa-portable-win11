@@ -68,7 +68,8 @@ untouched.
 
 ## Screenshots
 
-*(coming soon)*
+<img width="960" height="510" alt="image" src="https://github.com/user-attachments/assets/a571e8d8-d28e-496e-8b2d-4bdba695c056" />
+
 
 ## Installation
 
