@@ -16,6 +16,9 @@ It worked beautifully — you could have a dozen separate "Picasa Portable"
 folders, each holding a different project's photo library, completely
 isolated from each other and from the host system.
 
+The hidden tragedy of photo management is that decades of meticulous tagging and rating are instantly wiped out the moment you reinstall Windows. 
+This portable setup solves that exact frustration by decoupling your database from the operating system, ensuring your hard work survives forever.
+
 The workflow looked like this:
 
 - `PicasaPortable_Wedding2014\` — only the wedding shoot
