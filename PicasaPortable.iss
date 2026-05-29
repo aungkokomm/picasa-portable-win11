@@ -6,7 +6,7 @@
 ; The Picasa.exe inside the extracted folder then handles its own first-run setup.
 
 #define MyAppName "Picasa Portable"
-#define MyAppVersion "1.0"
+#define MyAppVersion "1.0.2"
 #define MyAppPublisher "PicasaPortable"
 #define MyAppExeName "Picasa.exe"
 
@@ -56,8 +56,9 @@ Source: "E:\PicasaPortable\README.md"; DestDir: "{app}"; Flags: ignoreversion
 ; Sandboxie binaries (pre-extracted)
 Source: "E:\PicasaPortable\Sandboxie-Plus\*"; DestDir: "{app}\Sandboxie-Plus"; Flags: ignoreversion recursesubdirs createallsubdirs
 
-; Pre-installed Picasa in sandbox data folder
-Source: "E:\PicasaPortable\data\*"; DestDir: "{app}\data"; Flags: ignoreversion recursesubdirs createallsubdirs
+; Pre-installed Picasa in sandbox data folder (CLEAN staging copy: no dev DB,
+; no indexed thumbnails, no cross-drive references — fresh installs start empty)
+Source: "E:\PicasaPortable\dist\data\*"; DestDir: "{app}\data"; Flags: ignoreversion recursesubdirs createallsubdirs
 
 [Dirs]
 ; Empty Pictures folder for user's photos

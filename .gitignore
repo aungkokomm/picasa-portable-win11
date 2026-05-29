@@ -28,6 +28,20 @@ data/RegHive
 # --- Build output: the installer is uploaded as a GitHub Release asset ---
 release/
 
+# --- Pre-build staging (clean copy of data/ that the installer actually ships,
+#     produced by a robocopy that strips dev-machine sandbox state) ---
+dist/
+
+# --- Auto-update state written at runtime alongside the binaries ---
+data/update-config.txt
+data/update-last-checked.txt
+
+# --- Backups left behind by self-upgrade or local edits ---
+*.bak
+
+# --- Cross-drive sandbox contamination from local testing (never ship) ---
+data/drive/D/
+
 
 # --- IDE / editor / OS junk ---
 .vs/
