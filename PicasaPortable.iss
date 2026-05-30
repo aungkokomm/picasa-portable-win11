@@ -6,7 +6,7 @@
 ; The Picasa.exe inside the extracted folder then handles its own first-run setup.
 
 #define MyAppName "Picasa Portable"
-#define MyAppVersion "1.0.2"
+#define MyAppVersion "1.0.3"
 #define MyAppPublisher "PicasaPortable"
 #define MyAppExeName "Picasa.exe"
 

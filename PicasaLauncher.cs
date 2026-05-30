@@ -12,7 +12,7 @@ namespace PicasaPortable
     class Program
     {
         // Bumped in lockstep with the InnoSetup MyAppVersion + GitHub release tag.
-        private const string CurrentVersion = "1.0.2";
+        private const string CurrentVersion = "1.0.3";
         private const string ReleasesApi  = "https://api.github.com/repos/aungkokomm/picasa-portable-win11/releases/latest";
         private const string ReleasesPage = "https://github.com/aungkokomm/picasa-portable-win11/releases/latest";
 
